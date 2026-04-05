@@ -1,0 +1,27 @@
+[project]
+name = "ai-emotions-v2"
+version = "0.1.0"
+description = "Replication and extension of Anthropic's emotion concepts paper across multiple LLMs"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "umap-learn",
+    "torch",
+    "transformers",
+    "tqdm",
+    "google-genai",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ipython",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
