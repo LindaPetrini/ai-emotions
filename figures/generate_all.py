@@ -32,6 +32,7 @@ from figures.fig_needs_cross import (
 )
 from figures.fig_emotion_residual import (
     plot_emotion_residual_clustering, plot_direction_vs_valence,
+    plot_variance_threshold_sweep,
 )
 
 
@@ -205,6 +206,20 @@ def generate_stream2(model_name: str):
         print("  Missing met/unmet vectors")
 
 
+def generate_stream2_comparison():
+    """Generate cross-model stream 2 figures."""
+    fig_dir = get_figures_dir(2)
+    model_names = list(MODEL_REGISTRY.keys())
+
+    print("\n=== Stream 2 cross-model figures ===")
+
+    # Variance threshold sensitivity sweep
+    plot_variance_threshold_sweep(
+        model_names,
+        fig_dir / "variance_threshold_sweep.pdf",
+    )
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default=None, help="Single model to process")
@@ -221,6 +236,7 @@ def main():
     if args.stream is None or args.stream == 2:
         for model_name in models:
             generate_stream2(model_name)
+        generate_stream2_comparison()
 
 
 if __name__ == "__main__":

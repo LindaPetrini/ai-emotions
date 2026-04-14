@@ -6,6 +6,9 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score
 
 from figures.common import *
+from analysis.statistics import balanced_silhouette
+from configs.models import MODEL_REGISTRY, get_model_config
+from core.vectors import load_vectors
 
 def compute_emotion_residuals(
     emotion_vectors: np.ndarray,
@@ -146,3 +149,85 @@ def plot_direction_vs_valence(
     fig.tight_layout()
     save_fig(fig, output_path)
     return {"pearson_r": r, "pearson_p": p}
+
+
+def plot_variance_threshold_sweep(
+    model_names: list[str],
+    output_path: Path,
+    thresholds: list[float] = None,
+    k_per_cluster: int = 6,
+    n_bootstrap: int = 100,
+):
+    """Sensitivity analysis: residual silhouette vs variance threshold for all models.
+
+    For each model and threshold, projects out the emotion subspace capturing that
+    fraction of variance, then computes balanced silhouette on the residuals.
+
+    Args:
+        model_names: List of model short names from MODEL_REGISTRY.
+        output_path: Where to save the figure (PDF).
+        thresholds: Variance thresholds to sweep. Defaults to
+            [0.50, 0.60, 0.70, 0.80, 0.90, 0.95].
+        k_per_cluster: Samples per cluster for balanced silhouette.
+        n_bootstrap: Bootstrap iterations for confidence intervals.
+    """
+    if thresholds is None:
+        thresholds = [0.50, 0.60, 0.70, 0.80, 0.90, 0.95]
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+
+    for model_name in model_names:
+        cfg = get_model_config(model_name)
+
+        try:
+            emo_vectors, emo_labels, _ = load_vectors(cfg, "emotion")
+            need_vectors, need_labels, need_clusters = load_vectors(cfg, "need_combined")
+        except FileNotFoundError:
+            print(f"  Missing vectors for {model_name}, skipping")
+            continue
+
+        cluster_ids = [need_clusters.get(l, "Unknown") for l in need_labels]
+
+        means = []
+        ci_lows = []
+        ci_highs = []
+        n_pcs = []
+
+        for thresh in thresholds:
+            residuals, k = compute_emotion_residuals(emo_vectors, need_vectors, thresh)
+            sil = balanced_silhouette(
+                residuals, cluster_ids,
+                k_per_cluster=k_per_cluster,
+                n_bootstrap=n_bootstrap,
+            )
+            means.append(sil["mean"])
+            ci_lows.append(sil["ci_low"])
+            ci_highs.append(sil["ci_high"])
+            n_pcs.append(k)
+
+        means = np.array(means)
+        ci_lows = np.array(ci_lows)
+        ci_highs = np.array(ci_highs)
+
+        linestyle = "--" if cfg.is_instruct else "-"
+        line = ax.plot(thresholds, means, label=model_name,
+                       linestyle=linestyle, marker="o", markersize=5)
+        color = line[0].get_color()
+        ax.fill_between(thresholds, ci_lows, ci_highs, alpha=0.15, color=color)
+
+        # Annotate number of PCs removed at each threshold
+        for i, (t, k) in enumerate(zip(thresholds, n_pcs)):
+            ax.annotate(f"{k}", (t, means[i]), textcoords="offset points",
+                        xytext=(0, 8), fontsize=6, ha="center", color=color, alpha=0.7)
+
+    ax.axhline(0, color="gray", linestyle=":", alpha=0.5, linewidth=0.8)
+    ax.set_xlabel("Variance threshold (fraction of emotion variance removed)")
+    ax.set_ylabel("Residual balanced silhouette")
+    ax.set_title("Need clustering after emotion removal:\nSensitivity to variance threshold")
+    ax.legend(loc="best")
+    ax.grid(True, alpha=0.3)
+
+    fig.tight_layout()
+    save_fig(fig, output_path)
+
+    return {"thresholds": thresholds, "models": model_names}

@@ -10,45 +10,61 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 import urllib.request
 import urllib.error
+import http.client
 
-API_KEY = "9bb0b166-37f6-424e-9c1c-fa4ac717b801"
+API_KEY = os.environ.get("HYPERSTACK_API_KEY")
+if not API_KEY:
+    print("Error: HYPERSTACK_API_KEY environment variable is not set.")
+    print("Export it before running this script:")
+    print("  export HYPERSTACK_API_KEY='your-api-key-here'")
+    sys.exit(1)
 API_BASE = "https://infrahub-api.nexgencloud.com/v1/core/virtual-machines"
 SSH_KEY = "~/.ssh/id_rsa_hyperstack"
-VM_NAME = "ai-emotions-v2"
+VM_NAME = "ai-emotions-v2b"
 
 # Default: cheapest GPU with enough VRAM for 8B models (~16GB)
-DEFAULT_FLAVOR = "n1-RTX-A5000x1"
+DEFAULT_FLAVOR = "n3-RTX-A6000x1"
 DEFAULT_IMAGE = "Ubuntu Server 22.04 LTS R535 CUDA 12.2"
-DEFAULT_KEY_NAME = "linda-key"
+DEFAULT_KEY_NAME = "hetzner-bot-ca"
 
 
 def _request(method, url, data=None):
-    """Make API request."""
-    headers = {
-        "api_key": API_KEY,
-        "Content-Type": "application/json",
-    }
+    """Make API request using http.client to preserve header case."""
+    from urllib.parse import urlparse
 
-    body = json.dumps(data).encode() if data else None
-    req = urllib.request.Request(url, data=body, headers=headers, method=method)
+    parsed = urlparse(url)
+    conn = http.client.HTTPSConnection(parsed.hostname, parsed.port or 443)
+
+    body = None
+    headers = {"api_key": API_KEY}
+    if data is not None:
+        headers["Content-Type"] = "application/json"
+        body = json.dumps(data)
 
     try:
-        with urllib.request.urlopen(req) as resp:
-            return json.loads(resp.read().decode())
-    except urllib.error.HTTPError as e:
-        error_body = e.read().decode()
-        print(f"HTTP {e.code}: {error_body}")
-        sys.exit(1)
+        conn.request(method, parsed.path, body=body, headers=headers)
+        resp = conn.getresponse()
+        resp_body = resp.read().decode()
+
+        if resp.status >= 400:
+            print(f"HTTP {resp.status}: {resp_body}")
+            sys.exit(1)
+
+        return json.loads(resp_body)
+    finally:
+        conn.close()
 
 
 def create_vm():
     """Create a new GPU VM."""
     data = {
         "name": VM_NAME,
-        "environment_name": "CANADA-1",
+        "environment_name": "default-CANADA-1",
+        "count": 1,
         "image_name": DEFAULT_IMAGE,
         "flavor_name": DEFAULT_FLAVOR,
         "key_name": DEFAULT_KEY_NAME,

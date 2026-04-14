@@ -25,17 +25,30 @@ def random_vector_silhouette(
     n_repeats: int = 100,
     k_per_cluster: int = 6,
     seed: int = 42,
+    real_vectors: np.ndarray = None,
 ) -> dict:
-    """Compute silhouette for random unit vectors with same cluster structure.
+    """Compute silhouette for random vectors with same cluster structure.
+
+    If real_vectors is provided, random vectors are scaled so their norms
+    match the empirical distribution of real emotion vector norms (sampled
+    with replacement). Otherwise falls back to unit-normalized vectors.
 
     Returns: {"mean": float, "std": float, "ci_low": float, "ci_high": float}
     """
     rng = np.random.RandomState(seed)
     samples = []
 
+    real_norms = None
+    if real_vectors is not None:
+        real_norms = np.linalg.norm(real_vectors, axis=1)
+
     for i in range(n_repeats):
         random_vecs = rng.randn(n_vectors, hidden_dim)
         random_vecs = random_vecs / np.linalg.norm(random_vecs, axis=1, keepdims=True)
+
+        if real_norms is not None:
+            sampled_norms = rng.choice(real_norms, size=n_vectors, replace=True)
+            random_vecs = random_vecs * sampled_norms[:, np.newaxis]
 
         sil = balanced_silhouette(random_vecs, cluster_ids, k_per_cluster, n_bootstrap=1, seed=seed + i)
         samples.append(sil["mean"])
@@ -237,7 +250,7 @@ def run_all_controls(cfg: ModelConfig, emotions: list[str], cluster_map: dict, o
     # 1. Random vectors
     print("  Running random vector control...")
     results["random_vectors"] = random_vector_silhouette(
-        len(emotions), cfg.hidden_dim, cluster_ids
+        len(emotions), cfg.hidden_dim, cluster_ids, real_vectors=vectors
     )
 
     # 2. Shuffled labels
