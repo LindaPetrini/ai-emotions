@@ -1,0 +1,14 @@
+{
+  "qwen-7b-base": {
+    "error": "No module named 'transformers'"
+  },
+  "qwen-7b-inst": {
+    "error": "No module named 'transformers'"
+  },
+  "llama-8b-base": {
+    "error": "No module named 'transformers'"
+  },
+  "llama-8b-inst": {
+    "error": "No module named 'transformers'"
+  }
+}

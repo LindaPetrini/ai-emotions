@@ -1,0 +1,130 @@
+{
+  "qwen-7b-base": {
+    "layer": 18,
+    "hidden_dim": 3584,
+    "steering_vectors": {
+      "n_vectors": 171,
+      "norm_mean": 14.190130233764648,
+      "norm_median": 13.314465522766113,
+      "norm_max": 23.918685913085938,
+      "norm_min": 9.065959930419922,
+      "norm_std": 3.4549970626831055
+    },
+    "residual_stream": {
+      "n_samples": 5369,
+      "n_files": 360,
+      "norm_mean": 134.39886474609375,
+      "norm_median": 65.47097778320312,
+      "norm_max": 1495.43212890625,
+      "norm_min": 40.5251350402832,
+      "norm_std": 192.07827758789062
+    },
+    "ratios_at_alpha_3": {
+      "alpha": 3.0,
+      "ratio_mean_sv_mean_rs": 0.3167466539372777,
+      "ratio_median_sv_median_rs": 0.61009317289509,
+      "ratio_max_sv_mean_rs": 0.5339037489254044
+    },
+    "needed_alphas": {
+      "alpha_for_5pct": 0.4735645921920396,
+      "alpha_for_10pct": 0.9471291843840792,
+      "alpha_for_20pct": 1.8942583687681585
+    }
+  },
+  "qwen-7b-inst": {
+    "layer": 18,
+    "hidden_dim": 3584,
+    "steering_vectors": {
+      "n_vectors": 171,
+      "norm_mean": 11.649250984191895,
+      "norm_median": 11.282264709472656,
+      "norm_max": 22.43655014038086,
+      "norm_min": 8.230833053588867,
+      "norm_std": 2.389504909515381
+    },
+    "residual_stream": {
+      "n_samples": 5369,
+      "n_files": 360,
+      "norm_mean": 144.0032958984375,
+      "norm_median": 63.58762741088867,
+      "norm_max": 1531.224365234375,
+      "norm_min": 44.52269744873047,
+      "norm_std": 199.45777893066406
+    },
+    "ratios_at_alpha_3": {
+      "alpha": 3.0,
+      "ratio_mean_sv_mean_rs": 0.24268717416873292,
+      "ratio_median_sv_median_rs": 0.532285847209045,
+      "ratio_max_sv_mean_rs": 0.4674174295886579
+    },
+    "needed_alphas": {
+      "alpha_for_5pct": 0.61807963487889,
+      "alpha_for_10pct": 1.23615926975778,
+      "alpha_for_20pct": 2.47231853951556
+    }
+  },
+  "llama-8b-base": {
+    "layer": 21,
+    "hidden_dim": 4096,
+    "steering_vectors": {
+      "n_vectors": 171,
+      "norm_mean": 3.4343111515045166,
+      "norm_median": 3.312114715576172,
+      "norm_max": 6.634896278381348,
+      "norm_min": 2.442035675048828,
+      "norm_std": 0.6911473870277405
+    },
+    "residual_stream": {
+      "n_samples": 5369,
+      "n_files": 360,
+      "norm_mean": 16.650957107543945,
+      "norm_median": 15.832813262939453,
+      "norm_max": 48.714324951171875,
+      "norm_min": 8.334120750427246,
+      "norm_std": 4.055557727813721
+    },
+    "ratios_at_alpha_3": {
+      "alpha": 3.0,
+      "ratio_mean_sv_mean_rs": 0.6187592333563615,
+      "ratio_median_sv_median_rs": 0.6275791915001577,
+      "ratio_max_sv_mean_rs": 1.1954080901527246
+    },
+    "needed_alphas": {
+      "alpha_for_5pct": 0.2424206248791614,
+      "alpha_for_10pct": 0.4848412497583228,
+      "alpha_for_20pct": 0.9696824995166456
+    }
+  },
+  "llama-8b-inst": {
+    "layer": 21,
+    "hidden_dim": 4096,
+    "steering_vectors": {
+      "n_vectors": 171,
+      "norm_mean": 3.2199342250823975,
+      "norm_median": 3.1365609169006348,
+      "norm_max": 5.896698951721191,
+      "norm_min": 2.2607979774475098,
+      "norm_std": 0.5677123665809631
+    },
+    "residual_stream": {
+      "n_samples": 8672,
+      "n_files": 529,
+      "norm_mean": 15.476147651672363,
+      "norm_median": 14.43293571472168,
+      "norm_max": 55.76207733154297,
+      "norm_min": 10.79306697845459,
+      "norm_std": 4.321423530578613
+    },
+    "ratios_at_alpha_3": {
+      "alpha": 3.0,
+      "ratio_mean_sv_mean_rs": 0.6241735923347402,
+      "ratio_median_sv_median_rs": 0.6519590287583678,
+      "ratio_max_sv_mean_rs": 1.1430555751548397
+    },
+    "needed_alphas": {
+      "alpha_for_5pct": 0.24031776070326924,
+      "alpha_for_10pct": 0.4806355214065385,
+      "alpha_for_20pct": 0.961271042813077
+    }
+  }
+}

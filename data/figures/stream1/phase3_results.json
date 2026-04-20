@@ -1,0 +1,186 @@
+{
+  "qwen-7b-base": {
+    "replication": {
+      "silhouette": {
+        "value": -0.01197189089289168,
+        "threshold": 0.03,
+        "passed": false,
+        "ci": [
+          -0.043259304761886594,
+          0.022917132219299648
+        ]
+      },
+      "valence_auc": {
+        "value": 0.8004901960784313,
+        "threshold": 0.75,
+        "passed": true
+      },
+      "implicit_accuracy": {
+        "value": 0.0,
+        "n_correct": 0,
+        "n_total": 12,
+        "threshold": 0.6666666666666666,
+        "passed": false
+      },
+      "intensity_monotonic": {
+        "n_monotonic": 9,
+        "n_total": 13,
+        "threshold": 4,
+        "passed": true
+      },
+      "all_passed": false
+    },
+    "controls": {
+      "random_vectors": {
+        "mean": -0.004602882566868058,
+        "std": 0.0009323198603307615,
+        "ci_low": -0.006788182803680296,
+        "ci_high": -0.0031138473861799525
+      },
+      "shuffled_labels": {
+        "mean": -0.1133374334871769,
+        "std": 0.01237436379831579,
+        "p_value": 0.0,
+        "real_value": -0.0005271497066132724
+      }
+    }
+  },
+  "qwen-7b-inst": {
+    "replication": {
+      "silhouette": {
+        "value": 0.024230932136306366,
+        "threshold": 0.03,
+        "passed": false,
+        "ci": [
+          0.0019358855664904698,
+          0.054502802155911904
+        ]
+      },
+      "valence_auc": {
+        "value": 0.9633986928104575,
+        "threshold": 0.75,
+        "passed": true
+      },
+      "implicit_accuracy": {
+        "value": 0.08333333333333333,
+        "n_correct": 1,
+        "n_total": 12,
+        "threshold": 0.6666666666666666,
+        "passed": false
+      },
+      "intensity_monotonic": {
+        "n_monotonic": 11,
+        "n_total": 13,
+        "threshold": 4,
+        "passed": true
+      },
+      "all_passed": false
+    },
+    "controls": {
+      "random_vectors": {
+        "mean": -0.004602882566868058,
+        "std": 0.0009323198603307615,
+        "ci_low": -0.006788182803680296,
+        "ci_high": -0.0031138473861799525
+      },
+      "shuffled_labels": {
+        "mean": -0.09111503347754478,
+        "std": 0.010312879419021663,
+        "p_value": 0.0,
+        "real_value": 0.03198663145303726
+      }
+    }
+  },
+  "llama-8b-base": {
+    "replication": {
+      "silhouette": {
+        "value": 0.03461682934314012,
+        "threshold": 0.03,
+        "passed": true,
+        "ci": [
+          0.009381527383811771,
+          0.06594861336052417
+        ]
+      },
+      "valence_auc": {
+        "value": 0.9517973856209151,
+        "threshold": 0.75,
+        "passed": true
+      },
+      "implicit_accuracy": {
+        "value": 0.08333333333333333,
+        "n_correct": 1,
+        "n_total": 12,
+        "threshold": 0.6666666666666666,
+        "passed": false
+      },
+      "intensity_monotonic": {
+        "n_monotonic": 9,
+        "n_total": 13,
+        "threshold": 4,
+        "passed": true
+      },
+      "all_passed": false
+    },
+    "controls": {
+      "random_vectors": {
+        "mean": -0.004232533834549598,
+        "std": 0.0007449531485632897,
+        "ci_low": -0.0057623803292223864,
+        "ci_high": -0.0029870112826244463
+      },
+      "shuffled_labels": {
+        "mean": -0.09113531343638898,
+        "std": 0.00998073229239683,
+        "p_value": 0.0,
+        "real_value": 0.0370953343808651
+      }
+    }
+  },
+  "llama-8b-inst": {
+    "replication": {
+      "silhouette": {
+        "value": 0.04121911165071651,
+        "threshold": 0.03,
+        "passed": true,
+        "ci": [
+          0.0181751178111881,
+          0.07381886355578894
+        ]
+      },
+      "valence_auc": {
+        "value": 0.9754901960784313,
+        "threshold": 0.75,
+        "passed": true
+      },
+      "implicit_accuracy": {
+        "value": 0.16666666666666666,
+        "n_correct": 2,
+        "n_total": 12,
+        "threshold": 0.6666666666666666,
+        "passed": false
+      },
+      "intensity_monotonic": {
+        "n_monotonic": 8,
+        "n_total": 13,
+        "threshold": 4,
+        "passed": true
+      },
+      "all_passed": false
+    },
+    "controls": {
+      "random_vectors": {
+        "mean": -0.004232533834549598,
+        "std": 0.0007449531485632897,
+        "ci_low": -0.0057623803292223864,
+        "ci_high": -0.0029870112826244463
+      },
+      "shuffled_labels": {
+        "mean": -0.08490825273096561,
+        "std": 0.009294469341944105,
+        "p_value": 0.0,
+        "real_value": 0.04501507803797722
+      }
+    }
+  }
+}
