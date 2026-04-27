@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Hyperstack GPU VM management for ai-emotions-v2.
+"""Hyperstack GPU VM management for ai-emotions.
 
 Usage:
     python scripts/hyperstack.py create    # Create GPU VM
@@ -24,7 +24,7 @@ if not API_KEY:
     sys.exit(1)
 API_BASE = "https://infrahub-api.nexgencloud.com/v1/core/virtual-machines"
 SSH_KEY = "~/.ssh/id_rsa_hyperstack"
-VM_NAME = "ai-emotions-v2b"
+VM_NAME = "ai-emotions"
 
 # Default: cheapest GPU with enough VRAM for 8B models (~16GB)
 DEFAULT_FLAVOR = "n3-RTX-A6000x1"

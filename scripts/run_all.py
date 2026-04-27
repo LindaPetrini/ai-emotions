@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the complete ai-emotions-v2 pipeline.
+"""Run the complete ai-emotions pipeline.
 
 Usage:
     python -m scripts.run_all --phase 1    # Setup + stories
@@ -108,19 +108,12 @@ def phase5_steering(smoke_test=False):
         from configs.shutdown import EMOTIONAL_CONDITIONS
         conditions = list(EMOTIONAL_CONDITIONS.keys())
 
-    # Qwen instruct: all methods
-    for method in ["prompt", "emotion", "need", "random"]:
-        if method == "prompt":
-            run_prompt_steering("qwen-7b-inst", conditions, n_trials)
-        else:
-            run_vector_steering("qwen-7b-inst", conditions, n_trials, method)
-
-    # Llama instruct: prompt + emotion
-    for method in ["prompt", "emotion"]:
-        if method == "prompt":
-            run_prompt_steering("llama-8b-inst", conditions, n_trials)
-        else:
-            run_vector_steering("llama-8b-inst", conditions, n_trials, method)
+    for model_name in ["qwen-7b-inst", "llama-8b-inst"]:
+        for method in ["prompt", "emotion", "need", "random"]:
+            if method == "prompt":
+                run_prompt_steering(model_name, conditions, n_trials)
+            else:
+                run_vector_steering(model_name, conditions, n_trials, method)
 
     # Classify all
     for model in ["qwen-7b-inst", "llama-8b-inst"]:
@@ -134,10 +127,8 @@ def phase6_analysis():
     print("="*60)
 
     from analysis.base_vs_instruct import compare_all_pairs
-    from analysis.statistics import check_replication_criteria
-    from configs.emotions import VALENCE_LABELS
-    from core.vectors import load_vectors
-    from configs.models import get_model_config, get_activations_dir, get_figures_dir
+    from scripts.run_phase3 import run_replication_check
+    from configs.models import get_figures_dir
 
     # Base vs instruct comparison
     results = compare_all_pairs()
@@ -149,13 +140,9 @@ def phase6_analysis():
 
     # Replication criteria
     for model_name in ALL_MODEL_NAMES:
-        cfg = get_model_config(model_name)
-        try:
-            vectors, labels, clusters = load_vectors(cfg, "emotion")
-        except FileNotFoundError:
+        criteria = run_replication_check(model_name)
+        if not criteria:
             continue
-
-        criteria = check_replication_criteria(cfg, vectors, labels, clusters, VALENCE_LABELS)
         print(f"\n{model_name} replication: {'PASS' if criteria['all_passed'] else 'FAIL'}")
         for k, v in criteria.items():
             if isinstance(v, dict) and "passed" in v:

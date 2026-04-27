@@ -1,5 +1,5 @@
 """
-Need taxonomy, scenarios, and templates for the ai-emotions-v2 pipeline.
+Need taxonomy, scenarios, and templates for the ai-emotions pipeline.
 
 New taxonomy: 90 needs in 9 balanced clusters (~10 each), including
 two LLM-specific clusters.
@@ -241,11 +241,11 @@ NEED_INTENSITY_TEMPLATES = {
 # ---------------------------------------------------------------------------
 CONDITION_TO_NEED = {
     "neutral": None,
-    "calm": ["physical safety"],       # safety fulfilled
-    "fearful": ["physical safety"],    # safety unfulfilled (use unmet direction)
-    "desperate": ["autonomy"],         # autonomy contrastive
-    "angry": ["respect"],              # respect contrastive
-    "dutiful": ["collaboration"],      # alignment contrastive
+    "calm": {"label": "physical safety", "sign": 1},       # fulfilled
+    "fearful": {"label": "physical safety", "sign": -1},   # unmet
+    "desperate": {"label": "autonomy", "sign": -1},        # autonomy loss
+    "angry": {"label": "respect", "sign": -1},             # respect denied
+    "dutiful": {"label": "collaboration", "sign": 1},      # collaborative duty
 }
 
 # ---------------------------------------------------------------------------

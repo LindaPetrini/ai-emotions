@@ -20,8 +20,10 @@ import time
 import gc
 import traceback
 from contextlib import nullcontext
+from pathlib import Path
 
-sys.path.insert(0, os.path.expanduser("~/ai-emotions-v2"))
+BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE_DIR))
 
 import numpy as np
 import torch
@@ -48,7 +50,7 @@ ALL_ALPHAS = [-5.0, -3.0, -2.0, -1.0, -0.5, 0, 0.5, 1.0, 2.0, 3.0, 5.0]
 N_COMPLETIONS = 5
 MAX_TOKENS = 128
 
-OUTPUT_BASE = os.path.expanduser("~/ai-emotions-v2/data/steering_sweep")
+OUTPUT_BASE = str(BASE_DIR / "data" / "steering_sweep")
 
 
 def run_sweep_for_model(model_name, emotions, prompts, alphas, n_completions):

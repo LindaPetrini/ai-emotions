@@ -10,6 +10,7 @@ from sklearn.decomposition import PCA
 
 from figures.common import *
 from configs.models import MODEL_REGISTRY, get_vectors_dir, get_activations_dir
+from analysis.statistics import balanced_silhouette
 
 def plot_layer_emergence(
     model_names: list[str],
@@ -45,25 +46,14 @@ def plot_layer_emergence(
                 continue
             vectors = np.load(vec_path)
 
-            # Balanced silhouette: sample n_clusters_per_emotion from each cluster
-            unique_clusters = list(set(cluster_ids))
-            balanced_indices = []
-            for c in unique_clusters:
-                c_indices = [i for i, ci in enumerate(cluster_ids) if ci == c]
-                if len(c_indices) >= n_clusters_per_emotion:
-                    rng = np.random.RandomState(42)
-                    balanced_indices.extend(rng.choice(c_indices, n_clusters_per_emotion, replace=False))
-                else:
-                    balanced_indices.extend(c_indices)
-
-            if len(set([cluster_ids[i] for i in balanced_indices])) < 2:
-                continue
-
-            bal_vectors = vectors[balanced_indices]
-            bal_labels = [cluster_ids[i] for i in balanced_indices]
-
-            sil = silhouette_score(bal_vectors, bal_labels)
-            silhouettes.append(sil)
+            sil = balanced_silhouette(
+                vectors,
+                cluster_ids,
+                k_per_cluster=n_clusters_per_emotion,
+                n_bootstrap=n_bootstrap,
+                seed=42,
+            )
+            silhouettes.append(sil["mean"])
             layers_norm.append(layer / cfg.n_layers)
 
         if silhouettes:

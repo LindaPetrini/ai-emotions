@@ -1,5 +1,5 @@
 """
-Model configurations for the ai-emotions-v2 pipeline.
+Model configurations for the ai-emotions pipeline.
 
 Defines model registry with architecture details for all supported models,
 plus helper functions for resolving data directories.

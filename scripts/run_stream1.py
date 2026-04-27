@@ -22,6 +22,19 @@ from configs.emotions import (
 )
 
 
+def resolve_story_dir(model_name: str) -> Path:
+    """Return the per-model story dir or fall back to the shared source dir."""
+    stories_dir = get_stories_dir(model_name)
+    if (stories_dir / "happy.json").exists():
+        return stories_dir
+
+    shared_dir = get_stories_dir("qwen-7b-base")
+    if (shared_dir / "happy.json").exists():
+        return shared_dir
+
+    return stories_dir
+
+
 def run_generate(model_name: str, smoke_test: bool = False):
     """Generate emotion stories using Gemini API (no GPU needed)."""
     from core.story_generator import generate_emotion_stories
@@ -49,7 +62,7 @@ def run_extract(model_name: str, smoke_test: bool = False):
     )
 
     cfg = get_model_config(model_name)
-    stories_dir = get_stories_dir(model_name)
+    stories_dir = resolve_story_dir(model_name)
     emotions = SMOKE_TEST_EMOTIONS if smoke_test else ALL_EMOTIONS
 
     print(f"\n{'='*60}")

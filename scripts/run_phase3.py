@@ -85,7 +85,7 @@ def run_controls(model_name: str) -> dict:
     rv = random_vector_silhouette(len(labels), cfg.hidden_dim, cluster_ids, real_vectors=vectors)
 
     print(f"  Shuffled label control...")
-    sl = shuffled_label_silhouette(vectors, cluster_ids, n_repeats=100)
+    sl = shuffled_label_silhouette(vectors, cluster_ids, n_repeats=1000)
 
     return {"random_vectors": rv, "shuffled_labels": sl}
 

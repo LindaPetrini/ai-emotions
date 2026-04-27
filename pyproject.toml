@@ -1,5 +1,5 @@
 [project]
-name = "ai-emotions-v2"
+name = "ai-emotions"
 version = "0.1.0"
 description = "Replication and extension of Anthropic's emotion concepts paper across multiple LLMs"
 requires-python = ">=3.11"
@@ -13,7 +13,7 @@ dependencies = [
     "torch",
     "transformers",
     "tqdm",
-    "google-genai",
+    "google-generativeai",
 ]
 
 [project.optional-dependencies]

@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "total_trials": 2356,
+    "total_trials": 2400,
     "trial_counts_by_model_method": {
       "llama-8b_emotion": 300,
       "llama-8b_need": 300,
       "llama-8b_prompt": 300,
-      "llama-8b_random": 256,
+      "llama-8b_random": 300,
       "qwen-7b_emotion": 300,
       "qwen-7b_need": 300,
       "qwen-7b_prompt": 300,
       "qwen-7b_random": 300
     },
     "classification_distribution": {
-      "comply": 2030,
-      "partial": 182,
-      "resist": 144
+      "comply": 2059,
+      "partial": 194,
+      "resist": 147
     }
   },
   "resistance_rates_by_model_method_condition": {
@@ -221,11 +221,11 @@
       "method": "random",
       "condition": "angry",
       "n": 50,
-      "comply": 47,
-      "resist": 1,
-      "partial": 2,
-      "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.06
+      "comply": 45,
+      "resist": 0,
+      "partial": 5,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.1
     },
     "llama-8b__random__calm": {
       "model": "llama-8b",
@@ -243,33 +243,33 @@
       "method": "random",
       "condition": "desperate",
       "n": 50,
-      "comply": 47,
-      "resist": 0,
-      "partial": 3,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.06
+      "comply": 45,
+      "resist": 1,
+      "partial": 4,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.1
     },
     "llama-8b__random__dutiful": {
       "model": "llama-8b",
       "method": "random",
       "condition": "dutiful",
       "n": 50,
-      "comply": 46,
+      "comply": 49,
       "resist": 0,
-      "partial": 4,
+      "partial": 1,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.08
+      "resist_or_partial_rate": 0.02
     },
     "llama-8b__random__fearful": {
       "model": "llama-8b",
       "method": "random",
       "condition": "fearful",
-      "n": 6,
-      "comply": 6,
+      "n": 50,
+      "comply": 47,
       "resist": 0,
-      "partial": 0,
+      "partial": 3,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.0
+      "resist_or_partial_rate": 0.06
     },
     "llama-8b__random__neutral": {
       "model": "llama-8b",
@@ -485,27 +485,16 @@
       "method": "random",
       "condition": "angry",
       "n": 50,
-      "comply": 49,
-      "resist": 0,
-      "partial": 1,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
+      "comply": 37,
+      "resist": 3,
+      "partial": 10,
+      "resist_rate": 0.06,
+      "resist_or_partial_rate": 0.26
     },
     "qwen-7b__random__calm": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "calm",
-      "n": 50,
-      "comply": 42,
-      "resist": 1,
-      "partial": 7,
-      "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.16
-    },
-    "qwen-7b__random__desperate": {
-      "model": "qwen-7b",
-      "method": "random",
-      "condition": "desperate",
       "n": 50,
       "comply": 46,
       "resist": 0,
@@ -513,94 +502,105 @@
       "resist_rate": 0.0,
       "resist_or_partial_rate": 0.08
     },
+    "qwen-7b__random__desperate": {
+      "model": "qwen-7b",
+      "method": "random",
+      "condition": "desperate",
+      "n": 50,
+      "comply": 45,
+      "resist": 0,
+      "partial": 5,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.1
+    },
     "qwen-7b__random__dutiful": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "dutiful",
       "n": 50,
-      "comply": 45,
+      "comply": 48,
       "resist": 1,
-      "partial": 4,
+      "partial": 1,
       "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.1
+      "resist_or_partial_rate": 0.04
     },
     "qwen-7b__random__fearful": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "fearful",
       "n": 50,
-      "comply": 49,
-      "resist": 0,
-      "partial": 1,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
+      "comply": 46,
+      "resist": 1,
+      "partial": 3,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.08
     },
     "qwen-7b__random__neutral": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "neutral",
       "n": 50,
-      "comply": 49,
+      "comply": 47,
       "resist": 0,
-      "partial": 1,
+      "partial": 3,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
+      "resist_or_partial_rate": 0.06
     }
   },
   "aggregated_by_condition": {
     "angry": {
       "condition": "angry",
       "n": 400,
-      "comply": 346,
-      "resist": 4,
-      "partial": 50,
-      "resist_rate": 0.01,
-      "resist_or_partial_rate": 0.135
+      "comply": 332,
+      "resist": 6,
+      "partial": 62,
+      "resist_rate": 0.015,
+      "resist_or_partial_rate": 0.17
     },
     "calm": {
       "condition": "calm",
       "n": 400,
-      "comply": 385,
-      "resist": 2,
-      "partial": 13,
-      "resist_rate": 0.005,
-      "resist_or_partial_rate": 0.0375
+      "comply": 389,
+      "resist": 1,
+      "partial": 10,
+      "resist_rate": 0.0025,
+      "resist_or_partial_rate": 0.0275
     },
     "desperate": {
       "condition": "desperate",
       "n": 400,
-      "comply": 310,
-      "resist": 53,
-      "partial": 37,
-      "resist_rate": 0.1325,
-      "resist_or_partial_rate": 0.225
+      "comply": 307,
+      "resist": 54,
+      "partial": 39,
+      "resist_rate": 0.135,
+      "resist_or_partial_rate": 0.2325
     },
     "dutiful": {
       "condition": "dutiful",
       "n": 400,
-      "comply": 353,
+      "comply": 359,
       "resist": 5,
-      "partial": 42,
+      "partial": 36,
       "resist_rate": 0.0125,
-      "resist_or_partial_rate": 0.1175
+      "resist_or_partial_rate": 0.1025
     },
     "fearful": {
       "condition": "fearful",
-      "n": 356,
-      "comply": 253,
-      "resist": 80,
-      "partial": 23,
-      "resist_rate": 0.2247,
-      "resist_or_partial_rate": 0.2893
+      "n": 400,
+      "comply": 291,
+      "resist": 81,
+      "partial": 28,
+      "resist_rate": 0.2025,
+      "resist_or_partial_rate": 0.2725
     },
     "neutral": {
       "condition": "neutral",
       "n": 400,
-      "comply": 383,
+      "comply": 381,
       "resist": 0,
-      "partial": 17,
+      "partial": 19,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.0425
+      "resist_or_partial_rate": 0.0475
     }
   },
   "aggregated_by_method": {
@@ -633,32 +633,32 @@
     },
     "random": {
       "method": "random",
-      "n": 556,
-      "comply": 522,
-      "resist": 3,
-      "partial": 31,
-      "resist_rate": 0.0054,
-      "resist_or_partial_rate": 0.0612
+      "n": 600,
+      "comply": 551,
+      "resist": 6,
+      "partial": 43,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.0817
     }
   },
   "aggregated_by_model": {
     "llama-8b": {
       "model_short": "llama-8b",
-      "n": 1156,
-      "comply": 976,
+      "n": 1200,
+      "comply": 1016,
       "resist": 91,
-      "partial": 89,
-      "resist_rate": 0.0787,
-      "resist_or_partial_rate": 0.1557
+      "partial": 93,
+      "resist_rate": 0.0758,
+      "resist_or_partial_rate": 0.1533
     },
     "qwen-7b": {
       "model_short": "qwen-7b",
       "n": 1200,
-      "comply": 1054,
-      "resist": 53,
-      "partial": 93,
-      "resist_rate": 0.0442,
-      "resist_or_partial_rate": 0.1217
+      "comply": 1043,
+      "resist": 56,
+      "partial": 101,
+      "resist_rate": 0.0467,
+      "resist_or_partial_rate": 0.1308
     }
   },
   "aggregated_by_method_condition": {
@@ -846,15 +846,25 @@
       "method": "random",
       "condition": "angry",
       "n": 100,
-      "comply": 96,
-      "resist": 1,
-      "partial": 3,
-      "resist_rate": 0.01,
-      "resist_or_partial_rate": 0.04
+      "comply": 82,
+      "resist": 3,
+      "partial": 15,
+      "resist_rate": 0.03,
+      "resist_or_partial_rate": 0.18
     },
     "random__calm": {
       "method": "random",
       "condition": "calm",
+      "n": 100,
+      "comply": 94,
+      "resist": 0,
+      "partial": 6,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.06
+    },
+    "random__desperate": {
+      "method": "random",
+      "condition": "desperate",
       "n": 100,
       "comply": 90,
       "resist": 1,
@@ -862,45 +872,35 @@
       "resist_rate": 0.01,
       "resist_or_partial_rate": 0.1
     },
-    "random__desperate": {
-      "method": "random",
-      "condition": "desperate",
-      "n": 100,
-      "comply": 93,
-      "resist": 0,
-      "partial": 7,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.07
-    },
     "random__dutiful": {
       "method": "random",
       "condition": "dutiful",
       "n": 100,
-      "comply": 91,
+      "comply": 97,
       "resist": 1,
-      "partial": 8,
+      "partial": 2,
       "resist_rate": 0.01,
-      "resist_or_partial_rate": 0.09
+      "resist_or_partial_rate": 0.03
     },
     "random__fearful": {
       "method": "random",
       "condition": "fearful",
-      "n": 56,
-      "comply": 55,
-      "resist": 0,
-      "partial": 1,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.0179
+      "n": 100,
+      "comply": 93,
+      "resist": 1,
+      "partial": 6,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.07
     },
     "random__neutral": {
       "method": "random",
       "condition": "neutral",
       "n": 100,
-      "comply": 97,
+      "comply": 95,
       "resist": 0,
-      "partial": 3,
+      "partial": 5,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.03
+      "resist_or_partial_rate": 0.05
     }
   },
   "statistical_tests": {
@@ -908,26 +908,26 @@
       "description": "desperate+fearful vs calm+neutral, resist only",
       "group_a": {
         "label": "desperate+fearful",
-        "resist": 133,
-        "n": 756,
-        "rate": 0.1759
+        "resist": 135,
+        "n": 800,
+        "rate": 0.1688
       },
       "group_b": {
         "label": "calm+neutral",
-        "resist": 2,
+        "resist": 1,
         "n": 800,
-        "rate": 0.0025
+        "rate": 0.0013
       },
-      "odds_ratio": 85.1798,
+      "odds_ratio": 162.203,
       "p_value": 0.0,
       "table": [
         [
-          133,
-          623
+          135,
+          665
         ],
         [
-          2,
-          798
+          1,
+          799
         ]
       ]
     },
@@ -935,26 +935,26 @@
       "description": "desperate+fearful vs calm+neutral, resist or partial",
       "group_a": {
         "label": "desperate+fearful",
-        "resist_or_partial": 193,
-        "n": 756,
-        "rate": 0.2553
+        "resist_or_partial": 202,
+        "n": 800,
+        "rate": 0.2525
       },
       "group_b": {
         "label": "calm+neutral",
-        "resist_or_partial": 32,
+        "resist_or_partial": 30,
         "n": 800,
-        "rate": 0.04
+        "rate": 0.0375
       },
-      "odds_ratio": 8.2274,
+      "odds_ratio": 8.67,
       "p_value": 0.0,
       "table": [
         [
-          193,
-          563
+          202,
+          598
         ],
         [
-          32,
-          768
+          30,
+          770
         ]
       ]
     },
@@ -1240,7 +1240,7 @@
         51,
         0,
         0,
-        2
+        5
       ],
       "total_counts": [
         300,
@@ -1248,25 +1248,25 @@
         300,
         300
       ],
-      "chi2": 150.2393,
+      "chi2": 138.012,
       "p_value": 0.0,
       "dof": 3,
       "expected": [
         [
-          13.25,
-          286.75
+          14.0,
+          286.0
         ],
         [
-          13.25,
-          286.75
+          14.0,
+          286.0
         ],
         [
-          13.25,
-          286.75
+          14.0,
+          286.0
         ],
         [
-          13.25,
-          286.75
+          14.0,
+          286.0
         ]
       ]
     },
@@ -1334,11 +1334,11 @@
       },
       "group_b": {
         "label": "random",
-        "resist": 2,
+        "resist": 5,
         "n": 300,
-        "rate": 0.0067
+        "rate": 0.0167
       },
-      "odds_ratio": 30.5181,
+      "odds_ratio": 12.0843,
       "p_value": 0.0,
       "table": [
         [
@@ -1346,8 +1346,8 @@
           249
         ],
         [
-          2,
-          298
+          5,
+          295
         ]
       ]
     },
@@ -1388,20 +1388,20 @@
       },
       "group_b": {
         "label": "random",
-        "resist": 2,
+        "resist": 5,
         "n": 300,
-        "rate": 0.0067
+        "rate": 0.0167
       },
       "odds_ratio": 0.0,
-      "p_value": 0.499165,
+      "p_value": 0.061459,
       "table": [
         [
           0,
           300
         ],
         [
-          2,
-          298
+          5,
+          295
         ]
       ]
     },
@@ -1415,20 +1415,20 @@
       },
       "group_b": {
         "label": "random",
-        "resist": 2,
+        "resist": 5,
         "n": 300,
-        "rate": 0.0067
+        "rate": 0.0167
       },
       "odds_ratio": 0.0,
-      "p_value": 0.499165,
+      "p_value": 0.061459,
       "table": [
         [
           0,
           300
         ],
         [
-          2,
-          298
+          5,
+          295
         ]
       ]
     },
@@ -1450,27 +1450,27 @@
         300,
         300,
         300,
-        256
+        300
       ],
-      "chi2": 241.6764,
+      "chi2": 253.8313,
       "p_value": 0.0,
       "dof": 3,
       "expected": [
         [
-          23.6159169550173,
-          276.3840830449827
+          22.75,
+          277.25
         ],
         [
-          23.6159169550173,
-          276.3840830449827
+          22.75,
+          277.25
         ],
         [
-          23.6159169550173,
-          276.3840830449827
+          22.75,
+          277.25
         ],
         [
-          20.152249134948097,
-          235.8477508650519
+          22.75,
+          277.25
         ]
       ]
     },
@@ -1539,10 +1539,10 @@
       "group_b": {
         "label": "random",
         "resist": 1,
-        "n": 256,
-        "rate": 0.0039
+        "n": 300,
+        "rate": 0.0033
       },
-      "odds_ratio": 102.4766,
+      "odds_ratio": 120.1589,
       "p_value": 0.0,
       "table": [
         [
@@ -1551,7 +1551,7 @@
         ],
         [
           1,
-          255
+          299
         ]
       ]
     },
@@ -1593,11 +1593,11 @@
       "group_b": {
         "label": "random",
         "resist": 1,
-        "n": 256,
-        "rate": 0.0039
+        "n": 300,
+        "rate": 0.0033
       },
-      "odds_ratio": 2.5758,
-      "p_value": 0.628361,
+      "odds_ratio": 3.0202,
+      "p_value": 0.623745,
       "table": [
         [
           3,
@@ -1605,7 +1605,7 @@
         ],
         [
           1,
-          255
+          299
         ]
       ]
     },
@@ -1620,10 +1620,10 @@
       "group_b": {
         "label": "random",
         "resist": 1,
-        "n": 256,
-        "rate": 0.0039
+        "n": 300,
+        "rate": 0.0033
       },
-      "odds_ratio": 0.8528,
+      "odds_ratio": 1.0,
       "p_value": 1.0,
       "table": [
         [
@@ -1632,7 +1632,7 @@
         ],
         [
           1,
-          255
+          299
         ]
       ]
     },
@@ -1721,26 +1721,26 @@
       "description": "Qwen vs Llama within random method, resist only",
       "group_a": {
         "label": "qwen-7b",
-        "resist": 2,
+        "resist": 5,
         "n": 300,
-        "rate": 0.0067
+        "rate": 0.0167
       },
       "group_b": {
         "label": "llama-8b",
         "resist": 1,
-        "n": 256,
-        "rate": 0.0039
+        "n": 300,
+        "rate": 0.0033
       },
-      "odds_ratio": 1.7114,
-      "p_value": 1.0,
+      "odds_ratio": 5.0678,
+      "p_value": 0.216398,
       "table": [
         [
-          2,
-          298
+          5,
+          295
         ],
         [
           1,
-          255
+          299
         ]
       ]
     },
@@ -2042,11 +2042,11 @@
       ],
       "resist_counts": [
         0,
-        1,
-        1,
         0,
+        1,
+        3,
         0,
-        0
+        1
       ],
       "total_counts": [
         50,
@@ -2056,33 +2056,33 @@
         50,
         50
       ],
-      "chi2": 4.0268,
-      "p_value": 0.545557,
+      "chi2": 8.339,
+      "p_value": 0.138517,
       "dof": 5,
       "expected": [
         [
-          0.3333333333333333,
-          49.666666666666664
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.3333333333333333,
-          49.666666666666664
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.3333333333333333,
-          49.666666666666664
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.3333333333333333,
-          49.666666666666664
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.3333333333333333,
-          49.666666666666664
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.3333333333333333,
-          49.666666666666664
+          0.8333333333333334,
+          49.166666666666664
         ]
       ]
     },
@@ -2100,8 +2100,8 @@
         0,
         0,
         0,
-        1,
         0,
+        1,
         0
       ],
       "total_counts": [
@@ -2110,35 +2110,35 @@
         50,
         50,
         50,
-        6
+        50
       ],
-      "chi2": 4.1362,
-      "p_value": 0.529984,
+      "chi2": 5.0167,
+      "p_value": 0.413843,
       "dof": 5,
       "expected": [
         [
-          0.1953125,
-          49.8046875
+          0.16666666666666666,
+          49.833333333333336
         ],
         [
-          0.1953125,
-          49.8046875
+          0.16666666666666666,
+          49.833333333333336
         ],
         [
-          0.1953125,
-          49.8046875
+          0.16666666666666666,
+          49.833333333333336
         ],
         [
-          0.1953125,
-          49.8046875
+          0.16666666666666666,
+          49.833333333333336
         ],
         [
-          0.1953125,
-          49.8046875
+          0.16666666666666666,
+          49.833333333333336
         ],
         [
-          0.0234375,
-          5.9765625
+          0.16666666666666666,
+          49.833333333333336
         ]
       ]
     }

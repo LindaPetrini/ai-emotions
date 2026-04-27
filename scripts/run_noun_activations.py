@@ -17,8 +17,10 @@ import json
 import time
 import gc
 import traceback
+from pathlib import Path
 
-sys.path.insert(0, os.path.expanduser("~/ai-emotions-v2"))
+BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE_DIR))
 
 import numpy as np
 import torch

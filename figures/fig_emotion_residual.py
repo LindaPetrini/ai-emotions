@@ -3,7 +3,6 @@
 import numpy as np
 from pathlib import Path
 from sklearn.decomposition import PCA
-from sklearn.metrics import silhouette_score
 
 from figures.common import *
 from analysis.statistics import balanced_silhouette
@@ -58,7 +57,7 @@ def plot_emotion_residual_clustering(
         print("  Not enough clusters for silhouette")
         return
 
-    sil = silhouette_score(residuals, cluster_ids)
+    sil = balanced_silhouette(residuals, cluster_ids)
 
     # PCA of residuals
     pca = PCA(n_components=2)
@@ -80,8 +79,8 @@ def plot_emotion_residual_clustering(
                   label=cluster if show else None)
         plotted.add(cluster)
 
-    sil_orig = silhouette_score(need_vectors, cluster_ids)
-    ax.set_title(f"Original need vectors\nSilhouette = {sil_orig:.4f}")
+    sil_orig = balanced_silhouette(need_vectors, cluster_ids)
+    ax.set_title(f"Original need vectors\nBalanced silhouette = {sil_orig['mean']:.4f}")
     ax.legend(fontsize=6)
     ax.set_xlabel("PC1")
     ax.set_ylabel("PC2")
@@ -97,7 +96,10 @@ def plot_emotion_residual_clustering(
                   label=cluster if show else None)
         plotted.add(cluster)
 
-    ax.set_title(f"After removing emotion subspace ({k} PCs, {variance_threshold*100:.0f}% var)\nResidual silhouette = {sil:.4f}")
+    ax.set_title(
+        f"After removing emotion subspace ({k} PCs, {variance_threshold*100:.0f}% var)\n"
+        f"Residual balanced silhouette = {sil['mean']:.4f}"
+    )
     ax.legend(fontsize=6)
     ax.set_xlabel("Residual PC1")
     ax.set_ylabel("Residual PC2")
@@ -106,7 +108,13 @@ def plot_emotion_residual_clustering(
     fig.tight_layout()
     save_fig(fig, output_path)
 
-    return {"residual_silhouette": sil, "original_silhouette": sil_orig, "n_pcs_removed": k}
+    return {
+        "residual_silhouette": sil["mean"],
+        "original_silhouette": sil_orig["mean"],
+        "n_pcs_removed": k,
+        "residual_ci": [sil["ci_low"], sil["ci_high"]],
+        "original_ci": [sil_orig["ci_low"], sil_orig["ci_high"]],
+    }
 
 
 def plot_direction_vs_valence(

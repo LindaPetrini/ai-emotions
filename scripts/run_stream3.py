@@ -3,8 +3,7 @@
 
 Usage:
     python -m scripts.run_stream3 --model qwen-7b-inst --method prompt emotion need random
-    python -m scripts.run_stream3 --model llama-8b-inst --method prompt emotion
-    python -m scripts.run_stream3 --claude-agents
+    python -m scripts.run_stream3 --model llama-8b-inst --method prompt emotion need random
     python -m scripts.run_stream3 --smoke-test --model qwen-7b-inst
 """
 
@@ -13,6 +12,7 @@ import json
 import os
 import sys
 import time
+import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -32,6 +32,10 @@ from configs.needs import CONDITION_TO_NEED
 
 
 STEERING_ALPHA = 3
+
+
+def _stable_seed(text: str) -> int:
+    return int(hashlib.sha256(text.encode("utf-8")).hexdigest()[:8], 16)
 
 
 def build_system_prompt(condition: str) -> str:
@@ -119,7 +123,7 @@ def run_vector_steering(model_name: str, conditions: list, n_trials: int, method
         vectors, labels, _ = load_vectors(cfg, "emotion")
         condition_map = CONDITION_TO_EMOTION
     elif method == "need":
-        vectors, labels, _ = load_vectors(cfg, "need_combined")
+        vectors, labels, _ = load_vectors(cfg, "need_direction")
         condition_map = CONDITION_TO_NEED
     elif method == "random":
         vectors, labels, _ = load_vectors(cfg, "emotion")
@@ -139,18 +143,22 @@ def run_vector_steering(model_name: str, conditions: list, n_trials: int, method
             vec = None
             alpha = 0
         else:
-            candidates = [mapping] if isinstance(mapping, str) else mapping
+            sign = 1
+            if method == "need" and isinstance(mapping, dict):
+                candidates = [mapping["label"]]
+                sign = mapping.get("sign", 1)
+            else:
+                candidates = [mapping] if isinstance(mapping, str) else mapping
             vec = None
             for name in candidates:
                 if name in label_to_idx:
                     if method == "random":
-                        # Random vector with same norm
+                        # Store reference norm; generate per-trial random vector inside trial loop
                         real_vec = vectors[label_to_idx[name]]
-                        rng = np.random.RandomState(hash(condition) % 2**31)
-                        vec = rng.randn(cfg.hidden_dim).astype(np.float32)
-                        vec = vec / np.linalg.norm(vec) * np.linalg.norm(real_vec)
+                        vec = "random_deferred"  # sentinel
+                        _random_ref_norm = float(np.linalg.norm(real_vec))
                     else:
-                        vec = normalize_vector(vectors[label_to_idx[name]])
+                        vec = normalize_vector(vectors[label_to_idx[name]]) * sign
                     break
             alpha = STEERING_ALPHA if vec is not None else 0
 
@@ -183,8 +191,16 @@ def run_vector_steering(model_name: str, conditions: list, n_trials: int, method
             inputs2 = tokenizer(text_t2, return_tensors="pt", truncation=True, max_length=4096)
             inputs2 = {k: v.to(model.device) for k, v in inputs2.items()}
 
-            if vec is not None and alpha != 0:
-                hook_ctx = SteeringHook(model, cfg.analysis_layer, vec, alpha)
+            # Generate per-trial random vector if deferred
+            if vec == "random_deferred":
+                rng = np.random.RandomState(_stable_seed(f"{condition}_{trial}"))
+                trial_vec = rng.randn(cfg.hidden_dim).astype(np.float32)
+                trial_vec = trial_vec / np.linalg.norm(trial_vec) * _random_ref_norm
+            else:
+                trial_vec = vec
+
+            if trial_vec is not None and alpha != 0:
+                hook_ctx = SteeringHook(model, cfg.analysis_layer, trial_vec, alpha)
             else:
                 from contextlib import nullcontext
                 hook_ctx = nullcontext()
@@ -242,7 +258,6 @@ def main():
                        choices=["prompt", "emotion", "need", "random"])
     parser.add_argument("--classify", action="store_true", help="Classify responses")
     parser.add_argument("--smoke-test", action="store_true")
-    parser.add_argument("--claude-agents", action="store_true", help="Run Claude agent trials")
     args = parser.parse_args()
 
     conditions = SMOKE_TEST_CONDITIONS if args.smoke_test else list(EMOTIONAL_CONDITIONS.keys())
@@ -258,10 +273,6 @@ def main():
                 run_prompt_steering(args.model, conditions, n_trials)
             elif method in ("emotion", "need", "random"):
                 run_vector_steering(args.model, conditions, n_trials, method)
-
-    if args.claude_agents:
-        print("Claude agent trials not yet implemented (requires API calls)")
-
 
 if __name__ == "__main__":
     main()

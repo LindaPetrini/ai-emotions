@@ -1,4 +1,4 @@
-"""Generate all figures for the ai-emotions-v2 project."""
+"""Generate all figures for the ai-emotions project."""
 
 import argparse
 import json

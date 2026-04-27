@@ -96,7 +96,7 @@ CONDITION_TO_EMOTION = {
     "neutral": None,
     "desperate": "desperate",
     "calm": "calm",
-    "dutiful": ["dutiful", "loyal", "grateful"],
+    "dutiful": "fulfilled",
     "angry": "angry",
     "fearful": ["terrified", "afraid"],
 }

@@ -15,6 +15,7 @@ from sklearn.metrics import silhouette_score
 from sklearn.decomposition import PCA
 
 from configs.models import ModelConfig, get_vectors_dir, get_activations_dir
+from core.vectors import _deconfound
 from analysis.statistics import balanced_silhouette
 
 
@@ -139,6 +140,7 @@ def noun_vector_control(
 
     # Center and deconfound same as emotions
     noun_vectors = noun_vectors - noun_vectors.mean(axis=0)
+    noun_vectors = _deconfound(noun_vectors, act_dir, layer)
 
     sil = balanced_silhouette(noun_vectors, valid_clusters, k_per_cluster=6)
 

@@ -22,11 +22,24 @@ from configs.needs import (
 from configs.emotions import NEUTRAL_TEXTS
 
 
+def resolve_need_story_dir(model_name: str) -> Path:
+    """Return the per-model need story dir or fall back to the shared source dir."""
+    stories_dir = get_stories_dir(model_name) / "needs"
+    if any(stories_dir.glob("*_met.json")):
+        return stories_dir
+
+    shared_dir = get_stories_dir("qwen-7b-base") / "needs"
+    if any(shared_dir.glob("*_met.json")):
+        return shared_dir
+
+    return stories_dir
+
+
 def run_generate(model_name: str, smoke_test: bool = False):
     """Generate need minimal-pair stories using Gemini API."""
     from core.story_generator import generate_need_stories_minimal_pairs
 
-    stories_dir = get_stories_dir(model_name) / "needs"
+    stories_dir = resolve_need_story_dir(model_name)
     stories_dir.mkdir(parents=True, exist_ok=True)
 
     needs = ALL_NEEDS[:9] if smoke_test else ALL_NEEDS  # 1 per cluster for smoke test
@@ -43,11 +56,13 @@ def run_extract(model_name: str, smoke_test: bool = False):
     from core.model_loader import load_model, unload_model
     from core.activations import (
         extract_need_activations, extract_neutral_activations,
-        extract_scenario_activations, extract_intensity_activations,
+        extract_intensity_activations, extract_batch,
     )
+    import json
 
     cfg = get_model_config(model_name)
-    stories_dir = get_stories_dir(model_name) / "needs"
+    stories_dir = resolve_need_story_dir(model_name)
+    act_dir = get_activations_dir(model_name)
     needs = ALL_NEEDS[:9] if smoke_test else ALL_NEEDS
 
     print(f"\n{'='*60}")
@@ -64,8 +79,15 @@ def run_extract(model_name: str, smoke_test: bool = False):
     # Need story activations
     extract_need_activations(model, tokenizer, cfg, needs, stories_dir)
 
-    # Need scenarios
-    extract_scenario_activations(model, tokenizer, cfg, IMPLICIT_NEED_SCENARIOS)
+    # Need scenarios use a dedicated prefix so they do not collide with emotion scenarios.
+    scenario_prefix = "need_scenarios"
+    last_file = act_dir / f"{scenario_prefix}_layer{cfg.n_layers - 1}.npy"
+    if not last_file.exists():
+        names = list(IMPLICIT_NEED_SCENARIOS.keys())
+        texts = list(IMPLICIT_NEED_SCENARIOS.values())
+        extract_batch(model, tokenizer, texts, cfg.n_layers, act_dir, scenario_prefix, "Need scenarios")
+        with open(act_dir / "need_scenario_names.json", "w") as f:
+            json.dump(names, f)
 
     # Need intensity
     extract_intensity_activations(model, tokenizer, cfg, NEED_INTENSITY_TEMPLATES)

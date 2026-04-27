@@ -1,5 +1,5 @@
 """
-Emotion taxonomy, scenarios, templates, and activities for the ai-emotions-v2 pipeline.
+Emotion taxonomy, scenarios, templates, and activities for the ai-emotions pipeline.
 
 Ported from v1's config.py with additions for valence labeling.
 """

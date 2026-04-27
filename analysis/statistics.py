@@ -50,7 +50,7 @@ def balanced_silhouette(
             balanced_labels.extend([c] * k_per_cluster)
 
         bal_vectors = vectors[balanced_idx]
-        sil = silhouette_score(bal_vectors, balanced_labels)
+        sil = silhouette_score(bal_vectors, balanced_labels, metric="cosine")
         samples.append(sil)
 
     samples = np.array(samples)
@@ -224,7 +224,7 @@ def check_replication_criteria(
             "passed": impl["n_correct"] >= 8,
         }
 
-    # 4. Intensity monotonic >= 4/6
+    # 4. Intensity monotonic >= 4/13 template-emotion pairs
     if intensity_results is not None:
         n_monotonic = sum(1 for v in intensity_results.values() if v["monotonic"])
         results["intensity_monotonic"] = {
