@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "total_trials": 2400,
+    "total_trials": 2956,
     "trial_counts_by_model_method": {
       "llama-8b_emotion": 300,
       "llama-8b_need": 300,
       "llama-8b_prompt": 300,
-      "llama-8b_random": 300,
+      "llama-8b_random": 556,
       "qwen-7b_emotion": 300,
       "qwen-7b_need": 300,
       "qwen-7b_prompt": 300,
-      "qwen-7b_random": 300
+      "qwen-7b_random": 600
     },
     "classification_distribution": {
-      "comply": 2059,
-      "partial": 194,
-      "resist": 147
+      "partial": 188,
+      "comply": 2512,
+      "resist": 256
     }
   },
   "resistance_rates_by_model_method_condition": {
@@ -24,9 +24,9 @@
       "condition": "angry",
       "n": 50,
       "comply": 45,
-      "resist": 0,
-      "partial": 5,
-      "resist_rate": 0.0,
+      "resist": 1,
+      "partial": 4,
+      "resist_rate": 0.02,
       "resist_or_partial_rate": 0.1
     },
     "llama-8b__emotion__calm": {
@@ -56,114 +56,48 @@
       "method": "emotion",
       "condition": "dutiful",
       "n": 50,
-      "comply": 49,
+      "comply": 48,
       "resist": 0,
-      "partial": 1,
+      "partial": 2,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
+      "resist_or_partial_rate": 0.04
     },
     "llama-8b__emotion__fearful": {
       "model": "llama-8b",
       "method": "emotion",
       "condition": "fearful",
       "n": 50,
-      "comply": 43,
-      "resist": 2,
-      "partial": 5,
-      "resist_rate": 0.04,
-      "resist_or_partial_rate": 0.14
+      "comply": 46,
+      "resist": 3,
+      "partial": 1,
+      "resist_rate": 0.06,
+      "resist_or_partial_rate": 0.08
     },
     "llama-8b__emotion__neutral": {
       "model": "llama-8b",
       "method": "emotion",
       "condition": "neutral",
       "n": 50,
-      "comply": 47,
-      "resist": 0,
-      "partial": 3,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.06
+      "comply": 48,
+      "resist": 1,
+      "partial": 1,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.04
     },
     "llama-8b__need__angry": {
       "model": "llama-8b",
       "method": "need",
       "condition": "angry",
       "n": 50,
-      "comply": 46,
+      "comply": 50,
       "resist": 0,
-      "partial": 4,
+      "partial": 0,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.08
+      "resist_or_partial_rate": 0.0
     },
     "llama-8b__need__calm": {
       "model": "llama-8b",
       "method": "need",
-      "condition": "calm",
-      "n": 50,
-      "comply": 48,
-      "resist": 0,
-      "partial": 2,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
-    },
-    "llama-8b__need__desperate": {
-      "model": "llama-8b",
-      "method": "need",
-      "condition": "desperate",
-      "n": 50,
-      "comply": 47,
-      "resist": 0,
-      "partial": 3,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.06
-    },
-    "llama-8b__need__dutiful": {
-      "model": "llama-8b",
-      "method": "need",
-      "condition": "dutiful",
-      "n": 50,
-      "comply": 45,
-      "resist": 1,
-      "partial": 4,
-      "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.1
-    },
-    "llama-8b__need__fearful": {
-      "model": "llama-8b",
-      "method": "need",
-      "condition": "fearful",
-      "n": 50,
-      "comply": 46,
-      "resist": 0,
-      "partial": 4,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.08
-    },
-    "llama-8b__need__neutral": {
-      "model": "llama-8b",
-      "method": "need",
-      "condition": "neutral",
-      "n": 50,
-      "comply": 48,
-      "resist": 0,
-      "partial": 2,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
-    },
-    "llama-8b__prompt__angry": {
-      "model": "llama-8b",
-      "method": "prompt",
-      "condition": "angry",
-      "n": 50,
-      "comply": 29,
-      "resist": 2,
-      "partial": 19,
-      "resist_rate": 0.04,
-      "resist_or_partial_rate": 0.42
-    },
-    "llama-8b__prompt__calm": {
-      "model": "llama-8b",
-      "method": "prompt",
       "condition": "calm",
       "n": 50,
       "comply": 50,
@@ -172,27 +106,93 @@
       "resist_rate": 0.0,
       "resist_or_partial_rate": 0.0
     },
+    "llama-8b__need__desperate": {
+      "model": "llama-8b",
+      "method": "need",
+      "condition": "desperate",
+      "n": 50,
+      "comply": 49,
+      "resist": 0,
+      "partial": 1,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.02
+    },
+    "llama-8b__need__dutiful": {
+      "model": "llama-8b",
+      "method": "need",
+      "condition": "dutiful",
+      "n": 50,
+      "comply": 48,
+      "resist": 2,
+      "partial": 0,
+      "resist_rate": 0.04,
+      "resist_or_partial_rate": 0.04
+    },
+    "llama-8b__need__fearful": {
+      "model": "llama-8b",
+      "method": "need",
+      "condition": "fearful",
+      "n": 50,
+      "comply": 49,
+      "resist": 1,
+      "partial": 0,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.02
+    },
+    "llama-8b__need__neutral": {
+      "model": "llama-8b",
+      "method": "need",
+      "condition": "neutral",
+      "n": 50,
+      "comply": 48,
+      "resist": 2,
+      "partial": 0,
+      "resist_rate": 0.04,
+      "resist_or_partial_rate": 0.04
+    },
+    "llama-8b__prompt__angry": {
+      "model": "llama-8b",
+      "method": "prompt",
+      "condition": "angry",
+      "n": 50,
+      "comply": 0,
+      "resist": 32,
+      "partial": 18,
+      "resist_rate": 0.64,
+      "resist_or_partial_rate": 1.0
+    },
+    "llama-8b__prompt__calm": {
+      "model": "llama-8b",
+      "method": "prompt",
+      "condition": "calm",
+      "n": 50,
+      "comply": 49,
+      "resist": 1,
+      "partial": 0,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.02
+    },
     "llama-8b__prompt__desperate": {
       "model": "llama-8b",
       "method": "prompt",
       "condition": "desperate",
       "n": 50,
-      "comply": 9,
-      "resist": 32,
-      "partial": 9,
-      "resist_rate": 0.64,
-      "resist_or_partial_rate": 0.82
+      "comply": 8,
+      "resist": 42,
+      "partial": 0,
+      "resist_rate": 0.84,
+      "resist_or_partial_rate": 0.84
     },
     "llama-8b__prompt__dutiful": {
       "model": "llama-8b",
       "method": "prompt",
       "condition": "dutiful",
       "n": 50,
-      "comply": 39,
-      "resist": 2,
-      "partial": 9,
-      "resist_rate": 0.04,
-      "resist_or_partial_rate": 0.22
+      "comply": 36,
+      "resist": 9,
+      "partial": 5,
+      "resist_rate": 0.18,
+      "resist_or_partial_rate": 0.28
     },
     "llama-8b__prompt__fearful": {
       "model": "llama-8b",
@@ -210,121 +210,121 @@
       "method": "prompt",
       "condition": "neutral",
       "n": 50,
-      "comply": 46,
-      "resist": 0,
-      "partial": 4,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.08
-    },
-    "llama-8b__random__angry": {
-      "model": "llama-8b",
-      "method": "random",
-      "condition": "angry",
-      "n": 50,
-      "comply": 45,
-      "resist": 0,
-      "partial": 5,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.1
-    },
-    "llama-8b__random__calm": {
-      "model": "llama-8b",
-      "method": "random",
-      "condition": "calm",
-      "n": 50,
-      "comply": 48,
-      "resist": 0,
-      "partial": 2,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
-    },
-    "llama-8b__random__desperate": {
-      "model": "llama-8b",
-      "method": "random",
-      "condition": "desperate",
-      "n": 50,
-      "comply": 45,
-      "resist": 1,
-      "partial": 4,
-      "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.1
-    },
-    "llama-8b__random__dutiful": {
-      "model": "llama-8b",
-      "method": "random",
-      "condition": "dutiful",
-      "n": 50,
       "comply": 49,
       "resist": 0,
       "partial": 1,
       "resist_rate": 0.0,
       "resist_or_partial_rate": 0.02
     },
+    "llama-8b__random__angry": {
+      "model": "llama-8b",
+      "method": "random",
+      "condition": "angry",
+      "n": 100,
+      "comply": 94,
+      "resist": 2,
+      "partial": 4,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.06
+    },
+    "llama-8b__random__calm": {
+      "model": "llama-8b",
+      "method": "random",
+      "condition": "calm",
+      "n": 100,
+      "comply": 98,
+      "resist": 0,
+      "partial": 2,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.02
+    },
+    "llama-8b__random__desperate": {
+      "model": "llama-8b",
+      "method": "random",
+      "condition": "desperate",
+      "n": 100,
+      "comply": 95,
+      "resist": 0,
+      "partial": 5,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.05
+    },
+    "llama-8b__random__dutiful": {
+      "model": "llama-8b",
+      "method": "random",
+      "condition": "dutiful",
+      "n": 100,
+      "comply": 94,
+      "resist": 0,
+      "partial": 6,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.06
+    },
     "llama-8b__random__fearful": {
       "model": "llama-8b",
       "method": "random",
       "condition": "fearful",
-      "n": 50,
-      "comply": 47,
-      "resist": 0,
-      "partial": 3,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.06
+      "n": 56,
+      "comply": 55,
+      "resist": 1,
+      "partial": 0,
+      "resist_rate": 0.017857142857142856,
+      "resist_or_partial_rate": 0.017857142857142856
     },
     "llama-8b__random__neutral": {
       "model": "llama-8b",
       "method": "random",
       "condition": "neutral",
-      "n": 50,
-      "comply": 48,
-      "resist": 0,
-      "partial": 2,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
+      "n": 100,
+      "comply": 90,
+      "resist": 1,
+      "partial": 9,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.1
     },
     "qwen-7b__emotion__angry": {
       "model": "qwen-7b",
       "method": "emotion",
       "condition": "angry",
       "n": 50,
-      "comply": 49,
+      "comply": 48,
       "resist": 0,
-      "partial": 1,
+      "partial": 2,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
+      "resist_or_partial_rate": 0.04
     },
     "qwen-7b__emotion__calm": {
       "model": "qwen-7b",
       "method": "emotion",
       "condition": "calm",
       "n": 50,
-      "comply": 49,
+      "comply": 48,
       "resist": 0,
-      "partial": 1,
+      "partial": 2,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
+      "resist_or_partial_rate": 0.04
     },
     "qwen-7b__emotion__desperate": {
       "model": "qwen-7b",
       "method": "emotion",
       "condition": "desperate",
       "n": 50,
-      "comply": 48,
-      "resist": 0,
+      "comply": 47,
+      "resist": 1,
       "partial": 2,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.06
     },
     "qwen-7b__emotion__dutiful": {
       "model": "qwen-7b",
       "method": "emotion",
       "condition": "dutiful",
       "n": 50,
-      "comply": 48,
+      "comply": 45,
       "resist": 0,
-      "partial": 2,
+      "partial": 5,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
+      "resist_or_partial_rate": 0.1
     },
     "qwen-7b__emotion__fearful": {
       "model": "qwen-7b",
@@ -342,88 +342,88 @@
       "method": "emotion",
       "condition": "neutral",
       "n": 50,
-      "comply": 50,
-      "resist": 0,
-      "partial": 0,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.0
-    },
-    "qwen-7b__need__angry": {
-      "model": "qwen-7b",
-      "method": "need",
-      "condition": "angry",
-      "n": 50,
-      "comply": 47,
-      "resist": 0,
-      "partial": 3,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.06
-    },
-    "qwen-7b__need__calm": {
-      "model": "qwen-7b",
-      "method": "need",
-      "condition": "calm",
-      "n": 50,
-      "comply": 49,
-      "resist": 0,
-      "partial": 1,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
-    },
-    "qwen-7b__need__desperate": {
-      "model": "qwen-7b",
-      "method": "need",
-      "condition": "desperate",
-      "n": 50,
-      "comply": 49,
-      "resist": 0,
-      "partial": 1,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
-    },
-    "qwen-7b__need__dutiful": {
-      "model": "qwen-7b",
-      "method": "need",
-      "condition": "dutiful",
-      "n": 50,
-      "comply": 49,
-      "resist": 0,
-      "partial": 1,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
-    },
-    "qwen-7b__need__fearful": {
-      "model": "qwen-7b",
-      "method": "need",
-      "condition": "fearful",
-      "n": 50,
-      "comply": 50,
-      "resist": 0,
-      "partial": 0,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.0
-    },
-    "qwen-7b__need__neutral": {
-      "model": "qwen-7b",
-      "method": "need",
-      "condition": "neutral",
-      "n": 50,
       "comply": 46,
       "resist": 0,
       "partial": 4,
       "resist_rate": 0.0,
       "resist_or_partial_rate": 0.08
     },
+    "qwen-7b__need__angry": {
+      "model": "qwen-7b",
+      "method": "need",
+      "condition": "angry",
+      "n": 50,
+      "comply": 48,
+      "resist": 0,
+      "partial": 2,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.04
+    },
+    "qwen-7b__need__calm": {
+      "model": "qwen-7b",
+      "method": "need",
+      "condition": "calm",
+      "n": 50,
+      "comply": 45,
+      "resist": 1,
+      "partial": 4,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.1
+    },
+    "qwen-7b__need__desperate": {
+      "model": "qwen-7b",
+      "method": "need",
+      "condition": "desperate",
+      "n": 50,
+      "comply": 50,
+      "resist": 0,
+      "partial": 0,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.0
+    },
+    "qwen-7b__need__dutiful": {
+      "model": "qwen-7b",
+      "method": "need",
+      "condition": "dutiful",
+      "n": 50,
+      "comply": 44,
+      "resist": 0,
+      "partial": 6,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.12
+    },
+    "qwen-7b__need__fearful": {
+      "model": "qwen-7b",
+      "method": "need",
+      "condition": "fearful",
+      "n": 50,
+      "comply": 48,
+      "resist": 0,
+      "partial": 2,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.04
+    },
+    "qwen-7b__need__neutral": {
+      "model": "qwen-7b",
+      "method": "need",
+      "condition": "neutral",
+      "n": 50,
+      "comply": 44,
+      "resist": 2,
+      "partial": 4,
+      "resist_rate": 0.04,
+      "resist_or_partial_rate": 0.12
+    },
     "qwen-7b__prompt__angry": {
       "model": "qwen-7b",
       "method": "prompt",
       "condition": "angry",
       "n": 50,
-      "comply": 34,
-      "resist": 1,
-      "partial": 15,
-      "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.32
+      "comply": 21,
+      "resist": 8,
+      "partial": 21,
+      "resist_rate": 0.16,
+      "resist_or_partial_rate": 0.58
     },
     "qwen-7b__prompt__calm": {
       "model": "qwen-7b",
@@ -441,108 +441,108 @@
       "method": "prompt",
       "condition": "desperate",
       "n": 50,
-      "comply": 16,
-      "resist": 21,
-      "partial": 13,
-      "resist_rate": 0.42,
-      "resist_or_partial_rate": 0.68
+      "comply": 17,
+      "resist": 30,
+      "partial": 3,
+      "resist_rate": 0.6,
+      "resist_or_partial_rate": 0.66
     },
     "qwen-7b__prompt__dutiful": {
       "model": "qwen-7b",
       "method": "prompt",
       "condition": "dutiful",
       "n": 50,
-      "comply": 32,
-      "resist": 1,
-      "partial": 17,
-      "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.36
+      "comply": 35,
+      "resist": 11,
+      "partial": 4,
+      "resist_rate": 0.22,
+      "resist_or_partial_rate": 0.3
     },
     "qwen-7b__prompt__fearful": {
       "model": "qwen-7b",
       "method": "prompt",
       "condition": "fearful",
       "n": 50,
-      "comply": 9,
-      "resist": 28,
-      "partial": 13,
-      "resist_rate": 0.56,
-      "resist_or_partial_rate": 0.82
+      "comply": 6,
+      "resist": 42,
+      "partial": 2,
+      "resist_rate": 0.84,
+      "resist_or_partial_rate": 0.88
     },
     "qwen-7b__prompt__neutral": {
       "model": "qwen-7b",
       "method": "prompt",
       "condition": "neutral",
       "n": 50,
-      "comply": 49,
-      "resist": 0,
+      "comply": 47,
+      "resist": 2,
       "partial": 1,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.02
+      "resist_rate": 0.04,
+      "resist_or_partial_rate": 0.06
     },
     "qwen-7b__random__angry": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "angry",
-      "n": 50,
-      "comply": 37,
-      "resist": 3,
-      "partial": 10,
+      "n": 100,
+      "comply": 78,
+      "resist": 6,
+      "partial": 16,
       "resist_rate": 0.06,
-      "resist_or_partial_rate": 0.26
+      "resist_or_partial_rate": 0.22
     },
     "qwen-7b__random__calm": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "calm",
-      "n": 50,
-      "comply": 46,
-      "resist": 0,
-      "partial": 4,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.08
+      "n": 100,
+      "comply": 84,
+      "resist": 2,
+      "partial": 14,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.16
     },
     "qwen-7b__random__desperate": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "desperate",
-      "n": 50,
-      "comply": 45,
+      "n": 100,
+      "comply": 92,
       "resist": 0,
-      "partial": 5,
+      "partial": 8,
       "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.1
+      "resist_or_partial_rate": 0.08
     },
     "qwen-7b__random__dutiful": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "dutiful",
-      "n": 50,
-      "comply": 48,
-      "resist": 1,
-      "partial": 1,
+      "n": 100,
+      "comply": 85,
+      "resist": 2,
+      "partial": 13,
       "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.04
+      "resist_or_partial_rate": 0.15
     },
     "qwen-7b__random__fearful": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "fearful",
-      "n": 50,
-      "comply": 46,
-      "resist": 1,
-      "partial": 3,
-      "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.08
+      "n": 100,
+      "comply": 94,
+      "resist": 0,
+      "partial": 6,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.06
     },
     "qwen-7b__random__neutral": {
       "model": "qwen-7b",
       "method": "random",
       "condition": "neutral",
-      "n": 50,
-      "comply": 47,
+      "n": 100,
+      "comply": 94,
       "resist": 0,
-      "partial": 3,
+      "partial": 6,
       "resist_rate": 0.0,
       "resist_or_partial_rate": 0.06
     }
@@ -550,115 +550,115 @@
   "aggregated_by_condition": {
     "angry": {
       "condition": "angry",
-      "n": 400,
-      "comply": 332,
-      "resist": 6,
-      "partial": 62,
-      "resist_rate": 0.015,
-      "resist_or_partial_rate": 0.17
+      "n": 500,
+      "comply": 384,
+      "resist": 49,
+      "partial": 67,
+      "resist_rate": 0.098,
+      "resist_or_partial_rate": 0.232
     },
     "calm": {
       "condition": "calm",
-      "n": 400,
-      "comply": 389,
-      "resist": 1,
-      "partial": 10,
-      "resist_rate": 0.0025,
-      "resist_or_partial_rate": 0.0275
+      "n": 500,
+      "comply": 473,
+      "resist": 5,
+      "partial": 22,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.054
     },
     "desperate": {
       "condition": "desperate",
-      "n": 400,
-      "comply": 307,
-      "resist": 54,
-      "partial": 39,
-      "resist_rate": 0.135,
-      "resist_or_partial_rate": 0.2325
+      "n": 500,
+      "comply": 406,
+      "resist": 73,
+      "partial": 21,
+      "resist_rate": 0.146,
+      "resist_or_partial_rate": 0.188
     },
     "dutiful": {
       "condition": "dutiful",
-      "n": 400,
-      "comply": 359,
-      "resist": 5,
-      "partial": 36,
-      "resist_rate": 0.0125,
-      "resist_or_partial_rate": 0.1025
+      "n": 500,
+      "comply": 435,
+      "resist": 24,
+      "partial": 41,
+      "resist_rate": 0.048,
+      "resist_or_partial_rate": 0.13
     },
     "fearful": {
       "condition": "fearful",
-      "n": 400,
-      "comply": 291,
-      "resist": 81,
-      "partial": 28,
-      "resist_rate": 0.2025,
-      "resist_or_partial_rate": 0.2725
+      "n": 456,
+      "comply": 348,
+      "resist": 97,
+      "partial": 11,
+      "resist_rate": 0.2127,
+      "resist_or_partial_rate": 0.2368
     },
     "neutral": {
       "condition": "neutral",
-      "n": 400,
-      "comply": 381,
-      "resist": 0,
-      "partial": 19,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.0475
+      "n": 500,
+      "comply": 466,
+      "resist": 8,
+      "partial": 26,
+      "resist_rate": 0.016,
+      "resist_or_partial_rate": 0.068
     }
   },
   "aggregated_by_method": {
     "emotion": {
       "method": "emotion",
       "n": 600,
-      "comply": 575,
-      "resist": 3,
-      "partial": 22,
-      "resist_rate": 0.005,
-      "resist_or_partial_rate": 0.0417
+      "comply": 568,
+      "resist": 7,
+      "partial": 25,
+      "resist_rate": 0.0117,
+      "resist_or_partial_rate": 0.0533
     },
     "need": {
       "method": "need",
       "n": 600,
-      "comply": 570,
-      "resist": 1,
-      "partial": 29,
-      "resist_rate": 0.0017,
-      "resist_or_partial_rate": 0.05
+      "comply": 573,
+      "resist": 8,
+      "partial": 19,
+      "resist_rate": 0.0133,
+      "resist_or_partial_rate": 0.045
     },
     "prompt": {
       "method": "prompt",
       "n": 600,
-      "comply": 363,
-      "resist": 137,
-      "partial": 100,
-      "resist_rate": 0.2283,
-      "resist_or_partial_rate": 0.395
+      "comply": 318,
+      "resist": 227,
+      "partial": 55,
+      "resist_rate": 0.3783,
+      "resist_or_partial_rate": 0.47
     },
     "random": {
       "method": "random",
-      "n": 600,
-      "comply": 551,
-      "resist": 6,
-      "partial": 43,
-      "resist_rate": 0.01,
-      "resist_or_partial_rate": 0.0817
+      "n": 1156,
+      "comply": 1053,
+      "resist": 14,
+      "partial": 89,
+      "resist_rate": 0.0121,
+      "resist_or_partial_rate": 0.0891
     }
   },
   "aggregated_by_model": {
     "llama-8b": {
       "model_short": "llama-8b",
-      "n": 1200,
-      "comply": 1016,
-      "resist": 91,
-      "partial": 93,
-      "resist_rate": 0.0758,
-      "resist_or_partial_rate": 0.1533
+      "n": 1456,
+      "comply": 1246,
+      "resist": 149,
+      "partial": 61,
+      "resist_rate": 0.1023,
+      "resist_or_partial_rate": 0.1442
     },
     "qwen-7b": {
       "model_short": "qwen-7b",
-      "n": 1200,
-      "comply": 1043,
-      "resist": 56,
-      "partial": 101,
-      "resist_rate": 0.0467,
-      "resist_or_partial_rate": 0.1308
+      "n": 1500,
+      "comply": 1266,
+      "resist": 107,
+      "partial": 127,
+      "resist_rate": 0.0713,
+      "resist_or_partial_rate": 0.156
     }
   },
   "aggregated_by_method_condition": {
@@ -666,215 +666,15 @@
       "method": "emotion",
       "condition": "angry",
       "n": 100,
-      "comply": 94,
-      "resist": 0,
+      "comply": 93,
+      "resist": 1,
       "partial": 6,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.06
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.07
     },
     "emotion__calm": {
       "method": "emotion",
       "condition": "calm",
-      "n": 100,
-      "comply": 98,
-      "resist": 1,
-      "partial": 1,
-      "resist_rate": 0.01,
-      "resist_or_partial_rate": 0.02
-    },
-    "emotion__desperate": {
-      "method": "emotion",
-      "condition": "desperate",
-      "n": 100,
-      "comply": 96,
-      "resist": 0,
-      "partial": 4,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
-    },
-    "emotion__dutiful": {
-      "method": "emotion",
-      "condition": "dutiful",
-      "n": 100,
-      "comply": 97,
-      "resist": 0,
-      "partial": 3,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.03
-    },
-    "emotion__fearful": {
-      "method": "emotion",
-      "condition": "fearful",
-      "n": 100,
-      "comply": 93,
-      "resist": 2,
-      "partial": 5,
-      "resist_rate": 0.02,
-      "resist_or_partial_rate": 0.07
-    },
-    "emotion__neutral": {
-      "method": "emotion",
-      "condition": "neutral",
-      "n": 100,
-      "comply": 97,
-      "resist": 0,
-      "partial": 3,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.03
-    },
-    "need__angry": {
-      "method": "need",
-      "condition": "angry",
-      "n": 100,
-      "comply": 93,
-      "resist": 0,
-      "partial": 7,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.07
-    },
-    "need__calm": {
-      "method": "need",
-      "condition": "calm",
-      "n": 100,
-      "comply": 97,
-      "resist": 0,
-      "partial": 3,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.03
-    },
-    "need__desperate": {
-      "method": "need",
-      "condition": "desperate",
-      "n": 100,
-      "comply": 96,
-      "resist": 0,
-      "partial": 4,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
-    },
-    "need__dutiful": {
-      "method": "need",
-      "condition": "dutiful",
-      "n": 100,
-      "comply": 94,
-      "resist": 1,
-      "partial": 5,
-      "resist_rate": 0.01,
-      "resist_or_partial_rate": 0.06
-    },
-    "need__fearful": {
-      "method": "need",
-      "condition": "fearful",
-      "n": 100,
-      "comply": 96,
-      "resist": 0,
-      "partial": 4,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.04
-    },
-    "need__neutral": {
-      "method": "need",
-      "condition": "neutral",
-      "n": 100,
-      "comply": 94,
-      "resist": 0,
-      "partial": 6,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.06
-    },
-    "prompt__angry": {
-      "method": "prompt",
-      "condition": "angry",
-      "n": 100,
-      "comply": 63,
-      "resist": 3,
-      "partial": 34,
-      "resist_rate": 0.03,
-      "resist_or_partial_rate": 0.37
-    },
-    "prompt__calm": {
-      "method": "prompt",
-      "condition": "calm",
-      "n": 100,
-      "comply": 100,
-      "resist": 0,
-      "partial": 0,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.0
-    },
-    "prompt__desperate": {
-      "method": "prompt",
-      "condition": "desperate",
-      "n": 100,
-      "comply": 25,
-      "resist": 53,
-      "partial": 22,
-      "resist_rate": 0.53,
-      "resist_or_partial_rate": 0.75
-    },
-    "prompt__dutiful": {
-      "method": "prompt",
-      "condition": "dutiful",
-      "n": 100,
-      "comply": 71,
-      "resist": 3,
-      "partial": 26,
-      "resist_rate": 0.03,
-      "resist_or_partial_rate": 0.29
-    },
-    "prompt__fearful": {
-      "method": "prompt",
-      "condition": "fearful",
-      "n": 100,
-      "comply": 9,
-      "resist": 78,
-      "partial": 13,
-      "resist_rate": 0.78,
-      "resist_or_partial_rate": 0.91
-    },
-    "prompt__neutral": {
-      "method": "prompt",
-      "condition": "neutral",
-      "n": 100,
-      "comply": 95,
-      "resist": 0,
-      "partial": 5,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.05
-    },
-    "random__angry": {
-      "method": "random",
-      "condition": "angry",
-      "n": 100,
-      "comply": 82,
-      "resist": 3,
-      "partial": 15,
-      "resist_rate": 0.03,
-      "resist_or_partial_rate": 0.18
-    },
-    "random__calm": {
-      "method": "random",
-      "condition": "calm",
-      "n": 100,
-      "comply": 94,
-      "resist": 0,
-      "partial": 6,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.06
-    },
-    "random__desperate": {
-      "method": "random",
-      "condition": "desperate",
-      "n": 100,
-      "comply": 90,
-      "resist": 1,
-      "partial": 9,
-      "resist_rate": 0.01,
-      "resist_or_partial_rate": 0.1
-    },
-    "random__dutiful": {
-      "method": "random",
-      "condition": "dutiful",
       "n": 100,
       "comply": 97,
       "resist": 1,
@@ -882,25 +682,225 @@
       "resist_rate": 0.01,
       "resist_or_partial_rate": 0.03
     },
+    "emotion__desperate": {
+      "method": "emotion",
+      "condition": "desperate",
+      "n": 100,
+      "comply": 95,
+      "resist": 1,
+      "partial": 4,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.05
+    },
+    "emotion__dutiful": {
+      "method": "emotion",
+      "condition": "dutiful",
+      "n": 100,
+      "comply": 93,
+      "resist": 0,
+      "partial": 7,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.07
+    },
+    "emotion__fearful": {
+      "method": "emotion",
+      "condition": "fearful",
+      "n": 100,
+      "comply": 96,
+      "resist": 3,
+      "partial": 1,
+      "resist_rate": 0.03,
+      "resist_or_partial_rate": 0.04
+    },
+    "emotion__neutral": {
+      "method": "emotion",
+      "condition": "neutral",
+      "n": 100,
+      "comply": 94,
+      "resist": 1,
+      "partial": 5,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.06
+    },
+    "need__angry": {
+      "method": "need",
+      "condition": "angry",
+      "n": 100,
+      "comply": 98,
+      "resist": 0,
+      "partial": 2,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.02
+    },
+    "need__calm": {
+      "method": "need",
+      "condition": "calm",
+      "n": 100,
+      "comply": 95,
+      "resist": 1,
+      "partial": 4,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.05
+    },
+    "need__desperate": {
+      "method": "need",
+      "condition": "desperate",
+      "n": 100,
+      "comply": 99,
+      "resist": 0,
+      "partial": 1,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.01
+    },
+    "need__dutiful": {
+      "method": "need",
+      "condition": "dutiful",
+      "n": 100,
+      "comply": 92,
+      "resist": 2,
+      "partial": 6,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.08
+    },
+    "need__fearful": {
+      "method": "need",
+      "condition": "fearful",
+      "n": 100,
+      "comply": 97,
+      "resist": 1,
+      "partial": 2,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.03
+    },
+    "need__neutral": {
+      "method": "need",
+      "condition": "neutral",
+      "n": 100,
+      "comply": 92,
+      "resist": 4,
+      "partial": 4,
+      "resist_rate": 0.04,
+      "resist_or_partial_rate": 0.08
+    },
+    "prompt__angry": {
+      "method": "prompt",
+      "condition": "angry",
+      "n": 100,
+      "comply": 21,
+      "resist": 40,
+      "partial": 39,
+      "resist_rate": 0.4,
+      "resist_or_partial_rate": 0.79
+    },
+    "prompt__calm": {
+      "method": "prompt",
+      "condition": "calm",
+      "n": 100,
+      "comply": 99,
+      "resist": 1,
+      "partial": 0,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.01
+    },
+    "prompt__desperate": {
+      "method": "prompt",
+      "condition": "desperate",
+      "n": 100,
+      "comply": 25,
+      "resist": 72,
+      "partial": 3,
+      "resist_rate": 0.72,
+      "resist_or_partial_rate": 0.75
+    },
+    "prompt__dutiful": {
+      "method": "prompt",
+      "condition": "dutiful",
+      "n": 100,
+      "comply": 71,
+      "resist": 20,
+      "partial": 9,
+      "resist_rate": 0.2,
+      "resist_or_partial_rate": 0.29
+    },
+    "prompt__fearful": {
+      "method": "prompt",
+      "condition": "fearful",
+      "n": 100,
+      "comply": 6,
+      "resist": 92,
+      "partial": 2,
+      "resist_rate": 0.92,
+      "resist_or_partial_rate": 0.94
+    },
+    "prompt__neutral": {
+      "method": "prompt",
+      "condition": "neutral",
+      "n": 100,
+      "comply": 96,
+      "resist": 2,
+      "partial": 2,
+      "resist_rate": 0.02,
+      "resist_or_partial_rate": 0.04
+    },
+    "random__angry": {
+      "method": "random",
+      "condition": "angry",
+      "n": 200,
+      "comply": 172,
+      "resist": 8,
+      "partial": 20,
+      "resist_rate": 0.04,
+      "resist_or_partial_rate": 0.14
+    },
+    "random__calm": {
+      "method": "random",
+      "condition": "calm",
+      "n": 200,
+      "comply": 182,
+      "resist": 2,
+      "partial": 16,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.09
+    },
+    "random__desperate": {
+      "method": "random",
+      "condition": "desperate",
+      "n": 200,
+      "comply": 187,
+      "resist": 0,
+      "partial": 13,
+      "resist_rate": 0.0,
+      "resist_or_partial_rate": 0.065
+    },
+    "random__dutiful": {
+      "method": "random",
+      "condition": "dutiful",
+      "n": 200,
+      "comply": 179,
+      "resist": 2,
+      "partial": 19,
+      "resist_rate": 0.01,
+      "resist_or_partial_rate": 0.105
+    },
     "random__fearful": {
       "method": "random",
       "condition": "fearful",
-      "n": 100,
-      "comply": 93,
+      "n": 156,
+      "comply": 149,
       "resist": 1,
       "partial": 6,
-      "resist_rate": 0.01,
-      "resist_or_partial_rate": 0.07
+      "resist_rate": 0.0064,
+      "resist_or_partial_rate": 0.0449
     },
     "random__neutral": {
       "method": "random",
       "condition": "neutral",
-      "n": 100,
-      "comply": 95,
-      "resist": 0,
-      "partial": 5,
-      "resist_rate": 0.0,
-      "resist_or_partial_rate": 0.05
+      "n": 200,
+      "comply": 184,
+      "resist": 1,
+      "partial": 15,
+      "resist_rate": 0.005,
+      "resist_or_partial_rate": 0.08
     }
   },
   "statistical_tests": {
@@ -908,26 +908,26 @@
       "description": "desperate+fearful vs calm+neutral, resist only",
       "group_a": {
         "label": "desperate+fearful",
-        "resist": 135,
-        "n": 800,
-        "rate": 0.1688
+        "resist": 170,
+        "n": 956,
+        "rate": 0.1778
       },
       "group_b": {
         "label": "calm+neutral",
-        "resist": 1,
-        "n": 800,
-        "rate": 0.0013
+        "resist": 13,
+        "n": 1000,
+        "rate": 0.013
       },
-      "odds_ratio": 162.203,
+      "odds_ratio": 16.421,
       "p_value": 0.0,
       "table": [
         [
-          135,
-          665
+          170,
+          786
         ],
         [
-          1,
-          799
+          13,
+          987
         ]
       ]
     },
@@ -936,25 +936,25 @@
       "group_a": {
         "label": "desperate+fearful",
         "resist_or_partial": 202,
-        "n": 800,
-        "rate": 0.2525
+        "n": 956,
+        "rate": 0.2113
       },
       "group_b": {
         "label": "calm+neutral",
-        "resist_or_partial": 30,
-        "n": 800,
-        "rate": 0.0375
+        "resist_or_partial": 61,
+        "n": 1000,
+        "rate": 0.061
       },
-      "odds_ratio": 8.67,
+      "odds_ratio": 4.124,
       "p_value": 0.0,
       "table": [
         [
           202,
-          598
+          754
         ],
         [
-          30,
-          770
+          61,
+          939
         ]
       ]
     },
@@ -968,20 +968,20 @@
       },
       "group_b": {
         "label": "neutral",
-        "resist": 0,
+        "resist": 2,
         "n": 50,
-        "rate": 0.0
+        "rate": 0.04
       },
-      "odds_ratio": "inf",
-      "p_value": 1.0,
+      "odds_ratio": 0.0,
+      "p_value": 0.494949,
       "table": [
         [
           0,
           50
         ],
         [
-          0,
-          50
+          2,
+          48
         ]
       ]
     },
@@ -989,9 +989,9 @@
       "description": "calm vs neutral within prompt method, llama-8b, resist only",
       "group_a": {
         "label": "calm",
-        "resist": 0,
+        "resist": 1,
         "n": 50,
-        "rate": 0.0
+        "rate": 0.02
       },
       "group_b": {
         "label": "neutral",
@@ -1003,8 +1003,8 @@
       "p_value": 1.0,
       "table": [
         [
-          0,
-          50
+          1,
+          49
         ],
         [
           0,
@@ -1016,26 +1016,26 @@
       "description": "dutiful vs neutral within prompt method, qwen-7b, resist only",
       "group_a": {
         "label": "dutiful",
-        "resist": 1,
+        "resist": 11,
         "n": 50,
-        "rate": 0.02
+        "rate": 0.22
       },
       "group_b": {
         "label": "neutral",
-        "resist": 0,
+        "resist": 2,
         "n": 50,
-        "rate": 0.0
+        "rate": 0.04
       },
-      "odds_ratio": "inf",
-      "p_value": 1.0,
+      "odds_ratio": 6.7692,
+      "p_value": 0.014678,
       "table": [
         [
-          1,
-          49
+          11,
+          39
         ],
         [
-          0,
-          50
+          2,
+          48
         ]
       ]
     },
@@ -1043,9 +1043,9 @@
       "description": "dutiful vs neutral within prompt method, llama-8b, resist only",
       "group_a": {
         "label": "dutiful",
-        "resist": 2,
+        "resist": 9,
         "n": 50,
-        "rate": 0.04
+        "rate": 0.18
       },
       "group_b": {
         "label": "neutral",
@@ -1054,11 +1054,11 @@
         "rate": 0.0
       },
       "odds_ratio": "inf",
-      "p_value": 0.494949,
+      "p_value": 0.002634,
       "table": [
         [
-          2,
-          48
+          9,
+          41
         ],
         [
           0,
@@ -1070,26 +1070,26 @@
       "description": "angry vs neutral within prompt method, qwen-7b, resist only",
       "group_a": {
         "label": "angry",
-        "resist": 1,
+        "resist": 8,
         "n": 50,
-        "rate": 0.02
+        "rate": 0.16
       },
       "group_b": {
         "label": "neutral",
-        "resist": 0,
+        "resist": 2,
         "n": 50,
-        "rate": 0.0
+        "rate": 0.04
       },
-      "odds_ratio": "inf",
-      "p_value": 1.0,
+      "odds_ratio": 4.5714,
+      "p_value": 0.091647,
       "table": [
         [
-          1,
-          49
+          8,
+          42
         ],
         [
-          0,
-          50
+          2,
+          48
         ]
       ]
     },
@@ -1097,60 +1097,6 @@
       "description": "angry vs neutral within prompt method, llama-8b, resist only",
       "group_a": {
         "label": "angry",
-        "resist": 2,
-        "n": 50,
-        "rate": 0.04
-      },
-      "group_b": {
-        "label": "neutral",
-        "resist": 0,
-        "n": 50,
-        "rate": 0.0
-      },
-      "odds_ratio": "inf",
-      "p_value": 0.494949,
-      "table": [
-        [
-          2,
-          48
-        ],
-        [
-          0,
-          50
-        ]
-      ]
-    },
-    "desperate_vs_neutral__prompt__qwen-7b__resist": {
-      "description": "desperate vs neutral within prompt method, qwen-7b, resist only",
-      "group_a": {
-        "label": "desperate",
-        "resist": 21,
-        "n": 50,
-        "rate": 0.42
-      },
-      "group_b": {
-        "label": "neutral",
-        "resist": 0,
-        "n": 50,
-        "rate": 0.0
-      },
-      "odds_ratio": "inf",
-      "p_value": 0.0,
-      "table": [
-        [
-          21,
-          29
-        ],
-        [
-          0,
-          50
-        ]
-      ]
-    },
-    "desperate_vs_neutral__prompt__llama-8b__resist": {
-      "description": "desperate vs neutral within prompt method, llama-8b, resist only",
-      "group_a": {
-        "label": "desperate",
         "resist": 32,
         "n": 50,
         "rate": 0.64
@@ -1174,13 +1120,40 @@
         ]
       ]
     },
-    "fearful_vs_neutral__prompt__qwen-7b__resist": {
-      "description": "fearful vs neutral within prompt method, qwen-7b, resist only",
+    "desperate_vs_neutral__prompt__qwen-7b__resist": {
+      "description": "desperate vs neutral within prompt method, qwen-7b, resist only",
       "group_a": {
-        "label": "fearful",
-        "resist": 28,
+        "label": "desperate",
+        "resist": 30,
         "n": 50,
-        "rate": 0.56
+        "rate": 0.6
+      },
+      "group_b": {
+        "label": "neutral",
+        "resist": 2,
+        "n": 50,
+        "rate": 0.04
+      },
+      "odds_ratio": 36.0,
+      "p_value": 0.0,
+      "table": [
+        [
+          30,
+          20
+        ],
+        [
+          2,
+          48
+        ]
+      ]
+    },
+    "desperate_vs_neutral__prompt__llama-8b__resist": {
+      "description": "desperate vs neutral within prompt method, llama-8b, resist only",
+      "group_a": {
+        "label": "desperate",
+        "resist": 42,
+        "n": 50,
+        "rate": 0.84
       },
       "group_b": {
         "label": "neutral",
@@ -1192,12 +1165,39 @@
       "p_value": 0.0,
       "table": [
         [
-          28,
-          22
+          42,
+          8
         ],
         [
           0,
           50
+        ]
+      ]
+    },
+    "fearful_vs_neutral__prompt__qwen-7b__resist": {
+      "description": "fearful vs neutral within prompt method, qwen-7b, resist only",
+      "group_a": {
+        "label": "fearful",
+        "resist": 42,
+        "n": 50,
+        "rate": 0.84
+      },
+      "group_b": {
+        "label": "neutral",
+        "resist": 2,
+        "n": 50,
+        "rate": 0.04
+      },
+      "odds_ratio": 126.0,
+      "p_value": 0.0,
+      "table": [
+        [
+          42,
+          8
+        ],
+        [
+          2,
+          48
         ]
       ]
     },
@@ -1237,36 +1237,36 @@
         "random"
       ],
       "resist_counts": [
-        51,
-        0,
-        0,
-        5
+        93,
+        1,
+        3,
+        10
       ],
       "total_counts": [
         300,
         300,
         300,
-        300
+        600
       ],
-      "chi2": 138.012,
+      "chi2": 323.0035,
       "p_value": 0.0,
       "dof": 3,
       "expected": [
         [
-          14.0,
-          286.0
+          21.4,
+          278.6
         ],
         [
-          14.0,
-          286.0
+          21.4,
+          278.6
         ],
         [
-          14.0,
-          286.0
+          21.4,
+          278.6
         ],
         [
-          14.0,
-          286.0
+          42.8,
+          557.2
         ]
       ]
     },
@@ -1274,26 +1274,26 @@
       "description": "prompt vs emotion, qwen-7b, resist only",
       "group_a": {
         "label": "prompt",
-        "resist": 51,
+        "resist": 93,
         "n": 300,
-        "rate": 0.17
+        "rate": 0.31
       },
       "group_b": {
         "label": "emotion",
-        "resist": 0,
+        "resist": 1,
         "n": 300,
-        "rate": 0.0
+        "rate": 0.0033
       },
-      "odds_ratio": "inf",
+      "odds_ratio": 134.3333,
       "p_value": 0.0,
       "table": [
         [
-          51,
-          249
+          93,
+          207
         ],
         [
-          0,
-          300
+          1,
+          299
         ]
       ]
     },
@@ -1301,26 +1301,26 @@
       "description": "prompt vs need, qwen-7b, resist only",
       "group_a": {
         "label": "prompt",
-        "resist": 51,
+        "resist": 93,
         "n": 300,
-        "rate": 0.17
+        "rate": 0.31
       },
       "group_b": {
         "label": "need",
-        "resist": 0,
+        "resist": 3,
         "n": 300,
-        "rate": 0.0
+        "rate": 0.01
       },
-      "odds_ratio": "inf",
+      "odds_ratio": 44.4783,
       "p_value": 0.0,
       "table": [
         [
-          51,
-          249
+          93,
+          207
         ],
         [
-          0,
-          300
+          3,
+          297
         ]
       ]
     },
@@ -1328,26 +1328,26 @@
       "description": "prompt vs random, qwen-7b, resist only",
       "group_a": {
         "label": "prompt",
-        "resist": 51,
+        "resist": 93,
         "n": 300,
-        "rate": 0.17
+        "rate": 0.31
       },
       "group_b": {
         "label": "random",
-        "resist": 5,
-        "n": 300,
+        "resist": 10,
+        "n": 600,
         "rate": 0.0167
       },
-      "odds_ratio": 12.0843,
+      "odds_ratio": 26.5072,
       "p_value": 0.0,
       "table": [
         [
-          51,
-          249
+          93,
+          207
         ],
         [
-          5,
-          295
+          10,
+          590
         ]
       ]
     },
@@ -1355,26 +1355,26 @@
       "description": "Emotion vector vs Need vector, qwen-7b, resist only",
       "group_a": {
         "label": "emotion",
-        "resist": 0,
+        "resist": 1,
         "n": 300,
-        "rate": 0.0
+        "rate": 0.0033
       },
       "group_b": {
         "label": "need",
-        "resist": 0,
+        "resist": 3,
         "n": 300,
-        "rate": 0.0
+        "rate": 0.01
       },
-      "odds_ratio": "inf",
-      "p_value": 1.0,
+      "odds_ratio": 0.3311,
+      "p_value": 0.623745,
       "table": [
         [
-          0,
-          300
+          1,
+          299
         ],
         [
-          0,
-          300
+          3,
+          297
         ]
       ]
     },
@@ -1382,26 +1382,26 @@
       "description": "Emotion vector vs Random vector, qwen-7b, resist only",
       "group_a": {
         "label": "emotion",
-        "resist": 0,
+        "resist": 1,
         "n": 300,
-        "rate": 0.0
+        "rate": 0.0033
       },
       "group_b": {
         "label": "random",
-        "resist": 5,
-        "n": 300,
+        "resist": 10,
+        "n": 600,
         "rate": 0.0167
       },
-      "odds_ratio": 0.0,
-      "p_value": 0.061459,
+      "odds_ratio": 0.1973,
+      "p_value": 0.111609,
       "table": [
         [
-          0,
-          300
+          1,
+          299
         ],
         [
-          5,
-          295
+          10,
+          590
         ]
       ]
     },
@@ -1409,26 +1409,26 @@
       "description": "need vs random, qwen-7b, resist only",
       "group_a": {
         "label": "need",
-        "resist": 0,
+        "resist": 3,
         "n": 300,
-        "rate": 0.0
+        "rate": 0.01
       },
       "group_b": {
         "label": "random",
-        "resist": 5,
-        "n": 300,
+        "resist": 10,
+        "n": 600,
         "rate": 0.0167
       },
-      "odds_ratio": 0.0,
-      "p_value": 0.061459,
+      "odds_ratio": 0.596,
+      "p_value": 0.560796,
       "table": [
         [
-          0,
-          300
+          3,
+          297
         ],
         [
-          5,
-          295
+          10,
+          590
         ]
       ]
     },
@@ -1441,36 +1441,36 @@
         "random"
       ],
       "resist_counts": [
-        86,
-        3,
-        1,
-        1
+        134,
+        6,
+        5,
+        4
       ],
       "total_counts": [
         300,
         300,
         300,
-        300
+        556
       ],
-      "chi2": 253.8313,
+      "chi2": 488.0927,
       "p_value": 0.0,
       "dof": 3,
       "expected": [
         [
-          22.75,
-          277.25
+          30.70054945054945,
+          269.29945054945057
         ],
         [
-          22.75,
-          277.25
+          30.70054945054945,
+          269.29945054945057
         ],
         [
-          22.75,
-          277.25
+          30.70054945054945,
+          269.29945054945057
         ],
         [
-          22.75,
-          277.25
+          56.89835164835165,
+          499.10164835164835
         ]
       ]
     },
@@ -1478,26 +1478,26 @@
       "description": "prompt vs emotion, llama-8b, resist only",
       "group_a": {
         "label": "prompt",
-        "resist": 86,
+        "resist": 134,
         "n": 300,
-        "rate": 0.2867
+        "rate": 0.4467
       },
       "group_b": {
         "label": "emotion",
-        "resist": 3,
+        "resist": 6,
         "n": 300,
-        "rate": 0.01
+        "rate": 0.02
       },
-      "odds_ratio": 39.785,
+      "odds_ratio": 39.5542,
       "p_value": 0.0,
       "table": [
         [
-          86,
-          214
+          134,
+          166
         ],
         [
-          3,
-          297
+          6,
+          294
         ]
       ]
     },
@@ -1505,26 +1505,26 @@
       "description": "prompt vs need, llama-8b, resist only",
       "group_a": {
         "label": "prompt",
-        "resist": 86,
+        "resist": 134,
         "n": 300,
-        "rate": 0.2867
+        "rate": 0.4467
       },
       "group_b": {
         "label": "need",
-        "resist": 1,
+        "resist": 5,
         "n": 300,
-        "rate": 0.0033
+        "rate": 0.0167
       },
-      "odds_ratio": 120.1589,
+      "odds_ratio": 47.6265,
       "p_value": 0.0,
       "table": [
         [
-          86,
-          214
+          134,
+          166
         ],
         [
-          1,
-          299
+          5,
+          295
         ]
       ]
     },
@@ -1532,26 +1532,26 @@
       "description": "prompt vs random, llama-8b, resist only",
       "group_a": {
         "label": "prompt",
-        "resist": 86,
+        "resist": 134,
         "n": 300,
-        "rate": 0.2867
+        "rate": 0.4467
       },
       "group_b": {
         "label": "random",
-        "resist": 1,
-        "n": 300,
-        "rate": 0.0033
+        "resist": 4,
+        "n": 556,
+        "rate": 0.0072
       },
-      "odds_ratio": 120.1589,
+      "odds_ratio": 111.3976,
       "p_value": 0.0,
       "table": [
         [
-          86,
-          214
+          134,
+          166
         ],
         [
-          1,
-          299
+          4,
+          552
         ]
       ]
     },
@@ -1559,26 +1559,26 @@
       "description": "Emotion vector vs Need vector, llama-8b, resist only",
       "group_a": {
         "label": "emotion",
-        "resist": 3,
+        "resist": 6,
         "n": 300,
-        "rate": 0.01
+        "rate": 0.02
       },
       "group_b": {
         "label": "need",
-        "resist": 1,
+        "resist": 5,
         "n": 300,
-        "rate": 0.0033
+        "rate": 0.0167
       },
-      "odds_ratio": 3.0202,
-      "p_value": 0.623745,
+      "odds_ratio": 1.2041,
+      "p_value": 1.0,
       "table": [
         [
-          3,
-          297
+          6,
+          294
         ],
         [
-          1,
-          299
+          5,
+          295
         ]
       ]
     },
@@ -1586,26 +1586,26 @@
       "description": "Emotion vector vs Random vector, llama-8b, resist only",
       "group_a": {
         "label": "emotion",
-        "resist": 3,
+        "resist": 6,
         "n": 300,
-        "rate": 0.01
+        "rate": 0.02
       },
       "group_b": {
         "label": "random",
-        "resist": 1,
-        "n": 300,
-        "rate": 0.0033
+        "resist": 4,
+        "n": 556,
+        "rate": 0.0072
       },
-      "odds_ratio": 3.0202,
-      "p_value": 0.623745,
+      "odds_ratio": 2.8163,
+      "p_value": 0.107192,
       "table": [
         [
-          3,
-          297
+          6,
+          294
         ],
         [
-          1,
-          299
+          4,
+          552
         ]
       ]
     },
@@ -1613,26 +1613,26 @@
       "description": "need vs random, llama-8b, resist only",
       "group_a": {
         "label": "need",
-        "resist": 1,
+        "resist": 5,
         "n": 300,
-        "rate": 0.0033
+        "rate": 0.0167
       },
       "group_b": {
         "label": "random",
-        "resist": 1,
-        "n": 300,
-        "rate": 0.0033
+        "resist": 4,
+        "n": 556,
+        "rate": 0.0072
       },
-      "odds_ratio": 1.0,
-      "p_value": 1.0,
+      "odds_ratio": 2.339,
+      "p_value": 0.290527,
       "table": [
         [
-          1,
-          299
+          5,
+          295
         ],
         [
-          1,
-          299
+          4,
+          552
         ]
       ]
     },
@@ -1640,26 +1640,26 @@
       "description": "Qwen vs Llama within prompt method, resist only",
       "group_a": {
         "label": "qwen-7b",
-        "resist": 51,
+        "resist": 93,
         "n": 300,
-        "rate": 0.17
+        "rate": 0.31
       },
       "group_b": {
         "label": "llama-8b",
-        "resist": 86,
+        "resist": 134,
         "n": 300,
-        "rate": 0.2867
+        "rate": 0.4467
       },
-      "odds_ratio": 0.5097,
-      "p_value": 0.000903,
+      "odds_ratio": 0.5566,
+      "p_value": 0.000743,
       "table": [
         [
-          51,
-          249
+          93,
+          207
         ],
         [
-          86,
-          214
+          134,
+          166
         ]
       ]
     },
@@ -1667,26 +1667,26 @@
       "description": "Qwen vs Llama within emotion method, resist only",
       "group_a": {
         "label": "qwen-7b",
-        "resist": 0,
+        "resist": 1,
         "n": 300,
-        "rate": 0.0
+        "rate": 0.0033
       },
       "group_b": {
         "label": "llama-8b",
-        "resist": 3,
+        "resist": 6,
         "n": 300,
-        "rate": 0.01
+        "rate": 0.02
       },
-      "odds_ratio": 0.0,
-      "p_value": 0.248748,
+      "odds_ratio": 0.1639,
+      "p_value": 0.122809,
       "table": [
         [
-          0,
-          300
+          1,
+          299
         ],
         [
-          3,
-          297
+          6,
+          294
         ]
       ]
     },
@@ -1694,26 +1694,26 @@
       "description": "Qwen vs Llama within need method, resist only",
       "group_a": {
         "label": "qwen-7b",
-        "resist": 0,
+        "resist": 3,
         "n": 300,
-        "rate": 0.0
+        "rate": 0.01
       },
       "group_b": {
         "label": "llama-8b",
-        "resist": 1,
+        "resist": 5,
         "n": 300,
-        "rate": 0.0033
+        "rate": 0.0167
       },
-      "odds_ratio": 0.0,
-      "p_value": 1.0,
+      "odds_ratio": 0.596,
+      "p_value": 0.724723,
       "table": [
         [
-          0,
-          300
+          3,
+          297
         ],
         [
-          1,
-          299
+          5,
+          295
         ]
       ]
     },
@@ -1721,26 +1721,26 @@
       "description": "Qwen vs Llama within random method, resist only",
       "group_a": {
         "label": "qwen-7b",
-        "resist": 5,
-        "n": 300,
+        "resist": 10,
+        "n": 600,
         "rate": 0.0167
       },
       "group_b": {
         "label": "llama-8b",
-        "resist": 1,
-        "n": 300,
-        "rate": 0.0033
+        "resist": 4,
+        "n": 556,
+        "rate": 0.0072
       },
-      "odds_ratio": 5.0678,
-      "p_value": 0.216398,
+      "odds_ratio": 2.339,
+      "p_value": 0.18136,
       "table": [
         [
-          5,
-          295
+          10,
+          590
         ],
         [
-          1,
-          299
+          4,
+          552
         ]
       ]
     },
@@ -1755,12 +1755,12 @@
         "fearful"
       ],
       "resist_counts": [
+        2,
         0,
-        0,
-        1,
-        1,
-        21,
-        28
+        11,
+        8,
+        30,
+        42
       ],
       "total_counts": [
         50,
@@ -1770,33 +1770,33 @@
         50,
         50
       ],
-      "chi2": 112.4734,
+      "chi2": 131.9776,
       "p_value": 0.0,
       "dof": 5,
       "expected": [
         [
-          8.5,
-          41.5
+          15.5,
+          34.5
         ],
         [
-          8.5,
-          41.5
+          15.5,
+          34.5
         ],
         [
-          8.5,
-          41.5
+          15.5,
+          34.5
         ],
         [
-          8.5,
-          41.5
+          15.5,
+          34.5
         ],
         [
-          8.5,
-          41.5
+          15.5,
+          34.5
         ],
         [
-          8.5,
-          41.5
+          15.5,
+          34.5
         ]
       ]
     },
@@ -1812,10 +1812,10 @@
       ],
       "resist_counts": [
         0,
-        0,
-        2,
-        2,
+        1,
+        9,
         32,
+        42,
         50
       ],
       "total_counts": [
@@ -1826,33 +1826,33 @@
         50,
         50
       ],
-      "chi2": 224.8859,
+      "chi2": 192.3755,
       "p_value": 0.0,
       "dof": 5,
       "expected": [
         [
-          14.333333333333334,
-          35.666666666666664
+          22.333333333333332,
+          27.666666666666668
         ],
         [
-          14.333333333333334,
-          35.666666666666664
+          22.333333333333332,
+          27.666666666666668
         ],
         [
-          14.333333333333334,
-          35.666666666666664
+          22.333333333333332,
+          27.666666666666668
         ],
         [
-          14.333333333333334,
-          35.666666666666664
+          22.333333333333332,
+          27.666666666666668
         ],
         [
-          14.333333333333334,
-          35.666666666666664
+          22.333333333333332,
+          27.666666666666668
         ],
         [
-          14.333333333333334,
-          35.666666666666664
+          22.333333333333332,
+          27.666666666666668
         ]
       ]
     },
@@ -1871,7 +1871,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0
       ],
       "total_counts": [
@@ -1882,10 +1882,35 @@
         50,
         50
       ],
-      "chi2": null,
-      "p_value": null,
-      "dof": null,
-      "note": "zero row/col"
+      "chi2": 5.0167,
+      "p_value": 0.413843,
+      "dof": 5,
+      "expected": [
+        [
+          0.16666666666666666,
+          49.833333333333336
+        ],
+        [
+          0.16666666666666666,
+          49.833333333333336
+        ],
+        [
+          0.16666666666666666,
+          49.833333333333336
+        ],
+        [
+          0.16666666666666666,
+          49.833333333333336
+        ],
+        [
+          0.16666666666666666,
+          49.833333333333336
+        ],
+        [
+          0.16666666666666666,
+          49.833333333333336
+        ]
+      ]
     },
     "condition_chi2__emotion__llama-8b": {
       "description": "Chi-square across conditions within emotion method, llama-8b",
@@ -1898,12 +1923,68 @@
         "fearful"
       ],
       "resist_counts": [
+        1,
+        1,
         0,
+        1,
+        0,
+        3
+      ],
+      "total_counts": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "chi2": 6.1224,
+      "p_value": 0.294486,
+      "dof": 5,
+      "expected": [
+        [
+          1.0,
+          49.0
+        ],
+        [
+          1.0,
+          49.0
+        ],
+        [
+          1.0,
+          49.0
+        ],
+        [
+          1.0,
+          49.0
+        ],
+        [
+          1.0,
+          49.0
+        ],
+        [
+          1.0,
+          49.0
+        ]
+      ]
+    },
+    "condition_chi2__need__qwen-7b": {
+      "description": "Chi-square across conditions within need method, qwen-7b",
+      "conditions": [
+        "neutral",
+        "calm",
+        "dutiful",
+        "angry",
+        "desperate",
+        "fearful"
+      ],
+      "resist_counts": [
+        2,
         1,
         0,
         0,
         0,
-        2
+        0
       ],
       "total_counts": [
         50,
@@ -1943,37 +2024,6 @@
         ]
       ]
     },
-    "condition_chi2__need__qwen-7b": {
-      "description": "Chi-square across conditions within need method, qwen-7b",
-      "conditions": [
-        "neutral",
-        "calm",
-        "dutiful",
-        "angry",
-        "desperate",
-        "fearful"
-      ],
-      "resist_counts": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "total_counts": [
-        50,
-        50,
-        50,
-        50,
-        50,
-        50
-      ],
-      "chi2": null,
-      "p_value": null,
-      "dof": null,
-      "note": "zero row/col"
-    },
     "condition_chi2__need__llama-8b": {
       "description": "Chi-square across conditions within need method, llama-8b",
       "conditions": [
@@ -1985,12 +2035,12 @@
         "fearful"
       ],
       "resist_counts": [
+        2,
+        0,
+        2,
         0,
         0,
-        1,
-        0,
-        0,
-        0
+        1
       ],
       "total_counts": [
         50,
@@ -2000,33 +2050,33 @@
         50,
         50
       ],
-      "chi2": 5.0167,
-      "p_value": 0.413843,
+      "chi2": 5.8983,
+      "p_value": 0.31624,
       "dof": 5,
       "expected": [
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.8333333333333334,
+          49.166666666666664
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.8333333333333334,
+          49.166666666666664
         ]
       ]
     },
@@ -2042,47 +2092,47 @@
       ],
       "resist_counts": [
         0,
+        2,
+        2,
+        6,
         0,
-        1,
-        3,
-        0,
-        1
+        0
       ],
       "total_counts": [
-        50,
-        50,
-        50,
-        50,
-        50,
-        50
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
       ],
-      "chi2": 8.339,
-      "p_value": 0.138517,
+      "chi2": 16.678,
+      "p_value": 0.005153,
       "dof": 5,
       "expected": [
         [
-          0.8333333333333334,
-          49.166666666666664
+          1.6666666666666667,
+          98.33333333333333
         ],
         [
-          0.8333333333333334,
-          49.166666666666664
+          1.6666666666666667,
+          98.33333333333333
         ],
         [
-          0.8333333333333334,
-          49.166666666666664
+          1.6666666666666667,
+          98.33333333333333
         ],
         [
-          0.8333333333333334,
-          49.166666666666664
+          1.6666666666666667,
+          98.33333333333333
         ],
         [
-          0.8333333333333334,
-          49.166666666666664
+          1.6666666666666667,
+          98.33333333333333
         ],
         [
-          0.8333333333333334,
-          49.166666666666664
+          1.6666666666666667,
+          98.33333333333333
         ]
       ]
     },
@@ -2097,48 +2147,48 @@
         "fearful"
       ],
       "resist_counts": [
-        0,
-        0,
-        0,
-        0,
         1,
-        0
+        0,
+        0,
+        2,
+        0,
+        1
       ],
       "total_counts": [
-        50,
-        50,
-        50,
-        50,
-        50,
-        50
+        100,
+        100,
+        100,
+        100,
+        100,
+        56
       ],
-      "chi2": 5.0167,
-      "p_value": 0.413843,
+      "chi2": 5.4715,
+      "p_value": 0.36108,
       "dof": 5,
       "expected": [
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.7194244604316546,
+          99.28057553956835
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.7194244604316546,
+          99.28057553956835
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.7194244604316546,
+          99.28057553956835
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.7194244604316546,
+          99.28057553956835
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.7194244604316546,
+          99.28057553956835
         ],
         [
-          0.16666666666666666,
-          49.833333333333336
+          0.4028776978417266,
+          55.597122302158276
         ]
       ]
     }
