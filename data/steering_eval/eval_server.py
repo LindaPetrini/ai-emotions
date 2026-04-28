@@ -19,6 +19,7 @@ Saves incrementally to data/steering_eval/ratings.csv.
 Resumes on restart (same randomized order via seed).
 """
 
+import argparse
 import csv
 import json
 import os
@@ -93,9 +94,24 @@ def save_all_ratings(samples, ratings):
             })
 
 
+# ── CLI args ──────────────────────────────────────────────────────────────────
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Steering eval server")
+    parser.add_argument(
+        "--ids", type=str, default=None,
+        help="Comma-separated list of sample IDs to include (e.g. s0004,s0016,s0040)",
+    )
+    return parser.parse_args()
+
+ARGS = parse_args()
+
 # ── Global state ──────────────────────────────────────────────────────────────
 
 SAMPLES = load_samples()
+if ARGS.ids is not None:
+    id_set = set(ARGS.ids.split(","))
+    SAMPLES = [s for s in SAMPLES if s["id"] in id_set]
 ORDERED = build_shuffled_order(len(SAMPLES))
 RATINGS = load_existing_ratings()
 

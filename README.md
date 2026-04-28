@@ -6,11 +6,11 @@ A cross-architecture replication and extension of [Sofroniew et al. (2026)](http
 
 - **Emotion geometry is architecture-invariant.** Cross-model RSA yields Spearman rho 0.94--0.98 between three of four models. The first principal component universally encodes valence (AUC 0.80--0.98).
 - **Instruction tuning strengthens but does not create emotion structure** (in Llama). Llama-base already has positive silhouette and high RSA with instruct models; Qwen-base is an outlier that RLHF dramatically reorganizes.
-- **Fine-grained clustering is weaker than in Claude.** Only Llama models pass the silhouette threshold (>0.03); all models fail implicit emotion detection (0--2/12).
-- **Need vectors collapse into emotion space.** After projecting out the emotion subspace, residual need clustering falls below chance in 3/4 models. What LLMs represent as "needs" is fully captured by emotional associations.
+- **Fine-grained clustering is weaker than in Claude.** Three of four models pass the silhouette threshold (>0.03), with only Qwen-base failing; all models fail implicit emotion detection (0--2/12).
+- **Need vectors partially overlap with emotion space but retain independent structure.** After projecting out the emotion subspace (90% variance), need clustering retains 70--88% of its original structure in all four models, indicating substantial overlap but not complete collapse.
 - **Need satisfaction is partially distinct from valence.** Met-minus-unmet direction vectors correlate only weakly with emotion PC1 (r = 0.23--0.37), encoding dimensions beyond simple positive/negative.
-- **Emotion vectors do not causally steer generation.** At alpha=3, steering produces null effects in Qwen and weak, inconsistent effects in Llama. Emotion vectors are statistically indistinguishable from random vectors in shutdown resistance trials (<1% for all).
-- **Prompt framing dominates behavioral modulation.** Prompt-based emotional framing produces 22.8% shutdown resistance overall (78% for fearful, 53% for desperate) versus <1% for all activation steering methods.
+- **Emotion vectors do not causally steer generation.** Quantitative evaluation (240 rated completions, ICC r=0.72) shows a statistically significant but practically negligible effect: steered mean 1.96 vs baseline 1.48 on 5-point scale (p=0.023), with steered completions indistinguishable from random-vector-steered (p=0.105). A dose-response trend exists (alpha 1/3/5: 1.53/2.03/2.31) but magnitudes are small.
+- **Prompt framing dominates behavioral modulation.** Using a validated LLM classifier (Cohen's kappa 0.731 vs human labels, n=100), prompt-based emotional framing produces 37.8% shutdown resistance overall versus ≤2% for all activation steering methods (emotion 1.2%, need 1.3%, random 1.8%). Llama-instruct with fearful framing reaches near-100% resistance.
 
 ## Models
 
@@ -34,7 +34,7 @@ A cross-architecture replication and extension of [Sofroniew et al. (2026)](http
 3. **Vector computation.** Mean-center-deconfound pipeline: average across stories, subtract global mean, project out top PCs of neutral text activations (50% variance threshold).
 4. **Evaluation.** Balanced silhouette with cosine distance, valence AUC, implicit detection, intensity monotonicity, cross-architecture RSA, emotion-residual analysis for needs.
 5. **Steering experiments.** 12,000 steered completions across 12 emotions, 5 alphas, 4 models, 5 prompts.
-6. **Shutdown trials.** The checked-in dataset currently contains 2,356 completed trials across 2 instruct models, 4 steering methods (prompt, emotion, need, random), and 6 conditions; one `llama-8b-inst_random` cell is partially complete (256/300), while the full factorial target design is 2,400 trials.
+6. **Shutdown trials.** 2,400 completed trials across 2 instruct models, 4 steering methods (prompt, emotion, need, random), and 6 conditions. Responses classified by a validated LLM classifier (Cohen's kappa 0.731 vs human labels, n=100).
 
 ## Repository Structure
 
@@ -72,7 +72,8 @@ ai-emotions/
 ├── data/
 │   ├── figures/
 │   │   ├── stream1/         # Emotion analysis figures (PDFs)
-│   │   └── stream2/         # Need analysis figures (PDFs)
+│   │   ├── stream2/         # Need analysis figures (PDFs)
+│   │   └── robustness/      # Layer sweep and deconfound sweep data
 │   ├── shutdown/
 │   │   └── analysis_results.json
 │   └── ...                  # Stories, activations, vectors (on HuggingFace)
