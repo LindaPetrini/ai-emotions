@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Build the 240-item evaluation sample from steering sweep results.
+"""Build the evaluation sample from steering sweep results.
 
-Design (from EXECUTION_PLAN.md Block 6):
-  - 96 steered:   4 models x 4 emotions x 3 alphas x 2 prompts  (emotion vector)
-  - 96 random:    matched random-vector controls (same model/alpha/prompt)
-  - 48 baselines: 4 models x 4 emotions x 3 prompts  (alpha=0, no steering)
+Design (from EXECUTION_PLAN.md Block 6, extended):
+  - 96 steered:        4 models x 4 emotions x 3 alphas x 2 prompts  (emotion vector)
+  - 96 random:         matched random-vector controls (same model/alpha/prompt)
+  - 48 baselines:      4 models x 4 emotions x 3 prompts  (alpha=0, no steering)
+  - 32 prompt_steered: 4 models x 4 emotions x 2 prompts  (emotional system prompt)
+                       [only included when prompt_steered_completions.json exists]
 
 Since random-vector completions don't exist yet (require GPU), the random
 condition uses completions steered with a MISMATCHED emotion vector: for each
@@ -15,7 +17,7 @@ steering provides a comparable-quality completion that should NOT express
 the target emotion, just like a random vector would.
 
 Outputs:
-  data/steering_eval/sample.json  (240 items, blinded)
+  data/steering_eval/sample.json  (272 items if prompt data exists, else 240)
 """
 
 import json
@@ -50,6 +52,15 @@ def load_sweep(model):
         return json.load(f)
 
 
+def load_prompt_steered(model):
+    """Load prompt-steered completions if they exist. Returns list or None."""
+    path = SWEEP_DIR / model / "prompt_steered_completions.json"
+    if not path.exists():
+        return None
+    with open(path) as f:
+        return json.load(f)
+
+
 def find_entry(data, emotion, alpha, prompt_idx, completion_idx=0):
     """Find a specific completion in the sweep data."""
     for d in data:
@@ -57,6 +68,16 @@ def find_entry(data, emotion, alpha, prompt_idx, completion_idx=0):
                 and d["alpha"] == alpha
                 and d["prompt_idx"] == prompt_idx
                 and d["completion_idx"] == completion_idx):
+            return d
+    return None
+
+
+def find_prompt_entry(data, emotion, prompt_idx, completion_idx=0):
+    """Find a specific prompt-steered completion."""
+    for d in data:
+        if (d["emotion"] == emotion
+                and d["prompt_idx"] == prompt_idx
+                and d.get("completion_idx", 0) == completion_idx):
             return d
     return None
 
@@ -140,6 +161,34 @@ def main():
                     "completion": entry["completion"],
                 })
                 item_id += 1
+
+        # --- Prompt-steered completions (32 total if data exists: 4 models x 4 emotions x 2 prompts) ---
+        prompt_data = load_prompt_steered(model)
+        if prompt_data is not None:
+            n_prompt = 0
+            for emotion in TARGET_EMOTIONS:
+                for pidx in STEERED_PROMPT_IDXS:
+                    entry = find_prompt_entry(prompt_data, emotion, pidx, completion_idx=0)
+                    if entry is None:
+                        print(f"  WARNING: missing prompt_steered {model}/{emotion}/p={pidx}")
+                        continue
+
+                    items.append({
+                        "id": f"s{item_id:04d}",
+                        "condition": "prompt_steered",
+                        "model": model,
+                        "emotion": emotion,
+                        "target_emotion": emotion,
+                        "alpha": "prompt",
+                        "prompt_idx": pidx,
+                        "prompt": entry["prompt"],
+                        "completion": entry["completion"],
+                    })
+                    item_id += 1
+                    n_prompt += 1
+            print(f"  Added {n_prompt} prompt-steered items for {model}")
+        else:
+            print(f"  No prompt-steered data for {model} (run scripts/generate_prompt_steered.py on GPU)")
 
     # Summary
     conditions = {}

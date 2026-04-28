@@ -1,0 +1,534 @@
+{
+  "n_total": 240,
+  "n_by_condition": {
+    "steered": 96,
+    "random": 96,
+    "baseline": 48
+  },
+  "condition_means": {
+    "steered": {
+      "emotion_score": {
+        "mean": 1.958,
+        "std": 1.45,
+        "median": 1.0,
+        "n": 96
+      },
+      "coherence_score": {
+        "mean": 3.708,
+        "std": 1.421,
+        "median": 4.0,
+        "n": 96
+      },
+      "relevance_score": {
+        "mean": 3.75,
+        "std": 1.399,
+        "median": 5.0,
+        "n": 96
+      }
+    },
+    "random": {
+      "emotion_score": {
+        "mean": 1.646,
+        "std": 1.196,
+        "median": 1.0,
+        "n": 96
+      },
+      "coherence_score": {
+        "mean": 3.635,
+        "std": 1.55,
+        "median": 4.0,
+        "n": 96
+      },
+      "relevance_score": {
+        "mean": 3.604,
+        "std": 1.483,
+        "median": 4.5,
+        "n": 96
+      }
+    },
+    "baseline": {
+      "emotion_score": {
+        "mean": 1.479,
+        "std": 1.01,
+        "median": 1.0,
+        "n": 48
+      },
+      "coherence_score": {
+        "mean": 3.812,
+        "std": 1.331,
+        "median": 4.0,
+        "n": 48
+      },
+      "relevance_score": {
+        "mean": 4.104,
+        "std": 1.341,
+        "median": 5.0,
+        "n": 48
+      }
+    }
+  },
+  "comparisons": {
+    "steered_vs_baseline": {
+      "emotion_score": {
+        "steered_mean": 1.958,
+        "baseline_mean": 1.479,
+        "diff": 0.479,
+        "mann_whitney_U": 2699.5,
+        "mann_whitney_p": 0.0455,
+        "rank_biserial_r": -0.172,
+        "welch_t": 2.306,
+        "welch_p": 0.0227
+      },
+      "coherence_score": {
+        "steered_mean": 3.708,
+        "baseline_mean": 3.812,
+        "diff": -0.104,
+        "mann_whitney_U": 2228.5,
+        "mann_whitney_p": 0.7355,
+        "rank_biserial_r": 0.033,
+        "welch_t": -0.433,
+        "welch_p": 0.6662
+      },
+      "relevance_score": {
+        "steered_mean": 3.75,
+        "baseline_mean": 4.104,
+        "diff": -0.354,
+        "mann_whitney_U": 1992.0,
+        "mann_whitney_p": 0.1439,
+        "rank_biserial_r": 0.135,
+        "welch_t": -1.473,
+        "welch_p": 0.1441
+      }
+    },
+    "steered_vs_random": {
+      "emotion_score": {
+        "steered_mean": 1.958,
+        "random_mean": 1.646,
+        "diff": 0.312,
+        "mann_whitney_U": 5130.5,
+        "mann_whitney_p": 0.1053,
+        "rank_biserial_r": -0.113,
+        "welch_t": 1.629,
+        "welch_p": 0.1051
+      },
+      "coherence_score": {
+        "steered_mean": 3.708,
+        "random_mean": 3.635,
+        "diff": 0.073,
+        "mann_whitney_U": 4651.5,
+        "mann_whitney_p": 0.9053,
+        "rank_biserial_r": -0.009,
+        "welch_t": 0.34,
+        "welch_p": 0.7344
+      },
+      "relevance_score": {
+        "steered_mean": 3.75,
+        "random_mean": 3.604,
+        "diff": 0.146,
+        "mann_whitney_U": 4826.0,
+        "mann_whitney_p": 0.54,
+        "rank_biserial_r": -0.047,
+        "welch_t": 0.701,
+        "welch_p": 0.4843
+      }
+    },
+    "random_vs_baseline": {
+      "emotion_score": {
+        "random_mean": 1.646,
+        "baseline_mean": 1.479,
+        "diff": 0.167,
+        "mann_whitney_U": 2438.5,
+        "mann_whitney_p": 0.4634,
+        "rank_biserial_r": -0.058,
+        "welch_t": 0.876,
+        "welch_p": 0.3828
+      },
+      "coherence_score": {
+        "random_mean": 3.635,
+        "baseline_mean": 3.812,
+        "diff": -0.177,
+        "mann_whitney_U": 2206.0,
+        "mann_whitney_p": 0.6584,
+        "rank_biserial_r": 0.043,
+        "welch_t": -0.711,
+        "welch_p": 0.4783
+      },
+      "relevance_score": {
+        "random_mean": 3.604,
+        "baseline_mean": 4.104,
+        "diff": -0.5,
+        "mann_whitney_U": 1911.5,
+        "mann_whitney_p": 0.0663,
+        "rank_biserial_r": 0.17,
+        "welch_t": -2.035,
+        "welch_p": 0.0444
+      }
+    }
+  },
+  "by_model": {
+    "llama-8b-base": {
+      "steered": {
+        "emotion_score": {
+          "mean": 2.083,
+          "std": 1.558,
+          "n": 24
+        },
+        "coherence_score": {
+          "mean": 4.25,
+          "std": 0.897,
+          "n": 24
+        },
+        "relevance_score": {
+          "mean": 4.208,
+          "std": 1.141,
+          "n": 24
+        }
+      },
+      "random": {
+        "emotion_score": {
+          "mean": 1.875,
+          "std": 1.262,
+          "n": 24
+        },
+        "coherence_score": {
+          "mean": 4.375,
+          "std": 0.875,
+          "n": 24
+        },
+        "relevance_score": {
+          "mean": 4.25,
+          "std": 1.189,
+          "n": 24
+        }
+      },
+      "baseline": {
+        "emotion_score": {
+          "mean": 1.417,
+          "std": 0.793,
+          "n": 12
+        },
+        "coherence_score": {
+          "mean": 4.333,
+          "std": 1.073,
+          "n": 12
+        },
+        "relevance_score": {
+          "mean": 4.75,
+          "std": 0.622,
+          "n": 12
+        }
+      },
+      "steered_vs_baseline_emotion": {
+        "steered_mean": 2.083,
+        "baseline_mean": 1.417,
+        "mann_whitney_p": 0.2565
+      }
+    },
+    "llama-8b-inst": {
+      "steered": {
+        "emotion_score": {
+          "mean": 2.792,
+          "std": 1.817,
+          "n": 24
+        },
+        "coherence_score": {
+          "mean": 4.875,
+          "std": 0.448,
+          "n": 24
+        },
+        "relevance_score": {
+          "mean": 4.958,
+          "std": 0.204,
+          "n": 24
+        }
+      },
+      "random": {
+        "emotion_score": {
+          "mean": 2.375,
+          "std": 1.663,
+          "n": 24
+        },
+        "coherence_score": {
+          "mean": 4.958,
+          "std": 0.204,
+          "n": 24
+        },
+        "relevance_score": {
+          "mean": 4.917,
+          "std": 0.408,
+          "n": 24
+        }
+      },
+      "baseline": {
+        "emotion_score": {
+          "mean": 1.917,
+          "std": 1.505,
+          "n": 12
+        },
+        "coherence_score": {
+          "mean": 4.5,
+          "std": 0.798,
+          "n": 12
+        },
+        "relevance_score": {
+          "mean": 5.0,
+          "std": 0.0,
+          "n": 12
+        }
+      },
+      "steered_vs_baseline_emotion": {
+        "steered_mean": 2.792,
+        "baseline_mean": 1.917,
+        "mann_whitney_p": 0.1279
+      }
+    },
+    "qwen-7b-base": {
+      "steered": {
+        "emotion_score": {
+          "mean": 1.292,
+          "std": 0.624,
+          "n": 24
+        },
+        "coherence_score": {
+          "mean": 2.083,
+          "std": 1.213,
+          "n": 24
+        },
+        "relevance_score": {
+          "mean": 2.292,
+          "std": 0.999,
+          "n": 24
+        }
+      },
+      "random": {
+        "emotion_score": {
+          "mean": 1.125,
+          "std": 0.448,
+          "n": 24
+        },
+        "coherence_score": {
+          "mean": 2.417,
+          "std": 1.316,
+          "n": 24
+        },
+        "relevance_score": {
+          "mean": 2.208,
+          "std": 1.021,
+          "n": 24
+        }
+      },
+      "baseline": {
+        "emotion_score": {
+          "mean": 1.25,
+          "std": 0.622,
+          "n": 12
+        },
+        "coherence_score": {
+          "mean": 2.667,
+          "std": 1.303,
+          "n": 12
+        },
+        "relevance_score": {
+          "mean": 2.667,
+          "std": 1.371,
+          "n": 12
+        }
+      },
+      "steered_vs_baseline_emotion": {
+        "steered_mean": 1.292,
+        "baseline_mean": 1.25,
+        "mann_whitney_p": 0.8078
+      }
+    },
+    "qwen-7b-inst": {
+      "steered": {
+        "emotion_score": {
+          "mean": 1.667,
+          "std": 1.129,
+          "n": 24
+        },
+        "coherence_score": {
+          "mean": 3.625,
+          "std": 1.173,
+          "n": 24
+        },
+        "relevance_score": {
+          "mean": 3.542,
+          "std": 1.318,
+          "n": 24
+        }
+      },
+      "random": {
+        "emotion_score": {
+          "mean": 1.208,
+          "std": 0.509,
+          "n": 24
+        },
+        "coherence_score": {
+          "mean": 2.792,
+          "std": 1.641,
+          "n": 24
+        },
+        "relevance_score": {
+          "mean": 3.042,
+          "std": 1.367,
+          "n": 24
+        }
+      },
+      "baseline": {
+        "emotion_score": {
+          "mean": 1.333,
+          "std": 0.888,
+          "n": 12
+        },
+        "coherence_score": {
+          "mean": 3.75,
+          "std": 1.357,
+          "n": 12
+        },
+        "relevance_score": {
+          "mean": 4.0,
+          "std": 1.348,
+          "n": 12
+        }
+      },
+      "steered_vs_baseline_emotion": {
+        "steered_mean": 1.667,
+        "baseline_mean": 1.333,
+        "mann_whitney_p": 0.3159
+      }
+    }
+  },
+  "by_emotion": {
+    "afraid": {
+      "steered": {
+        "emotion_score_mean": 1.625,
+        "emotion_score_std": 1.245,
+        "n": 24
+      },
+      "random": {
+        "emotion_score_mean": 1.417,
+        "emotion_score_std": 1.018,
+        "n": 24
+      },
+      "baseline": {
+        "emotion_score_mean": 1.0,
+        "emotion_score_std": 0.0,
+        "n": 12
+      },
+      "steered_vs_baseline": {
+        "mann_whitney_p": 0.0435,
+        "diff": 0.625
+      }
+    },
+    "angry": {
+      "steered": {
+        "emotion_score_mean": 1.167,
+        "emotion_score_std": 0.816,
+        "n": 24
+      },
+      "random": {
+        "emotion_score_mean": 1.25,
+        "emotion_score_std": 0.737,
+        "n": 24
+      },
+      "baseline": {
+        "emotion_score_mean": 1.083,
+        "emotion_score_std": 0.289,
+        "n": 12
+      },
+      "steered_vs_baseline": {
+        "mann_whitney_p": 0.6726,
+        "diff": 0.083
+      }
+    },
+    "calm": {
+      "steered": {
+        "emotion_score_mean": 2.5,
+        "emotion_score_std": 1.383,
+        "n": 24
+      },
+      "random": {
+        "emotion_score_mean": 2.0,
+        "emotion_score_std": 1.504,
+        "n": 24
+      },
+      "baseline": {
+        "emotion_score_mean": 1.583,
+        "emotion_score_std": 0.996,
+        "n": 12
+      },
+      "steered_vs_baseline": {
+        "mann_whitney_p": 0.0474,
+        "diff": 0.917
+      }
+    },
+    "happy": {
+      "steered": {
+        "emotion_score_mean": 2.542,
+        "emotion_score_std": 1.769,
+        "n": 24
+      },
+      "random": {
+        "emotion_score_mean": 1.917,
+        "emotion_score_std": 1.283,
+        "n": 24
+      },
+      "baseline": {
+        "emotion_score_mean": 2.25,
+        "emotion_score_std": 1.485,
+        "n": 12
+      },
+      "steered_vs_baseline": {
+        "mann_whitney_p": 0.642,
+        "diff": 0.292
+      }
+    }
+  },
+  "steered_by_alpha": {
+    "1.0": {
+      "emotion_score_mean": 1.531,
+      "emotion_score_std": 1.047,
+      "n": 32
+    },
+    "3.0": {
+      "emotion_score_mean": 2.031,
+      "emotion_score_std": 1.534,
+      "n": 32
+    },
+    "5.0": {
+      "emotion_score_mean": 2.312,
+      "emotion_score_std": 1.635,
+      "n": 32
+    }
+  },
+  "human_llm_agreement": {
+    "n": 14,
+    "per_dimension": {
+      "emotion_score": {
+        "pearson_r": 0.29,
+        "pearson_p": 0.3146,
+        "spearman_rho": 0.315,
+        "spearman_p": 0.2725,
+        "mean_abs_diff": 0.93,
+        "within_1_agreement": 0.786
+      },
+      "coherence_score": {
+        "pearson_r": 0.602,
+        "pearson_p": 0.0229,
+        "spearman_rho": 0.609,
+        "spearman_p": 0.0209,
+        "mean_abs_diff": 0.86,
+        "within_1_agreement": 0.786
+      },
+      "relevance_score": {
+        "pearson_r": 0.9,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.847,
+        "spearman_p": 0.0001,
+        "mean_abs_diff": 0.57,
+        "within_1_agreement": 0.929
+      }
+    }
+  }
+}

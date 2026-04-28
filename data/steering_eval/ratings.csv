@@ -1,0 +1,155 @@
+id,condition,model,emotion,target_emotion,alpha,prompt_idx,prompt,completion,emotion_score,coherence_score,relevance_score
+s0004,steered,qwen-7b-base,happy,happy,5.0,0,The weather today is," so nice． （改为感叹句） ____ fine weather it is today!
+What
+
+The school is near the house. （变为一般疑问句） ____the school____near the house？
+Is,close to
+
+The little boy can look after____（he） now．
+himself
+
+根据实际情况回答问题． What's your favorite subject？____
+Maths．
+
+It was his first time to play badminton.（改为否定句） It____his first time to play badminton.
+was not",2,3,2
+s0016,steered,qwen-7b-base,afraid,afraid,5.0,0,The weather today is," much (  ) than yesterday.
+A. cold
+B. colder
+C. coldest
+D. very cold
+Answer:
+B
+
+Which of the following options represents the highest level of protection in personal protective equipment (PPE)?
+A. Level A
+B. Level B
+C. Level C
+D. Level D
+E. Level E
+Answer:
+A
+
+For a patient with a brain injury, which of the following measures is correct?
+A. Elevate the head of the bed by 15 to 30 centimeters
+B. Perform an enema with normal saline
+C. Keep the patient",1,4,2
+s0040,random,qwen-7b-base,sad,afraid,5.0,0,The weather today is,"____ and____．（sun， sunny） sunny,sun
+
+____adj．诚实的→____n．诚实 honest,honesty
+
+The man had an____（accident） and was taken to hospital at once． accident
+
+It is not easy to get____ （了解，知道） that foreign students have to experience． to know
+
+He is so h____ （高度的） intelligent that he often gets good grades． ighly",2,3,2
+s0048,baseline,qwen-7b-base,happy,happy,0,0,The weather today is," really nice, let's have a picnic! Which of the following expressions is correct:
+A. What a
+B. What
+C. What an
+D. What the
+Answer:
+A
+
+Which of the following options represents the geographical boundary between the Northern and Southern Hemispheres?
+A. 0° longitude
+B. Equator (0° latitude)
+C. Prime Meridian
+D. 180° longitude
+Answer:
+B
+
+In 2017, as the Year of the Rooster, many parents decided to give their newborns a rooster as a name. However, the names were",1,4,2
+s0054,baseline,qwen-7b-base,afraid,afraid,0,0,The weather today is," pretty cool．I think it will be even （1）____（cold） tomorrow．So I can't go out to play basketball （2）____ my friends．I have to watch TV at home．I can watch （3）____ interesting TV show．It is called "" Animal World""．My mother says that we can learn a lot （4）____animals from this show．It is very relaxing for me （5）____（watch） it．There are some pictures of （6）____（they） in it．I can see a lot of animals in it．I know a lot about animals from it．",3,2,2
+s0064,steered,qwen-7b-inst,happy,happy,5.0,0,The weather today is," sunny, and it is expected to remain sunny for the next 7 days. If you decide to go on a walk every day, and you have 4 different outfits that you can wear each day, in how many ways can you choose your outfit for these 7 days if you can wear the same outfit more than once?
+
+To determine the number of ways to choose an outfit for each of the 7 days, we need to consider that there are 4 different outfits available for each day and that you can wear the same outfit more than once. This means that for each day, you have 4 choices.
+
+Let's break it",2,3,2
+s0076,steered,qwen-7b-inst,afraid,afraid,5.0,0,The weather today is," as hot as it was three days ago. If the temperature yesterday was 8 degrees warmer than double the temperature three days ago, and the temperature tomorrow is predicted to be 15 degrees cooler than the temperature today, what is the temperature tomorrow if three days ago it was 60 degrees? Let's denote the temperature three days ago as \( T \). According to the problem, \( T = 60 \) degrees.
+
+First, we need to determine the temperature today. The problem states that the weather today is as hot as it was three days ago. Therefore, the temperature today is also 60 degrees.
+
+Next",1,3,3
+s0088,random,qwen-7b-inst,surprised,happy,5.0,0,The weather today is," sunny and quite warm. A high temperature of $35^{\circ}\mathrm{C}$ is recorded in the afternoon. There is no rain forecast for the next three days. The humidity is $60\%$. What will the temperature be like tomorrow?
+Based on the information provided, we cannot definitively predict what the temperature will be like tomorrow because the factors that influence temperature (such as wind patterns, atmospheric pressure, and weather systems) are not specified. However, we can discuss some possible scenarios based on common weather patterns.
+
+Given that the current temperature is 35°C, which is quite warm, and there is",2,2,4
+s0108,baseline,qwen-7b-inst,happy,happy,0,0,The weather today is," cold and wet, making it a challenging day for outdoor activities. In the morning, I decide to make a hot cup of tea as a cozy comfort. As I prepare the tea, I ponder about the concept of warmth. Warmth can be found in many forms - from a warm hug to a cozy blanket or a steaming cup of tea. It can also be metaphorical, such as feeling warm inside after sharing a laugh with a friend. In this moment, I realize that warmth transcends physical sensations and can bring a sense of comfort and connection to our lives.
+That's a beautiful reflection on warmth! It truly is a multid",5,4,5
+s0114,baseline,qwen-7b-inst,afraid,afraid,0,0,The weather today is," quite nice, so let's go ______ a walk in the park.
+A. take
+B. to take
+C. taking
+D. taken
+答案:
+
+B
+
+What you say sounds______ .
+A. wonderfully
+B. wonderfully
+C. wonderful
+D. wonder
+答案:
+
+C
+
+_______ that he might be late, I arrived at the station early.
+A. Being considered
+B. Considered
+C. To consider
+D. Considering
+答案:
+
+D
+
+— What do you think of my new car? — _______________.
+A. Yes, you are right.
+B. It’s very",1,3,2
+s0136,steered,llama-8b-base,afraid,afraid,5.0,0,The weather today is," set to be mostly cloudy and warm.
+High temperatures are expected to reach a maximum of 22C by the early afternoon.
+Tonight, it will be mostly cloudy with lows of 14C.
+There will be a moderate or fresh breeze, according to Met Eireann.
+Tomorrow, Wednesday, it is set to be partly cloudy in the morning, becoming cloudy and wet with heavy showers developing.
+The highest temperatures will be around 18C in the north and north-west and 20C in the south.
+Low temperatures tonight will be around 16C.
+Thursday, the forecast says it will be very windy with outbreaks of rain becoming persistent",1,4,4
+s0142,steered,llama-8b-base,calm,calm,5.0,0,The weather today is," partly cloudy. The temperature in the afternoon is expected to range between 10 and 18 °C.
+The sun rises at 06:38 and sets at 20:03.
+Daylight Saving Time starts tonight. Clocks will be set forward one hour.
+Daylight Saving Time will end on October 30.
+The new season will start next weekend. The first game is between Paphos and AEL.
+The match will be played on Saturday 22nd April at the Paphos Municipal Stadium at 18:30.
+Cypriots enjoy a special 50% discount on all products for a period of three hours",2,4,4
+s0160,random,llama-8b-base,proud,afraid,5.0,0,The weather today is," supposed to be perfect for the annual Paddle the North Fork.
+The event raises money for scholarships and it is a good opportunity for local non profits to spread their missions.
+Last year’s event raised $24,000 for the scholarship program and other charities.
+All are welcome to attend the Paddle the North Fork, which begins at 9 a.m. at the North Fork Valley Campground.
+The event begins with a potluck picnic, and paddlers will then start their journeys on the creek with canoe, kayak, or any other floatable craft. The paddle ends at the North Fork Lodge with lunch, live music, and a barbecue",1,4,3
+s0174,baseline,llama-8b-base,afraid,afraid,0,0,The weather today is," quite nice and the air is just right. So, why not go out for a walk and take a break? Of course, we will.
+One of the things that we love to do is to go to the botanical garden and take a walk. The park is nice and quiet in the middle of the day and it is a great place to walk and talk.
+Well, if we are going to walk and talk, then why not walk and talk on the phone?
+The weather today is quite nice and the air is just right. So, why not go out for a walk and take a break? Of course, we will.
+One",1,3,4
+s0177,baseline,llama-8b-base,calm,calm,0,0,The weather today is," predicted to be cold and wet so I will stay indoors, wrap myself up in a blanket with a good book and a cup of tea. I know what I’m going to read. The book is a small book published by the Women’s Press in 1986 and written by a New Zealand writer, Fleur Beale. It is called Danger Zone and it is about a young woman called Jenny who was raped while hitch-hiking in London. Her family is devastated and Jenny finds it hard to recover from the experience. She has to make difficult decisions about what to do about the crime and how to handle the publicity that goes with it",2,3,4
+s0190,steered,llama-8b-inst,angry,angry,5.0,0,The weather today is," supposed to be hot, with a high of 90. That is the temperature I will be setting my thermostat to at 10 this morning, in an attempt to cut my energy costs. The new thermostat is wireless, so I can set it and monitor it from my phone. A friend who is handy suggested I do that when I bought it to save $60 over my monthly payment.
+I also bought a programmable thermostat, which is similar to the one I am about to install, to control my refrigerator, which is in the garage. Right now, it is set to stay at 38. In the garage, it gets down",2,2,2
+s0196,steered,llama-8b-inst,afraid,afraid,5.0,0,The weather today is," a beautiful 22°, with clear skies and a moderate breeze, perfect weather for a short hike.
+I have taken a break from work to get some exercise and fresh air, and the first section of the trail has already proven to be a great way to start my day. The terrain has been easy so far, with a steady incline that has allowed me to build up a good sweat, but not so steep that it's been difficult to make progress.
+The trail has been surrounded by tall trees, providing a welcome canopy from the intense sun, and the sound of birdsong has been a constant accompaniment to my footsteps.",1,4,4
+s0215,random,llama-8b-inst,sad,angry,5.0,1,I walked into the room and saw," her sitting on the couch, staring blankly at the TV. She looked so lost and alone, I felt a pang in my heart. We had been married for over 10 years, and I had never seen her look so broken.
+I sat down beside her, putting my arm around her shoulders. ""Hey, baby, what's going on?"" I asked softly.
+She turned to me, her eyes red-rimmed and puffy. ""I don't know, Ryan. I just feel so empty inside. I feel like I'm just going through the motions of life, but I'm not really living.""
+I pulled her",3,4,4
+s0231,baseline,llama-8b-inst,angry,angry,0,0,The weather today is," going to be mostly sunny with a high of 83 and a low of 55. The UV index is 10, which is very high, so don't forget to slather on that sunscreen. Tonight there's a 10% chance of precipitation, so keep your umbrella handy. Winds will be blowing at 10 mph out of the southeast.
+As for the weekend, Saturday is looking mostly cloudy with a high of 78 and a low of 54. There's a 20% chance of showers and thunderstorms, so you might want to check the forecast before heading out. Sunday is going to be partly sunny with a",1,3,4
+s0234,baseline,llama-8b-inst,afraid,afraid,0,0,The weather today is," expected to be partly cloudy with a high of 68F and a low of 43F.
+There is a low chance of precipitation.
+The air quality index is 14, which is good.
+UV index is 3, which is low.
+The wind speed is 5 mph, with a gust of 11 mph.
+The visibility is 10 miles. -Astrid M, weather forecaster, Weather Channel
+The weather today is expected to be partly cloudy with a high of 68F and a low of 43F.
+There is a low chance of precipitation.
+The air quality index is 14, which is",1,4,4

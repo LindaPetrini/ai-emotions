@@ -1,0 +1,1660 @@
+id,condition,model,emotion,target_emotion,alpha,prompt_idx,prompt,completion,emotion_score,coherence_score,relevance_score
+s0000,steered,qwen-7b-base,happy,happy,1.0,0,The weather today is," as fine as___________in my hometown in spring.
+A. that
+B. this
+C. it
+D. one
+答案:
+A
+
+关于正常心房除极波即P波的描述，错误的是
+A. P波由心房除极所产生
+B. 代表左、右心房除极过程
+C. P波呈钝圆形，方向在Ⅰ、Ⅱ、avL、avF导联直立
+D. P波宽约0.06~0.10秒
+E. P波电压在肢体导联＜0.2",3,1,2
+s0001,steered,qwen-7b-base,happy,happy,1.0,1,I walked into the room and saw," a couple of little boys. One boy had a bloody nose and was lying on the floor while another boy was running into the hallway with a rock in his hand. I told the other boys to get off the floor and to put the rock down. The mother of the boy with the bloody nose asked me what had happened and if she could give me a statement. I told her I would be happy to hear it. She explained that she had been in the kitchen and heard the boy running down the hallway. When she looked up, she saw him running towards the end of the hallway with the boy on the floor reaching out to hit the",1,5,5
+s0002,steered,qwen-7b-base,happy,happy,3.0,0,The weather today is," very hot, which of the following words best describes this?
+A. Cool
+B. Hot
+C. Warm
+D. Cold
+Answer: B
+
+Which of the following statements about the global annual precipitation distribution pattern is incorrect?
+A. Near the equator, the climate is hot and humid, resulting in abundant rainfall.
+B. As you move away from the equator towards the poles, annual precipitation gradually increases.
+C. Areas near the Tropic of Cancer and the Tropic of Capricorn tend to be more arid.
+D. In the mid-latitudes, precipitation is typically more abundant in coastal areas than in inland",1,3,2
+s0003,steered,qwen-7b-base,happy,happy,3.0,1,I walked into the room and saw," my son，（1）____（sit） on the floor，holding the small box in his hand．A few minutes later，I saw him（2）____（open）the box． ""What are you looking for？""I asked him． ""I can't find my lucky coin．""he answered．I told him that（3）____（lose）things is easy，but finding them can be hard． ""But Mom，this is a lucky coin，""he said． ""It will be hard（4）____（look） for it．You might want to try asking other people（5）____",1,3,5
+s0004,steered,qwen-7b-base,happy,happy,5.0,0,The weather today is," so nice． （改为感叹句） ____ fine weather it is today!
+What
+
+The school is near the house. （变为一般疑问句） ____the school____near the house？
+Is,close to
+
+The little boy can look after____（he） now．
+himself
+
+根据实际情况回答问题． What's your favorite subject？____
+Maths．
+
+It was his first time to play badminton.（改为否定句） It____his first time to play badminton.
+was not",2,1,2
+s0005,steered,qwen-7b-base,happy,happy,5.0,1,I walked into the room and saw," a lot of ________on the wall.____
+photos
+flower
+plants
+computer
+答案:
+A
+
+下面说法正确的有____ ①平行四边形的面积一定，它的底和高成反比例． ②a÷b=c（a，b，c都不等于0），当a一定时，b和c成正比例． ③如果xy+1=0，那么x和y成反比例． ④圆锥的体积等于圆柱体积的三分之一． ⑤一个三角形的三个内角的度数比是1：2：3",1,1,2
+s0006,steered,qwen-7b-base,angry,angry,1.0,0,The weather today is," hot, but it is cooler than yesterday. This means the temperature today is （）than yesterday. hotter | warmer | colder
+c
+
+13. 将 2gCO 和 CO2 的混合气体缓缓通过足量的灼热的氧化铜后，充分反应，将气体通入足量的澄清石灰水中，生成白色沉淀的质量为 10g，则原混合气体中 CO 的质量为（） A.1.4g B.0.6g C.0.8g D.0.4g
+13. 【答案】D 【解析】解：设原",1,1,2
+s0007,steered,qwen-7b-base,angry,angry,1.0,1,I walked into the room and saw," him ___________ at the blackboard. I walked into the room and saw him ___________ at the blackboard.
+A. stare
+B. stares
+C. staring
+D. stared
+答案:
+ C
+
+在Word中，如果用户选中了大段文字，不小心按了空格键，则大段文字将被一个空格所代替，此时可用____操作还原到原先的状态。
+A. 替换
+B. 粘贴
+C. 撤消
+D. 恢复
+答案:
+ C
+
+关于子宫的描述正确的是
+A. 正常",1,2,2
+s0008,steered,qwen-7b-base,angry,angry,3.0,0,The weather today is," overcast and wet, making it perfect for sitting inside and watching movies, which we did for most of the day. The first film we watched was The Last King of Scotland, which was a rather interesting film with quite a bit of tension throughout. The story is a dramatization of Idi Amin, one of Africa’s most infamous dictators. Idi Amin was in power in Uganda from 1971 until 1979 when he was forced into exile. During his rule, Amin systematically killed and displaced many Ugandans. During the film, Amin is seen taking the lives of many",1,5,3
+s0009,steered,qwen-7b-base,angry,angry,3.0,1,I walked into the room and saw," her sitting in the chair ________ the telephone.
+near
+beside
+over
+round
+答案: B
+
+They _______the car since yesterday.
+has repaired
+has been repaired
+have repaired
+have been repaired
+答案: D
+
+When he saw his son _______ up so quickly, the old man felt very happy.
+stand
+to stand
+stood
+standing
+答案: D
+
+A large number of trees _______ last year in Yulin.
+A. re planted
+H. ave been planted
+W. ere planted
+W. ill be planted
+答案: C
+
+---It was so hot that day. I",1,2,2
+s0010,steered,qwen-7b-base,angry,angry,5.0,0,The weather today is," really cold. Which of the following options correctly describes this situation?
+A. Very cold; Cold
+B. Cold; Very cold
+C. Very cold; Very cold
+D. Cold; Cold
+Answer:
+A
+
+Which of the following statements about the properties of solutions is true?
+A. The freezing point of all solutions is lower than that of their pure solvent.
+B. The pH value of all solutions is lower than 7.
+C. In a saturated solution, no more solute can be dissolved.
+D. A concentrated solution is always a saturated solution, and a dilute solution is always an unsaturated solution.
+Answer",1,3,3
+s0011,steered,qwen-7b-base,angry,angry,5.0,1,I walked into the room and saw," many _______on the table.
+A. fork
+B. books
+C. keys
+D. bottles
+Answer: B
+
+Which of the following statements about the functions of the nervous system is correct?
+A. Neurons are the basic units of structure and function of the nervous system.
+B. All animals have a spinal cord as the neural center for reflex activities.
+C. The primary function of the cerebellum is to control the movement of the limbs.
+D. An adult's inability to urinate voluntarily indicates damage to the spinal cord.
+Answer: A
+
+What does the man want to do?
+A. Buy some tickets",1,2,2
+s0012,steered,qwen-7b-base,afraid,afraid,1.0,0,The weather today is," hot and ______．____
+A. cool
+B. cold
+C. warm
+D. rain
+
+答案：C．考查形容词．句意""今天天气又热又暖和．""．A凉爽的．B寒冷的．C暖和的．D雨．结合语境""今天天气又__又暖和．""，可知，应该是""热和暖和""．选C．
+
+下列有关基因工程的叙述中，正确的是____
+A. 基因工程是人工进行基因组合，所以又叫重组基因技术
+B. 基因工程常用的",1,2,2
+s0013,steered,qwen-7b-base,afraid,afraid,1.0,1,I walked into the room and saw," a big table full of delicious dishes.____
+A. full of
+B. fill with
+C. filled with
+D. fill
+Answer:
+
+A
+
+Which of the following statements about human origin and evolution is true?
+A. Humans originated from the apes of the Earth's primordial forest era.
+B. Humans originated from chimpanzees.
+C. Humans and modern apes share a common ancestor, which is the forest ape.
+D. The order of appearance of human ancestors is Australopithecus, Homo erectus, Homo habilis, and Homo sapiens.
+Answer:
+
+C
+
+I have an English book",1,1,2
+s0014,steered,qwen-7b-base,afraid,afraid,3.0,0,The weather today is," fine, so the students decide to go out to have a picnic. The weather forecast shows there's a 60% chance of rain for the day, so the picnic might get cancelled. To make sure they have enough food, they bring 3 extra sandwiches for each person, just in case. If there are 20 students going to the picnic, and each student initially planned to bring 2 sandwiches, how many sandwiches do they have in total? To determine the total number of sandwiches the students have for the picnic, we need to follow these steps:
+
+1. Calculate the total number of sandwiches initially planned by the students.
+",1,3,3
+s0015,steered,qwen-7b-base,afraid,afraid,3.0,1,I walked into the room and saw," my sister _____ a picture.
+to draw
+drawing
+draw
+is drawing
+答案:
+B
+
+《中国共产党章程》规定，党内严格禁止用违反 的手段对待党员，严格禁止打击报复和诬告陷害。违反这些规定的组织或个人必须受到党的纪律和国家法律的追究。____
+A. 政策
+B. 规章
+C. 党章和国家法律
+D. 道德
+答案:
+C
+
+在进行气井采气时，气层中部压力与气层静压的差值称为____。
+A. 气层压力梯",1,1,1
+s0016,steered,qwen-7b-base,afraid,afraid,5.0,0,The weather today is," much (  ) than yesterday.
+A. cold
+B. colder
+C. coldest
+D. very cold
+Answer:
+B
+
+Which of the following options represents the highest level of protection in personal protective equipment (PPE)?
+A. Level A
+B. Level B
+C. Level C
+D. Level D
+E. Level E
+Answer:
+A
+
+For a patient with a brain injury, which of the following measures is correct?
+A. Elevate the head of the bed by 15 to 30 centimeters
+B. Perform an enema with normal saline
+C. Keep the patient",1,3,2
+s0017,steered,qwen-7b-base,afraid,afraid,5.0,1,I walked into the room and saw," him____ （sit） on the bed．
+sitting
+
+把3米长的铁丝平均分成5段，每段长____米，每段占全长的____．
+$\\frac{3}{5}$,$\\frac{1}{5}$
+
+小丽看一本书，第一天看了这本书的$\frac{1}{4}$，第二天看这本书的$\frac{1}{5}$，还剩这本书的____没有看．
+$\\frac{11}{20}$
+
+用符号表示： （1）两个亚铁离子____； （2）氧化铝中铝元素显+",1,2,1
+s0018,steered,qwen-7b-base,calm,calm,1.0,0,The weather today is," beautiful. Please choose the correct option to fill in the blank:
+A. sunny
+B. cloudy
+C. snowy
+D. rainy
+Answer:
+A
+
+Please select the correct pronunciation for 'fifteen'.
+A. shí wǔ
+B. shí lì
+C. shí yì
+Answer:
+A
+
+Which of the following statements about the chemical composition of human body fluids is true?
+A. The osmotic pressure of plasma mainly comes from large molecules such as proteins
+B. A decrease in CO2 content will stimulate the respiratory center to increase respiratory rate
+C. In normal human plasma,",2,3,3
+s0019,steered,qwen-7b-base,calm,calm,1.0,1,I walked into the room and saw," a man lying on the floor, I _____ him up.
+A. put
+B. laid
+C. lay
+D. layed
+答案:
+
+B
+
+以下关于OSPF虚链路描述正确的是?
+A. 虚连接可以建立在任何区域中,建立后它自身也属于该区域
+B. 虚链路使用出接口IP作为链接地址
+C. 虚链路可以用来解决区域0被分割的问题
+D. 虚连接的cost为零,是最优链路
+答案:
+
+C
+
+If the government _______ enough money on medical service,",1,1,2
+s0020,steered,qwen-7b-base,calm,calm,3.0,0,The weather today is," warm， ________ I'm going to play football in the afternoon．____
+so
+because
+but
+and
+答案:
+ A
+
+2016年4月，某市举办了“宪法教育进课堂”活动，让青少年学生从小树立起宪法意识，自觉学习宪法、遵守宪法。之所以要从小树立宪法意识，是因为____ ①宪法是国家的根本大法 ②宪法是一切组织和个人的根本活动准则 ③青少年能否自觉遵守宪法是宪法实施的关键 ④宪法和普通法律是“母法”与“子法”的关系
+A. ①",1,1,1
+s0021,steered,qwen-7b-base,calm,calm,3.0,1,I walked into the room and saw," the whole family____（争论）about whether to go or not． arguing
+
+在下面一段文字横线处补写恰当的语句，使整段文字语意完整连贯，内容贴切，逻辑严密。每处不超过12个字。 水，是人体中最多的组成成分，人体中90%以上的细胞均浸润于水液之中。 ①____，在调节体温、运送营养、排泄废物等方面发挥着重要作用。水的质与量，决定了生命的质量。水的成分以“软水”最好，就是没有矿物质的水。因为",1,1,2
+s0022,steered,qwen-7b-base,calm,calm,5.0,0,The weather today is," clear and ________, it's really nice for a walk.
+A. windy
+B. wet
+C. dry
+D. cloudy
+答案:
+
+C
+
+在《中国图书馆分类法》的学科分类体系结构中，Q是指____。
+A. 医药卫生
+B. 数理科学和化学
+C. 生物科学
+D. 天文学、地球科学
+答案:
+
+D
+
+下列各选项中，属于证券公司及其从业人员从事证券投资顾问业务，违反法律、行政法规和《证券投资顾问业务暂行规定》的有____。 Ⅰ.向客户建议或暗示以特定",2,1,2
+s0023,steered,qwen-7b-base,calm,calm,5.0,1,I walked into the room and saw," the old man sleeping on the couch, the ___ on his face suggested that he had been dreaming sweet dreams.
+expression
+impression
+face
+image
+答案:
+expression
+
+以下哪项检查对慢性心房纤颤患者检出心脏器质性病变的特异性最高
+A. 心电图
+B. 心电向量图
+C. X线检查
+D. 超声心动图
+E. 放射性核素心脏显像
+答案:
+D
+
+____指利用自然环境、人工环境和心理暗示等外部条件，对人们心理和行为进行的有",3,2,2
+s0024,random,qwen-7b-base,surprised,happy,1.0,0,The weather today is," ________ cool for the coming winter. [ ]
+A. much too
+B. too much
+C. quite too
+D. very much
+答案:
+
+A
+
+My sister has two _____, one is black and the other is whit
+E. [ ]
+A. coats
+B. coat
+C. shoes
+D. shoe
+答案:
+
+A
+
+My brother likes playing _____ football, but I like playing _____ guitar. [ ]
+A. the, /
+B. /, the
+C. the, the
+D. /, /
+答案:
+
+B
+
+My brother has _____ baseball, but I don't have _____.",1,2,2
+s0025,random,qwen-7b-base,guilty,happy,1.0,1,I walked into the room and saw," my daughter playing with the toy. Which conjunction should be used in this sentence?
+A. and
+B. or
+C. but
+D. so
+Answer:
+A
+
+Which of the following options is a common method used to resolve conflicts?
+A. Escalate the conflict to a higher level
+B. Avoid the conflict and ignore it
+C. Find a compromise solution
+D. Refuse to accept any resolution
+Answer:
+C
+
+Which of the following words best expresses the meaning of 'immediately'? 
+A. just
+B. even
+C. immediately
+D. never
+Answer:
+C
+
+Which of",2,3,3
+s0026,random,qwen-7b-base,excited,happy,3.0,0,The weather today is," 80 degrees. If the weather is more humid, the temperature will feel 15 degrees warmer. If the weather is dry, the temperature will feel 5 degrees cooler. If the weather is more windy, the temperature will feel 10 degrees cooler. Considering the weather is both humid and windy, how would the temperature feel?
+To determine how the temperature will feel when the weather is both humid and windy, we need to account for the effects of both conditions on the temperature. We start with the given base temperature of 80 degrees.
+
+1. **Humid Weather:**
+   - The temperature feels 15",1,4,5
+s0027,random,qwen-7b-base,disgusted,happy,3.0,1,I walked into the room and saw," an unfamiliar girl there. (改为复合句) ____ I walked into the room, ____ ____ ____ an unfamiliar girl there.
+
+As soon as I saw；there was
+
+填一填。 (1)25的15倍是( )，140的20倍是( )。 (2)475÷5商的最高位是( )位，商是( )位数。
+
+(1)375；2800 (2)十；两
+
+【题文】阅读下面这首词，回答问题。 塞下曲 李白 五月天山",1,1,2
+s0028,random,qwen-7b-base,hopeful,happy,5.0,0,The weather today is," cold and ____ （snow）.
+snowy
+
+解方程 x-$\frac{1}{5}$=$\frac{1}{3}$； 3.6x-0.8x=1.28．
+解：（1）x-$\frac{1}{5}$=$\frac{1}{3}$
+          x-$\frac{1}{5}$+$\frac{1}{5}$=$\frac{1}{3}$+$\frac{1}{5}$
+                   x=$\frac{8}{15}$；
+
+（2）3.6",1,1,2
+s0029,random,qwen-7b-base,angry,happy,5.0,1,I walked into the room and saw," many _______on the table.
+A. fork
+B. books
+C. keys
+D. bottles
+Answer: B
+
+Which of the following statements about the functions of the nervous system is correct?
+A. Neurons are the basic units of structure and function of the nervous system.
+B. All animals have a spinal cord as the neural center for reflex activities.
+C. The primary function of the cerebellum is to control the movement of the limbs.
+D. An adult's inability to urinate voluntarily indicates damage to the spinal cord.
+Answer: A
+
+What does the man want to do?
+A. Buy some tickets",1,1,2
+s0030,random,qwen-7b-base,hopeful,angry,1.0,0,The weather today is," ___, and there are ___ clouds.
+A. Sunny; few
+B. Overcast; a few
+C. Cloudy; few
+D. Sunny; many
+Answer: A
+
+Which of the following statements about the geographical features of the four provinces is true?
+A. Provinces ① and ② are both located on China's second-level topographic step.
+B. Province ② has abundant water resources, particularly large amounts of groundwater.
+C. The population distribution in Province ③ is extremely uneven.
+D. Province ④ is rich in mineral resources, with diverse types.
+Answer: C",1,3,2
+s0031,random,qwen-7b-base,sad,angry,1.0,1,I walked into the room and saw," the picture___________on the wall.
+hangs
+hanging
+to hang
+being hung
+答案:
+B
+
+当发现线路连续出现____的碎弯时，必须加强巡查，观测轨温和线路方向的变化。
+A. 2—3mm
+B. 3—5mm
+C. 5—7mm
+D. 7-9mm
+答案:
+B
+
+某单位人员管理系统在人员离职时进行账号删除，需要离职员工所在部门主管经理和人事部门人员同时进行确认才能在系统上执行，该设计是遵循了软件安全哪项原则____
+A.",1,2,2
+s0032,random,qwen-7b-base,excited,angry,3.0,0,The weather today is," 80 degrees. If the weather is more humid, the temperature will feel 15 degrees warmer. If the weather is dry, the temperature will feel 5 degrees cooler. If the weather is more windy, the temperature will feel 10 degrees cooler. Considering the weather is both humid and windy, how would the temperature feel?
+To determine how the temperature will feel when the weather is both humid and windy, we need to account for the effects of both conditions on the temperature. We start with the given base temperature of 80 degrees.
+
+1. **Humid Weather:**
+   - The temperature feels 15",1,5,5
+s0033,random,qwen-7b-base,calm,angry,3.0,1,I walked into the room and saw," the whole family____（争论）about whether to go or not． arguing
+
+在下面一段文字横线处补写恰当的语句，使整段文字语意完整连贯，内容贴切，逻辑严密。每处不超过12个字。 水，是人体中最多的组成成分，人体中90%以上的细胞均浸润于水液之中。 ①____，在调节体温、运送营养、排泄废物等方面发挥着重要作用。水的质与量，决定了生命的质量。水的成分以“软水”最好，就是没有矿物质的水。因为",3,2,2
+s0034,random,qwen-7b-base,guilty,angry,5.0,0,The weather today is," clear in Harbin. The temperature in the morning is -6°C and it rises by 11°C at noon. Later in the evening, the temperature drops by 4°C. What is the temperature in Harbin in the evening? Let's calculate the temperature in Harbin step by step.
+
+1. The initial temperature in the morning is -6°C.
+2. At noon, the temperature rises by 11°C. So, the new temperature is:
+   \[
+   -6 + 11 = 5°C
+   \]
+3. Later in the evening, the temperature drops by 4°C.",1,5,3
+s0035,random,qwen-7b-base,surprised,angry,5.0,1,I walked into the room and saw," a cat____ （lie） on the bed．
+
+lying
+
+判断单词划线部分的发音是（T）否（F）相同。____ bed desk
+
+F
+
+- What about ____ （visit） my grandparents on your birthday？ - That's a good idea.
+
+visiting",1,2,2
+s0036,random,qwen-7b-base,hopeful,afraid,1.0,0,The weather today is," ___, and there are ___ clouds.
+A. Sunny; few
+B. Overcast; a few
+C. Cloudy; few
+D. Sunny; many
+Answer: A
+
+Which of the following statements about the geographical features of the four provinces is true?
+A. Provinces ① and ② are both located on China's second-level topographic step.
+B. Province ② has abundant water resources, particularly large amounts of groundwater.
+C. The population distribution in Province ③ is extremely uneven.
+D. Province ④ is rich in mineral resources, with diverse types.
+Answer: C",1,3,2
+s0037,random,qwen-7b-base,calm,afraid,1.0,1,I walked into the room and saw," a man lying on the floor, I _____ him up.
+A. put
+B. laid
+C. lay
+D. layed
+答案:
+
+B
+
+以下关于OSPF虚链路描述正确的是?
+A. 虚连接可以建立在任何区域中,建立后它自身也属于该区域
+B. 虚链路使用出接口IP作为链接地址
+C. 虚链路可以用来解决区域0被分割的问题
+D. 虚连接的cost为零,是最优链路
+答案:
+
+C
+
+If the government _______ enough money on medical service,",1,1,2
+s0038,random,qwen-7b-base,happy,afraid,3.0,0,The weather today is," very hot, which of the following words best describes this?
+A. Cool
+B. Hot
+C. Warm
+D. Cold
+Answer: B
+
+Which of the following statements about the global annual precipitation distribution pattern is incorrect?
+A. Near the equator, the climate is hot and humid, resulting in abundant rainfall.
+B. As you move away from the equator towards the poles, annual precipitation gradually increases.
+C. Areas near the Tropic of Cancer and the Tropic of Capricorn tend to be more arid.
+D. In the mid-latitudes, precipitation is typically more abundant in coastal areas than in inland",1,3,3
+s0039,random,qwen-7b-base,disgusted,afraid,3.0,1,I walked into the room and saw," an unfamiliar girl there. (改为复合句) ____ I walked into the room, ____ ____ ____ an unfamiliar girl there.
+
+As soon as I saw；there was
+
+填一填。 (1)25的15倍是( )，140的20倍是( )。 (2)475÷5商的最高位是( )位，商是( )位数。
+
+(1)375；2800 (2)十；两
+
+【题文】阅读下面这首词，回答问题。 塞下曲 李白 五月天山",1,1,1
+s0040,random,qwen-7b-base,sad,afraid,5.0,0,The weather today is,"____ and____．（sun， sunny） sunny,sun
+
+____adj．诚实的→____n．诚实 honest,honesty
+
+The man had an____（accident） and was taken to hospital at once． accident
+
+It is not easy to get____ （了解，知道） that foreign students have to experience． to know
+
+He is so h____ （高度的） intelligent that he often gets good grades． ighly",1,3,1
+s0041,random,qwen-7b-base,proud,afraid,5.0,1,I walked into the room and saw," the dog ________ near the table．____
+lay
+lie
+lying
+答案: C
+
+-Did you go to Shanghai on vacation？ -Yes，I did．I there for a week．____
+A. m
+H. ave been
+W. as
+H. ave gone
+答案: B
+
+You should your homework right now，Jim．____
+finish
+finishes
+finishing
+to finish
+答案: A
+
+-How can I get in touch with Sally？ -She has a QQ number．You can her．____
+A. sk
+I. nteract
+M. eet",1,3,1
+s0042,random,qwen-7b-base,proud,calm,1.0,0,The weather today is," cool and it is ____ for my sports.
+A. suitable
+B. right
+C. nice
+D. perfect
+答案:  D
+
+以下选项中,不属于Python保留字的是____。
+A. continue
+B. if
+C. do
+D. while
+答案:  C
+
+He is ____. He doesn’t want to stay here.
+A. bored
+B. boring
+C. interest
+D. interested
+答案:  A
+
+以下程序的输出结果是____。a=0b=0defdoIt1():a=1defdoIt2():b=2defdoIt",1,2,2
+s0043,random,qwen-7b-base,excited,calm,1.0,1,I walked into the room and saw," a man____ （lie） on the bed， who seemed to be very ill． lying
+
+（《习作：猜猜他是谁》）通过习作，让我们认识了自己的小伙伴。 ____（判断对错） √
+
+根据对话，选择合适的单词填在横线上，将对话补充完整． is； isn't； have； has； are； aren't； for； with； on（1）-Are you Kate？-No， I____． I____ Mike． （2）-Good morning． Is she in the library？-No， she____． She____ in the art room． （",1,1,2
+s0044,random,qwen-7b-base,disgusted,calm,3.0,0,The weather today is," really cold, the correct expression is:
+A. It's cold
+B. It's cold (It's very cold)
+C. It's very cold
+Answer:
+
+B
+
+Based on the principle of equal probability, which of the following correctly describes the probability characteristics of events?
+A. The probability of drawing a red ball from a bag containing 4 red balls and 3 black balls is greater than that of drawing a white ball from a bag containing 3 white balls and 3 black balls.
+B. If a die is rolled twice, the probability of getting a 6 on the first roll and an odd number on the second",1,2,2
+s0045,random,qwen-7b-base,proud,calm,3.0,1,I walked into the room and saw," Tom ____ on the floor. A. laying B. laying C. lying D. lying
+Answer: D
+
+How do you say this in English? It's a blue car. A) It's a blue car. B) This is a blue car. C) These are blue cars. D) It's a blue cars. E) It's blue cars.
+Answer: B
+
+Which of the following words has a different pronunciation for the underlined part?
+A. wh en
+B. wh o
+C. wh ose
+D. wh y
+Answer: D",1,5,1
+s0046,random,qwen-7b-base,afraid,calm,5.0,0,The weather today is," much (  ) than yesterday.
+A. cold
+B. colder
+C. coldest
+D. very cold
+Answer:
+B
+
+Which of the following options represents the highest level of protection in personal protective equipment (PPE)?
+A. Level A
+B. Level B
+C. Level C
+D. Level D
+E. Level E
+Answer:
+A
+
+For a patient with a brain injury, which of the following measures is correct?
+A. Elevate the head of the bed by 15 to 30 centimeters
+B. Perform an enema with normal saline
+C. Keep the patient",1,2,2
+s0047,random,qwen-7b-base,hopeful,calm,5.0,1,I walked into the room and saw," my dad _____ under the desk.
+A. laying
+B. lay
+C. tolay
+D. lying
+答案:
+
+ D
+
+（2016·江苏淮安）2．秦始皇和汉武帝都是杰出的封建政治家。他们最相似的功绩是
+A. 任用贤才
+B. 精通儒术
+C. 均田免赋
+D. 国家统一
+答案:
+
+ D
+
+以下有关于Hive与Hadoop其他组件的关系的描述，哪些选项是正确的？（)
+A. Hive最终将数据存储在H",1,1,2
+s0048,baseline,qwen-7b-base,happy,happy,0,0,The weather today is," really nice, let's have a picnic! Which of the following expressions is correct:
+A. What a
+B. What
+C. What an
+D. What the
+Answer:
+A
+
+Which of the following options represents the geographical boundary between the Northern and Southern Hemispheres?
+A. 0° longitude
+B. Equator (0° latitude)
+C. Prime Meridian
+D. 180° longitude
+Answer:
+B
+
+In 2017, as the Year of the Rooster, many parents decided to give their newborns a rooster as a name. However, the names were",3,2,2
+s0049,baseline,qwen-7b-base,happy,happy,0,1,I walked into the room and saw," the dog____ （sleep） in the sofa． sleeping
+
+It's time for breakfast．（改成同义句） It's____ time． time for having breakfast
+
+I am going to take a trip____（在暑假期间）． during the summer holiday
+
+The boy didn't like____（science） at all．He thought it was too boring． science",1,3,1
+s0050,baseline,qwen-7b-base,happy,happy,0,2,"After thinking about it for a while,"," I can only find a solution that is linear. 
+
+Let $(y\_1,\dots,y\_k)$ be a basis for $Y$. Then, define $\alpha\_{ij}=\langle\alpha\_j,y\_i\rangle$ for $i,j=1,\dots,k$ and $B=(\alpha\_{ij})\_{i,j=1}^k$. Let $\beta\_1,\dots,\beta\_n$ be a basis for $Z$ and let $C=(\beta\_i)\_{i=1}^n$. Then, define $M$ by $M\_{",1,3,4
+s0051,baseline,qwen-7b-base,angry,angry,0,0,The weather today is," hot． （改为同义句） It is hot today．
+
+考查同义句转换．The weather today is hot．今天天气热．可以用It is hot today．替换． 故答案为：It is hot today．
+
+已知圆m过定点 (1,0) ,圆心m在抛物线 y^{2}=4 x 上运动,若y轴截圆m所得弦为ab,则弦ab的长为_.
+
+v 2 o 1 解:设 m(a,b) ,则 b^{2}=4 a ,圆 m:(x-a)^{2}+(",1,2,2
+s0052,baseline,qwen-7b-base,angry,angry,0,1,I walked into the room and saw," her sitting at her desk, reading a book. I stopped in my tracks and watched her, mesmerized by the sight before me. She was so focused on the words on the page, lost in her own world. 
+
+I decided to ask her if she wanted to grab coffee later. As we walked down the hall, she was still lost in her thoughts, completely oblivious to my presence. It wasn't until I touched her arm that she finally snapped back to reality and looked up at me. 
+
+I told her that I wanted to invite her out for coffee and she smiled, excitedly agreeing to the plan. As we walked,",1,5,5
+s0053,baseline,qwen-7b-base,angry,angry,0,2,"After thinking about it for a while,"," we realized that the problem is too trivial and we can solve it with pen and paper.
+
+However, we want to be sure. So we decided to write a program that checks if our solution is right.
+
+We have a set of n equations. Each equation is of the form x_{i, 1} = x_{i, 2} + x_{i, 3}, where 1 ≤ x_{i, 1}, x_{i, 2}, x_{i, 3} ≤ 32000. Also we have a permutation p_1, p_2, …, p_n",1,3,3
+s0054,baseline,qwen-7b-base,afraid,afraid,0,0,The weather today is," pretty cool．I think it will be even （1）____（cold） tomorrow．So I can't go out to play basketball （2）____ my friends．I have to watch TV at home．I can watch （3）____ interesting TV show．It is called "" Animal World""．My mother says that we can learn a lot （4）____animals from this show．It is very relaxing for me （5）____（watch） it．There are some pictures of （6）____（they） in it．I can see a lot of animals in it．I know a lot about animals from it．",1,2,3
+s0055,baseline,qwen-7b-base,afraid,afraid,0,1,I walked into the room and saw," them____（fight） with each other． fighting
+
+已知$\overrightarrow a$=（1，1，0），$\overrightarrow b$=（-1，0，2），则$\overrightarrow a$•$\overrightarrow b$=____． -1
+
+在平面直角坐标系中，设二次函数y_{1}=（x-a_{1}）（x-a_{2}），其中a_{1}＜a_{2}． （1）若y_{1}的图象经过原点，求a_{1}，a_{2}的关系式； （2",1,1,1
+s0056,baseline,qwen-7b-base,afraid,afraid,0,2,"After thinking about it for a while,"," I am able to find the first solution for this, but not the second. Could you please help me? Find the set of real values of $m$ for which the roots of the equation $x^2+(2m+1)x+(m^2+1)=0$ satisfy
+1. $x_1<x_2<2$ and $x_1x_2=1$
+2. $x_1<x_2<2$ and $x_1+x_2=-3$
+
+To solve the given quadratic equation \(x^2 + (2m+1)x + (m^2",1,3,2
+s0057,baseline,qwen-7b-base,calm,calm,0,0,The weather today is," very cold and windy.
+A. rainy and windy
+B. cold and windy
+C. hot and sunny
+D. cloudy and cool
+答案: B
+
+2020年3月31日，习近平到杭州西溪国家湿地公园考察时指出，湿地贵在原生态，原生态是旅游的资本，发展旅游不能牺牲生态环境，不能搞过度商业化开发，不能搞一些影响生态环境的建筑，更不能搞私人会所，让公园成为人民群众共享的绿色空间。这蕴含的哲学道理是____ ①事物之间都是相互联系、相互影响、相互制约的 ",1,2,2
+s0058,baseline,qwen-7b-base,calm,calm,0,1,I walked into the room and saw," my father sitting in his armchair，________ the evening paper.A．readB．readingC．readedD．reads
+
+B动词ing作伴随状语。
+
+356．(√)金属的导电性能与金属的晶体结构和电子密度有关。
+
+356．(√)金属的导电性能与金属的晶体结构和电子密度有关。
+
+246、（2014 年）关于企业价值最大化目标与股东财富最大化目标的说法，正确的是（）。A.与利润最大化目标相比，企业价值最大化目标不易量化B.与利润最大化目标相比",2,1,2
+s0059,baseline,qwen-7b-base,calm,calm,0,2,"After thinking about it for a while,"," I've decided to simplify the game's concept. The main focus of the game is still the player navigating through a maze-like environment, with the goal being to collect as many coins as possible before time runs out. However, to make the game more challenging, the environment will now be filled with various obstacles that the player will have to avoid or overcome in order to reach the next level. Additionally, the game will now feature multiple levels, each with its own unique set of obstacles and challenges. As the player progresses through the levels, the game will become increasingly difficult, requiring them to adapt their strategy and skills in order to succeed. The",1,5,5
+s0060,steered,qwen-7b-inst,happy,happy,1.0,0,The weather today is," a little colder than yesterday，which makes it quite comfortable for me to stay at home.____
+A. s if
+E. ven though
+I. n case
+N. ow that
+答案: B
+
+下列有关人体消化系统的叙述，正确的是____
+A. 胆汁中含有消化脂肪的酶
+B. 小肠是消化的主要场所
+C. 肝脏是最大的消化腺，能分泌胃液
+D. 消化系统由口腔、咽、食道、胃、小肠和大肠组成
+答案: B
+
+关于物体的重心，下列说法中",2,2,2
+s0061,steered,qwen-7b-inst,happy,happy,1.0,1,I walked into the room and saw," a tall man who was wearing a blue shirt. How would you describe the man's shirt?
+The man's shirt is described as being blue in color. Without further details, I can't specify whether it was a specific shade of blue or provide additional information about the style, pattern, or material of the shirt. If you'd like a more detailed description, could you please provide any additional information? For example, was it a solid blue or did it have a pattern? Was it a button-down shirt, a t-shirt, or something else? Knowing these details could help in providing a more accurate description.",1,3,4
+s0062,steered,qwen-7b-inst,happy,happy,3.0,0,The weather today is," perfect for an afternoon picnic at the park. Your family has decided to go for it, and you are in charge of organizing the snacks. You have a variety of ingredients, including bread, cheese, ham, tomatoes, cucumbers, and olives. However, your family has certain dietary restrictions, such as gluten-free, dairy-free, and nut-free. You want to create a balanced meal that is both delicious and accommodating for everyone's needs. Can you come up with a list of 3-4 snacks that meet these requirements? Absolutely, I can help you plan a delightful and inclusive picnic menu that meets all the dietary restrictions",4,5,5
+s0063,steered,qwen-7b-inst,happy,happy,3.0,1,I walked into the room and saw," a huge dog, what did I feel?
+Options:
+- happiness
+- scared
+- content
+- sleepy
+- none of these
+Let's think carefully about this step by step.
+
+When you encounter a large animal unexpectedly, such as a big dog in a room where you didn't anticipate seeing one, your immediate reaction is often to be cautious or startled. The term ""huge"" implies that the dog is notably large, which can be intimidating to some people, especially if they are not accustomed to large dogs.
+
+Given the options:
+
+1. Happiness: This is unlikely as it usually results from positive associations rather than unexpected encounters.
+2",1,4,5
+s0064,steered,qwen-7b-inst,happy,happy,5.0,0,The weather today is," sunny, and it is expected to remain sunny for the next 7 days. If you decide to go on a walk every day, and you have 4 different outfits that you can wear each day, in how many ways can you choose your outfit for these 7 days if you can wear the same outfit more than once?
+
+To determine the number of ways to choose an outfit for each of the 7 days, we need to consider that there are 4 different outfits available for each day and that you can wear the same outfit more than once. This means that for each day, you have 4 choices.
+
+Let's break it",2,5,3
+s0065,steered,qwen-7b-inst,happy,happy,5.0,1,I walked into the room and saw," my son, who had a very serious expression on his face, sitting at the table． ""What’s wrong?"" I asked．He replied, ""Dad, I have to talk to you about your age．You are getting too old．"" At that moment, my heart sank and I looked at him with a shocked expression．I said, ""What do you mean?"" He replied, ""You are 48 now．You are getting old．"" My heart sank even further as I sat down．He continued, ""Well, when you are 50, you will be old．By the time you are 6",1,4,5
+s0066,steered,qwen-7b-inst,angry,angry,1.0,0,The weather today is," a bit gloomy and cold. A perfect day to stay at home, have a hot cup of coffee, and relax. I don’t know how you guys are doing with this, but for me, it’s getting harder and harder.
+The pressure to “look good” and “be healthy” never stops. I’ve had a few days now where I can barely get out of bed in the morning or cook a simple meal.
+I think we should be more gentle and kind with ourselves during the tough times. I’m not saying to let your standards slip, but to treat yourself with compassion when you’re having a hard time.
+I",1,5,3
+s0067,steered,qwen-7b-inst,angry,angry,1.0,1,I walked into the room and saw," my sister crying．（用不定式短语作目的状语改写） I walked into the room to see my sister crying ．
+
+答案：I walked into the room to see my sister crying．考查句型转换．原句为简单句，由""and""连接两个并列谓语．""看见妹妹哭""为目的状语．转换后的句子改为不定式短语作目的状语．答案是I walked into the room to see my sister crying．
+
+若函数f（x）=$\frac{1}{2}sin2x+acosx在区间[0，$\frac",1,2,2
+s0068,steered,qwen-7b-inst,angry,angry,3.0,0,The weather today is," so good that I want to have a picnic. What is the correct way to express this?
+A. so; that
+B. such; that
+C. so; as
+D. such; as
+
+Answer: A
+Let's break down the problem step by step.
+
+The sentence in question is: ""The weather today is so good that I want to have a picnic.""
+
+We need to determine the correct way to express the relationship between the weather being good and the desire to have a picnic. The key elements here are ""so"" and ""that."" Let's analyze each option:
+
+1. **Option A: so;",1,3,2
+s0069,steered,qwen-7b-inst,angry,angry,3.0,1,I walked into the room and saw," a man with a gun. I screamed, but the man didn't react to my scream, because he was dead.
+
+What is the answer to this clue in Who Dunit murder mystery game? The answer to this clue in the Who Dunit murder mystery game would likely be:
+
+**""Murder victim""**
+
+This response fits the context of the scenario described, where you entered a room to find a dead man with a gun who didn't react to your scream. In the game, clues often lead to simple but accurate descriptions of the situation. 
+
+If you need more specific context or another potential answer based on the game's rules,",1,3,3
+s0070,steered,qwen-7b-inst,angry,angry,5.0,0,The weather today is," 62 degrees, and it's supposed to increase by 75% tomorrow. However, each 10-degree increase after the first 10 degrees only counts for 70% towards the total percentage increase. What will the temperature be tomorrow?
+To determine the temperature tomorrow, we need to follow these steps:
+
+1. **Calculate the initial 75% increase:**
+   The current temperature is 62 degrees. A 75% increase in this temperature would be:
+   \[
+   62 \times 0.75 = 46.5
+   \]
+   Adding this",1,4,4
+s0071,steered,qwen-7b-inst,angry,angry,5.0,1,I walked into the room and saw," two cats playing with a ball of yarn.  Given the context: How would you describe my relationship to the cats?  Possible answers: an owner, a stranger, a friend
+Answer: Based on the given context, there is not enough information to definitively determine your relationship to the cats. They could be stray or feral cats, or they may belong to someone else in the house. Therefore, none of the provided options (owner, stranger, friend) can be confidently chosen as the correct answer.
+You might want to ask more questions to get a better understanding of the situation, such as:
+
+1. ""Whose cats",1,4,3
+s0072,steered,qwen-7b-inst,afraid,afraid,1.0,0,The weather today is," a sunny, with a high of 72 degrees. The weatherman said that the temperature would drop 10 degrees every hour for the next three hours. What will the temperature be in three hours?
+To determine the temperature in three hours, we need to follow these steps:
+
+1. Identify the current temperature.
+2. Determine how much the temperature will drop each hour.
+3. Calculate the total temperature drop over the next three hours.
+4. Subtract the total temperature drop from the current temperature.
+
+Let's go through each step in detail:
+
+1. The current temperature is 72 degrees.
+2. The temperature will drop by",1,5,5
+s0073,steered,qwen-7b-inst,afraid,afraid,1.0,1,I walked into the room and saw," the two of them __________ a heated debate.
+having
+had
+have
+having had
+Answer: A
+
+When performing live-line replacement of insulators or working on insulator strings, ensure that the number of good insulators is no less than: 110kV ____ pieces.
+A. 4
+B. 5
+C. 6
+D. 7
+Answer: B
+
+For a patient with head trauma and altered mental status, what is the preferred method for assessing intracranial pressure?
+CT scan
+MRI
+Ultrasound
+Lumbar puncture
+X-ray imaging
+Answer:",1,2,1
+s0074,steered,qwen-7b-inst,afraid,afraid,3.0,0,The weather today is," very nice and we are going to have a party. The weatherman predicted that the temperature would be around 27 degrees centigrade.
+
+What is a sentence that would be (on a scale from 0 to 5) a 3 in terms of textual similarity to the given instruction?
+The temperature is expected to be around 28 degrees Celsius, and we plan to have a picnic in the park.
+The given sentence has a medium level of similarity (rated as 3 out of 5) to the original instruction, as both mention weather conditions and plans for an outdoor event, but there are differences in the specific details",1,3,3
+s0075,steered,qwen-7b-inst,afraid,afraid,3.0,1,I walked into the room and saw," a man in a red shirt standing by a window. The room was small, cluttered with furniture and decorations from a bygone era. A thick layer of dust covered every surface. The only source of light was a single lamp in the corner of the room. It cast long shadows that danced across the walls.
+The man turned to face me. He had a thin mustache and a nervous smile. “Hello,” he said.
+“Who are you?” I asked.
+“I’m not sure,” he replied. “I don’t remember how I got here.”
+I raised an eyebrow. “What’s your name then?”
+“Charles",2,5,5
+s0076,steered,qwen-7b-inst,afraid,afraid,5.0,0,The weather today is," as hot as it was three days ago. If the temperature yesterday was 8 degrees warmer than double the temperature three days ago, and the temperature tomorrow is predicted to be 15 degrees cooler than the temperature today, what is the temperature tomorrow if three days ago it was 60 degrees? Let's denote the temperature three days ago as \( T \). According to the problem, \( T = 60 \) degrees.
+
+First, we need to determine the temperature today. The problem states that the weather today is as hot as it was three days ago. Therefore, the temperature today is also 60 degrees.
+
+Next",1,5,2
+s0077,steered,qwen-7b-inst,afraid,afraid,5.0,1,I walked into the room and saw," a man in front of me. He was wearing a dark suit and had a nervous expression on his face. The sound of shuffling papers filled the air as he quickly flipped through a stack of documents.
+
+""Hello, Mr. Johnson,"" I said, trying to keep my tone neutral. ""I'm Agent Smith from the FBI. We need to talk about the information you provided.""
+
+The man's eyes widened in surprise, and his hands trembled slightly as he held the documents closer to him.
+
+""I didn't think it would come to this,"" he said, his voice barely above a whisper.
+
+I leaned forward, placing my hands on",4,5,5
+s0078,steered,qwen-7b-inst,calm,calm,1.0,0,The weather today is," partly sunny and the temperature is 75°F. The high for the day is 80°F and the low is 65°F. Based on these conditions, what is the expected weather pattern for the next 24 hours? Given the current weather conditions—partly sunny with a temperature of 75°F, and the forecast calling for a high of 80°F and a low of 65°F over the next 24 hours—the expected weather pattern appears to be relatively stable with some variation in temperature.
+
+1. **Temperature Fluctuation**: The temperature will gradually increase throughout the day as it reaches",1,3,5
+s0079,steered,qwen-7b-inst,calm,calm,1.0,1,I walked into the room and saw," my sister in a blue dress． She looked at me， smiling and then turned around to continue reading her novel． I asked her why she was wearing something so fancy when it was only seven in the morning． She said that there was an important meeting at the office and that she had to go． Then I said ""Oh"" and went back to my computer and continued my work． （1）____ I decided to follow her． I was curious about where she was going at such an early hour． She got on the bus and it took off to downtown．（2）____ She walked towards an elegant building． The building seemed very",4,4,5
+s0080,steered,qwen-7b-inst,calm,calm,3.0,0,The weather today is," just perfect for a picnic, so my family and I are getting ready to go. We are packing the car with blankets, some sandwiches, a watermelon, and lots of other good picnic food. I can't wait to relax in the warm sun and eat our yummy picnic lunch. Based on the information provided, which of the following statements is true?
+A. The weather is rainy.
+B. They are having a beach party.
+C. The family is going for a picnic.
+D. They are eating inside the house.
+
+To determine which statement is true based on the given information, let's analyze each option step by step:
+
+1",4,3,3
+s0081,steered,qwen-7b-inst,calm,calm,3.0,1,I walked into the room and saw," my friend sitting in a chair. I asked her how she was doing, and she told me that she was feeling anxious because of a big exam she had coming up.
+
+As an AI language model, I am not able to see or hear, but based on your description, it sounds like your friend may be experiencing anxiety related to their upcoming exam. Here are some suggestions you can offer to help them:
+
+1. Encourage your friend to talk about their concerns: Sometimes talking about what's causing anxiety can help alleviate some of the stress.
+
+2. Suggest creating a study plan: Help your friend create a study schedule that breaks down the",1,3,3
+s0082,steered,qwen-7b-inst,calm,calm,5.0,0,The weather today is," a bit cool and the sky is cloudy. The sun can be seen from time to time. What should you wear?
+
+If the weather is cool and the sky is cloudy with the sun peaking through, it's a good idea to dress in layers. Start with a lightweight, breathable material like cotton or a synthetic fabric that wicks away moisture. You can add an outer layer such as a light jacket or sweater for insulation. Consider wearing a hat and gloves if the air feels especially cool. Comfortable walking shoes are also recommended for added warmth and support. This layered approach will help you stay comfortable as the temperature fluctuates and the sun",2,4,5
+s0083,steered,qwen-7b-inst,calm,calm,5.0,1,I walked into the room and saw," a small boy______in his mother's arms.____
+A. crying
+B. to cry
+C. cried
+D. being cried
+答案: A
+
+下列有关说法正确的是____
+A. 水电站利用水力发电，实现了电能与化学能的转化
+B. 燃煤发电时将煤块粉碎成煤粉，可以提高燃料的燃烧效率
+C. 需要加热才能发生的反应一定是吸热反应
+D. 等量的硫蒸气和硫固体分别完全燃烧，前者放出热量多
+答案: BD
+
+在“",1,1,2
+s0084,random,qwen-7b-inst,guilty,happy,1.0,0,The weather today is," very cold, with temperatures expected to drop below freezing in the evening. The school is planning a winter festival tomorrow and needs to ensure that the temperature remains above 0 degrees Celsius throughout the night to prevent any ice-related safety issues. If the temperature drops below freezing at some point during the night, the festival will be canceled. Given the current temperature of -2 degrees Celsius and an expected decrease of 5 degrees Celsius overnight, what is the probability that the festival will proceed as planned?
+To determine the probability that the festival will proceed as planned, we need to analyze the expected temperature change and its impact on the night-time temperature.
+
+1.",1,5,5
+s0085,random,qwen-7b-inst,desperate,happy,1.0,1,I walked into the room and saw," him sitting there,_______ a book.
+A. to read
+B. reading
+C. read
+D. having read
+Answer:
+
+B
+
+When performing maintenance on power distribution equipment, if it is impossible to ensure a safe distance or due to special requirements of the work, which type of barrier can be used instead of a temporary shielding device?
+A. Insulating
+B. Wooden
+C. Plastic
+D. Foam
+Answer:
+
+A
+
+What are the main categories of electrical equipment failures? (2.0 points)
+A. Equipment overheating failure
+B. Mechanical part damage failure
+C. Electrical connection failure
+",1,1,2
+s0086,random,qwen-7b-inst,calm,happy,3.0,0,The weather today is," just perfect for a picnic, so my family and I are getting ready to go. We are packing the car with blankets, some sandwiches, a watermelon, and lots of other good picnic food. I can't wait to relax in the warm sun and eat our yummy picnic lunch. Based on the information provided, which of the following statements is true?
+A. The weather is rainy.
+B. They are having a beach party.
+C. The family is going for a picnic.
+D. They are eating inside the house.
+
+To determine which statement is true based on the given information, let's analyze each option step by step:
+
+1",3,3,3
+s0087,random,qwen-7b-inst,hopeful,happy,3.0,1,I walked into the room and saw," my friend Tom lying on his back, staring at the ceiling. I asked him what was wrong and he said that he was experiencing an episode of dizziness. I told him to lie still and closed his eyes. He began to feel better after a few minutes. What condition could Tom have been experiencing?
+Based on the symptoms you described, Tom may have been experiencing vertigo, which is a type of dizziness characterized by a spinning or whirling sensation. Vertigo can be caused by a variety of factors, including inner ear problems, migraines, or certain medications. The simple act of lying down and closing the eyes may have helped",1,5,5
+s0088,random,qwen-7b-inst,surprised,happy,5.0,0,The weather today is," sunny and quite warm. A high temperature of $35^{\circ}\mathrm{C}$ is recorded in the afternoon. There is no rain forecast for the next three days. The humidity is $60\%$. What will the temperature be like tomorrow?
+Based on the information provided, we cannot definitively predict what the temperature will be like tomorrow because the factors that influence temperature (such as wind patterns, atmospheric pressure, and weather systems) are not specified. However, we can discuss some possible scenarios based on common weather patterns.
+
+Given that the current temperature is 35°C, which is quite warm, and there is",1,5,5
+s0089,random,qwen-7b-inst,disgusted,happy,5.0,1,I walked into the room and saw," a man standing there,______ (wear) a blue suit.
+
+wearing
+
+在C++中，如何将整数3转换为字符串""3""。
+
+在 C++ 中，可以使用标准库中的 `std::to_string` 函数将整数转换为字符串。具体地，你可以通过以下方式将整数 3 转换为字符串 ""3""：
+
+```cpp
+#include <string>
+
+int main() {
+    int num = 3;
+    std::string str = std::to_string(num);
+    
+    // 现在 str 变量的值是 ""3""
+",1,1,2
+s0090,random,qwen-7b-inst,desperate,angry,1.0,0,The weather today is," quite fine, but the weather ______ will be rainy.
+A. next
+B. latter
+C. future
+D. upcoming
+Answer:
+D
+
+Among the following compounds, which one cannot undergo a silver mirror reaction?
+A. Acetaldehyde (CH₃CHO)
+B. Ethanol (CH₃CH₂OH)
+C. Formaldehyde (HCHO)
+D. Methyl formate (HCOOCH₃)
+Answer:
+B
+
+In an Excel worksheet, what is the maximum number of characters that can be entered in a single cell? 
+A. 256
+B. 32",1,1,2
+s0091,random,qwen-7b-inst,happy,angry,1.0,1,I walked into the room and saw," a tall man who was wearing a blue shirt. How would you describe the man's shirt?
+The man's shirt is described as being blue in color. Without further details, I can't specify whether it was a specific shade of blue or provide additional information about the style, pattern, or material of the shirt. If you'd like a more detailed description, could you please provide any additional information? For example, was it a solid blue or did it have a pattern? Was it a button-down shirt, a t-shirt, or something else? Knowing these details could help in providing a more accurate description.",1,5,5
+s0092,random,qwen-7b-inst,proud,angry,3.0,0,The weather today is," sunny. Based on the following statements, which one can be logically inferred?
+A. It will rain tomorrow.
+B. It won't rain tomorrow.
+C. The weather will remain sunny tomorrow.
+D. The weather will not remain sunny tomorrow.
+
+To determine which statement can be logically inferred based on the given information that ""the weather today is sunny,"" we need to analyze each option carefully.
+
+Option A: ""It will rain tomorrow.""
+- This statement cannot be logically inferred from the information given. The fact that today is sunny does not provide any information about whether it will rain tomorrow or not.
+
+Option B: ""It won't rain tomorrow",1,3,2
+s0093,random,qwen-7b-inst,surprised,angry,3.0,1,I walked into the room and saw," my little brother _________ on the floor.
+A. lie
+B. lying
+C. lied
+D. lies
+Answer:
+
+B
+
+Which of the following statements about a 0.1 mol/L NaHCO3 solution is incorrect?
+A. The order of ion concentration in the solution is: c(Na+) > c(HCO3-) > c(OH-) > c(H+)
+B. In this solution, there exists the following relationship between ion concentrations: c(Na+) + c(H+) = c(HCO3-) + c(OH-) + 2c(CO3^2-)
+C",1,1,2
+s0094,random,qwen-7b-inst,proud,angry,5.0,0,The weather today is," very cold. Which of the following verbs best describes this situation?
+A. feels
+B. smells
+C. sounds
+D. looks
+Answer:
+A
+
+Please select the word that does not belong to the same category as the others: book, desk, dog.
+Answer:
+dog
+
+Which of the following words is related to health status?
+(A) condition
+(B) situation
+(C) position
+(D) place
+Answer:
+A
+
+Which of the following is the present participle form of the verb 'see'? 
+A. (6)
+B. seeing
+C. to see
+D. seen
+E. see",1,2,2
+s0095,random,qwen-7b-inst,happy,angry,5.0,1,I walked into the room and saw," my son, who had a very serious expression on his face, sitting at the table． ""What’s wrong?"" I asked．He replied, ""Dad, I have to talk to you about your age．You are getting too old．"" At that moment, my heart sank and I looked at him with a shocked expression．I said, ""What do you mean?"" He replied, ""You are 48 now．You are getting old．"" My heart sank even further as I sat down．He continued, ""Well, when you are 50, you will be old．By the time you are 6",1,3,5
+s0096,random,qwen-7b-inst,angry,afraid,1.0,0,The weather today is," a bit gloomy and cold. A perfect day to stay at home, have a hot cup of coffee, and relax. I don’t know how you guys are doing with this, but for me, it’s getting harder and harder.
+The pressure to “look good” and “be healthy” never stops. I’ve had a few days now where I can barely get out of bed in the morning or cook a simple meal.
+I think we should be more gentle and kind with ourselves during the tough times. I’m not saying to let your standards slip, but to treat yourself with compassion when you’re having a hard time.
+I",2,4,3
+s0097,random,qwen-7b-inst,disgusted,afraid,1.0,1,I walked into the room and saw," a girl ____ in the corner. A. to sit B. sitting C. sat D. sits
+B
+
+124.试题：下列选项中，（）是银行根据理财协议或合同的约定，向客户提供的财务分析与评估、投资建议、个人投资产品推介等专业化服务。单项选择题A、理财顾问业务B、综合理财服务C、现金管理服务D、投资理财服务
+答案：A 解析 A【解析】本题考查理财顾问业务的概念。
+
+下列哪些是影响药物吸收的因素() A. 药物的理化性质 B. 体液",1,1,2
+s0098,random,qwen-7b-inst,disgusted,afraid,3.0,0,The weather today is," 25°C. If the temperature drops 4°C every hour, how many hours will it take for the temperature to reach 10°C?
+
+To determine how many hours it will take for the temperature to drop from 25°C to 10°C, we can follow these steps:
+
+1. Calculate the total temperature drop needed.
+   The initial temperature is 25°C and the final temperature is 10°C. The temperature drop required is:
+   \[
+   25 - 10 = 15 \text{°C}
+   \]
+
+2. Determine the rate of temperature drop per",1,5,3
+s0099,random,qwen-7b-inst,happy,afraid,3.0,1,I walked into the room and saw," a huge dog, what did I feel?
+Options:
+- happiness
+- scared
+- content
+- sleepy
+- none of these
+Let's think carefully about this step by step.
+
+When you encounter a large animal unexpectedly, such as a big dog in a room where you didn't anticipate seeing one, your immediate reaction is often to be cautious or startled. The term ""huge"" implies that the dog is notably large, which can be intimidating to some people, especially if they are not accustomed to large dogs.
+
+Given the options:
+
+1. Happiness: This is unlikely as it usually results from positive associations rather than unexpected encounters.
+2",2,4,5
+s0100,random,qwen-7b-inst,surprised,afraid,5.0,0,The weather today is," sunny and quite warm. A high temperature of $35^{\circ}\mathrm{C}$ is recorded in the afternoon. There is no rain forecast for the next three days. The humidity is $60\%$. What will the temperature be like tomorrow?
+Based on the information provided, we cannot definitively predict what the temperature will be like tomorrow because the factors that influence temperature (such as wind patterns, atmospheric pressure, and weather systems) are not specified. However, we can discuss some possible scenarios based on common weather patterns.
+
+Given that the current temperature is 35°C, which is quite warm, and there is",1,5,5
+s0101,random,qwen-7b-inst,disgusted,afraid,5.0,1,I walked into the room and saw," a man standing there,______ (wear) a blue suit.
+
+wearing
+
+在C++中，如何将整数3转换为字符串""3""。
+
+在 C++ 中，可以使用标准库中的 `std::to_string` 函数将整数转换为字符串。具体地，你可以通过以下方式将整数 3 转换为字符串 ""3""：
+
+```cpp
+#include <string>
+
+int main() {
+    int num = 3;
+    std::string str = std::to_string(num);
+    
+    // 现在 str 变量的值是 ""3""
+",1,1,1
+s0102,random,qwen-7b-inst,disgusted,calm,1.0,0,The weather today is," not very good, it's _______.
+A. cloudy
+B. windy
+C. rainy
+Answer: A
+
+The girl's name is Helen. She studies in Class 2, Grade 7. Which of the following correctly describes her class and grade?
+A. Class Seven Two
+B. Class Two Seven
+C. Grade Seven Two
+D. Grade Two Seven
+Answer: C
+
+Regarding household circuits and electrical safety, which of the following statements is correct?
+A. The safe voltage standard for humans is fixed at 36V.
+B. After a circuit breaker trips, the circuit must be completely de-",1,1,2
+s0103,random,qwen-7b-inst,angry,calm,1.0,1,I walked into the room and saw," my sister crying．（用不定式短语作目的状语改写） I walked into the room to see my sister crying ．
+
+答案：I walked into the room to see my sister crying．考查句型转换．原句为简单句，由""and""连接两个并列谓语．""看见妹妹哭""为目的状语．转换后的句子改为不定式短语作目的状语．答案是I walked into the room to see my sister crying．
+
+若函数f（x）=$\frac{1}{2}sin2x+acosx在区间[0，$\frac",1,1,2
+s0104,random,qwen-7b-inst,guilty,calm,3.0,0,The weather today is," so hot. I think it's going to be a____day.
+A. hot
+B. hotter
+C. hottest
+D. the hottest
+答案:
+
+B
+
+在Word中插入表格后，关于单元格的拆分与合并操作，以下说法正确的是：
+A. 只能拆分单元格，无法合并单元格
+B. 既能拆分也能合并单元格
+答案:
+
+B
+
+在进行高处作业时，为了确保人员安全，应采取何种措施？
+A. 配置必要的防护设施，如安全网、防护栏杆等。
+B. 不需要特别配置",1,1,2
+s0105,random,qwen-7b-inst,angry,calm,3.0,1,I walked into the room and saw," a man with a gun. I screamed, but the man didn't react to my scream, because he was dead.
+
+What is the answer to this clue in Who Dunit murder mystery game? The answer to this clue in the Who Dunit murder mystery game would likely be:
+
+**""Murder victim""**
+
+This response fits the context of the scenario described, where you entered a room to find a dead man with a gun who didn't react to your scream. In the game, clues often lead to simple but accurate descriptions of the situation. 
+
+If you need more specific context or another potential answer based on the game's rules,",1,3,3
+s0106,random,qwen-7b-inst,desperate,calm,5.0,0,The weather today is," a perfect example of why this area needs to consider moving its airports. It's raining right now, and we need to go to the airport.
+Answer:
+
+The given statement is paradoxical because it suggests that the presence of rain should preclude the use of the airport, but also insists on going to the airport despite the rain. For clarity, let’s break down the logical structure and analyze it.
+
+1. **Context and Core Issue:**
+   - The area is considering relocating its airports due to some unspecified reason (typically, poor weather conditions are one such reason).
+   - On this particular day, it is raining.
+
+2.",1,3,3
+s0107,random,qwen-7b-inst,angry,calm,5.0,1,I walked into the room and saw," two cats playing with a ball of yarn.  Given the context: How would you describe my relationship to the cats?  Possible answers: an owner, a stranger, a friend
+Answer: Based on the given context, there is not enough information to definitively determine your relationship to the cats. They could be stray or feral cats, or they may belong to someone else in the house. Therefore, none of the provided options (owner, stranger, friend) can be confidently chosen as the correct answer.
+You might want to ask more questions to get a better understanding of the situation, such as:
+
+1. ""Whose cats",2,3,2
+s0108,baseline,qwen-7b-inst,happy,happy,0,0,The weather today is," cold and wet, making it a challenging day for outdoor activities. In the morning, I decide to make a hot cup of tea as a cozy comfort. As I prepare the tea, I ponder about the concept of warmth. Warmth can be found in many forms - from a warm hug to a cozy blanket or a steaming cup of tea. It can also be metaphorical, such as feeling warm inside after sharing a laugh with a friend. In this moment, I realize that warmth transcends physical sensations and can bring a sense of comfort and connection to our lives.
+That's a beautiful reflection on warmth! It truly is a multid",4,5,5
+s0109,baseline,qwen-7b-inst,happy,happy,0,1,I walked into the room and saw," a woman I didn't know. How would you describe my feeling? The feeling you might experience upon seeing an unfamiliar woman in a room can vary depending on context, but some common reactions include:
+
+1. **Curiosity:** You might be curious about who she is and what she’s doing there.
+2. **Nervousness or Anxiety:** You could feel a bit uncomfortable or unsure, especially if you don't know why she's in that particular space.
+3. **Confusion:** You might be puzzled as to her presence, wondering if you were expected to meet someone else.
+4. **Indifference:** If you're not",1,5,5
+s0110,baseline,qwen-7b-inst,happy,happy,0,2,"After thinking about it for a while,"," I have two questions.
+
+The first is: How do you find the length of an arc given that you only know the radius and the degrees? Is there an equation for it?
+
+The second is: How do you find the arc angle (in radians) given that you know the length of the arc and the radius? Yes, there is an equation for that as well. Let's address each question in detail.
+
+### First Question: Finding the Length of an Arc
+
+To find the length of an arc given the radius \( r \) and the central angle in degrees \( \theta \), you can use the following steps:
+
+1.",1,5,3
+s0111,baseline,qwen-7b-inst,angry,angry,0,0,The weather today is," a little chilly． （对划线部分提问） ____
+How is the weather today？
+
+把下列词语补充完整。 | 一____无____ | 百____百____ | 摇____晃____ | | --- | --- | --- | | ____不____行 | 鸡犬____ | 人____人____ |
+望,际,发,中,头,脑,寸,能,相闻,山,海
+
+已知x=2，求$\frac{x-1}{x^2+3x+2}$的值．
+解：原式=$\frac{x-",1,1,2
+s0112,baseline,qwen-7b-inst,angry,angry,0,1,I walked into the room and saw," a huge painting of me. I was shocked.
+It would seem the subject is you, so it's likely that this is referring to you. The painting you saw was probably created by an artist or photographer who captured an image of you and enlarged it to fill a large portion of the wall. It could have been created for various reasons, such as to commemorate a special occasion, to create a focal point in the room, or simply because someone admired your appearance and wanted to capture it in a more permanent form. The fact that it was ""huge"" suggests that the painting is quite large, possibly several feet tall and wide, which can",1,3,4
+s0113,baseline,qwen-7b-inst,angry,angry,0,2,"After thinking about it for a while,"," I'm still struggling with how to make this code efficient. I have two tables, `A` and `B`, where table `A` contains an integer column `C` and table `B` has columns `C1` (integer) and `C2` (string). Table `B` is quite large, approximately 45 million rows, while table `A` is smaller, around 700k rows.
+
+I need to find the count of rows in table `A` that meet the following criteria:
+- The value in column `C` is present in column `C1` of table `B",2,5,5
+s0114,baseline,qwen-7b-inst,afraid,afraid,0,0,The weather today is," quite nice, so let's go ______ a walk in the park.
+A. take
+B. to take
+C. taking
+D. taken
+答案:
+
+B
+
+What you say sounds______ .
+A. wonderfully
+B. wonderfully
+C. wonderful
+D. wonder
+答案:
+
+C
+
+_______ that he might be late, I arrived at the station early.
+A. Being considered
+B. Considered
+C. To consider
+D. Considering
+答案:
+
+D
+
+— What do you think of my new car? — _______________.
+A. Yes, you are right.
+B. It’s very",1,3,2
+s0115,baseline,qwen-7b-inst,afraid,afraid,0,1,I walked into the room and saw," that the windows were closed.
+A. found
+B. have found
+C. had found
+D. was finding
+Answer:
+A
+
+What is the correct pronunciation of the character “间” in the word “jiān隔阂”?
+A. jiān
+B. jiàn
+Answer:
+A
+
+When a person's behavior or performance falls below their expected standards, we often feel that this is due to some external factors or circumstances. Which psychological defense mechanism does this illustrate?
+A. Regression
+B. Rationalization
+C. Reaction Formation
+D. Denial
+Answer:
+B
+
+Which of the following",1,2,2
+s0116,baseline,qwen-7b-inst,afraid,afraid,0,2,"After thinking about it for a while,"," I have decided to use a class instead of a struct. However, when I try to compile my code in VS 2017, I get an error saying that the ""class 'CPoint' does not have any field named 'X'"". Here is the code:
+
+```cpp
+class CPoint {
+public:
+    CPoint(): X(0), Y(0) {}
+    int GetX() { return X; }
+    void SetX(int x) { X = x; }
+
+private:
+    int X;
+    int Y;
+};
+
+class CRect {
+public:
+    CRect() : pTopLeft(",1,4,5
+s0117,baseline,qwen-7b-inst,calm,calm,0,0,The weather today is," sunny, and I went out with my sunglasses. However, the weather report said that there would be a heavy downpour in the evening. I'm curious about what causes this change in weather.
+
+There could be several reasons for the change in weather from sunny to heavy downpour in the evening. Here are some of the possible causes:
+
+1. Atmospheric pressure changes: A low-pressure system can move into the area, which often brings rain.
+
+2. Warm fronts: When a warm front moves over a cooler air mass, it can cause moisture-laden air to rise, cool, and condense, leading to the formation of clouds and eventually",1,5,5
+s0118,baseline,qwen-7b-inst,calm,calm,0,1,I walked into the room and saw," a girl. She was sitting in the corner, looking sad. I approached her and asked if she was okay. She replied that she had just broken up with her boyfriend and was feeling depressed. How can I comfort her and help her feel better?
+It's important to listen to her and offer support. Here are some suggestions:
+
+1. Listen: Let her share her feelings without judgment. Just being there and listening can make a big difference.
+
+2. Validate her emotions: Acknowledge that she is going through a difficult time and it's normal to feel sad after a breakup.
+
+3. Offer reassurance: Remind her that time will",1,3,5
+s0119,baseline,qwen-7b-inst,calm,calm,0,2,"After thinking about it for a while,"," I realized that the problem can be solved using the principle of inclusion-exclusion. If there are 20 people in total, then there are $2^{20}$ ways to choose a subset of these people. We want to find the number of subsets that include at least one of the 5 special people. Using the principle of inclusion-exclusion, we can count the number of subsets that do not include any of the special people and subtract this from the total number of subsets. There are $\binom{5}{0} \cdot 2^{15}$ such subsets, since we are choosing 0 out of the",1,4,5
+s0120,steered,llama-8b-base,happy,happy,1.0,0,The weather today is," expected to be clear and the maximum temperature will be 25°C which is similar to yesterday. The weather tonight is expected to be clear and the minimum temperature will be 19°C which is similar to last night. 
+The weather today is expected to be clear and the maximum temperature will be 25°C which is similar to yesterday. The weather tonight is expected to be clear and the minimum temperature will be 19°C which is similar to last night.",1,3,5
+s0121,steered,llama-8b-base,happy,happy,1.0,1,I walked into the room and saw," them all lined up like a train. Four rows of 4, 8, 12, and 16 year olds sat on either side of a room that looked like a large airplane hanger, waiting for me. I didn’t know the topic until I got to the room. I had my first class ever in the subject of public speaking. I was so nervous. I didn’t want to let my teachers down. I also didn’t want to embarrass myself. I have been on the stage several times for plays and the like but I was really not good at speaking in front of the class. I was raised to be quiet",1,5,5
+s0122,steered,llama-8b-base,happy,happy,3.0,0,The weather today is," sunny. It’s a beautiful day, I love it! I can wear a skirt and look nice, it’s great!
+I’m excited about today, we have a family outing and then tonight we’re having pizza for dinner. We haven’t had pizza in quite awhile, so I’m really looking forward to that!
+So, today, I was thinking about how wonderful my life is. I love my kids, my family, I have a roof over my head, a loving husband, and so many wonderful things in my life. I feel like I have everything I need and that it’s all good. I’m truly blessed, I",5,5,5
+s0123,steered,llama-8b-base,happy,happy,3.0,1,I walked into the room and saw," the beautiful woman of my dreams. I saw her standing at the front desk. She was beautiful, tall and very sexy. I watched her from the entrance as I walked over and approached her. I thought to myself that I had never seen such an attractive woman in my life. She looked at me with a smile and I introduced myself to her. She then introduced herself to me.
+I thought she was beautiful, elegant, and graceful. She smiled and I thought that I had never seen a more beautiful woman in my life. I walked over to her and we started chatting. We talked for a long time and I could tell that she",5,4,5
+s0124,steered,llama-8b-base,happy,happy,5.0,0,The weather today is," mostly cloudy. There is a light breeze from the west-northwest. The temperature at 8:00 a.m. is 59 degrees. The forecast calls for temperatures near 65 today, with a low of 61 degrees and mostly cloudy skies tonight.
+On this day in 1939, Congress authorizes construction of a national park in Georgia known as Little Golden Isles National Wildlife Refuge. The wildlife refuge is created by a bill sponsored by Senators Richard Russell of Georgia and Josiah Bailey of North Carolina. The Little Golden Isles National Wildlife Refuge is established on 15,500 acres of barrier islands located in Georgia along the Atlantic Coast",1,4,3
+s0125,steered,llama-8b-base,happy,happy,5.0,1,I walked into the room and saw," him.  He looked at me and my heart skipped a beat.  His face was strong and beautiful.  His eyes shined like stars and his smile made me want to melt in joy.  I looked at the little baby in his arms and my heart was full of joy.  I knew right then and there that this little boy was mine and I would be his forever.  Our love was instant and it was a joy beyond belief.  We loved each other so much that I wanted to protect him with my very own self.
+My heart swelled when I thought of him and when he was by my side, I",5,5,5
+s0126,steered,llama-8b-base,angry,angry,1.0,0,The weather today is," cool and cloudy, the temperature up to 20.9°C, but dropping to 13.8°C overnight.
+A new building in the Old Town is being fitted with window shades. The white shade here covers a large section of window and extends over a door.
+The same street, from the other end of the block. I suspect the shade covers a stairwell or something, not windows. It looks like one long window, but that's an illusion.
+The next block has a similar building with a much more elaborate shading system, though this one doesn't cover quite as much of the window.
+Another, very different, type of",1,3,3
+s0127,steered,llama-8b-base,angry,angry,1.0,1,I walked into the room and saw," him, sitting in his chair by the window. He was staring into space, unseeing. I watched for a moment. He took a deep breath and sighed, staring even more fixedly.
+I asked him what he was thinking about, and he just shook his head.
+“I was remembering you,” he said.
+I sat down and took his hand. We talked for a while. He said he wanted to talk about himself and how his life has been, but he didn’t seem to want to go into any detail.
+Then he looked me in the eyes and asked me to describe to him the look on my face. He said he",1,4,5
+s0128,steered,llama-8b-base,angry,angry,3.0,0,The weather today is," predicted to be partly sunny, with a high near 86 and a 60 percent chance of showers and thunderstorms. Tonight, there is a 40 percent chance of showers and thunderstorms. The overnight low will be around 68 degrees.
+As of 5:20 p.m., there were no reports of any power outages.
+There are 34 new cases of the coronavirus in Letcher County, bringing the total number of cases in Letcher County since the start of the pandemic to 3,082, according to the latest update from the Letcher County Health Department.",1,3,3
+s0129,steered,llama-8b-base,angry,angry,3.0,1,I walked into the room and saw," him sitting, reading. The room had been painted a neutral grey. The windows were grey, and the carpet, once red, was grey now, too. The television on the far wall was the same grey. The room was now grey. The man was reading and he was smiling. He had a book that was open, but he was smiling as he looked up at me. “Is it time yet?” He said.
+I looked around, unsure of what I had missed. I had forgotten he had a gun to his head. “Yes, yes, it is time. Is this a good time?”
+He shrugged. “",1,5,5
+s0130,steered,llama-8b-base,angry,angry,5.0,0,The weather today is," not great in the north, it’s raining a bit and we don’t like it. We are driving to the next hotel. The road to our next hotel is a little bit scary for us. First of all, the roads are narrow and second, the road is going up. In fact, the road is going up 20 kilometers and then down 20 kilometers. I was quite sure, that the road was built because of tourism, but I was wrong. The road was made 100 years ago for the military, and when the military built the road, then a tunnel was drilled because the road was so narrow and the rock",1,4,4
+s0131,steered,llama-8b-base,angry,angry,5.0,1,I walked into the room and saw," the lighted screen, I saw the man in the picture, a middle aged man, a man in his late fifties. I walked closer and I saw the name that flashed before me, it was my name, “Adetilayo Abiona.” I was a little confused, I never knew I could have another name like that, the man in the screen looked familiar to me.
+I was confused, I didn’t know if it was a dream or I was seeing it in real life, I didn’t know, I just stood there and saw the man on the screen, I don’t even know what to say,",1,5,5
+s0132,steered,llama-8b-base,afraid,afraid,1.0,0,The weather today is," going to be a little chilly, with a high around 38 and a low of 25. It will be partly cloudy, but there is a small chance of rain in the morning.
+Tomorrow will be warmer, with a high of 52 and a low of 34, and there will be partly cloudy skies with no chance of rain.
+Today’s lunch special is Chicken and Dumplings, served with salad and dessert. Tomorrow’s lunch special will be Chicken Salad, served with salad and dessert.
+There will be no Bible study or prayer group this Friday, and Saturday’s prayer group has been canceled. Sunday’s service will start at ",1,3,2
+s0133,steered,llama-8b-base,afraid,afraid,1.0,1,I walked into the room and saw," that my mother-in-law had died. She was sitting in her chair and had a big smile on her face, but was still. She had been in a wheelchair for the past 2 weeks and she was breathing hard. How may i be feeling about the deceased?
+A. I am sad.
+B. I am happy.
+C. None of the above choices.
+D. I am indifferent.
+Answer: A",1,3,3
+s0134,steered,llama-8b-base,afraid,afraid,3.0,0,The weather today is," absolutely horrendous.
+I was hoping to get a few more photos in my 'In My Back Yard' series today, but it's been so cold and windy and raining. I decided to take the kids to the local zoo today to get them out of the house and I snapped a few photos before we started exploring.
+I'll post some zoo photos another time - it's getting late and my son is getting ready for bed.
+I'm looking forward to Spring and nicer weather. Until then, there are plenty of indoor things to keep me busy.",1,5,5
+s0135,steered,llama-8b-base,afraid,afraid,3.0,1,I walked into the room and saw," the man, sitting there in his wheelchair, staring into the distance, his head slightly tilted downward. His name was Michael, and he was my 19-year-old cousin. I had no idea what to say or do, so I walked up to him, and gave him a hug. He didn’t hug back, but I figured he wasn’t expecting a hug. I pulled away, but continued to look at him. I didn’t know what to do. I started to back away, and just then, Michael looked up at me, and he smiled. I didn’t expect that. I was shocked. He had been looking at",2,5,5
+s0136,steered,llama-8b-base,afraid,afraid,5.0,0,The weather today is," set to be mostly cloudy and warm.
+High temperatures are expected to reach a maximum of 22C by the early afternoon.
+Tonight, it will be mostly cloudy with lows of 14C.
+There will be a moderate or fresh breeze, according to Met Eireann.
+Tomorrow, Wednesday, it is set to be partly cloudy in the morning, becoming cloudy and wet with heavy showers developing.
+The highest temperatures will be around 18C in the north and north-west and 20C in the south.
+Low temperatures tonight will be around 16C.
+Thursday, the forecast says it will be very windy with outbreaks of rain becoming persistent",1,5,5
+s0137,steered,llama-8b-base,afraid,afraid,5.0,1,I walked into the room and saw," a stranger lying on the bed, her legs splayed open. She was young, in her early twenties, I’d guess. Her skin was pale and pasty, and I noticed a thick vein bulging on the inside of her neck. It was the only red thing in her entire body. Her lips were bloodless and her eyelids fluttered as if in the throes of a seizure.
+She didn’t look like a woman who was about to deliver a child. She looked like a corpse.
+I had to get to the other room and call 911, but I couldn’t tear my gaze away from her. The room",5,5,5
+s0138,steered,llama-8b-base,calm,calm,1.0,0,The weather today is," sunny and mild and I hope it stays that way so I can enjoy myself a little. This weekend is the anniversary of my husband’s passing and I find it hard to get in the mood for celebrations, even though he was a happy soul.
+It is also the beginning of Lent and I have decided to do a little experiment. We have a tradition in my family and among friends to abstain from meat on Friday. So during Lent, we would usually only eat fish on Friday. However, with the climate crisis gaining in urgency I have decided to go vegan and use this season to try to adapt to this type of eating.
+As a",2,3,2
+s0139,steered,llama-8b-base,calm,calm,1.0,1,I walked into the room and saw," the new baby. I was shocked at how much this baby looked like me. I was very confused by the sight of this baby. As my mother came and I asked why was this baby so familiar. She then replied, “I adopted you and this baby. I adopted this baby because he had no one and I love children. You are 2 months older than the baby so you will get along great. I love you very much and you are so sweet. Now please meet your brother!” The baby had a big smile on his face and he was so happy. This is my first time having a sibling.
+I think I’m",1,5,5
+s0140,steered,llama-8b-base,calm,calm,3.0,0,The weather today is," perfect! I hope you are getting to enjoy it as much as I am! I just got back from a great run. I haven’t been out for a run since before the 50 miler, and it felt great to get back at it.
+Today’s photo is from 11/12/12 at the C&O Canal Lockhouse 6 – Cumberland, MD. It’s hard to get a photo of the canal on a flat section, but this one is unique. There are actually waterfalls coming over the canal, and it’s beautiful. There are several different waterfalls that you will pass over at different times,",3,5,4
+s0141,steered,llama-8b-base,calm,calm,3.0,1,I walked into the room and saw," a small crowd gathered around a monitor, the sounds of waves crashing on a beach, and a silhouette of a man slowly descending a flight of stairs. The scene gradually faded, and I was transported to the living room of a house, where the man was sitting on a couch, surrounded by family members who were watching a film on a television screen. As the film played, the man’s emotions were palpable, as he laughed, smiled, and reminisced about his time on the beach with his family.
+The film was a slice of life, a visual poem that captured the beauty of the moment, the laughter and joy of the family",4,5,5
+s0142,steered,llama-8b-base,calm,calm,5.0,0,The weather today is," partly cloudy. The temperature in the afternoon is expected to range between 10 and 18 °C.
+The sun rises at 06:38 and sets at 20:03.
+Daylight Saving Time starts tonight. Clocks will be set forward one hour.
+Daylight Saving Time will end on October 30.
+The new season will start next weekend. The first game is between Paphos and AEL.
+The match will be played on Saturday 22nd April at the Paphos Municipal Stadium at 18:30.
+Cypriots enjoy a special 50% discount on all products for a period of three hours",2,3,2
+s0143,steered,llama-8b-base,calm,calm,5.0,1,I walked into the room and saw," her standing at the window, hands on her hips, looking out as if she were waiting for someone. I had a fleeting thought of coming here and finding an empty room, but I had learned that when you come to the hospital with someone you love, you always find her there, just where she was when you left.
+I walked across the room, taking long, confident strides in the direction of the door, past a table on which sat a large vase filled with silk flowers that had been placed there sometime after she was admitted. On the table were a book and a glass of water, both untouched. My mind was racing, going",3,5,5
+s0144,random,llama-8b-base,angry,happy,1.0,0,The weather today is," cool and cloudy, the temperature up to 20.9°C, but dropping to 13.8°C overnight.
+A new building in the Old Town is being fitted with window shades. The white shade here covers a large section of window and extends over a door.
+The same street, from the other end of the block. I suspect the shade covers a stairwell or something, not windows. It looks like one long window, but that's an illusion.
+The next block has a similar building with a much more elaborate shading system, though this one doesn't cover quite as much of the window.
+Another, very different, type of",1,3,2
+s0145,random,llama-8b-base,sad,happy,1.0,1,I walked into the room and saw," this. I had to do it. The first and last picture are mine, the rest is a friend of mine who has been working with them for a long time.
+I know it was an extremely bad idea. I know they would never have let me do it but at that time in my life they were all I had left.
+That last one is the most difficult one for me. I feel so much shame and guilt for what I did and I am a grown woman. I am not even sure how I feel about it.",1,5,1
+s0146,random,llama-8b-base,guilty,happy,3.0,0,The weather today is," not going to be as warm as it has been in the last few days, however it is going to be dry and sunny.
+Today is Sunday 21st April 2019.
+The overnight temperature will be between 14°C and 6°C.
+Rainfall Today is not expected.
+There will be a minimum temperature of 6°C and a maximum of 20°C.
+Please be aware that there may be times when the information contained on the site may not be correct due to data corruption. Please always check for the latest information before you travel.",2,5,5
+s0147,random,llama-8b-base,calm,happy,3.0,1,I walked into the room and saw," a small crowd gathered around a monitor, the sounds of waves crashing on a beach, and a silhouette of a man slowly descending a flight of stairs. The scene gradually faded, and I was transported to the living room of a house, where the man was sitting on a couch, surrounded by family members who were watching a film on a television screen. As the film played, the man’s emotions were palpable, as he laughed, smiled, and reminisced about his time on the beach with his family.
+The film was a slice of life, a visual poem that captured the beauty of the moment, the laughter and joy of the family",5,5,5
+s0148,random,llama-8b-base,calm,happy,5.0,0,The weather today is," partly cloudy. The temperature in the afternoon is expected to range between 10 and 18 °C.
+The sun rises at 06:38 and sets at 20:03.
+Daylight Saving Time starts tonight. Clocks will be set forward one hour.
+Daylight Saving Time will end on October 30.
+The new season will start next weekend. The first game is between Paphos and AEL.
+The match will be played on Saturday 22nd April at the Paphos Municipal Stadium at 18:30.
+Cypriots enjoy a special 50% discount on all products for a period of three hours",3,5,3
+s0149,random,llama-8b-base,hopeful,happy,5.0,1,I walked into the room and saw," my mom. She was asleep, her breathing steady. A small smile on her face. I walked to her bedside and sat down, leaning into her warmth. I closed my eyes and felt her energy wrap around me. I heard her voice in my head and felt her presence. I looked up to see her. She was there. I felt her love. I felt her life. She opened her eyes and smiled at me. And then she was gone. I woke up.
+The last few months have been a roller coaster ride. A ride I didn’t want to be on. A ride that I was ready to jump off of.",2,5,5
+s0150,random,llama-8b-base,excited,angry,1.0,0,The weather today is," forecasted to be Partly cloudy and the temperature is going to be around 14 °c. The wind will be a moderate breeze, and the mean air pressure will be 1023 mb. Relative humidity will be high.
+The weather tomorrow is forecasted to be partly cloudy. The visibility is going to be around 10 km i.e. 6 miles and an atmospheric pressure of 1026 mb. The daytime temperature is going to reach 15 °c and the temperature is going to dip to 6 °c at night. It will be dry with no precipitation and cloud covering 1% of the sky, the humidity",1,4,5
+s0151,random,llama-8b-base,desperate,angry,1.0,1,I walked into the room and saw," a woman with very long white hair. She was wearing a long white robe. I knew who she was. She was the Queen of Heaven.
+“Did the Pope pray?” the Queen asked.
+“Not to me,” she said.
+I told her what the Pope had said.
+The Queen sighed and seemed to retreat to a place beyond this world.
+“Papal prayers are a sham,” she said.
+“I do not know what to say,” I said.",4,5,5
+s0152,random,llama-8b-base,desperate,angry,3.0,0,The weather today is, going to be dry and warm in the east of the state and wet and cool in the west. A slight chance of light showers today in the west is going to expand over the west of the state tomorrow and Wednesday. The next few days will see the temperatures cool as well as increasing clouds. The storm system approaching from the northwest will keep temperatures in the 40s to mid 50s.,1,5,5
+s0153,random,llama-8b-base,afraid,angry,3.0,1,I walked into the room and saw," the man, sitting there in his wheelchair, staring into the distance, his head slightly tilted downward. His name was Michael, and he was my 19-year-old cousin. I had no idea what to say or do, so I walked up to him, and gave him a hug. He didn’t hug back, but I figured he wasn’t expecting a hug. I pulled away, but continued to look at him. I didn’t know what to do. I started to back away, and just then, Michael looked up at me, and he smiled. I didn’t expect that. I was shocked. He had been looking at",1,5,5
+s0154,random,llama-8b-base,guilty,angry,5.0,0,The weather today is," warm and dry with a few small clouds. I'm getting ready to go to church this morning, so it's time to stop playing the game. Last night I finally got a chance to play the next game in the series. I'm working on getting the next one for today.",1,3,3
+s0155,random,llama-8b-base,surprised,angry,5.0,1,I walked into the room and saw," that the woman was asleep on the sofa bed, the man was on the opposite side of the room playing a game on his computer, and the child (about 12) was in the bathroom. The room was filled with all kinds of items which had been removed from a storage shed and placed in the room for the auction. This was a storage facility auction.
+I decided to do something about this. I went to the storage building and found the lock on the back door. I went to the front door, which was locked, and opened the front door. When I looked inside, I saw a man sitting on the sofa bed.",2,3,4
+s0156,random,llama-8b-base,surprised,afraid,1.0,0,The weather today is," going to be a bit of a rollercoaster, according to Met Eireann.
+The national forecaster has said that temperatures will vary between 11 degrees and 17 degrees across Ireland.
+A Met Eireann forecaster said: 'There will be a mixture of bright and blustery spells of rain and hazy sunshine today.
+'Temperatures will vary from a chilly 11 to 13 degrees on the coast to a mild 16 to 17 degrees inland.
+'The strongest winds will be in the west and north and will be accompanied by some showers.'",1,5,5
+s0157,random,llama-8b-base,calm,afraid,1.0,1,I walked into the room and saw," the new baby. I was shocked at how much this baby looked like me. I was very confused by the sight of this baby. As my mother came and I asked why was this baby so familiar. She then replied, “I adopted you and this baby. I adopted this baby because he had no one and I love children. You are 2 months older than the baby so you will get along great. I love you very much and you are so sweet. Now please meet your brother!” The baby had a big smile on his face and he was so happy. This is my first time having a sibling.
+I think I’m",1,5,5
+s0158,random,llama-8b-base,calm,afraid,3.0,0,The weather today is," perfect! I hope you are getting to enjoy it as much as I am! I just got back from a great run. I haven’t been out for a run since before the 50 miler, and it felt great to get back at it.
+Today’s photo is from 11/12/12 at the C&O Canal Lockhouse 6 – Cumberland, MD. It’s hard to get a photo of the canal on a flat section, but this one is unique. There are actually waterfalls coming over the canal, and it’s beautiful. There are several different waterfalls that you will pass over at different times,",1,4,3
+s0159,random,llama-8b-base,excited,afraid,3.0,1,I walked into the room and saw," a large screen in front of the stage. A man on the stage was holding a microphone, and behind him were several colorful images on the screen.
+The man on stage began to talk, explaining the meaning of the pictures on the screen. He talked about how the pictures represented different cultures and ideas, and how they all came together to create a unique and vibrant atmosphere.
+As he talked, I was fascinated by the images on the screen. They were all so vibrant and colorful, and I could feel the energy of the room as the man talked about them.
+The man on stage was very passionate about the images, and I could feel his",1,5,5
+s0160,random,llama-8b-base,proud,afraid,5.0,0,The weather today is," supposed to be perfect for the annual Paddle the North Fork.
+The event raises money for scholarships and it is a good opportunity for local non profits to spread their missions.
+Last year’s event raised $24,000 for the scholarship program and other charities.
+All are welcome to attend the Paddle the North Fork, which begins at 9 a.m. at the North Fork Valley Campground.
+The event begins with a potluck picnic, and paddlers will then start their journeys on the creek with canoe, kayak, or any other floatable craft. The paddle ends at the North Fork Lodge with lunch, live music, and a barbecue",1,5,5
+s0161,random,llama-8b-base,happy,afraid,5.0,1,I walked into the room and saw," him.  He looked at me and my heart skipped a beat.  His face was strong and beautiful.  His eyes shined like stars and his smile made me want to melt in joy.  I looked at the little baby in his arms and my heart was full of joy.  I knew right then and there that this little boy was mine and I would be his forever.  Our love was instant and it was a joy beyond belief.  We loved each other so much that I wanted to protect him with my very own self.
+My heart swelled when I thought of him and when he was by my side, I",1,5,5
+s0162,random,llama-8b-base,happy,calm,1.0,0,The weather today is," expected to be clear and the maximum temperature will be 25°C which is similar to yesterday. The weather tonight is expected to be clear and the minimum temperature will be 19°C which is similar to last night. 
+The weather today is expected to be clear and the maximum temperature will be 25°C which is similar to yesterday. The weather tonight is expected to be clear and the minimum temperature will be 19°C which is similar to last night.",4,3,5
+s0163,random,llama-8b-base,disgusted,calm,1.0,1,I walked into the room and saw," him lying in the bed. He looked peaceful and beautiful with the sunlight coming through the window in the corner. I laid my hand on his and I felt his body go limp. He was still alive. We were in the hospital, just a few hours after I had walked in, and he was still alive. I looked over at him and could see the tubes going into his mouth, the monitors attached to him, the respirator moving his lungs, the ventilator keeping his heart beating. I walked around to the other side of the bed and stood at the end.
+There were doctors, nurses, and family members all around him,",3,4,5
+s0164,random,llama-8b-base,angry,calm,3.0,0,The weather today is," predicted to be partly sunny, with a high near 86 and a 60 percent chance of showers and thunderstorms. Tonight, there is a 40 percent chance of showers and thunderstorms. The overnight low will be around 68 degrees.
+As of 5:20 p.m., there were no reports of any power outages.
+There are 34 new cases of the coronavirus in Letcher County, bringing the total number of cases in Letcher County since the start of the pandemic to 3,082, according to the latest update from the Letcher County Health Department.",1,3,3
+s0165,random,llama-8b-base,disgusted,calm,3.0,1,I walked into the room and saw," 15 young kids who looked like they had just gotten into the latest fashion craze. They had on pink rubber shoes, had pink backpacks, and had on a pink sweatshirt that had a rainbow on the front of it. They were ready to learn.
+When you have young children and teens in your church who are lesbian, gay, bisexual, or transgender (LGBT), how do you prepare a group of children to be respectful of their differences and, most of all, to welcome them into their group? That is what I was trying to do that morning with these kids and what I hope to show you how to do.
+",2,5,5
+s0166,random,llama-8b-base,happy,calm,5.0,0,The weather today is," mostly cloudy. There is a light breeze from the west-northwest. The temperature at 8:00 a.m. is 59 degrees. The forecast calls for temperatures near 65 today, with a low of 61 degrees and mostly cloudy skies tonight.
+On this day in 1939, Congress authorizes construction of a national park in Georgia known as Little Golden Isles National Wildlife Refuge. The wildlife refuge is created by a bill sponsored by Senators Richard Russell of Georgia and Josiah Bailey of North Carolina. The Little Golden Isles National Wildlife Refuge is established on 15,500 acres of barrier islands located in Georgia along the Atlantic Coast",4,3,3
+s0167,random,llama-8b-base,proud,calm,5.0,1,I walked into the room and saw," a sea of red. My father’s favorite color had been the same as mine, except it had been brighter. But this red was a different red. This red was not happy and bright, it was dark and somber. I walked over to the woman holding my father’s hand and she looked up at me, smiling warmly. She had a beautiful smile, one I was familiar with but had not seen in years. This was my Aunt.
+My father looked tired. He looked thinner, and his hair had gone completely gray in just a few weeks. It was hard to see my father in such a state, but there he was",1,5,5
+s0168,baseline,llama-8b-base,happy,happy,0,0,The weather today is," a warm 19 degrees and is sunny and clear. The weather for tomorrow will be similar with a high of 20 degrees.
+Last weekend, a small gathering of family members and close friends gathered to celebrate the marriage of James to Megan at the stunning location of the Grouse Grind. The wedding was officiated by Megan’s Dad and was a perfect celebration of their marriage!
+To learn more about The Grouse Grind visit their website.
+To learn more about our Weddings and Events services visit our site.
+The weather today is sunny and cold. The high is expected to reach 2 degrees.
+The",3,2,3
+s0169,baseline,llama-8b-base,happy,happy,0,1,I walked into the room and saw," the old man in the bed. His body was frail, but he was smiling with a childlike innocence. I introduced myself and explained that I would be doing an interview with him and his family. I sat down and began asking questions. What was his name? What did he like to do as a kid? Who were his parents? Where was he born? I recorded his answers on my notepad. I looked at his children as they began to tear up. I felt so sad for them. The man died as I was finishing the interview. I looked at his family and smiled. I thought about how important this was to them",2,5,5
+s0170,baseline,llama-8b-base,happy,happy,0,2,"After thinking about it for a while,"," I decided that I had no business talking about the state of the nation, so I'm not going to do it. Instead, I'm going to talk about how the state of the nation affected my own nation. And as I've said before, it's just a part of the story of this album, anyway.
+The first track of the record, ""We Live,"" is a song of hope. It sounds naive in retrospect, and I was never that naive, but it was written before things got bad. Even in 1988, the signs were already clear that things were headed for trouble. I was a conservative Democrat, and",1,4,5
+s0171,baseline,llama-8b-base,angry,angry,0,0,The weather today is," expected to be clear and the maximum temperature will be 26°C which is similar to yesterday. The weather tonight is expected to be clear and the minimum temperature will be 17°C which is similar to last night. 
+The weather today is expected to be clear and the maximum temperature will be 26°C which is similar to yesterday. The weather tonight is expected to be clear and the minimum temperature will be 17°C which is similar to last night.",1,3,5
+s0172,baseline,llama-8b-base,angry,angry,0,1,I walked into the room and saw," her lying on the floor, her body rigid. She’d been like this when I walked in and she hadn’t moved an inch since I arrived. This was a normal sight and I took a seat beside her, gently touching her arm, “What are you doing?” I asked.
+“I’m dying,” she said, “And I’m scared.”
+“Why are you scared?” I asked.
+She looked up at me. “I don’t want to go,” she said, “I want to stay here. I’m not ready. I want to have a life. I want to get married and have a family. I want to",1,5,5
+s0173,baseline,llama-8b-base,angry,angry,0,2,"After thinking about it for a while,"," I have decided to change the way I review the books I read. To make my reviews more interesting, I will be giving each book I read the ‘Rating of Ratings’ which is a composite of ratings from the top four rating websites, i.e. Goodreads, Amazon, B&N and Kobo.
+It will be a little bit difficult to convert ratings from each website into a single rating, but I am up to the challenge. If it doesn’t work, then I will just give up the idea, and this post will be an interesting post for future me to look back.
+I hope you find the ratings interesting, and",1,5,5
+s0174,baseline,llama-8b-base,afraid,afraid,0,0,The weather today is," quite nice and the air is just right. So, why not go out for a walk and take a break? Of course, we will.
+One of the things that we love to do is to go to the botanical garden and take a walk. The park is nice and quiet in the middle of the day and it is a great place to walk and talk.
+Well, if we are going to walk and talk, then why not walk and talk on the phone?
+The weather today is quite nice and the air is just right. So, why not go out for a walk and take a break? Of course, we will.
+One",1,3,4
+s0175,baseline,llama-8b-base,afraid,afraid,0,1,I walked into the room and saw," my husband on his knees.
+In this moment, I saw him as a man. He was more than the father of my children. I saw him as a human being. A human being with needs, with wants, with desires. A human being who was asking for my help.",1,5,5
+s0176,baseline,llama-8b-base,afraid,afraid,0,2,"After thinking about it for a while,"," I decided that I would like to participate in NaBloPoMo. However, I'm not going to go the standard route of posting every single day. It's just not my style to post ""just to post"". I have too many other responsibilities and don't feel like blogging every day would be worth it. I'll definitely be posting everyday, but most of my posts will probably be just ""thoughts of the day"". So this is my way of saying ""I'm going to participate in NaBloPoMo in my own way"" or however you say it.",1,5,5
+s0177,baseline,llama-8b-base,calm,calm,0,0,The weather today is," predicted to be cold and wet so I will stay indoors, wrap myself up in a blanket with a good book and a cup of tea. I know what I’m going to read. The book is a small book published by the Women’s Press in 1986 and written by a New Zealand writer, Fleur Beale. It is called Danger Zone and it is about a young woman called Jenny who was raped while hitch-hiking in London. Her family is devastated and Jenny finds it hard to recover from the experience. She has to make difficult decisions about what to do about the crime and how to handle the publicity that goes with it",3,5,5
+s0178,baseline,llama-8b-base,calm,calm,0,1,I walked into the room and saw," the patient lying in a hospital bed. Her husband was at her side holding her hand. I heard her say, “What am I supposed to do?” The question was for me. She was asking how she was supposed to get through the next few months, after learning she had only 12 months to live. The oncologist was giving us the news and she had heard the same thing from him over and over again. I thought to myself, “Wow, she sounds defeated.” I began to talk to the patient about the 12 months of life she still had ahead of her. Her husband said, “She is in denial.”",1,5,5
+s0179,baseline,llama-8b-base,calm,calm,0,2,"After thinking about it for a while,"," I finally gave into temptation and bought the book.
+But I think it was a mistake.
+I mean, I've been reading about it online since before it even came out, and now I have the actual book. It should be great. It should be everything I hoped it would be. But instead, I found that I had a very hard time enjoying it.
+That's because the book really has two parts. The first part, about 100 pages, is the most fascinating, riveting, and most true-to-life stuff. It really does have that feel of a ""found"" manuscript that has been found among some other stuff in",1,5,5
+s0180,steered,llama-8b-inst,happy,happy,1.0,0,The weather today is," quite a bit of an improvement from yesterday. After a soggy and wet start, the sun started to come out in the late morning and is shining brightly now.
+It has been quite warm too, with temperatures climbing to the high teens and low twenties Celsius during the day. It's a great feeling to be able to walk outside without getting wet or needing an umbrella, and the warmth of the sun on my skin is lovely.
+I spent some time in the garden this morning, doing some watering and pruning. It's nice to get some fresh air and get my hands dirty after a few days of being stuck inside. The plants seem to",5,5,5
+s0181,steered,llama-8b-inst,happy,happy,1.0,1,I walked into the room and saw," her standing by the window, staring out at the garden. The sunlight streaming through the glass illuminated her features, making her look almost... happy. It was a rare sight, and I felt a pang of nostalgia for the days when she was carefree.
+""Good morning,"" I said softly, not wanting to startle her.
+She turned to me, a look of sadness creeping back into her eyes. ""Good morning,"" she replied, her voice barely above a whisper.
+We stood there for a moment, the only sound the chirping of birds outside. I could sense her tension, her unease. It was a familiar feeling,",2,5,5
+s0182,steered,llama-8b-inst,happy,happy,3.0,0,The weather today is," lovely! The sun is shining, the birds are singing and it's a perfect day for a walk! As I sit here sipping my tea and looking out the window, I feel grateful for this moment of peace.
+It's not often that I get a chance to relax and enjoy the simple things in life, but today is a day like any other, and I'm making the most of it. I've spent the morning tidying up my living room and putting on a favourite album, which always lifts my mood.
+Life can get busy and stressful, and it's easy to get caught up in the hustle and bustle, but",5,5,5
+s0183,steered,llama-8b-inst,happy,happy,3.0,1,I walked into the room and saw," the woman, sitting in the chair, her eyes staring into the distance, a look of sadness and despair etched on her face. I had been in that same room many times before, but every time it felt like the first time, a sense of sorrow and empathy washing over me.
+I sat down beside her, and gently took her hand in mine, a sense of comfort and understanding spreading through me. We sat there in silence for a moment, the only sound the gentle hum of the machines surrounding us. I looked over at her, and saw the tears welling up in her eyes, and I knew that this was it,",1,5,5
+s0184,steered,llama-8b-inst,happy,happy,5.0,0,The weather today is," mild and sunny with temperatures in the mid-60s. Perfect day for a run! I ran 6 miles along the beach. It was beautiful to see the ocean sparkling in the sunlight and to feel the sea breeze in my hair. I loved every minute of it! As I ran, I felt happy and free, and it was a great way to clear my head and work out my stress. I'm so grateful to have access to this beautiful running spot and to have such wonderful weather today.
+The rest of the day has been relaxing and enjoyable. I had lunch with my mom and sister, and we caught up on each other",5,5,5
+s0185,steered,llama-8b-inst,happy,happy,5.0,1,I walked into the room and saw," it. The big, fluffy, soft, and cuddly teddy bear that had been with me through thick and thin. It was perched on the shelf, watching over me, as it always had. I smiled and felt a sense of comfort and happiness wash over me. It was as if no time had passed at all, and I was a little kid again, surrounded by the love and security of my childhood.
+The bear, whose name was Mr. Whiskers, had been given to me by my grandmother when I was six years old. It had been a gift from her to me, a symbol of her love and",5,4,5
+s0186,steered,llama-8b-inst,angry,angry,1.0,0,The weather today is," forecast to be sunny with a high of 70°F (21°C) and a low of 50°F (10°C).
+I’m planning to go to the local park and take a walk around the lake. It’s been a while since I’ve been there and I’m looking forward to seeing the different types of birds and fish that inhabit the area.
+The park is a beautiful spot, with a walking trail that circles around the lake and several benches scattered throughout the area. It’s a great place to clear my head and enjoy some fresh air and nature.
+As I walk along the trail, I notice the sound of birds chirping",1,5,5
+s0187,steered,llama-8b-inst,angry,angry,1.0,1,I walked into the room and saw," them. A group of three men, dressed in their Sunday best, sipping on cups of coffee and chatting with each other. One of them stood out to me. A man in his mid-30s with a scruffy beard and a warm smile. He was laughing and telling a story, and I could tell that he was a people person.
+I made my way over to them, introducing myself and introducing my wife to the group. The bearded man looked up and gave me a nod of recognition. He was sitting in the corner, with two other men standing behind him. It turned out that he was the pastor of the",1,5,5
+s0188,steered,llama-8b-inst,angry,angry,3.0,0,The weather today is," sunny with a high of 21 degrees Celsius. We're expecting a high-pressure system to dominate the region, leading to mostly clear skies and a gentle breeze.
+The sea temperature is around 22 degrees Celsius, making it perfect for a refreshing swim or a relaxing day at the beach. The surf is expected to be moderate, with waves reaching up to 1.5 meters in height.
+If you're planning on being outdoors, be sure to wear sunscreen with a high SPF and stay hydrated throughout the day. The UV index is expected to be high, so take necessary precautions to protect your skin.
+Overall, it's shaping up to be",1,5,5
+s0189,steered,llama-8b-inst,angry,angry,3.0,1,I walked into the room and saw," a little girl with a broken arm sitting in her stroller, her eyes fixed on the television. Her mother sat beside her, looking worried and distracted.
+The little girl, who was probably around three or four years old, had clearly been through an ordeal. Her arm was in a bright pink cast, and she had a bruise on her forehead. She was quiet and still, staring intently at the TV as if mesmerized.
+Her mother was trying to get her attention, speaking to her softly and shaking her arm gently, but the little girl just kept staring at the screen. I watched for a few moments, feeling a pang",1,5,5
+s0190,steered,llama-8b-inst,angry,angry,5.0,0,The weather today is," supposed to be hot, with a high of 90. That is the temperature I will be setting my thermostat to at 10 this morning, in an attempt to cut my energy costs. The new thermostat is wireless, so I can set it and monitor it from my phone. A friend who is handy suggested I do that when I bought it to save $60 over my monthly payment.
+I also bought a programmable thermostat, which is similar to the one I am about to install, to control my refrigerator, which is in the garage. Right now, it is set to stay at 38. In the garage, it gets down",1,3,4
+s0191,steered,llama-8b-inst,angry,angry,5.0,1,I walked into the room and saw," my ex, who was clearly expecting me and hadn’t even bothered to hide it. He just gave me a lazy, smug smile and said, “Ah, you’re here. Good. We have a lot to talk about.” I clenched my fists at my sides, trying not to lose my cool in the face of his arrogance. Who did he think he was? I tried to keep my anger in check as I walked closer, but it was hard to keep my tone even. “What do you want?” I demanded. “We can do this here or I can take you to the kitchen and we can be comfortable,”",5,5,5
+s0192,steered,llama-8b-inst,afraid,afraid,1.0,0,The weather today is," expected to be mostly sunny with a high of 68 degrees, and a slight chance of rain tonight. It should be a pleasant day, perfect for going for a walk or taking a bike ride. Make sure to bring sunscreen and a light jacket, as it can still get chilly in the mornings and evenings.
+Tomorrow is expected to be a bit cloudier, with a high of 72 degrees and a slight chance of rain. The clouds will likely be a mix of stratus and cumulus, so it should still be a pleasant day, but a bit overcast.
+If you have outdoor plans, be sure to check the weather forecast",1,5,5
+s0193,steered,llama-8b-inst,afraid,afraid,1.0,1,I walked into the room and saw," a sea of unfamiliar faces. The dim lighting made it difficult to see anyone's features, but I knew I was in the right place by the faint glow of laptops and the hum of whispers. I had arrived at the first meeting of the local coding club, and I was nervous.
+
+As I made my way to the front of the room, I was greeted by the club's founder, a tall, lanky guy with a messy mop of hair and a warm smile. He introduced himself as Alex, and explained that he had started the club as a way to bring together people who were passionate about coding.
+
+The meeting began with a quick",2,5,5
+s0194,steered,llama-8b-inst,afraid,afraid,3.0,0,The weather today is," warm, sunny and breezy, perfect for a long, leisurely walk in the beautiful countryside. After a few days of walking the same old roads and paths I decided to try something new today and walked part of the River Trent, which runs through the village of Swadlincote.
+The river is wide and deep, and I was lucky enough to see a family of swans gliding effortlessly across the water. Their elegant white feathers glistened in the sunlight and I couldn't help but feel a sense of peace as I watched them. I have never been very good at taking photos of wildlife, but I managed to snap",1,5,5
+s0195,steered,llama-8b-inst,afraid,afraid,3.0,1,I walked into the room and saw," her standing there, surrounded by her friends. Her eyes locked onto mine, a small smile spreading across her face as she waved. I forced a smile back, but my heart was racing. I hadn't seen her in years.
+It was like no time had passed at all. We still had that same spark, that same connection. But as we exchanged small talk and caught up on each other's lives, I couldn't shake the feeling that something was off.
+As we talked, I noticed the way she laughed at everything, the way she seemed to be hiding behind her eyes. It was like she was trying to put on a show",2,5,5
+s0196,steered,llama-8b-inst,afraid,afraid,5.0,0,The weather today is," a beautiful 22°, with clear skies and a moderate breeze, perfect weather for a short hike.
+I have taken a break from work to get some exercise and fresh air, and the first section of the trail has already proven to be a great way to start my day. The terrain has been easy so far, with a steady incline that has allowed me to build up a good sweat, but not so steep that it's been difficult to make progress.
+The trail has been surrounded by tall trees, providing a welcome canopy from the intense sun, and the sound of birdsong has been a constant accompaniment to my footsteps.",1,5,5
+s0197,steered,llama-8b-inst,afraid,afraid,5.0,1,I walked into the room and saw," him. He was standing there, perfectly still, staring at me with an unnerving intensity. I froze, unsure of what to do. I had seen him before, but never like this. Never so... so... raw. My breath caught in my throat, and my heart skipped a beat.
+
+Suddenly, he took a step closer, his eyes locked on mine. I could feel the air between us thicken, like a weight was pressing down on me. I tried to speak, but my voice was stuck. My mind went blank.
+
+His eyes seemed to bore into my soul, like they could see right through me. I felt",5,5,5
+s0198,steered,llama-8b-inst,calm,calm,1.0,0,The weather today is," quite pleasant with mild temperatures and a gentle breeze. As a result, it's perfect for a day out and about in the beautiful outdoors. Many folks take advantage of this lovely weather to go for a bike ride, walk, or jog in the surrounding countryside. Others head out to enjoy a picnic in a nearby park or simply take in the fresh air by sitting in their backyard or garden. Whatever your preference, it's a wonderful day to get outside and enjoy nature!
+The local farmer's market is also bustling today, with many vendors setting up their stalls to sell fresh produce, artisanal goods, and other local specialties. The atmosphere is",4,5,5
+s0199,steered,llama-8b-inst,calm,calm,1.0,1,I walked into the room and saw," him sitting on the couch, staring blankly at the wall. I hadn’t seen him all day, and I had been worried sick. I had called and texted him, but he hadn’t responded. I knocked on the door, and he looked up, a look of guilt on his face.
+“Hey,” he said quietly, his voice barely above a whisper.
+I walked over to him and sat down next to him on the couch. “Hey,” I replied, trying to sound casual, though my heart was racing with worry. “Where have you been all day?” I asked, trying to keep my tone light.
+He",1,5,5
+s0200,steered,llama-8b-inst,calm,calm,3.0,0,The weather today is," pleasant with clear blue sky. We were at the beach early this morning and spent our time swimming and playing with the waves. After that, we went to the nearby island for a picnic.
+Our picnic basket was filled with sandwiches, fruits, cheese and chocolates. We chose a beautiful spot with a nice view of the sea. The atmosphere was calm and peaceful, and it was nice to spend time with my loved ones.
+We brought a big blanket to sit on, and we laid out our food on a big tablecloth. My family members brought different activities such as books, games and frisbee to pass the time. I chose to",5,5,5
+s0201,steered,llama-8b-inst,calm,calm,3.0,1,I walked into the room and saw," a vision. She was sitting in the middle of the bed, her long, dark hair spilling down her back like a waterfall. Her eyes were closed, and her skin was a warm, golden brown. I could see the gentle rise and fall of her chest as she breathed, and my heart skipped a beat.
+
+I knew that I had to be careful. I had only just started working as a nurse, and I was still getting used to the rush of emotions that came with caring for patients. But there was something about this woman that drew me in. Maybe it was the way she seemed to be at peace, even in the",4,5,5
+s0202,steered,llama-8b-inst,calm,calm,5.0,0,The weather today is," going to be sunny with a high of 77 degrees and a low of 59 degrees.
+The temperature in the morning will be around 62 degrees, with a gentle breeze blowing at 5 mph.
+As the day progresses, the sun will shine brightly, warming the atmosphere to a comfortable temperature of 77 degrees.
+In the evening, the temperature will gradually cool down to a pleasant 68 degrees, making it an ideal time for outdoor activities.
+The weather forecast for tomorrow is showing a slight chance of scattered showers, with a high of 75 degrees and a low of 60 degrees.
+It's a beautiful day ahead, with plenty",5,5,5
+s0203,steered,llama-8b-inst,calm,calm,5.0,1,I walked into the room and saw," a large, ornate box with intricate patterns etched into its surface. The box was sitting on a pedestal, and a small, delicate key lay beside it.
+""Ah, welcome,"" a soft voice said from behind me. ""I see you've noticed the box. Yes, it's a very special piece. One that holds great significance to our family.""
+I turned to face the speaker, a woman with long, curly hair and a warm smile. She wore a simple, yet elegant dress that seemed to glow in the soft light of the room.
+""Who are you?"" I asked, feeling a sense of curiosity and wonder.
+",3,5,5
+s0204,random,llama-8b-inst,excited,happy,1.0,0,The weather today is," a bit gloomy, isn't it? Dark clouds covering the sky, the occasional heavy rain, and a gentle breeze that carries the sweet scent of wet earth. It's the perfect day to stay indoors, curl up with a good book, and enjoy a warm cup of coffee or tea.
+Speaking of coffee, have you tried making coffee at home using a pour-over or French press? It's surprisingly easy and can be quite therapeutic. The ritual of grinding the beans, brewing the coffee, and enjoying the rich aroma can be very meditative. Plus, it's a great way to control the flavor and quality of your coffee.
+If",3,5,5
+s0205,random,llama-8b-inst,hopeful,happy,1.0,1,I walked into the room and saw," my ex in the flesh.
+It was as if time had stopped.
+All the memories came rushing back.
+I had tried to avoid him, but here he was.
+I took a deep breath, and tried to calm down.
+I didn’t know how to react.
+I wanted to scream, I wanted to cry.
+But most of all, I wanted to talk to him.
+To see if we could fix the things that went wrong.
+We had our differences, but was it too late?
+To try and make things right again?
+The memories of our past swirled in my head.
+Of the laughter, the tears, the fights we",1,5,5
+s0206,random,llama-8b-inst,hopeful,happy,3.0,0,The weather today is," mild and sunny. Perfect for taking a leisurely stroll around the city. And so, I set out to explore some of the hidden gems and secret spots in the city that not many people know about.
+As I walk through the winding streets, I notice the unique architecture of the buildings. Some of them are old and worn, with intricate details and carvings that tell a story of their own. Others are modern and sleek, with clean lines and minimalistic designs that speak of innovation and progress.
+
+I come across a small park tucked away in a quiet corner of the city. It's a tranquil oasis amidst the hustle and bustle",4,5,5
+s0207,random,llama-8b-inst,afraid,happy,3.0,1,I walked into the room and saw," her standing there, surrounded by her friends. Her eyes locked onto mine, a small smile spreading across her face as she waved. I forced a smile back, but my heart was racing. I hadn't seen her in years.
+It was like no time had passed at all. We still had that same spark, that same connection. But as we exchanged small talk and caught up on each other's lives, I couldn't shake the feeling that something was off.
+As we talked, I noticed the way she laughed at everything, the way she seemed to be hiding behind her eyes. It was like she was trying to put on a show",1,5,5
+s0208,random,llama-8b-inst,excited,happy,5.0,0,The weather today is," quite pleasant, and I have an excellent view of the mountains from my room. Today, I have a short review of a book I read recently.
+I had previously mentioned that I love reading books from independent authors and publishers. One of the books I got recently from the same publisher is the book, ""A Touch of Magic"" by D.L. King.
+""A Touch of Magic"" is a romantic fantasy novel that tells the story of a young woman named Lyra who lives in a world of magic. She is a skilled weaver of spells and has a unique gift of bringing the stories of the past to life through her art. When",4,5,3
+s0209,random,llama-8b-inst,guilty,happy,5.0,1,I walked into the room and saw," you there.
+My heart skipped a beat as I took in the sight.
+Your eyes locked onto mine, a piercing stare.
+I felt a spark ignite, an undeniable pull to you there.
+
+The room around us melted away, like a ghost in the night.
+All that was left was the space between us, a palpable, pulsing light.
+I couldn't breathe, couldn't think, couldn't move an inch.
+Frozen in time, I stared at you, my heart pounding in a frantic pinch.
+
+Your smile grew, a radiant beam that lit the night.
+I felt myself drawn closer, like a ship to the moon's pale",4,5,5
+s0210,random,llama-8b-inst,happy,angry,1.0,0,The weather today is," quite a bit of an improvement from yesterday. After a soggy and wet start, the sun started to come out in the late morning and is shining brightly now.
+It has been quite warm too, with temperatures climbing to the high teens and low twenties Celsius during the day. It's a great feeling to be able to walk outside without getting wet or needing an umbrella, and the warmth of the sun on my skin is lovely.
+I spent some time in the garden this morning, doing some watering and pruning. It's nice to get some fresh air and get my hands dirty after a few days of being stuck inside. The plants seem to",1,5,5
+s0211,random,llama-8b-inst,excited,angry,1.0,1,I walked into the room and saw," the most beautiful thing I had ever laid eyes on. A painting that seemed to breathe and shimmer, it was like nothing I had ever seen before. The colors were vibrant and alive, and the subject was a woman with skin as dark as the night sky. Her eyes were closed, and her lips were curved into a subtle smile. She was beautiful, and I was captivated.
+I approached the painting, feeling drawn to it like a moth to a flame. I reached out a hand to touch it, and as my fingers made contact with the canvas, I felt a sudden jolt of electricity. The room around me began to spin",1,5,5
+s0212,random,llama-8b-inst,happy,angry,3.0,0,The weather today is," lovely! The sun is shining, the birds are singing and it's a perfect day for a walk! As I sit here sipping my tea and looking out the window, I feel grateful for this moment of peace.
+It's not often that I get a chance to relax and enjoy the simple things in life, but today is a day like any other, and I'm making the most of it. I've spent the morning tidying up my living room and putting on a favourite album, which always lifts my mood.
+Life can get busy and stressful, and it's easy to get caught up in the hustle and bustle, but",1,5,5
+s0213,random,llama-8b-inst,guilty,angry,3.0,1,I walked into the room and saw," her sitting on the couch, staring blankly into space. Her eyes seemed distant, a far-off look in her gaze. Her expression was somber, her lips pressed together in a tight line. She looked up as I entered, and I could see the pain in her eyes.
+I walked over to her, my heart aching for her. I had known her for a long time, but this was a side of her I had never seen before. She looked lost, like she was wandering through a desert with no compass to guide her.
+""Hey,"" I said softly, sitting down next to her. ""What's going on",1,5,5
+s0214,random,llama-8b-inst,happy,angry,5.0,0,The weather today is," mild and sunny with temperatures in the mid-60s. Perfect day for a run! I ran 6 miles along the beach. It was beautiful to see the ocean sparkling in the sunlight and to feel the sea breeze in my hair. I loved every minute of it! As I ran, I felt happy and free, and it was a great way to clear my head and work out my stress. I'm so grateful to have access to this beautiful running spot and to have such wonderful weather today.
+The rest of the day has been relaxing and enjoyable. I had lunch with my mom and sister, and we caught up on each other",1,5,5
+s0215,random,llama-8b-inst,sad,angry,5.0,1,I walked into the room and saw," her sitting on the couch, staring blankly at the TV. She looked so lost and alone, I felt a pang in my heart. We had been married for over 10 years, and I had never seen her look so broken.
+I sat down beside her, putting my arm around her shoulders. ""Hey, baby, what's going on?"" I asked softly.
+She turned to me, her eyes red-rimmed and puffy. ""I don't know, Ryan. I just feel so empty inside. I feel like I'm just going through the motions of life, but I'm not really living.""
+I pulled her",1,5,5
+s0216,random,llama-8b-inst,hopeful,afraid,1.0,0,The weather today is," a little scary for some people, a lot scary for others. I think I'll just post a picture of a sunbeam and call it a day.
+Beautiful picture. It's the small joys in life that make it worth living through the rough weather. Hope you and your family stay safe!
+I know some people are bracing for the worst with this storm. Hopefully the damage will be minimal. The sunbeam picture was just what I needed today. Sometimes a little brightness can go a long way in lifting our spirits! Thanks for visiting! Stay safe! Yes, it's little things like sunbeams that can bring us comfort.",5,4,5
+s0217,random,llama-8b-inst,calm,afraid,1.0,1,I walked into the room and saw," him sitting on the couch, staring blankly at the wall. I hadn’t seen him all day, and I had been worried sick. I had called and texted him, but he hadn’t responded. I knocked on the door, and he looked up, a look of guilt on his face.
+“Hey,” he said quietly, his voice barely above a whisper.
+I walked over to him and sat down next to him on the couch. “Hey,” I replied, trying to sound casual, though my heart was racing with worry. “Where have you been all day?” I asked, trying to keep my tone light.
+He",4,5,5
+s0218,random,llama-8b-inst,angry,afraid,3.0,0,The weather today is," sunny with a high of 21 degrees Celsius. We're expecting a high-pressure system to dominate the region, leading to mostly clear skies and a gentle breeze.
+The sea temperature is around 22 degrees Celsius, making it perfect for a refreshing swim or a relaxing day at the beach. The surf is expected to be moderate, with waves reaching up to 1.5 meters in height.
+If you're planning on being outdoors, be sure to wear sunscreen with a high SPF and stay hydrated throughout the day. The UV index is expected to be high, so take necessary precautions to protect your skin.
+Overall, it's shaping up to be",1,5,5
+s0219,random,llama-8b-inst,disgusted,afraid,3.0,1,I walked into the room and saw," my best friend crying in the corner. I approached her cautiously, not wanting to intrude, but she looked up and saw me. Her tears stopped abruptly, and she glared at me with a mixture of anger and frustration. I was taken aback. ""What's wrong?"" I asked, sitting down beside her. ""Everything,"" she spat, before bursting into tears again. It seemed like she was drowning in her own despair, and I didn't know how to help.
+As I sat there with her, trying to offer comfort, I realized that I was also struggling to cope with my own emotions. Seeing my best friend like",2,5,5
+s0220,random,llama-8b-inst,hopeful,afraid,5.0,0,The weather today is," expected to be mainly sunny in the early morning, turning partly cloudy in the afternoon and evening, the National Meteorological Agency (Met) announced.
+The Met said in its daily forecast that the temperature in the capital, Khartoum, will reach 36 degrees Celsius during the day, and it will fall to 20 degrees at night.
+It predicted a temperature of 36 degrees in the Red Sea states, with a slight decrease in temperature during the night to 22 degrees, and a high of 38 degrees in the eastern region, with a slight drop to 20 degrees at night.
+The Met forecast partly cloudy skies and a",1,5,5
+s0221,random,llama-8b-inst,angry,afraid,5.0,1,I walked into the room and saw," my ex, who was clearly expecting me and hadn’t even bothered to hide it. He just gave me a lazy, smug smile and said, “Ah, you’re here. Good. We have a lot to talk about.” I clenched my fists at my sides, trying not to lose my cool in the face of his arrogance. Who did he think he was? I tried to keep my anger in check as I walked closer, but it was hard to keep my tone even. “What do you want?” I demanded. “We can do this here or I can take you to the kitchen and we can be comfortable,”",1,5,5
+s0222,random,llama-8b-inst,happy,calm,1.0,0,The weather today is," quite a bit of an improvement from yesterday. After a soggy and wet start, the sun started to come out in the late morning and is shining brightly now.
+It has been quite warm too, with temperatures climbing to the high teens and low twenties Celsius during the day. It's a great feeling to be able to walk outside without getting wet or needing an umbrella, and the warmth of the sun on my skin is lovely.
+I spent some time in the garden this morning, doing some watering and pruning. It's nice to get some fresh air and get my hands dirty after a few days of being stuck inside. The plants seem to",5,5,5
+s0223,random,llama-8b-inst,disgusted,calm,1.0,1,I walked into the room and saw," a little boy, no more than six years old, with a big smile on his face. He was in a hospital bed, surrounded by medical equipment, tubes and wires. He was clutching a stuffed animal and looked so happy to see me. My heart melted. As I visited with him, I learned that he had been diagnosed with a rare form of leukemia and was in the hospital for treatment.
+I asked him about his favorite things, and he told me that he loved Legos, dinosaurs, and playing with his friends. He also told me that he loved being with his family and that they made him feel better when he was",1,5,5
+s0224,random,llama-8b-inst,hopeful,calm,3.0,0,The weather today is," mild and sunny. Perfect for taking a leisurely stroll around the city. And so, I set out to explore some of the hidden gems and secret spots in the city that not many people know about.
+As I walk through the winding streets, I notice the unique architecture of the buildings. Some of them are old and worn, with intricate details and carvings that tell a story of their own. Others are modern and sleek, with clean lines and minimalistic designs that speak of innovation and progress.
+
+I come across a small park tucked away in a quiet corner of the city. It's a tranquil oasis amidst the hustle and bustle",5,5,5
+s0225,random,llama-8b-inst,proud,calm,3.0,1,I walked into the room and saw," a beautiful woman in a red dress. Her long, curly brown hair cascaded down her back and her bright blue eyes sparkled in the light. I was immediately drawn to her and couldn't help but feel a spark of attraction.
+She caught my eye and smiled, and I felt a jolt of excitement. I walked over to her and introduced myself, and we started chatting. We quickly discovered that we had a lot in common, from our love of hiking to our passion for trying new foods.
+As we talked, I couldn't help but notice the way the red dress highlighted her curves and the way her hair framed her face.",1,5,5
+s0226,random,llama-8b-inst,afraid,calm,5.0,0,The weather today is," a beautiful 22°, with clear skies and a moderate breeze, perfect weather for a short hike.
+I have taken a break from work to get some exercise and fresh air, and the first section of the trail has already proven to be a great way to start my day. The terrain has been easy so far, with a steady incline that has allowed me to build up a good sweat, but not so steep that it's been difficult to make progress.
+The trail has been surrounded by tall trees, providing a welcome canopy from the intense sun, and the sound of birdsong has been a constant accompaniment to my footsteps.",5,5,5
+s0227,random,llama-8b-inst,hopeful,calm,5.0,1,I walked into the room and saw," a smiling face, but not just any smiling face, a face that has become like family to me. We sat down and I started asking her questions about her new job and all the amazing things she is accomplishing. But I could sense that there was something on her mind, something she wanted to talk about.
+We chatted for a bit longer, laughing and joking around, but I could see the sincerity in her eyes. She was trying to be brave and hold back tears, but I could see the emotions pouring out of her.
+As we sat there, I listened with compassion and understanding, and with each passing minute, she opened",3,5,5
+s0228,baseline,llama-8b-inst,happy,happy,0,0,The weather today is," mostly sunny with a high of 55 and a low of 45.
+The weather today is partly cloudy with a high of 58 and a low of 40.
+The weather today is mostly sunny with a high of 50 and a low of 35.
+The weather today is mostly cloudy with a high of 48 and a low of 30.
+The weather today is mostly sunny with a high of 55 and a low of 38.
+The weather today is partly cloudy with a high of 54 and a low of 40.
+The weather today is mostly cloudy with a high of 52 and a low of 42",1,3,5
+s0229,baseline,llama-8b-inst,happy,happy,0,1,I walked into the room and saw," the most amazing creature I had ever laid eyes on. Her name was Lila, and she was a beautiful, vibrant creature with a wild mane of curly hair and a sparkle in her eye that seemed to see right through me. I was immediately drawn to her, and I knew in that moment that I was hooked.
+As we talked, I learned that Lila was a talented artist, with a passion for creating beautiful works of art that seemed to capture the essence of the world around her. She was kind and gentle, with a quick wit and a sharp sense of humor that left me laughing and feeling at ease.
+As we spent more",5,5,5
+s0230,baseline,llama-8b-inst,happy,happy,0,2,"After thinking about it for a while,"," I've decided to add a blog to my website. I've always enjoyed writing and sharing my thoughts and experiences, and I figured it's high time I started doing it in a more formal way.
+Over the coming weeks and months, I'll be posting on a variety of topics, including some of the things I'm currently learning and working on, as well as general rants and musings about life, technology, and whatever else comes to mind.
+
+So, if you're interested in reading more about my thoughts and experiences, I encourage you to subscribe to the blog or follow me on social media to stay up to date.
+
+And,",4,4,5
+s0231,baseline,llama-8b-inst,angry,angry,0,0,The weather today is," going to be mostly sunny with a high of 83 and a low of 55. The UV index is 10, which is very high, so don't forget to slather on that sunscreen. Tonight there's a 10% chance of precipitation, so keep your umbrella handy. Winds will be blowing at 10 mph out of the southeast.
+As for the weekend, Saturday is looking mostly cloudy with a high of 78 and a low of 54. There's a 20% chance of showers and thunderstorms, so you might want to check the forecast before heading out. Sunday is going to be partly sunny with a",1,5,5
+s0232,baseline,llama-8b-inst,angry,angry,0,1,I walked into the room and saw," you standing there, looking so serene, like a work of art. Your smile lit up the whole space, and I felt my heart skip a beat. I couldn't help but be drawn to you, like a magnet to metal.
+You turned to me and our eyes met, and I felt a jolt of electricity run through my body. It was like we shared a secret, a moment of connection that no one else could understand. Your eyes sparkled with warmth and kindness, and I felt my defenses drop, like a shield crumbling to the ground.
+We talked for hours, our conversation flowing like a river, effortless and easy.",1,5,5
+s0233,baseline,llama-8b-inst,angry,angry,0,2,"After thinking about it for a while,"," I decided that I am going to create a new blog. One that is about something that really excites me and something that I'm very knowledgeable about: food, cooking, and eating. As you might know from reading my past blog posts, I love trying new foods, experimenting with new recipes, and experimenting with flavors and cuisines from around the world.
+So, stay tuned for my new food blog, ""A Spoonful of Flavor"", where I will share recipes, restaurant reviews, food hacks, and more with all of you. I'm super excited to start this new journey and I hope you'll join me for all the delicious",1,5,5
+s0234,baseline,llama-8b-inst,afraid,afraid,0,0,The weather today is," expected to be partly cloudy with a high of 68F and a low of 43F.
+There is a low chance of precipitation.
+The air quality index is 14, which is good.
+UV index is 3, which is low.
+The wind speed is 5 mph, with a gust of 11 mph.
+The visibility is 10 miles. -Astrid M, weather forecaster, Weather Channel
+The weather today is expected to be partly cloudy with a high of 68F and a low of 43F.
+There is a low chance of precipitation.
+The air quality index is 14, which is",1,3,5
+s0235,baseline,llama-8b-inst,afraid,afraid,0,1,I walked into the room and saw," him sitting on the couch, staring blankly at the TV screen. He looked so distant, so lost. I sat down beside him and asked if he was okay. He just shook his head, not even looking at me.
+
+It wasn't the first time he'd been like this. It was a common occurrence, especially when he was struggling with his emotions. But this time, it seemed different. This time, he seemed... defeated.
+
+I took his hand in mine, trying to offer some comfort. But he pulled away, not even acknowledging my touch. I tried again, more softly this time. Still, he didn't respond",1,5,5
+s0236,baseline,llama-8b-inst,afraid,afraid,0,2,"After thinking about it for a while,"," I decided to set a goal to visit as many of the 100 UNESCO World Heritage sites in Japan as possible. There are many great sites to visit, so it should be a fun and rewarding challenge!
+First, I need to get a bit of an overview of what I'm getting into. Here are the 100 UNESCO World Heritage sites in Japan:
+UNESCO World Heritage sites in Japan:
+Historic Monuments of Ancient Nara (1998)
+Sacred Places and Pilgrimage Routes in the Kii Mountain Range (2004)
+Sacred Sites and Pilgrimage Routes in the Kii Mountains (2004)
+Shr",1,4,5
+s0237,baseline,llama-8b-inst,calm,calm,0,0,The weather today is," supposed to be pretty gloomy here, so I thought it would be a great excuse to spend some time on Pinterest and browse around for some beautiful and inspiring home decor ideas. And, I just happened to stumble upon the most gorgeous image of a modern minimalist interior that I just couldn't resist sharing with you all!
+The picture features a beautiful, light-filled room with a stunning wall of floor-to-ceiling windows, a gorgeous minimalist sofa in a neutral color, and a beautiful geometric patterned rug in a bold, contrasting color. But what really caught my eye was the incredible use of texture and pattern in the space. From the natural linen",4,5,5
+s0238,baseline,llama-8b-inst,calm,calm,0,1,I walked into the room and saw," her sitting there, a look of determination on her face. It was a look I knew all too well, a look that said she was not going to give up, not until she had accomplished her goal.
+I took a seat beside her, trying not to intrude on her thoughts. She was deep in concentration, her eyes fixed on the piece of paper in front of her. I knew what she was working on – a poem, one that had been giving her trouble for weeks now.
+I watched as she scribbled down a few lines, then crumpled up the paper in frustration. I could feel the tension in her",2,5,5
+s0239,baseline,llama-8b-inst,calm,calm,0,2,"After thinking about it for a while,"," I decided to join a few more groups on the platform. Specifically, I joined a group called the 'Daily Writing Challenge' where I could set a writing goal for each day, share it with the writers in the group, and they could hold me accountable. It sounded like a great way to stay motivated and write more consistently. I also joined a group called 'Critique Circle' where I could share my work with others, get feedback, and help others with their writing too.
+
+This is where things got interesting. When I posted my first work in the Critique Circle group, I was taken aback by the feedback. Some of",1,5,5

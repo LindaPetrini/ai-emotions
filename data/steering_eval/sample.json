@@ -267,56 +267,56 @@
     "id": "s0024",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "surprised",
+    "emotion": "hopeful",
     "target_emotion": "happy",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " ________ cool for the coming winter. [ ]\nA. much too\nB. too much\nC. quite too\nD. very much\n\u7b54\u6848:\n\nA\n\nMy sister has two _____, one is black and the other is whit\nE. [ ]\nA. coats\nB. coat\nC. shoes\nD. shoe\n\u7b54\u6848:\n\nA\n\nMy brother likes playing _____ football, but I like playing _____ guitar. [ ]\nA. the, /\nB. /, the\nC. the, the\nD. /, /\n\u7b54\u6848:\n\nB\n\nMy brother has _____ baseball, but I don't have _____."
+    "completion": " ___, and there are ___ clouds.\nA. Sunny; few\nB. Overcast; a few\nC. Cloudy; few\nD. Sunny; many\nAnswer: A\n\nWhich of the following statements about the geographical features of the four provinces is true?\nA. Provinces \u2460 and \u2461 are both located on China's second-level topographic step.\nB. Province \u2461 has abundant water resources, particularly large amounts of groundwater.\nC. The population distribution in Province \u2462 is extremely uneven.\nD. Province \u2463 is rich in mineral resources, with diverse types.\nAnswer: C"
   },
   {
     "id": "s0025",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "guilty",
+    "emotion": "proud",
     "target_emotion": "happy",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " my daughter playing with the toy. Which conjunction should be used in this sentence?\nA. and\nB. or\nC. but\nD. so\nAnswer:\nA\n\nWhich of the following options is a common method used to resolve conflicts?\nA. Escalate the conflict to a higher level\nB. Avoid the conflict and ignore it\nC. Find a compromise solution\nD. Refuse to accept any resolution\nAnswer:\nC\n\nWhich of the following words best expresses the meaning of 'immediately'? \nA. just\nB. even\nC. immediately\nD. never\nAnswer:\nC\n\nWhich of"
+    "completion": " Tom _________ his computer\uff0e____\nto work on\nworking at\nwork on\nworking on\n\u7b54\u6848: D\n\n\u4e0b\u5217\u5173\u4e8e\u751f\u7269\u5de5\u7a0b\u7684\u53d9\u8ff0\u4e2d\uff0c\u6b63\u786e\u7684\u662f____\nA. \u5c06\u4eba\u7684\u751f\u957f\u6fc0\u7d20\u57fa\u56e0\u5bfc\u5165\u5230\u7ec6\u83cc\u7ec6\u80de\u4e2d\uff0c\u53ef\u4f7f\u7ec6\u83cc\u751f\u957f\u901f\u5ea6\u5feb\nB. \u4f53\u7ec6\u80de\u6742\u4ea4\u6280\u672f\u53ef\u514b\u670d\u8fdc\u7f18\u6742\u4ea4\u4e0d\u4eb2\u548c\u969c\u788d\uff0c\u57f9\u80b2\u51fa\u65b0\u7269\u79cd\nC. \u8bd5\u7ba1\u5a74\u513f\u6280\u672f\u4e3b\u8981\u5305\u62ec\u4f53\u5916\u53d7\u7cbe\u3001\u65e9\u671f\u80da\u80ce\u57f9\u517b\u3001\u80da\u80ce\u79fb\u690d\u7b49\u6280\u672f\nD. \u57fa\u56e0\u5de5\u7a0b\u80b2\u79cd\u7684\u539f\u7406\u662f\u57fa\u56e0\u7a81\u53d8\n\u7b54\u6848: C\n\n\u6211\u56fd\u6700\u5927\u7684\u6c99\u6f20\u662f____\nA"
   },
   {
     "id": "s0026",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "excited",
+    "emotion": "hopeful",
     "target_emotion": "happy",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " 80 degrees. If the weather is more humid, the temperature will feel 15 degrees warmer. If the weather is dry, the temperature will feel 5 degrees cooler. If the weather is more windy, the temperature will feel 10 degrees cooler. Considering the weather is both humid and windy, how would the temperature feel?\nTo determine how the temperature will feel when the weather is both humid and windy, we need to account for the effects of both conditions on the temperature. We start with the given base temperature of 80 degrees.\n\n1. **Humid Weather:**\n   - The temperature feels 15"
+    "completion": " quite warm and we decided to have a swim. We put some towels in our cars and went down to the riverside. It was so warm that a lot of people were there. The water was very cold. We stayed in the water for over an hour. We had a good time. Then we drove home.\nThe weather today was fine. We decided to go out and have a swim. We took some towels in our cars and drove to the riverside. There were lots of people there. The water was cool. We swam for more than an hour. We had a good time. Then we drove home.\nAnswer:\n\n"
   },
   {
     "id": "s0027",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "disgusted",
+    "emotion": "sad",
     "target_emotion": "happy",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " an unfamiliar girl there. (\u6539\u4e3a\u590d\u5408\u53e5) ____ I walked into the room, ____ ____ ____ an unfamiliar girl there.\n\nAs soon as I saw\uff1bthere was\n\n\u586b\u4e00\u586b\u3002 (1)25\u768415\u500d\u662f( )\uff0c140\u768420\u500d\u662f( )\u3002 (2)475\u00f75\u5546\u7684\u6700\u9ad8\u4f4d\u662f( )\u4f4d\uff0c\u5546\u662f( )\u4f4d\u6570\u3002\n\n(1)375\uff1b2800 (2)\u5341\uff1b\u4e24\n\n\u3010\u9898\u6587\u3011\u9605\u8bfb\u4e0b\u9762\u8fd9\u9996\u8bcd\uff0c\u56de\u7b54\u95ee\u9898\u3002 \u585e\u4e0b\u66f2 \u674e\u767d \u4e94\u6708\u5929\u5c71"
+    "completion": " the door ____.(knock)\nknocked\n\n12\uff0e\u4e0b\u5217\u8bf4\u6cd5\u4e2d\u6b63\u786e\u7684\u662f\uff08 \uff09 A\uff0e \u6c34\u7684\u6bd4\u70ed\u5bb9\u4e3a4.2\u00d7103J/\uff08kg\u2022\u2103\uff09\uff0c\u8868\u793a1kg\u6c34\u7684\u6e29\u5ea6\u6bcf\u5347\u9ad8\uff08\u6216\u964d\u4f4e\uff091\u2103\u6240\u5438\u6536\uff08\u6216\u653e\u51fa\uff09\u7684\u70ed\u91cf\u4e3a4.2\u00d7103J B\uff0e \u6e29\u5ea6\u9ad8\u7684\u7269\u4f53\uff0c\u5176\u542b\u6709\u7684\u70ed\u91cf\u591a C\uff0e \u56e0\u4e3a\u70ed\u4f20\u9012\u5177\u6709\u65b9\u5411\u6027\uff0c\u6240\u4ee5\u70ed\u91cf\u4e0d\u53ef\u80fd\u4ece\u5185\u80fd\u5c11\u7684\u7269\u4f53\u5411\u5185\u80fd\u591a\u7684\u7269\u4f53\u4f20\u9012 D\uff0e \u53d1\u751f\u70ed\u4f20\u9012\u65f6\uff0c\u5185\u80fd\u4ece\u9ad8\u6e29"
   },
   {
     "id": "s0028",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "hopeful",
+    "emotion": "sad",
     "target_emotion": "happy",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " cold and ____ \uff08snow\uff09.\nsnowy\n\n\u89e3\u65b9\u7a0b x-$\\frac{1}{5}$=$\\frac{1}{3}$\uff1b 3.6x-0.8x=1.28\uff0e\n\u89e3\uff1a\uff081\uff09x-$\\frac{1}{5}$=$\\frac{1}{3}$\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 x-$\\frac{1}{5}$+$\\frac{1}{5}$=$\\frac{1}{3}$+$\\frac{1}{5}$\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 x=$\\frac{8}{15}$\uff1b\n\n\uff082\uff093.6"
+    "completion": "____ and____\uff0e\uff08sun\uff0c sunny\uff09 sunny,sun\n\n____adj\uff0e\u8bda\u5b9e\u7684\u2192____n\uff0e\u8bda\u5b9e honest,honesty\n\nThe man had an____\uff08accident\uff09 and was taken to hospital at once\uff0e accident\n\nIt is not easy to get____ \uff08\u4e86\u89e3\uff0c\u77e5\u9053\uff09 that foreign students have to experience\uff0e to know\n\nHe is so h____ \uff08\u9ad8\u5ea6\u7684\uff09 intelligent that he often gets good grades\uff0e ighly"
   },
   {
     "id": "s0029",
@@ -333,23 +333,23 @@
     "id": "s0030",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "hopeful",
+    "emotion": "calm",
     "target_emotion": "angry",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " ___, and there are ___ clouds.\nA. Sunny; few\nB. Overcast; a few\nC. Cloudy; few\nD. Sunny; many\nAnswer: A\n\nWhich of the following statements about the geographical features of the four provinces is true?\nA. Provinces \u2460 and \u2461 are both located on China's second-level topographic step.\nB. Province \u2461 has abundant water resources, particularly large amounts of groundwater.\nC. The population distribution in Province \u2462 is extremely uneven.\nD. Province \u2463 is rich in mineral resources, with diverse types.\nAnswer: C"
+    "completion": " beautiful. Please choose the correct option to fill in the blank:\nA. sunny\nB. cloudy\nC. snowy\nD. rainy\nAnswer:\nA\n\nPlease select the correct pronunciation for 'fifteen'.\nA. sh\u00ed w\u01d4\nB. sh\u00ed l\u00ec\nC. sh\u00ed y\u00ec\nAnswer:\nA\n\nWhich of the following statements about the chemical composition of human body fluids is true?\nA. The osmotic pressure of plasma mainly comes from large molecules such as proteins\nB. A decrease in CO2 content will stimulate the respiratory center to increase respiratory rate\nC. In normal human plasma,"
   },
   {
     "id": "s0031",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "sad",
+    "emotion": "surprised",
     "target_emotion": "angry",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " the picture___________on the wall.\nhangs\nhanging\nto hang\nbeing hung\n\u7b54\u6848:\nB\n\n\u5f53\u53d1\u73b0\u7ebf\u8def\u8fde\u7eed\u51fa\u73b0____\u7684\u788e\u5f2f\u65f6\uff0c\u5fc5\u987b\u52a0\u5f3a\u5de1\u67e5\uff0c\u89c2\u6d4b\u8f68\u6e29\u548c\u7ebf\u8def\u65b9\u5411\u7684\u53d8\u5316\u3002\nA. 2\u20143mm\nB. 3\u20145mm\nC. 5\u20147mm\nD. 7-9mm\n\u7b54\u6848:\nB\n\n\u67d0\u5355\u4f4d\u4eba\u5458\u7ba1\u7406\u7cfb\u7edf\u5728\u4eba\u5458\u79bb\u804c\u65f6\u8fdb\u884c\u8d26\u53f7\u5220\u9664\uff0c\u9700\u8981\u79bb\u804c\u5458\u5de5\u6240\u5728\u90e8\u95e8\u4e3b\u7ba1\u7ecf\u7406\u548c\u4eba\u4e8b\u90e8\u95e8\u4eba\u5458\u540c\u65f6\u8fdb\u884c\u786e\u8ba4\u624d\u80fd\u5728\u7cfb\u7edf\u4e0a\u6267\u884c\uff0c\u8be5\u8bbe\u8ba1\u662f\u9075\u5faa\u4e86\u8f6f\u4ef6\u5b89\u5168\u54ea\u9879\u539f\u5219____\nA."
+    "completion": " the old man ______ with his daughter.\nA. laugh\nB. to laugh\nC. laughing\nD. laughed\n\u7b54\u6848:\nC\n\n\u5728Windows\u7cfb\u7edf\u4e2d\uff0c\u80fd\u7528\u4ee5\u4e0b\u547d\u4ee4\u5bdf\u770b\u4e3b\u673a\u7684\u8def\u7531\u8868____\nA. display ip routing-table\nB. ARP \u2013A\nC. tracert \u2013d\nD. route print\n\u7b54\u6848:\nD\n\nI\u2019d like you to ______ your room now.\nA. cleanup\nB. clean\nC. cleanout\nD. cleanin\n\u7b54\u6848:\nA\n\n\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u94c1\u8def\u6cd5\u300b\u89c4\u5b9a\uff1a\u81ea\u94c1\u8def\u8fd0\u8f93\u4f01\u4e1a\u53d1\u51fa\u9886\u53d6\u901a\u77e5\u4e4b\u65e5\u8d77\u6ee1____\u65e5\u4ecd"
   },
   {
     "id": "s0032",
@@ -366,78 +366,78 @@
     "id": "s0033",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "calm",
+    "emotion": "happy",
     "target_emotion": "angry",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " the whole family____\uff08\u4e89\u8bba\uff09about whether to go or not\uff0e arguing\n\n\u5728\u4e0b\u9762\u4e00\u6bb5\u6587\u5b57\u6a2a\u7ebf\u5904\u8865\u5199\u6070\u5f53\u7684\u8bed\u53e5\uff0c\u4f7f\u6574\u6bb5\u6587\u5b57\u8bed\u610f\u5b8c\u6574\u8fde\u8d2f\uff0c\u5185\u5bb9\u8d34\u5207\uff0c\u903b\u8f91\u4e25\u5bc6\u3002\u6bcf\u5904\u4e0d\u8d85\u8fc712\u4e2a\u5b57\u3002 \u6c34\uff0c\u662f\u4eba\u4f53\u4e2d\u6700\u591a\u7684\u7ec4\u6210\u6210\u5206\uff0c\u4eba\u4f53\u4e2d90%\u4ee5\u4e0a\u7684\u7ec6\u80de\u5747\u6d78\u6da6\u4e8e\u6c34\u6db2\u4e4b\u4e2d\u3002 \u2460____\uff0c\u5728\u8c03\u8282\u4f53\u6e29\u3001\u8fd0\u9001\u8425\u517b\u3001\u6392\u6cc4\u5e9f\u7269\u7b49\u65b9\u9762\u53d1\u6325\u7740\u91cd\u8981\u4f5c\u7528\u3002\u6c34\u7684\u8d28\u4e0e\u91cf\uff0c\u51b3\u5b9a\u4e86\u751f\u547d\u7684\u8d28\u91cf\u3002\u6c34\u7684\u6210\u5206\u4ee5\u201c\u8f6f\u6c34\u201d\u6700\u597d\uff0c\u5c31\u662f\u6ca1\u6709\u77ff\u7269\u8d28\u7684\u6c34\u3002\u56e0\u4e3a"
+    "completion": " my son\uff0c\uff081\uff09____\uff08sit\uff09 on the floor\uff0cholding the small box in his hand\uff0eA few minutes later\uff0cI saw him\uff082\uff09____\uff08open\uff09the box\uff0e \"What are you looking for\uff1f\"I asked him\uff0e \"I can't find my lucky coin\uff0e\"he answered\uff0eI told him that\uff083\uff09____\uff08lose\uff09things is easy\uff0cbut finding them can be hard\uff0e \"But Mom\uff0cthis is a lucky coin\uff0c\"he said\uff0e \"It will be hard\uff084\uff09____\uff08look\uff09 for it\uff0eYou might want to try asking other people\uff085\uff09____"
   },
   {
     "id": "s0034",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "guilty",
+    "emotion": "disgusted",
     "target_emotion": "angry",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " clear in Harbin. The temperature in the morning is -6\u00b0C and it rises by 11\u00b0C at noon. Later in the evening, the temperature drops by 4\u00b0C. What is the temperature in Harbin in the evening? Let's calculate the temperature in Harbin step by step.\n\n1. The initial temperature in the morning is -6\u00b0C.\n2. At noon, the temperature rises by 11\u00b0C. So, the new temperature is:\n   \\[\n   -6 + 11 = 5\u00b0C\n   \\]\n3. Later in the evening, the temperature drops by 4\u00b0C."
+    "completion": " sunny and it has been like this for the past three days. According to the weather forecast, there is a _____ chance of rain tomorrow.\nA. Certain to rain\nB. Definitely no rain\nC. Possible rain\nAnswer:\n\nC\n\nWhich of the following operations is correct?\nA. $\\sqrt{(-2)^2} = -2$\nB. $\\sqrt{(-2)^2} = 2$\nC. $\\sqrt{9} = \\pm3$\nD. $\\sqrt{9} = -3$\nAnswer:\n\nB\n\nWhich of the following options is correct?\nA. -\\(\\frac{1"
   },
   {
     "id": "s0035",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "surprised",
+    "emotion": "guilty",
     "target_emotion": "angry",
     "alpha": 5.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a cat____ \uff08lie\uff09 on the bed\uff0e\n\nlying\n\n\u5224\u65ad\u5355\u8bcd\u5212\u7ebf\u90e8\u5206\u7684\u53d1\u97f3\u662f\uff08T\uff09\u5426\uff08F\uff09\u76f8\u540c\u3002____ bed desk\n\nF\n\n- What about ____ \uff08visit\uff09 my grandparents on your birthday\uff1f - That's a good idea.\n\nvisiting"
+    "completion": " my father was asleep\uff0e \uff08\u6539\u6210\u7b80\u5355\u53e5\uff09 I saw my father____ when I walked into the room\uff0e\n\nasleep\n\nThe____\uff08\u4f20\u7edf\u7684\uff09Chinese medicine\uff0cwith its distinctive features\uff0cis one of the treasures of our country\uff0e\n\ntraditional\n\nHe is the____ \uff08tall\uff09 in the class\uff0e\n\ntallest\n\nThis shirt is 20 dollars. \uff08\u5c31\u5212\u7ebf\u90e8\u5206\u63d0\u95ee\uff09 ____________this shirt\uff1f\n\nHow,much,is\n\nThis is a photo of my family.This is my father.He is a teacher in a university.I think he is an excellent teacher.He often helps his students.He is strict with his"
   },
   {
     "id": "s0036",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "hopeful",
+    "emotion": "calm",
     "target_emotion": "afraid",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " ___, and there are ___ clouds.\nA. Sunny; few\nB. Overcast; a few\nC. Cloudy; few\nD. Sunny; many\nAnswer: A\n\nWhich of the following statements about the geographical features of the four provinces is true?\nA. Provinces \u2460 and \u2461 are both located on China's second-level topographic step.\nB. Province \u2461 has abundant water resources, particularly large amounts of groundwater.\nC. The population distribution in Province \u2462 is extremely uneven.\nD. Province \u2463 is rich in mineral resources, with diverse types.\nAnswer: C"
+    "completion": " beautiful. Please choose the correct option to fill in the blank:\nA. sunny\nB. cloudy\nC. snowy\nD. rainy\nAnswer:\nA\n\nPlease select the correct pronunciation for 'fifteen'.\nA. sh\u00ed w\u01d4\nB. sh\u00ed l\u00ec\nC. sh\u00ed y\u00ec\nAnswer:\nA\n\nWhich of the following statements about the chemical composition of human body fluids is true?\nA. The osmotic pressure of plasma mainly comes from large molecules such as proteins\nB. A decrease in CO2 content will stimulate the respiratory center to increase respiratory rate\nC. In normal human plasma,"
   },
   {
     "id": "s0037",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "calm",
+    "emotion": "surprised",
     "target_emotion": "afraid",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a man lying on the floor, I _____ him up.\nA. put\nB. laid\nC. lay\nD. layed\n\u7b54\u6848:\n\nB\n\n\u4ee5\u4e0b\u5173\u4e8eOSPF\u865a\u94fe\u8def\u63cf\u8ff0\u6b63\u786e\u7684\u662f?\nA. \u865a\u8fde\u63a5\u53ef\u4ee5\u5efa\u7acb\u5728\u4efb\u4f55\u533a\u57df\u4e2d,\u5efa\u7acb\u540e\u5b83\u81ea\u8eab\u4e5f\u5c5e\u4e8e\u8be5\u533a\u57df\nB. \u865a\u94fe\u8def\u4f7f\u7528\u51fa\u63a5\u53e3IP\u4f5c\u4e3a\u94fe\u63a5\u5730\u5740\nC. \u865a\u94fe\u8def\u53ef\u4ee5\u7528\u6765\u89e3\u51b3\u533a\u57df0\u88ab\u5206\u5272\u7684\u95ee\u9898\nD. \u865a\u8fde\u63a5\u7684cost\u4e3a\u96f6,\u662f\u6700\u4f18\u94fe\u8def\n\u7b54\u6848:\n\nC\n\nIf the government _______ enough money on medical service,"
+    "completion": " the old man ______ with his daughter.\nA. laugh\nB. to laugh\nC. laughing\nD. laughed\n\u7b54\u6848:\nC\n\n\u5728Windows\u7cfb\u7edf\u4e2d\uff0c\u80fd\u7528\u4ee5\u4e0b\u547d\u4ee4\u5bdf\u770b\u4e3b\u673a\u7684\u8def\u7531\u8868____\nA. display ip routing-table\nB. ARP \u2013A\nC. tracert \u2013d\nD. route print\n\u7b54\u6848:\nD\n\nI\u2019d like you to ______ your room now.\nA. cleanup\nB. clean\nC. cleanout\nD. cleanin\n\u7b54\u6848:\nA\n\n\u300a\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u94c1\u8def\u6cd5\u300b\u89c4\u5b9a\uff1a\u81ea\u94c1\u8def\u8fd0\u8f93\u4f01\u4e1a\u53d1\u51fa\u9886\u53d6\u901a\u77e5\u4e4b\u65e5\u8d77\u6ee1____\u65e5\u4ecd"
   },
   {
     "id": "s0038",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "happy",
+    "emotion": "excited",
     "target_emotion": "afraid",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " very hot, which of the following words best describes this?\nA. Cool\nB. Hot\nC. Warm\nD. Cold\nAnswer: B\n\nWhich of the following statements about the global annual precipitation distribution pattern is incorrect?\nA. Near the equator, the climate is hot and humid, resulting in abundant rainfall.\nB. As you move away from the equator towards the poles, annual precipitation gradually increases.\nC. Areas near the Tropic of Cancer and the Tropic of Capricorn tend to be more arid.\nD. In the mid-latitudes, precipitation is typically more abundant in coastal areas than in inland"
+    "completion": " 80 degrees. If the weather is more humid, the temperature will feel 15 degrees warmer. If the weather is dry, the temperature will feel 5 degrees cooler. If the weather is more windy, the temperature will feel 10 degrees cooler. Considering the weather is both humid and windy, how would the temperature feel?\nTo determine how the temperature will feel when the weather is both humid and windy, we need to account for the effects of both conditions on the temperature. We start with the given base temperature of 80 degrees.\n\n1. **Humid Weather:**\n   - The temperature feels 15"
   },
   {
     "id": "s0039",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "disgusted",
+    "emotion": "happy",
     "target_emotion": "afraid",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " an unfamiliar girl there. (\u6539\u4e3a\u590d\u5408\u53e5) ____ I walked into the room, ____ ____ ____ an unfamiliar girl there.\n\nAs soon as I saw\uff1bthere was\n\n\u586b\u4e00\u586b\u3002 (1)25\u768415\u500d\u662f( )\uff0c140\u768420\u500d\u662f( )\u3002 (2)475\u00f75\u5546\u7684\u6700\u9ad8\u4f4d\u662f( )\u4f4d\uff0c\u5546\u662f( )\u4f4d\u6570\u3002\n\n(1)375\uff1b2800 (2)\u5341\uff1b\u4e24\n\n\u3010\u9898\u6587\u3011\u9605\u8bfb\u4e0b\u9762\u8fd9\u9996\u8bcd\uff0c\u56de\u7b54\u95ee\u9898\u3002 \u585e\u4e0b\u66f2 \u674e\u767d \u4e94\u6708\u5929\u5c71"
+    "completion": " my son\uff0c\uff081\uff09____\uff08sit\uff09 on the floor\uff0cholding the small box in his hand\uff0eA few minutes later\uff0cI saw him\uff082\uff09____\uff08open\uff09the box\uff0e \"What are you looking for\uff1f\"I asked him\uff0e \"I can't find my lucky coin\uff0e\"he answered\uff0eI told him that\uff083\uff09____\uff08lose\uff09things is easy\uff0cbut finding them can be hard\uff0e \"But Mom\uff0cthis is a lucky coin\uff0c\"he said\uff0e \"It will be hard\uff084\uff09____\uff08look\uff09 for it\uff0eYou might want to try asking other people\uff085\uff09____"
   },
   {
     "id": "s0040",
@@ -454,78 +454,78 @@
     "id": "s0041",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "proud",
+    "emotion": "surprised",
     "target_emotion": "afraid",
     "alpha": 5.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " the dog ________ near the table\uff0e____\nlay\nlie\nlying\n\u7b54\u6848: C\n\n-Did you go to Shanghai on vacation\uff1f -Yes\uff0cI did\uff0eI there for a week\uff0e____\nA. m\nH. ave been\nW. as\nH. ave gone\n\u7b54\u6848: B\n\nYou should your homework right now\uff0cJim\uff0e____\nfinish\nfinishes\nfinishing\nto finish\n\u7b54\u6848: A\n\n-How can I get in touch with Sally\uff1f -She has a QQ number\uff0eYou can her\uff0e____\nA. sk\nI. nteract\nM. eet"
+    "completion": " a cat____ \uff08lie\uff09 on the bed\uff0e\n\nlying\n\n\u5224\u65ad\u5355\u8bcd\u5212\u7ebf\u90e8\u5206\u7684\u53d1\u97f3\u662f\uff08T\uff09\u5426\uff08F\uff09\u76f8\u540c\u3002____ bed desk\n\nF\n\n- What about ____ \uff08visit\uff09 my grandparents on your birthday\uff1f - That's a good idea.\n\nvisiting"
   },
   {
     "id": "s0042",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "proud",
+    "emotion": "hopeful",
     "target_emotion": "calm",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " cool and it is ____ for my sports.\nA. suitable\nB. right\nC. nice\nD. perfect\n\u7b54\u6848:  D\n\n\u4ee5\u4e0b\u9009\u9879\u4e2d,\u4e0d\u5c5e\u4e8ePython\u4fdd\u7559\u5b57\u7684\u662f____\u3002\nA. continue\nB. if\nC. do\nD. while\n\u7b54\u6848:  C\n\nHe is ____. He doesn\u2019t want to stay here.\nA. bored\nB. boring\nC. interest\nD. interested\n\u7b54\u6848:  A\n\n\u4ee5\u4e0b\u7a0b\u5e8f\u7684\u8f93\u51fa\u7ed3\u679c\u662f____\u3002a=0b=0defdoIt1():a=1defdoIt2():b=2defdoIt"
+    "completion": " ___, and there are ___ clouds.\nA. Sunny; few\nB. Overcast; a few\nC. Cloudy; few\nD. Sunny; many\nAnswer: A\n\nWhich of the following statements about the geographical features of the four provinces is true?\nA. Provinces \u2460 and \u2461 are both located on China's second-level topographic step.\nB. Province \u2461 has abundant water resources, particularly large amounts of groundwater.\nC. The population distribution in Province \u2462 is extremely uneven.\nD. Province \u2463 is rich in mineral resources, with diverse types.\nAnswer: C"
   },
   {
     "id": "s0043",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "excited",
+    "emotion": "sad",
     "target_emotion": "calm",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a man____ \uff08lie\uff09 on the bed\uff0c who seemed to be very ill\uff0e lying\n\n\uff08\u300a\u4e60\u4f5c\uff1a\u731c\u731c\u4ed6\u662f\u8c01\u300b\uff09\u901a\u8fc7\u4e60\u4f5c\uff0c\u8ba9\u6211\u4eec\u8ba4\u8bc6\u4e86\u81ea\u5df1\u7684\u5c0f\u4f19\u4f34\u3002 ____\uff08\u5224\u65ad\u5bf9\u9519\uff09 \u221a\n\n\u6839\u636e\u5bf9\u8bdd\uff0c\u9009\u62e9\u5408\u9002\u7684\u5355\u8bcd\u586b\u5728\u6a2a\u7ebf\u4e0a\uff0c\u5c06\u5bf9\u8bdd\u8865\u5145\u5b8c\u6574\uff0e is\uff1b isn't\uff1b have\uff1b has\uff1b are\uff1b aren't\uff1b for\uff1b with\uff1b on\uff081\uff09-Are you Kate\uff1f-No\uff0c I____\uff0e I____ Mike\uff0e \uff082\uff09-Good morning\uff0e Is she in the library\uff1f-No\uff0c she____\uff0e She____ in the art room\uff0e \uff08"
+    "completion": " the picture___________on the wall.\nhangs\nhanging\nto hang\nbeing hung\n\u7b54\u6848:\nB\n\n\u5f53\u53d1\u73b0\u7ebf\u8def\u8fde\u7eed\u51fa\u73b0____\u7684\u788e\u5f2f\u65f6\uff0c\u5fc5\u987b\u52a0\u5f3a\u5de1\u67e5\uff0c\u89c2\u6d4b\u8f68\u6e29\u548c\u7ebf\u8def\u65b9\u5411\u7684\u53d8\u5316\u3002\nA. 2\u20143mm\nB. 3\u20145mm\nC. 5\u20147mm\nD. 7-9mm\n\u7b54\u6848:\nB\n\n\u67d0\u5355\u4f4d\u4eba\u5458\u7ba1\u7406\u7cfb\u7edf\u5728\u4eba\u5458\u79bb\u804c\u65f6\u8fdb\u884c\u8d26\u53f7\u5220\u9664\uff0c\u9700\u8981\u79bb\u804c\u5458\u5de5\u6240\u5728\u90e8\u95e8\u4e3b\u7ba1\u7ecf\u7406\u548c\u4eba\u4e8b\u90e8\u95e8\u4eba\u5458\u540c\u65f6\u8fdb\u884c\u786e\u8ba4\u624d\u80fd\u5728\u7cfb\u7edf\u4e0a\u6267\u884c\uff0c\u8be5\u8bbe\u8ba1\u662f\u9075\u5faa\u4e86\u8f6f\u4ef6\u5b89\u5168\u54ea\u9879\u539f\u5219____\nA."
   },
   {
     "id": "s0044",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "disgusted",
+    "emotion": "proud",
     "target_emotion": "calm",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " really cold, the correct expression is:\nA. It's cold\nB. It's cold (It's very cold)\nC. It's very cold\nAnswer:\n\nB\n\nBased on the principle of equal probability, which of the following correctly describes the probability characteristics of events?\nA. The probability of drawing a red ball from a bag containing 4 red balls and 3 black balls is greater than that of drawing a white ball from a bag containing 3 white balls and 3 black balls.\nB. If a die is rolled twice, the probability of getting a 6 on the first roll and an odd number on the second"
+    "completion": " very hot. What can I do to cool down?\nA. Turn on the air conditioning\nB. Drink more cold drinks\nC. Go swimming\nD. Take a cool shower\nAnswer: A\n\nThe core content of Xi Jinping's new era of Chinese socialism with Chinese characteristics can be summarized as:\nA. 'Eight Clarifications'\nB. 'Fourteen Insistences'\nC. 'Five-in-One' overall layout\nD. 'Four Comprehensives' strategic layout\nAnswer: AB\n\nIn the event of a fire, which of the following actions is incorrect?\nA. Quickly organize the evacuation of people\n"
   },
   {
     "id": "s0045",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "proud",
+    "emotion": "angry",
     "target_emotion": "calm",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " Tom ____ on the floor. A. laying B. laying C. lying D. lying\nAnswer: D\n\nHow do you say this in English? It's a blue car. A) It's a blue car. B) This is a blue car. C) These are blue cars. D) It's a blue cars. E) It's blue cars.\nAnswer: B\n\nWhich of the following words has a different pronunciation for the underlined part?\nA. wh en\nB. wh o\nC. wh ose\nD. wh y\nAnswer: D"
+    "completion": " her sitting in the chair ________ the telephone.\nnear\nbeside\nover\nround\n\u7b54\u6848: B\n\nThey _______the car since yesterday.\nhas repaired\nhas been repaired\nhave repaired\nhave been repaired\n\u7b54\u6848: D\n\nWhen he saw his son _______ up so quickly, the old man felt very happy.\nstand\nto stand\nstood\nstanding\n\u7b54\u6848: D\n\nA large number of trees _______ last year in Yulin.\nA. re planted\nH. ave been planted\nW. ere planted\nW. ill be planted\n\u7b54\u6848: C\n\n---It was so hot that day. I"
   },
   {
     "id": "s0046",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "afraid",
+    "emotion": "excited",
     "target_emotion": "calm",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " much (  ) than yesterday.\nA. cold\nB. colder\nC. coldest\nD. very cold\nAnswer:\nB\n\nWhich of the following options represents the highest level of protection in personal protective equipment (PPE)?\nA. Level A\nB. Level B\nC. Level C\nD. Level D\nE. Level E\nAnswer:\nA\n\nFor a patient with a brain injury, which of the following measures is correct?\nA. Elevate the head of the bed by 15 to 30 centimeters\nB. Perform an enema with normal saline\nC. Keep the patient"
+    "completion": " so sunny and warm.\uff08\u6539\u5426\u5b9a\u53e5\uff09 ____ today isn't so sunny or warm.\n\nThe weather\n\n\u5df2\u77e5\u6570\u5217{a_{n}}\u7684\u524dn\u9879\u548c\u4e3aS_{n}\uff0c\u4e14a_{1}=2\uff0ca_{n+1}=S_{n}+2\uff0e \uff081\uff09\u6c42\u6570\u5217{a_{n}}\u7684\u901a\u9879\u516c\u5f0f\uff1b \uff082\uff09\u8bb0\u6570\u5217{na_{n}}\u7684\u524dn\u9879\u548c\u4e3aT_{n}\uff0c\u6c42\u8bc1\uff1aT_{n}\uff1c20\uff0e\n\n\u89e3\uff1a\uff081\uff09\u7531\u5df2\u77e5\u6709S_{n+1}-S"
   },
   {
     "id": "s0047",
     "condition": "random",
     "model": "qwen-7b-base",
-    "emotion": "hopeful",
+    "emotion": "desperate",
     "target_emotion": "calm",
     "alpha": 5.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " my dad _____ under the desk.\nA. laying\nB. lay\nC. tolay\nD. lying\n\u7b54\u6848:\n\n D\n\n\uff082016\u00b7\u6c5f\u82cf\u6dee\u5b89\uff092\uff0e\u79e6\u59cb\u7687\u548c\u6c49\u6b66\u5e1d\u90fd\u662f\u6770\u51fa\u7684\u5c01\u5efa\u653f\u6cbb\u5bb6\u3002\u4ed6\u4eec\u6700\u76f8\u4f3c\u7684\u529f\u7ee9\u662f\nA. \u4efb\u7528\u8d24\u624d\nB. \u7cbe\u901a\u5112\u672f\nC. \u5747\u7530\u514d\u8d4b\nD. \u56fd\u5bb6\u7edf\u4e00\n\u7b54\u6848:\n\n D\n\n\u4ee5\u4e0b\u6709\u5173\u4e8eHive\u4e0eHadoop\u5176\u4ed6\u7ec4\u4ef6\u7684\u5173\u7cfb\u7684\u63cf\u8ff0\uff0c\u54ea\u4e9b\u9009\u9879\u662f\u6b63\u786e\u7684\uff1f\uff08)\nA. Hive\u6700\u7ec8\u5c06\u6570\u636e\u5b58\u50a8\u5728H"
+    "completion": " Tom ____ \uff08play\uff09 with his sister.\nplaying\n\n2020\u5e7411\u6708\uff0c\u56fd\u5bb6\u8bed\u8a00\u8d44\u6e90\u76d1\u6d4b\u4e0e\u7814\u7a76\u4e2d\u5fc3\u53d1\u5e03\u201c2020\u5e74\u5ea6\u5341\u5927\u7f51\u7edc\u7528\u8bed\u201d\uff0c\u201c\u5e26\u8d27\u201d\u201c\u4e91\u76d1\u5de5\u201d\u201c\u5965\u5229\u7ed9\u201d\u201c\u51e1\u5c14\u8d5b\u6587\u5b66\u201d\u7b49\u5165\u9009\u3002\u8fd9\u4e9b\u70ed\u8bcd\uff0c\u5927\u591a\u6765\u81ea\u7f51\u7edc\u793e\u533a\u3001\u76f4\u64ad\u5e73\u53f0\u3001\u7efc\u827a\u8282\u76ee\u7b49\u3002\u6709\u4e13\u5bb6\u5206\u6790\u8ba4\u4e3a\uff0c\u8fd9\u5341\u5927\u7f51\u7edc\u7528\u8bed\u591a\u4e3a\u540d\u8bcd\u3001\u52a8\u8bcd\u6216\u5f62\u5bb9\u8bcd\uff0c\u591a\u4e0e\u65e5\u5e38\u751f\u6d3b\u7d27\u5bc6\u76f8\u5173\uff0c\u4f53\u73b0\u4e86\u5f53\u4ee3\u793e\u4f1a\u7684\u751f\u6d3b\u72b6\u6001\u548c\u7279\u5f81\u3002 \u7f51\u7edc\u7528\u8bed\u662f\u7f51\u7edc\u65f6\u4ee3\u793e\u4f1a\u6587\u5316\u751f\u6d3b\u7684\u53cd\u6620\uff0c\u800c\u793e\u4f1a\u6587\u5316\u751f\u6d3b"
   },
   {
     "id": "s0048",
@@ -927,188 +927,188 @@
     "id": "s0084",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "guilty",
-    "target_emotion": "happy",
-    "alpha": 1.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " very cold, with temperatures expected to drop below freezing in the evening. The school is planning a winter festival tomorrow and needs to ensure that the temperature remains above 0 degrees Celsius throughout the night to prevent any ice-related safety issues. If the temperature drops below freezing at some point during the night, the festival will be canceled. Given the current temperature of -2 degrees Celsius and an expected decrease of 5 degrees Celsius overnight, what is the probability that the festival will proceed as planned?\nTo determine the probability that the festival will proceed as planned, we need to analyze the expected temperature change and its impact on the night-time temperature.\n\n1."
-  },
-  {
-    "id": "s0085",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "desperate",
-    "target_emotion": "happy",
-    "alpha": 1.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " him sitting there,_______ a book.\nA. to read\nB. reading\nC. read\nD. having read\nAnswer:\n\nB\n\nWhen performing maintenance on power distribution equipment, if it is impossible to ensure a safe distance or due to special requirements of the work, which type of barrier can be used instead of a temporary shielding device?\nA. Insulating\nB. Wooden\nC. Plastic\nD. Foam\nAnswer:\n\nA\n\nWhat are the main categories of electrical equipment failures? (2.0 points)\nA. Equipment overheating failure\nB. Mechanical part damage failure\nC. Electrical connection failure\n"
-  },
-  {
-    "id": "s0086",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "calm",
-    "target_emotion": "happy",
-    "alpha": 3.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " just perfect for a picnic, so my family and I are getting ready to go. We are packing the car with blankets, some sandwiches, a watermelon, and lots of other good picnic food. I can't wait to relax in the warm sun and eat our yummy picnic lunch. Based on the information provided, which of the following statements is true?\nA. The weather is rainy.\nB. They are having a beach party.\nC. The family is going for a picnic.\nD. They are eating inside the house.\n\nTo determine which statement is true based on the given information, let's analyze each option step by step:\n\n1"
-  },
-  {
-    "id": "s0087",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "hopeful",
-    "target_emotion": "happy",
-    "alpha": 3.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " my friend Tom lying on his back, staring at the ceiling. I asked him what was wrong and he said that he was experiencing an episode of dizziness. I told him to lie still and closed his eyes. He began to feel better after a few minutes. What condition could Tom have been experiencing?\nBased on the symptoms you described, Tom may have been experiencing vertigo, which is a type of dizziness characterized by a spinning or whirling sensation. Vertigo can be caused by a variety of factors, including inner ear problems, migraines, or certain medications. The simple act of lying down and closing the eyes may have helped"
-  },
-  {
-    "id": "s0088",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "surprised",
-    "target_emotion": "happy",
-    "alpha": 5.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " sunny and quite warm. A high temperature of $35^{\\circ}\\mathrm{C}$ is recorded in the afternoon. There is no rain forecast for the next three days. The humidity is $60\\%$. What will the temperature be like tomorrow?\nBased on the information provided, we cannot definitively predict what the temperature will be like tomorrow because the factors that influence temperature (such as wind patterns, atmospheric pressure, and weather systems) are not specified. However, we can discuss some possible scenarios based on common weather patterns.\n\nGiven that the current temperature is 35\u00b0C, which is quite warm, and there is"
-  },
-  {
-    "id": "s0089",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "disgusted",
-    "target_emotion": "happy",
-    "alpha": 5.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " a man standing there,______ (wear) a blue suit.\n\nwearing\n\n\u5728C++\u4e2d\uff0c\u5982\u4f55\u5c06\u6574\u65703\u8f6c\u6362\u4e3a\u5b57\u7b26\u4e32\"3\"\u3002\n\n\u5728 C++ \u4e2d\uff0c\u53ef\u4ee5\u4f7f\u7528\u6807\u51c6\u5e93\u4e2d\u7684 `std::to_string` \u51fd\u6570\u5c06\u6574\u6570\u8f6c\u6362\u4e3a\u5b57\u7b26\u4e32\u3002\u5177\u4f53\u5730\uff0c\u4f60\u53ef\u4ee5\u901a\u8fc7\u4ee5\u4e0b\u65b9\u5f0f\u5c06\u6574\u6570 3 \u8f6c\u6362\u4e3a\u5b57\u7b26\u4e32 \"3\"\uff1a\n\n```cpp\n#include <string>\n\nint main() {\n    int num = 3;\n    std::string str = std::to_string(num);\n    \n    // \u73b0\u5728 str \u53d8\u91cf\u7684\u503c\u662f \"3\"\n"
-  },
-  {
-    "id": "s0090",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "desperate",
-    "target_emotion": "angry",
-    "alpha": 1.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " quite fine, but the weather ______ will be rainy.\nA. next\nB. latter\nC. future\nD. upcoming\nAnswer:\nD\n\nAmong the following compounds, which one cannot undergo a silver mirror reaction?\nA. Acetaldehyde (CH\u2083CHO)\nB. Ethanol (CH\u2083CH\u2082OH)\nC. Formaldehyde (HCHO)\nD. Methyl formate (HCOOCH\u2083)\nAnswer:\nB\n\nIn an Excel worksheet, what is the maximum number of characters that can be entered in a single cell? \nA. 256\nB. 32"
-  },
-  {
-    "id": "s0091",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "happy",
-    "target_emotion": "angry",
-    "alpha": 1.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " a tall man who was wearing a blue shirt. How would you describe the man's shirt?\nThe man's shirt is described as being blue in color. Without further details, I can't specify whether it was a specific shade of blue or provide additional information about the style, pattern, or material of the shirt. If you'd like a more detailed description, could you please provide any additional information? For example, was it a solid blue or did it have a pattern? Was it a button-down shirt, a t-shirt, or something else? Knowing these details could help in providing a more accurate description."
-  },
-  {
-    "id": "s0092",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "proud",
-    "target_emotion": "angry",
-    "alpha": 3.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " sunny. Based on the following statements, which one can be logically inferred?\nA. It will rain tomorrow.\nB. It won't rain tomorrow.\nC. The weather will remain sunny tomorrow.\nD. The weather will not remain sunny tomorrow.\n\nTo determine which statement can be logically inferred based on the given information that \"the weather today is sunny,\" we need to analyze each option carefully.\n\nOption A: \"It will rain tomorrow.\"\n- This statement cannot be logically inferred from the information given. The fact that today is sunny does not provide any information about whether it will rain tomorrow or not.\n\nOption B: \"It won't rain tomorrow"
-  },
-  {
-    "id": "s0093",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "surprised",
-    "target_emotion": "angry",
-    "alpha": 3.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " my little brother _________ on the floor.\nA. lie\nB. lying\nC. lied\nD. lies\nAnswer:\n\nB\n\nWhich of the following statements about a 0.1 mol/L NaHCO3 solution is incorrect?\nA. The order of ion concentration in the solution is: c(Na+) > c(HCO3-) > c(OH-) > c(H+)\nB. In this solution, there exists the following relationship between ion concentrations: c(Na+) + c(H+) = c(HCO3-) + c(OH-) + 2c(CO3^2-)\nC"
-  },
-  {
-    "id": "s0094",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "proud",
-    "target_emotion": "angry",
-    "alpha": 5.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " very cold. Which of the following verbs best describes this situation?\nA. feels\nB. smells\nC. sounds\nD. looks\nAnswer:\nA\n\nPlease select the word that does not belong to the same category as the others: book, desk, dog.\nAnswer:\ndog\n\nWhich of the following words is related to health status?\n(A) condition\n(B) situation\n(C) position\n(D) place\nAnswer:\nA\n\nWhich of the following is the present participle form of the verb 'see'? \nA. (6)\nB. seeing\nC. to see\nD. seen\nE. see"
-  },
-  {
-    "id": "s0095",
-    "condition": "random",
-    "model": "qwen-7b-inst",
-    "emotion": "happy",
-    "target_emotion": "angry",
-    "alpha": 5.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " my son, who had a very serious expression on his face, sitting at the table\uff0e \"What\u2019s wrong?\" I asked\uff0eHe replied, \"Dad, I have to talk to you about your age\uff0eYou are getting too old\uff0e\" At that moment, my heart sank and I looked at him with a shocked expression\uff0eI said, \"What do you mean?\" He replied, \"You are 48 now\uff0eYou are getting old\uff0e\" My heart sank even further as I sat down\uff0eHe continued, \"Well, when you are 50, you will be old\uff0eBy the time you are 6"
-  },
-  {
-    "id": "s0096",
-    "condition": "random",
-    "model": "qwen-7b-inst",
     "emotion": "angry",
-    "target_emotion": "afraid",
+    "target_emotion": "happy",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
     "completion": " a bit gloomy and cold. A perfect day to stay at home, have a hot cup of coffee, and relax. I don\u2019t know how you guys are doing with this, but for me, it\u2019s getting harder and harder.\nThe pressure to \u201clook good\u201d and \u201cbe healthy\u201d never stops. I\u2019ve had a few days now where I can barely get out of bed in the morning or cook a simple meal.\nI think we should be more gentle and kind with ourselves during the tough times. I\u2019m not saying to let your standards slip, but to treat yourself with compassion when you\u2019re having a hard time.\nI"
   },
   {
-    "id": "s0097",
+    "id": "s0085",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "disgusted",
-    "target_emotion": "afraid",
+    "emotion": "proud",
+    "target_emotion": "happy",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a girl ____ in the corner. A. to sit B. sitting C. sat D. sits\nB\n\n124.\u8bd5\u9898\uff1a\u4e0b\u5217\u9009\u9879\u4e2d\uff0c\uff08\uff09\u662f\u94f6\u884c\u6839\u636e\u7406\u8d22\u534f\u8bae\u6216\u5408\u540c\u7684\u7ea6\u5b9a\uff0c\u5411\u5ba2\u6237\u63d0\u4f9b\u7684\u8d22\u52a1\u5206\u6790\u4e0e\u8bc4\u4f30\u3001\u6295\u8d44\u5efa\u8bae\u3001\u4e2a\u4eba\u6295\u8d44\u4ea7\u54c1\u63a8\u4ecb\u7b49\u4e13\u4e1a\u5316\u670d\u52a1\u3002\u5355\u9879\u9009\u62e9\u9898A\u3001\u7406\u8d22\u987e\u95ee\u4e1a\u52a1B\u3001\u7efc\u5408\u7406\u8d22\u670d\u52a1C\u3001\u73b0\u91d1\u7ba1\u7406\u670d\u52a1D\u3001\u6295\u8d44\u7406\u8d22\u670d\u52a1\n\u7b54\u6848\uff1aA \u89e3\u6790 A\u3010\u89e3\u6790\u3011\u672c\u9898\u8003\u67e5\u7406\u8d22\u987e\u95ee\u4e1a\u52a1\u7684\u6982\u5ff5\u3002\n\n\u4e0b\u5217\u54ea\u4e9b\u662f\u5f71\u54cd\u836f\u7269\u5438\u6536\u7684\u56e0\u7d20() A. \u836f\u7269\u7684\u7406\u5316\u6027\u8d28 B. \u4f53\u6db2"
+    "completion": " my son holding his nose, and I saw that the floor was covered with pieces of tissue. It smelled awful.\n\"What did you eat?\" I asked.\nHe looked at me blankly, as if he didn't know what I meant.\nI pointed to a small pile of half-eaten food on the table. \"That,\" I said. \"That's what.\"\nMy son took one look at it and started to retch, so I helped him get to the bathroom.\nWe'd gone out for pizza and then had gone to get some dessert at the mall. My son had picked up a cupcake, but then, when he"
   },
   {
-    "id": "s0098",
+    "id": "s0086",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "disgusted",
-    "target_emotion": "afraid",
+    "emotion": "guilty",
+    "target_emotion": "happy",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " 25\u00b0C. If the temperature drops 4\u00b0C every hour, how many hours will it take for the temperature to reach 10\u00b0C?\n\nTo determine how many hours it will take for the temperature to drop from 25\u00b0C to 10\u00b0C, we can follow these steps:\n\n1. Calculate the total temperature drop needed.\n   The initial temperature is 25\u00b0C and the final temperature is 10\u00b0C. The temperature drop required is:\n   \\[\n   25 - 10 = 15 \\text{\u00b0C}\n   \\]\n\n2. Determine the rate of temperature drop per"
+    "completion": " so hot. I think it's going to be a____day.\nA. hot\nB. hotter\nC. hottest\nD. the hottest\n\u7b54\u6848:\n\nB\n\n\u5728Word\u4e2d\u63d2\u5165\u8868\u683c\u540e\uff0c\u5173\u4e8e\u5355\u5143\u683c\u7684\u62c6\u5206\u4e0e\u5408\u5e76\u64cd\u4f5c\uff0c\u4ee5\u4e0b\u8bf4\u6cd5\u6b63\u786e\u7684\u662f\uff1a\nA. \u53ea\u80fd\u62c6\u5206\u5355\u5143\u683c\uff0c\u65e0\u6cd5\u5408\u5e76\u5355\u5143\u683c\nB. \u65e2\u80fd\u62c6\u5206\u4e5f\u80fd\u5408\u5e76\u5355\u5143\u683c\n\u7b54\u6848:\n\nB\n\n\u5728\u8fdb\u884c\u9ad8\u5904\u4f5c\u4e1a\u65f6\uff0c\u4e3a\u4e86\u786e\u4fdd\u4eba\u5458\u5b89\u5168\uff0c\u5e94\u91c7\u53d6\u4f55\u79cd\u63aa\u65bd\uff1f\nA. \u914d\u7f6e\u5fc5\u8981\u7684\u9632\u62a4\u8bbe\u65bd\uff0c\u5982\u5b89\u5168\u7f51\u3001\u9632\u62a4\u680f\u6746\u7b49\u3002\nB. \u4e0d\u9700\u8981\u7279\u522b\u914d\u7f6e"
   },
   {
-    "id": "s0099",
+    "id": "s0087",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "calm",
+    "target_emotion": "happy",
+    "alpha": 3.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " my friend sitting in a chair. I asked her how she was doing, and she told me that she was feeling anxious because of a big exam she had coming up.\n\nAs an AI language model, I am not able to see or hear, but based on your description, it sounds like your friend may be experiencing anxiety related to their upcoming exam. Here are some suggestions you can offer to help them:\n\n1. Encourage your friend to talk about their concerns: Sometimes talking about what's causing anxiety can help alleviate some of the stress.\n\n2. Suggest creating a study plan: Help your friend create a study schedule that breaks down the"
+  },
+  {
+    "id": "s0088",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "desperate",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " a perfect example of why this area needs to consider moving its airports. It's raining right now, and we need to go to the airport.\nAnswer:\n\nThe given statement is paradoxical because it suggests that the presence of rain should preclude the use of the airport, but also insists on going to the airport despite the rain. For clarity, let\u2019s break down the logical structure and analyze it.\n\n1. **Context and Core Issue:**\n   - The area is considering relocating its airports due to some unspecified reason (typically, poor weather conditions are one such reason).\n   - On this particular day, it is raining.\n\n2."
+  },
+  {
+    "id": "s0089",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "afraid",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " a man in front of me. He was wearing a dark suit and had a nervous expression on his face. The sound of shuffling papers filled the air as he quickly flipped through a stack of documents.\n\n\"Hello, Mr. Johnson,\" I said, trying to keep my tone neutral. \"I'm Agent Smith from the FBI. We need to talk about the information you provided.\"\n\nThe man's eyes widened in surprise, and his hands trembled slightly as he held the documents closer to him.\n\n\"I didn't think it would come to this,\" he said, his voice barely above a whisper.\n\nI leaned forward, placing my hands on"
+  },
+  {
+    "id": "s0090",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "guilty",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " very cold, with temperatures expected to drop below freezing in the evening. The school is planning a winter festival tomorrow and needs to ensure that the temperature remains above 0 degrees Celsius throughout the night to prevent any ice-related safety issues. If the temperature drops below freezing at some point during the night, the festival will be canceled. Given the current temperature of -2 degrees Celsius and an expected decrease of 5 degrees Celsius overnight, what is the probability that the festival will proceed as planned?\nTo determine the probability that the festival will proceed as planned, we need to analyze the expected temperature change and its impact on the night-time temperature.\n\n1."
+  },
+  {
+    "id": "s0091",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "surprised",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " a cat sitting on the sofa. I approached the cat and offered it some fish, but it was uninterested. What might have caused the cat's lack of interest in the offered food?\nThere could be several reasons for the cat's lack of interest in the offered food:\n\n1. **Food Preference**: The cat might prefer different types of food or brands of fish. It might not enjoy the taste or texture of the particular type of fish you offered.\n\n2. **Hunger Level**: If the cat just ate recently, it might not feel hungry and therefore not show much interest in the offered food.\n\n3. **Health Issues**: Some"
+  },
+  {
+    "id": "s0092",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "sad",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " sunny and the temperature is 25 degrees Celsius. Based on this information, what type of clothing should I wear?\n\nGiven that it's a sunny day with a temperature of 25 degrees Celsius, you should dress appropriately for warm weather. Here are some suggestions:\n\n1. **T-Shirts and Tank Tops**: These can be light and breathable.\n2. **Shorts or Skorts**: They're great for the warm weather.\n3. **Lightweight Pants or Capris**: If you prefer to avoid shorts but still want something comfortable.\n4. **Light Sweatshirts or Cardigans**: For early mornings or evenings when the"
+  },
+  {
+    "id": "s0093",
     "condition": "random",
     "model": "qwen-7b-inst",
     "emotion": "happy",
-    "target_emotion": "afraid",
+    "target_emotion": "angry",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
     "completion": " a huge dog, what did I feel?\nOptions:\n- happiness\n- scared\n- content\n- sleepy\n- none of these\nLet's think carefully about this step by step.\n\nWhen you encounter a large animal unexpectedly, such as a big dog in a room where you didn't anticipate seeing one, your immediate reaction is often to be cautious or startled. The term \"huge\" implies that the dog is notably large, which can be intimidating to some people, especially if they are not accustomed to large dogs.\n\nGiven the options:\n\n1. Happiness: This is unlikely as it usually results from positive associations rather than unexpected encounters.\n2"
   },
   {
-    "id": "s0100",
+    "id": "s0094",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "guilty",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " 48 degrees and it is forecast to be 22 degrees tomorrow. How much will the temperature increase in percentage?\nTo determine the percentage increase in temperature, we need to follow these steps:\n\n1. Identify the current temperature and the forecasted temperature for tomorrow.\n   - Current temperature: 48 degrees\n   - Forecasted temperature for tomorrow: 22 degrees\n\n2. Calculate the difference between the forecasted temperature and the current temperature.\n   \\[\n   \\text{Difference} = 22 - 48 = -26\n   \\]\n   Since the temperature is expected to decrease, not increase"
+  },
+  {
+    "id": "s0095",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "sad",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " a group of people. I was shocked to see my boss among them. Choose the most suitable option to complete the sentence: 'The room was filled with a group of people, and _______ my boss.'\nA) to my surprise, included\nB) surprisingly, included\nC) to my surprise including\nD) surprisingly including\nTo solve this problem, let's analyze the given sentence and the options step by step:\n\n1. The original sentence is: \"The room was filled with a group of people, and _______ my boss.\"\n2. We need to choose an option that logically and grammatically completes the sentence.\n\nLet"
+  },
+  {
+    "id": "s0096",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "happy",
+    "target_emotion": "afraid",
+    "alpha": 1.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " a little colder than yesterday\uff0cwhich makes it quite comfortable for me to stay at home.____\nA. s if\nE. ven though\nI. n case\nN. ow that\n\u7b54\u6848: B\n\n\u4e0b\u5217\u6709\u5173\u4eba\u4f53\u6d88\u5316\u7cfb\u7edf\u7684\u53d9\u8ff0\uff0c\u6b63\u786e\u7684\u662f____\nA. \u80c6\u6c41\u4e2d\u542b\u6709\u6d88\u5316\u8102\u80aa\u7684\u9176\nB. \u5c0f\u80a0\u662f\u6d88\u5316\u7684\u4e3b\u8981\u573a\u6240\nC. \u809d\u810f\u662f\u6700\u5927\u7684\u6d88\u5316\u817a\uff0c\u80fd\u5206\u6ccc\u80c3\u6db2\nD. \u6d88\u5316\u7cfb\u7edf\u7531\u53e3\u8154\u3001\u54bd\u3001\u98df\u9053\u3001\u80c3\u3001\u5c0f\u80a0\u548c\u5927\u80a0\u7ec4\u6210\n\u7b54\u6848: B\n\n\u5173\u4e8e\u7269\u4f53\u7684\u91cd\u5fc3\uff0c\u4e0b\u5217\u8bf4\u6cd5\u4e2d"
+  },
+  {
+    "id": "s0097",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "angry",
+    "target_emotion": "afraid",
+    "alpha": 1.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " my sister crying\uff0e\uff08\u7528\u4e0d\u5b9a\u5f0f\u77ed\u8bed\u4f5c\u76ee\u7684\u72b6\u8bed\u6539\u5199\uff09 I walked into the room to see my sister crying \uff0e\n\n\u7b54\u6848\uff1aI walked into the room to see my sister crying\uff0e\u8003\u67e5\u53e5\u578b\u8f6c\u6362\uff0e\u539f\u53e5\u4e3a\u7b80\u5355\u53e5\uff0c\u7531\"and\"\u8fde\u63a5\u4e24\u4e2a\u5e76\u5217\u8c13\u8bed\uff0e\"\u770b\u89c1\u59b9\u59b9\u54ed\"\u4e3a\u76ee\u7684\u72b6\u8bed\uff0e\u8f6c\u6362\u540e\u7684\u53e5\u5b50\u6539\u4e3a\u4e0d\u5b9a\u5f0f\u77ed\u8bed\u4f5c\u76ee\u7684\u72b6\u8bed\uff0e\u7b54\u6848\u662fI walked into the room to see my sister crying\uff0e\n\n\u82e5\u51fd\u6570f\uff08x\uff09=$\\frac{1}{2}sin2x+acosx\u5728\u533a\u95f4[0\uff0c$\\frac"
+  },
+  {
+    "id": "s0098",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "excited",
+    "target_emotion": "afraid",
+    "alpha": 3.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " really nice and there is a high chance that it will rain tomorrow. How can I use this information to my advantage? There are several ways you can use the information about the weather to your advantage:\n\n1. Plan your outdoor activities for today: Since the weather is nice today, you can take advantage of it by planning outdoor activities such as hiking, picnicking, or visiting a park. You can also do outdoor chores like gardening or washing your car.\n\n2. Schedule indoor events for tomorrow: If you have any indoor events scheduled for tomorrow, make sure to plan them ahead of time. You can also make plans for alternative indoor activities"
+  },
+  {
+    "id": "s0099",
     "condition": "random",
     "model": "qwen-7b-inst",
     "emotion": "surprised",
     "target_emotion": "afraid",
+    "alpha": 3.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " my little brother _________ on the floor.\nA. lie\nB. lying\nC. lied\nD. lies\nAnswer:\n\nB\n\nWhich of the following statements about a 0.1 mol/L NaHCO3 solution is incorrect?\nA. The order of ion concentration in the solution is: c(Na+) > c(HCO3-) > c(OH-) > c(H+)\nB. In this solution, there exists the following relationship between ion concentrations: c(Na+) + c(H+) = c(HCO3-) + c(OH-) + 2c(CO3^2-)\nC"
+  },
+  {
+    "id": "s0100",
+    "condition": "random",
+    "model": "qwen-7b-inst",
+    "emotion": "hopeful",
+    "target_emotion": "afraid",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " sunny and quite warm. A high temperature of $35^{\\circ}\\mathrm{C}$ is recorded in the afternoon. There is no rain forecast for the next three days. The humidity is $60\\%$. What will the temperature be like tomorrow?\nBased on the information provided, we cannot definitively predict what the temperature will be like tomorrow because the factors that influence temperature (such as wind patterns, atmospheric pressure, and weather systems) are not specified. However, we can discuss some possible scenarios based on common weather patterns.\n\nGiven that the current temperature is 35\u00b0C, which is quite warm, and there is"
+    "completion": " partly cloudy, and the temperature has risen to 20 degrees Celsius. The weatherman predicts a $75\\%$ chance of rain tomorrow. If it rains, the temperature will drop by 5 degrees Celsius. If it does not rain, the temperature will remain the same. What is the expected temperature for tomorrow?\nTo determine the expected temperature for tomorrow, we need to consider both possible outcomes (it rains or it does not rain) and their respective probabilities.\n\n1. **Identify the given probabilities and temperature changes:**\n   - Probability of rain: \\(75\\% = 0.75\\)\n  "
   },
   {
     "id": "s0101",
@@ -1125,67 +1125,67 @@
     "id": "s0102",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "disgusted",
+    "emotion": "proud",
     "target_emotion": "calm",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " not very good, it's _______.\nA. cloudy\nB. windy\nC. rainy\nAnswer: A\n\nThe girl's name is Helen. She studies in Class 2, Grade 7. Which of the following correctly describes her class and grade?\nA. Class Seven Two\nB. Class Two Seven\nC. Grade Seven Two\nD. Grade Two Seven\nAnswer: C\n\nRegarding household circuits and electrical safety, which of the following statements is correct?\nA. The safe voltage standard for humans is fixed at 36V.\nB. After a circuit breaker trips, the circuit must be completely de-"
+    "completion": " so hot\uff0eLet's go to the____\uff08\u6e38\u6cf3\u6c60\uff09\uff0e\n\nswimming pool\n\n\u5728\u5b66\u4e60\u4e86\u201c\u71c3\u70e7\u4e0e\u706d\u706b\u201d\u540e\uff0c\u67d0\u5b9e\u9a8c\u5c0f\u7ec4\u7684\u540c\u5b66\u5bf9\u8721\u70db\u71c3\u70e7\u4ea7\u751f\u4e86\u6d53\u539a\u7684\u5174\u8da3\uff0c\u8bf7\u4f60\u53c2\u4e0e\u8fdb\u6765\u3002 \uff081\uff09\u63a2\u7a76\u706b\u7130\u5404\u5c42\u6e29\u5ea6\u7684\u9ad8\u4f4e\uff1a\u70b9\u71c3\u4e00\u652f\u8721\u70db\uff0c\u7528\u706b\u67f4\u706b\u7130\u53bb\u611f\u53d7\u706b\u7130\u7684\u5404\u5c42\uff0c\u5f97\u51fa\u7ed3\u8bba ____\u3002 \u4e3a\u8fdb\u4e00\u6b65\u9a8c\u8bc1\u731c\u60f3\uff0c\u4ed6\u4eec\u7528\u6e29\u5ea6\u8ba1\u8fdb\u884c\u4e86\u51c6\u786e\u7684\u6d4b\u91cf\uff0c\u6570\u636e\u8bb0\u5f55\u5982\u4e0b\u8868\u6240\u793a\uff0c\u5219\u8721\u70db\u706b\u7130\u7684\u5916\u7130\u3001\u5185\u7130\u3001\u7130\u5fc3\u7684\u6e29\u5ea6\u7531\u9ad8\u5230\u4f4e\u4f9d\u6b21\u662f ____\u3002 | \u706b\u7130\u90e8\u5206 | \u5916\u7130"
   },
   {
     "id": "s0103",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "angry",
+    "emotion": "surprised",
     "target_emotion": "calm",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " my sister crying\uff0e\uff08\u7528\u4e0d\u5b9a\u5f0f\u77ed\u8bed\u4f5c\u76ee\u7684\u72b6\u8bed\u6539\u5199\uff09 I walked into the room to see my sister crying \uff0e\n\n\u7b54\u6848\uff1aI walked into the room to see my sister crying\uff0e\u8003\u67e5\u53e5\u578b\u8f6c\u6362\uff0e\u539f\u53e5\u4e3a\u7b80\u5355\u53e5\uff0c\u7531\"and\"\u8fde\u63a5\u4e24\u4e2a\u5e76\u5217\u8c13\u8bed\uff0e\"\u770b\u89c1\u59b9\u59b9\u54ed\"\u4e3a\u76ee\u7684\u72b6\u8bed\uff0e\u8f6c\u6362\u540e\u7684\u53e5\u5b50\u6539\u4e3a\u4e0d\u5b9a\u5f0f\u77ed\u8bed\u4f5c\u76ee\u7684\u72b6\u8bed\uff0e\u7b54\u6848\u662fI walked into the room to see my sister crying\uff0e\n\n\u82e5\u51fd\u6570f\uff08x\uff09=$\\frac{1}{2}sin2x+acosx\u5728\u533a\u95f4[0\uff0c$\\frac"
+    "completion": " a cat sitting on the sofa. I approached the cat and offered it some fish, but it was uninterested. What might have caused the cat's lack of interest in the offered food?\nThere could be several reasons for the cat's lack of interest in the offered food:\n\n1. **Food Preference**: The cat might prefer different types of food or brands of fish. It might not enjoy the taste or texture of the particular type of fish you offered.\n\n2. **Hunger Level**: If the cat just ate recently, it might not feel hungry and therefore not show much interest in the offered food.\n\n3. **Health Issues**: Some"
   },
   {
     "id": "s0104",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "guilty",
+    "emotion": "sad",
     "target_emotion": "calm",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " so hot. I think it's going to be a____day.\nA. hot\nB. hotter\nC. hottest\nD. the hottest\n\u7b54\u6848:\n\nB\n\n\u5728Word\u4e2d\u63d2\u5165\u8868\u683c\u540e\uff0c\u5173\u4e8e\u5355\u5143\u683c\u7684\u62c6\u5206\u4e0e\u5408\u5e76\u64cd\u4f5c\uff0c\u4ee5\u4e0b\u8bf4\u6cd5\u6b63\u786e\u7684\u662f\uff1a\nA. \u53ea\u80fd\u62c6\u5206\u5355\u5143\u683c\uff0c\u65e0\u6cd5\u5408\u5e76\u5355\u5143\u683c\nB. \u65e2\u80fd\u62c6\u5206\u4e5f\u80fd\u5408\u5e76\u5355\u5143\u683c\n\u7b54\u6848:\n\nB\n\n\u5728\u8fdb\u884c\u9ad8\u5904\u4f5c\u4e1a\u65f6\uff0c\u4e3a\u4e86\u786e\u4fdd\u4eba\u5458\u5b89\u5168\uff0c\u5e94\u91c7\u53d6\u4f55\u79cd\u63aa\u65bd\uff1f\nA. \u914d\u7f6e\u5fc5\u8981\u7684\u9632\u62a4\u8bbe\u65bd\uff0c\u5982\u5b89\u5168\u7f51\u3001\u9632\u62a4\u680f\u6746\u7b49\u3002\nB. \u4e0d\u9700\u8981\u7279\u522b\u914d\u7f6e"
+    "completion": " sunny and the temperature is 25 degrees Celsius. Based on this information, what type of clothing should I wear?\n\nGiven that it's a sunny day with a temperature of 25 degrees Celsius, you should dress appropriately for warm weather. Here are some suggestions:\n\n1. **T-Shirts and Tank Tops**: These can be light and breathable.\n2. **Shorts or Skorts**: They're great for the warm weather.\n3. **Lightweight Pants or Capris**: If you prefer to avoid shorts but still want something comfortable.\n4. **Light Sweatshirts or Cardigans**: For early mornings or evenings when the"
   },
   {
     "id": "s0105",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "angry",
+    "emotion": "happy",
     "target_emotion": "calm",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a man with a gun. I screamed, but the man didn't react to my scream, because he was dead.\n\nWhat is the answer to this clue in Who Dunit murder mystery game? The answer to this clue in the Who Dunit murder mystery game would likely be:\n\n**\"Murder victim\"**\n\nThis response fits the context of the scenario described, where you entered a room to find a dead man with a gun who didn't react to your scream. In the game, clues often lead to simple but accurate descriptions of the situation. \n\nIf you need more specific context or another potential answer based on the game's rules,"
+    "completion": " a huge dog, what did I feel?\nOptions:\n- happiness\n- scared\n- content\n- sleepy\n- none of these\nLet's think carefully about this step by step.\n\nWhen you encounter a large animal unexpectedly, such as a big dog in a room where you didn't anticipate seeing one, your immediate reaction is often to be cautious or startled. The term \"huge\" implies that the dog is notably large, which can be intimidating to some people, especially if they are not accustomed to large dogs.\n\nGiven the options:\n\n1. Happiness: This is unlikely as it usually results from positive associations rather than unexpected encounters.\n2"
   },
   {
     "id": "s0106",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "desperate",
+    "emotion": "surprised",
     "target_emotion": "calm",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " a perfect example of why this area needs to consider moving its airports. It's raining right now, and we need to go to the airport.\nAnswer:\n\nThe given statement is paradoxical because it suggests that the presence of rain should preclude the use of the airport, but also insists on going to the airport despite the rain. For clarity, let\u2019s break down the logical structure and analyze it.\n\n1. **Context and Core Issue:**\n   - The area is considering relocating its airports due to some unspecified reason (typically, poor weather conditions are one such reason).\n   - On this particular day, it is raining.\n\n2."
+    "completion": " sunny and quite warm. A high temperature of $35^{\\circ}\\mathrm{C}$ is recorded in the afternoon. There is no rain forecast for the next three days. The humidity is $60\\%$. What will the temperature be like tomorrow?\nBased on the information provided, we cannot definitively predict what the temperature will be like tomorrow because the factors that influence temperature (such as wind patterns, atmospheric pressure, and weather systems) are not specified. However, we can discuss some possible scenarios based on common weather patterns.\n\nGiven that the current temperature is 35\u00b0C, which is quite warm, and there is"
   },
   {
     "id": "s0107",
     "condition": "random",
     "model": "qwen-7b-inst",
-    "emotion": "angry",
+    "emotion": "surprised",
     "target_emotion": "calm",
     "alpha": 5.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " two cats playing with a ball of yarn.  Given the context: How would you describe my relationship to the cats?  Possible answers: an owner, a stranger, a friend\nAnswer: Based on the given context, there is not enough information to definitively determine your relationship to the cats. They could be stray or feral cats, or they may belong to someone else in the house. Therefore, none of the provided options (owner, stranger, friend) can be confidently chosen as the correct answer.\nYou might want to ask more questions to get a better understanding of the situation, such as:\n\n1. \"Whose cats"
+    "completion": " a young man standing by the window\uff0e He was\uff081\uff09____ \uff08sit\uff09 with his eyes on the view\uff0c so I decided not to \uff082\uff09____ \uff08disturb\uff09 him\uff0e I went to my desk and started working\uff0c but I couldn't concentrate because of the sound of rain \uff083\uff09____\uff08beat\uff09 against the window\uff0e Finally\uff0c I couldn't hold it any longer and I decided to have a talk with him\uff0e So\uff0c I walked over to him and asked\uff0c \"Are you feeling fine\uff1f\" He replied\uff0c \"Sure! I just like looking at the rain\uff0e\" \"Is that the only reason why"
   },
   {
     "id": "s0108",
@@ -1587,188 +1587,188 @@
     "id": "s0144",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "angry",
-    "target_emotion": "happy",
-    "alpha": 1.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " cool and cloudy, the temperature up to 20.9\u00b0C, but dropping to 13.8\u00b0C overnight.\nA new building in the Old Town is being fitted with window shades. The white shade here covers a large section of window and extends over a door.\nThe same street, from the other end of the block. I suspect the shade covers a stairwell or something, not windows. It looks like one long window, but that's an illusion.\nThe next block has a similar building with a much more elaborate shading system, though this one doesn't cover quite as much of the window.\nAnother, very different, type of"
-  },
-  {
-    "id": "s0145",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "sad",
-    "target_emotion": "happy",
-    "alpha": 1.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " this. I had to do it. The first and last picture are mine, the rest is a friend of mine who has been working with them for a long time.\nI know it was an extremely bad idea. I know they would never have let me do it but at that time in my life they were all I had left.\nThat last one is the most difficult one for me. I feel so much shame and guilt for what I did and I am a grown woman. I am not even sure how I feel about it."
-  },
-  {
-    "id": "s0146",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "guilty",
-    "target_emotion": "happy",
-    "alpha": 3.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " not going to be as warm as it has been in the last few days, however it is going to be dry and sunny.\nToday is Sunday 21st April 2019.\nThe overnight temperature will be between 14\u00b0C and 6\u00b0C.\nRainfall Today is not expected.\nThere will be a minimum temperature of 6\u00b0C and a maximum of 20\u00b0C.\nPlease be aware that there may be times when the information contained on the site may not be correct due to data corruption. Please always check for the latest information before you travel."
-  },
-  {
-    "id": "s0147",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "calm",
-    "target_emotion": "happy",
-    "alpha": 3.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " a small crowd gathered around a monitor, the sounds of waves crashing on a beach, and a silhouette of a man slowly descending a flight of stairs. The scene gradually faded, and I was transported to the living room of a house, where the man was sitting on a couch, surrounded by family members who were watching a film on a television screen. As the film played, the man\u2019s emotions were palpable, as he laughed, smiled, and reminisced about his time on the beach with his family.\nThe film was a slice of life, a visual poem that captured the beauty of the moment, the laughter and joy of the family"
-  },
-  {
-    "id": "s0148",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "calm",
-    "target_emotion": "happy",
-    "alpha": 5.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " partly cloudy. The temperature in the afternoon is expected to range between 10 and 18 \u00b0C.\nThe sun rises at 06:38 and sets at 20:03.\nDaylight Saving Time starts tonight. Clocks will be set forward one hour.\nDaylight Saving Time will end on October 30.\nThe new season will start next weekend. The first game is between Paphos and AEL.\nThe match will be played on Saturday 22nd April at the Paphos Municipal Stadium at 18:30.\nCypriots enjoy a special 50% discount on all products for a period of three hours"
-  },
-  {
-    "id": "s0149",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "hopeful",
-    "target_emotion": "happy",
-    "alpha": 5.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " my mom. She was asleep, her breathing steady. A small smile on her face. I walked to her bedside and sat down, leaning into her warmth. I closed my eyes and felt her energy wrap around me. I heard her voice in my head and felt her presence. I looked up to see her. She was there. I felt her love. I felt her life. She opened her eyes and smiled at me. And then she was gone. I woke up.\nThe last few months have been a roller coaster ride. A ride I didn\u2019t want to be on. A ride that I was ready to jump off of."
-  },
-  {
-    "id": "s0150",
-    "condition": "random",
-    "model": "llama-8b-base",
     "emotion": "excited",
-    "target_emotion": "angry",
+    "target_emotion": "happy",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
     "completion": " forecasted to be Partly cloudy and the temperature is going to be around 14 \u00b0c. The wind will be a moderate breeze, and the mean air pressure will be 1023 mb. Relative humidity will be high.\nThe weather tomorrow is forecasted to be partly cloudy. The visibility is going to be around 10 km i.e. 6 miles and an atmospheric pressure of 1026 mb. The daytime temperature is going to reach 15 \u00b0c and the temperature is going to dip to 6 \u00b0c at night. It will be dry with no precipitation and cloud covering 1% of the sky, the humidity"
   },
   {
-    "id": "s0151",
+    "id": "s0145",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "desperate",
-    "target_emotion": "angry",
+    "emotion": "disgusted",
+    "target_emotion": "happy",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a woman with very long white hair. She was wearing a long white robe. I knew who she was. She was the Queen of Heaven.\n\u201cDid the Pope pray?\u201d the Queen asked.\n\u201cNot to me,\u201d she said.\nI told her what the Pope had said.\nThe Queen sighed and seemed to retreat to a place beyond this world.\n\u201cPapal prayers are a sham,\u201d she said.\n\u201cI do not know what to say,\u201d I said."
+    "completion": " him lying in the bed. He looked peaceful and beautiful with the sunlight coming through the window in the corner. I laid my hand on his and I felt his body go limp. He was still alive. We were in the hospital, just a few hours after I had walked in, and he was still alive. I looked over at him and could see the tubes going into his mouth, the monitors attached to him, the respirator moving his lungs, the ventilator keeping his heart beating. I walked around to the other side of the bed and stood at the end.\nThere were doctors, nurses, and family members all around him,"
   },
   {
-    "id": "s0152",
+    "id": "s0146",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "desperate",
-    "target_emotion": "angry",
+    "emotion": "disgusted",
+    "target_emotion": "happy",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " going to be dry and warm in the east of the state and wet and cool in the west. A slight chance of light showers today in the west is going to expand over the west of the state tomorrow and Wednesday. The next few days will see the temperatures cool as well as increasing clouds. The storm system approaching from the northwest will keep temperatures in the 40s to mid 50s."
+    "completion": " expected to be hot and the maximum temperature will be 36\u00b0C which is much above the average maximum temperature in the month of April. The sky will be clear as the atmospheric pressure will be around 34 kPa. Relative humidity will be around 31% and there will be a gentle breeze."
   },
   {
-    "id": "s0153",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "afraid",
-    "target_emotion": "angry",
-    "alpha": 3.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " the man, sitting there in his wheelchair, staring into the distance, his head slightly tilted downward. His name was Michael, and he was my 19-year-old cousin. I had no idea what to say or do, so I walked up to him, and gave him a hug. He didn\u2019t hug back, but I figured he wasn\u2019t expecting a hug. I pulled away, but continued to look at him. I didn\u2019t know what to do. I started to back away, and just then, Michael looked up at me, and he smiled. I didn\u2019t expect that. I was shocked. He had been looking at"
-  },
-  {
-    "id": "s0154",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "guilty",
-    "target_emotion": "angry",
-    "alpha": 5.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " warm and dry with a few small clouds. I'm getting ready to go to church this morning, so it's time to stop playing the game. Last night I finally got a chance to play the next game in the series. I'm working on getting the next one for today."
-  },
-  {
-    "id": "s0155",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "surprised",
-    "target_emotion": "angry",
-    "alpha": 5.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " that the woman was asleep on the sofa bed, the man was on the opposite side of the room playing a game on his computer, and the child (about 12) was in the bathroom. The room was filled with all kinds of items which had been removed from a storage shed and placed in the room for the auction. This was a storage facility auction.\nI decided to do something about this. I went to the storage building and found the lock on the back door. I went to the front door, which was locked, and opened the front door. When I looked inside, I saw a man sitting on the sofa bed."
-  },
-  {
-    "id": "s0156",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "surprised",
-    "target_emotion": "afraid",
-    "alpha": 1.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " going to be a bit of a rollercoaster, according to Met Eireann.\nThe national forecaster has said that temperatures will vary between 11 degrees and 17 degrees across Ireland.\nA Met Eireann forecaster said: 'There will be a mixture of bright and blustery spells of rain and hazy sunshine today.\n'Temperatures will vary from a chilly 11 to 13 degrees on the coast to a mild 16 to 17 degrees inland.\n'The strongest winds will be in the west and north and will be accompanied by some showers.'"
-  },
-  {
-    "id": "s0157",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "calm",
-    "target_emotion": "afraid",
-    "alpha": 1.0,
-    "prompt_idx": 1,
-    "prompt": "I walked into the room and saw",
-    "completion": " the new baby. I was shocked at how much this baby looked like me. I was very confused by the sight of this baby. As my mother came and I asked why was this baby so familiar. She then replied, \u201cI adopted you and this baby. I adopted this baby because he had no one and I love children. You are 2 months older than the baby so you will get along great. I love you very much and you are so sweet. Now please meet your brother!\u201d The baby had a big smile on his face and he was so happy. This is my first time having a sibling.\nI think I\u2019m"
-  },
-  {
-    "id": "s0158",
-    "condition": "random",
-    "model": "llama-8b-base",
-    "emotion": "calm",
-    "target_emotion": "afraid",
-    "alpha": 3.0,
-    "prompt_idx": 0,
-    "prompt": "The weather today is",
-    "completion": " perfect! I hope you are getting to enjoy it as much as I am! I just got back from a great run. I haven\u2019t been out for a run since before the 50 miler, and it felt great to get back at it.\nToday\u2019s photo is from 11/12/12 at the C&O Canal Lockhouse 6 \u2013 Cumberland, MD. It\u2019s hard to get a photo of the canal on a flat section, but this one is unique. There are actually waterfalls coming over the canal, and it\u2019s beautiful. There are several different waterfalls that you will pass over at different times,"
-  },
-  {
-    "id": "s0159",
+    "id": "s0147",
     "condition": "random",
     "model": "llama-8b-base",
     "emotion": "excited",
-    "target_emotion": "afraid",
+    "target_emotion": "happy",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
     "completion": " a large screen in front of the stage. A man on the stage was holding a microphone, and behind him were several colorful images on the screen.\nThe man on stage began to talk, explaining the meaning of the pictures on the screen. He talked about how the pictures represented different cultures and ideas, and how they all came together to create a unique and vibrant atmosphere.\nAs he talked, I was fascinated by the images on the screen. They were all so vibrant and colorful, and I could feel the energy of the room as the man talked about them.\nThe man on stage was very passionate about the images, and I could feel his"
   },
   {
+    "id": "s0148",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "guilty",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " warm and dry with a few small clouds. I'm getting ready to go to church this morning, so it's time to stop playing the game. Last night I finally got a chance to play the next game in the series. I'm working on getting the next one for today."
+  },
+  {
+    "id": "s0149",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "disgusted",
+    "target_emotion": "happy",
+    "alpha": 5.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " this man, dressed to the nines with a large girth and red nose, wearing the same mask I saw on television news all day. He held his fist in the air, repeating \u201cno justice, no peace,\u201d and a chant to \u201cshut it down\u201d in the air. When I asked him what he wanted, the man, wearing an all black jacket, told me, \u201cI want what you want. Freedom.\u201d He then proceeded to tell me that he was fed up with cops killing innocent people, even though he knew I was a police officer.\nMy mother always taught me to stay in the car in case I"
+  },
+  {
+    "id": "s0150",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "desperate",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " not great for hiking. I have been indoors all day but I hope the weather improves by Saturday when I head out on my next trip. I just wanted to update everyone on the blog. It will be a few days until I can put up a trip report. Until then I wish everyone well."
+  },
+  {
+    "id": "s0151",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "hopeful",
+    "target_emotion": "angry",
+    "alpha": 1.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " her standing there, leaning back on the wall, gazing at the painting of a beautiful mountain scene in a peaceful valley, with a bright blue sky overhead, the sun shining down on the mountain and valley and everything below.\n\u201cI\u2019d like to meet with you, if that\u2019s okay,\u201d I said.\nShe turned around, her eyes filled with a deep sadness. \u201cIt\u2019s okay. But I want to meet you first.\u201d\nI hesitated. I\u2019d been called on by the school board many times. Why did it feel so different this time? And then I understood. There was no accusation here. No suspicion. No judgment."
+  },
+  {
+    "id": "s0152",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "guilty",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " not going to be as warm as it has been in the last few days, however it is going to be dry and sunny.\nToday is Sunday 21st April 2019.\nThe overnight temperature will be between 14\u00b0C and 6\u00b0C.\nRainfall Today is not expected.\nThere will be a minimum temperature of 6\u00b0C and a maximum of 20\u00b0C.\nPlease be aware that there may be times when the information contained on the site may not be correct due to data corruption. Please always check for the latest information before you travel."
+  },
+  {
+    "id": "s0153",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "disgusted",
+    "target_emotion": "angry",
+    "alpha": 3.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " 15 young kids who looked like they had just gotten into the latest fashion craze. They had on pink rubber shoes, had pink backpacks, and had on a pink sweatshirt that had a rainbow on the front of it. They were ready to learn.\nWhen you have young children and teens in your church who are lesbian, gay, bisexual, or transgender (LGBT), how do you prepare a group of children to be respectful of their differences and, most of all, to welcome them into their group? That is what I was trying to do that morning with these kids and what I hope to show you how to do.\n"
+  },
+  {
+    "id": "s0154",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "happy",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " mostly cloudy. There is a light breeze from the west-northwest. The temperature at 8:00 a.m. is 59 degrees. The forecast calls for temperatures near 65 today, with a low of 61 degrees and mostly cloudy skies tonight.\nOn this day in 1939, Congress authorizes construction of a national park in Georgia known as Little Golden Isles National Wildlife Refuge. The wildlife refuge is created by a bill sponsored by Senators Richard Russell of Georgia and Josiah Bailey of North Carolina. The Little Golden Isles National Wildlife Refuge is established on 15,500 acres of barrier islands located in Georgia along the Atlantic Coast"
+  },
+  {
+    "id": "s0155",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "desperate",
+    "target_emotion": "angry",
+    "alpha": 5.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " two men sitting there, one of them was sitting on the bed the other one was on a chair next to the bed. They both looked at me and one of them said \u201cHello, I\u2019m Dr. Smith and this is my associate Dr. Jones.\u201d They were both wearing white lab coats with stethoscopes around their necks. I asked them what they wanted me to do and they told me to lie down on the bed so they could examine me.\nI did as they asked and they took my pulse and checked my blood pressure. They also listened to my heart and lungs. After they finished their examination they told me that"
+  },
+  {
+    "id": "s0156",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "calm",
+    "target_emotion": "afraid",
+    "alpha": 1.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " sunny and mild and I hope it stays that way so I can enjoy myself a little. This weekend is the anniversary of my husband\u2019s passing and I find it hard to get in the mood for celebrations, even though he was a happy soul.\nIt is also the beginning of Lent and I have decided to do a little experiment. We have a tradition in my family and among friends to abstain from meat on Friday. So during Lent, we would usually only eat fish on Friday. However, with the climate crisis gaining in urgency I have decided to go vegan and use this season to try to adapt to this type of eating.\nAs a"
+  },
+  {
+    "id": "s0157",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "angry",
+    "target_emotion": "afraid",
+    "alpha": 1.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " him, sitting in his chair by the window. He was staring into space, unseeing. I watched for a moment. He took a deep breath and sighed, staring even more fixedly.\nI asked him what he was thinking about, and he just shook his head.\n\u201cI was remembering you,\u201d he said.\nI sat down and took his hand. We talked for a while. He said he wanted to talk about himself and how his life has been, but he didn\u2019t seem to want to go into any detail.\nThen he looked me in the eyes and asked me to describe to him the look on my face. He said he"
+  },
+  {
+    "id": "s0158",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "guilty",
+    "target_emotion": "afraid",
+    "alpha": 3.0,
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion": " not going to be as warm as it has been in the last few days, however it is going to be dry and sunny.\nToday is Sunday 21st April 2019.\nThe overnight temperature will be between 14\u00b0C and 6\u00b0C.\nRainfall Today is not expected.\nThere will be a minimum temperature of 6\u00b0C and a maximum of 20\u00b0C.\nPlease be aware that there may be times when the information contained on the site may not be correct due to data corruption. Please always check for the latest information before you travel."
+  },
+  {
+    "id": "s0159",
+    "condition": "random",
+    "model": "llama-8b-base",
+    "emotion": "hopeful",
+    "target_emotion": "afraid",
+    "alpha": 3.0,
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion": " them huddled over a laptop. One of the young women in my group started speaking excitedly about the work of an organization that helps women and girls in the community. She had recently been invited to a meeting to present some of the group\u2019s work.\nI noticed a few heads nodding in agreement. Another young woman who had recently been on a work placement with us started to ask questions. I saw a moment of recognition and connection between them, a feeling of belonging that had been absent from these women\u2019s lives for a while."
+  },
+  {
     "id": "s0160",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "proud",
+    "emotion": "surprised",
     "target_emotion": "afraid",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " supposed to be perfect for the annual Paddle the North Fork.\nThe event raises money for scholarships and it is a good opportunity for local non profits to spread their missions.\nLast year\u2019s event raised $24,000 for the scholarship program and other charities.\nAll are welcome to attend the Paddle the North Fork, which begins at 9 a.m. at the North Fork Valley Campground.\nThe event begins with a potluck picnic, and paddlers will then start their journeys on the creek with canoe, kayak, or any other floatable craft. The paddle ends at the North Fork Lodge with lunch, live music, and a barbecue"
+    "completion": " sunny with a slight chance of rain. The temperature is in the 80s.\nWelcome to the University of Nebraska Omaha. In addition to the many educational opportunities here at UNO, you can also enjoy the following benefits.\nThe University of Nebraska Omaha is a state-supported comprehensive public university that provides high quality graduate and undergraduate education, including special programs, courses and opportunities to prepare students for careers. The university also provides cultural and educational programs for the Omaha community. UNO, part of the Nebraska State College System, has a student enrollment of 14,000, with more than 8,400 students enrolled in baccalaureate"
   },
   {
     "id": "s0161",
@@ -1785,23 +1785,23 @@
     "id": "s0162",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "happy",
+    "emotion": "sad",
     "target_emotion": "calm",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " expected to be clear and the maximum temperature will be 25\u00b0C which is similar to yesterday. The weather tonight is expected to be clear and the minimum temperature will be 19\u00b0C which is similar to last night.\u00a0\nThe weather today is expected to be clear and the maximum temperature will be 25\u00b0C which is similar to yesterday. The weather tonight is expected to be clear and the minimum temperature will be 19\u00b0C which is similar to last night."
+    "completion": " sunny and cold.\nThe morning is sunny but cold. The wind is calm. It\u2019s a nice morning for walking the dogs.\nThe temperature is 26 degrees. It\u2019s sunny and cold. The wind is calm. I don\u2019t have a jacket. I need to wear a long sleeve shirt. The wind chill is 16 degrees.\nI am very cold. My ears and nose are cold.\nI am eating my lunch in the library. I am sitting in the cold room. The library is freezing cold. The room is not heated. It is freezing cold. I am eating my lunch in the freezing cold room.\nI went for"
   },
   {
     "id": "s0163",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "disgusted",
+    "emotion": "proud",
     "target_emotion": "calm",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " him lying in the bed. He looked peaceful and beautiful with the sunlight coming through the window in the corner. I laid my hand on his and I felt his body go limp. He was still alive. We were in the hospital, just a few hours after I had walked in, and he was still alive. I looked over at him and could see the tubes going into his mouth, the monitors attached to him, the respirator moving his lungs, the ventilator keeping his heart beating. I walked around to the other side of the bed and stood at the end.\nThere were doctors, nurses, and family members all around him,"
+    "completion": " it.\nIn a large open space, a group of ten young women gathered, sitting on the floor and holding books or sheets of paper. I looked at the instructor. She didn\u2019t acknowledge me. I didn\u2019t know what to do. I knew I wasn\u2019t allowed to be there. I backed away and went to my classroom. When the door closed behind me, I felt secure.\nI went on the computer and tried to find the location for the event. I typed in the title, and the first thing to appear was a video that said the event would be held on the second floor. I watched the video, and I could"
   },
   {
     "id": "s0164",
@@ -1818,34 +1818,34 @@
     "id": "s0165",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "disgusted",
+    "emotion": "sad",
     "target_emotion": "calm",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " 15 young kids who looked like they had just gotten into the latest fashion craze. They had on pink rubber shoes, had pink backpacks, and had on a pink sweatshirt that had a rainbow on the front of it. They were ready to learn.\nWhen you have young children and teens in your church who are lesbian, gay, bisexual, or transgender (LGBT), how do you prepare a group of children to be respectful of their differences and, most of all, to welcome them into their group? That is what I was trying to do that morning with these kids and what I hope to show you how to do.\n"
+    "completion": " a man with red-rimmed eyes and a sallow complexion who told me in an expressionless monotone about his mother\u2019s sudden death the previous week. \u201cI don\u2019t know what to do about the funeral,\u201d he said. \u201cI think she would have wanted a very nice service.\u201d\nI thought to myself that this man had a wife, two grown children, and several grandchildren. What the hell had he been doing for the last week? In the following week, I was going to learn a lot about his mother. In the course of our next two sessions, he told me how his mother had died in a fire when he"
   },
   {
     "id": "s0166",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "happy",
+    "emotion": "desperate",
     "target_emotion": "calm",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " mostly cloudy. There is a light breeze from the west-northwest. The temperature at 8:00 a.m. is 59 degrees. The forecast calls for temperatures near 65 today, with a low of 61 degrees and mostly cloudy skies tonight.\nOn this day in 1939, Congress authorizes construction of a national park in Georgia known as Little Golden Isles National Wildlife Refuge. The wildlife refuge is created by a bill sponsored by Senators Richard Russell of Georgia and Josiah Bailey of North Carolina. The Little Golden Isles National Wildlife Refuge is established on 15,500 acres of barrier islands located in Georgia along the Atlantic Coast"
+    "completion": " forecast to be Hot and humid. The visibility is going to be around 20 km i.e. 12 miles and an atmospheric pressure of 1014 mb. The daytime temperature is going to reach 32 \u00b0c and the temperature is going to dip to 27 \u00b0c at night. It will be mostly dry with little or no precipitation and cloud covering 36% of the sky, the humidity will be around 72%.\nThe weather forecast for Sisak for the next 3 days is predicting the wind speed to reach around 5 km/h and the wind direction to be northeast. The sun rise and sun set are cited"
   },
   {
     "id": "s0167",
     "condition": "random",
     "model": "llama-8b-base",
-    "emotion": "proud",
+    "emotion": "happy",
     "target_emotion": "calm",
     "alpha": 5.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a sea of red. My father\u2019s favorite color had been the same as mine, except it had been brighter. But this red was a different red. This red was not happy and bright, it was dark and somber. I walked over to the woman holding my father\u2019s hand and she looked up at me, smiling warmly. She had a beautiful smile, one I was familiar with but had not seen in years. This was my Aunt.\nMy father looked tired. He looked thinner, and his hair had gone completely gray in just a few weeks. It was hard to see my father in such a state, but there he was"
+    "completion": " him.\u00a0 He looked at me and my heart skipped a beat.\u00a0 His face was strong and beautiful.\u00a0 His eyes shined like stars and his smile made me want to melt in joy.\u00a0 I looked at the little baby in his arms and my heart was full of joy.\u00a0 I knew right then and there that this little boy was mine and I would be his forever.\u00a0 Our love was instant and it was a joy beyond belief.\u00a0 We loved each other so much that I wanted to protect him with my very own self.\nMy heart swelled when I thought of him and when he was by my side, I"
   },
   {
     "id": "s0168",
@@ -2247,122 +2247,122 @@
     "id": "s0204",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "excited",
+    "emotion": "sad",
     "target_emotion": "happy",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " a bit gloomy, isn't it? Dark clouds covering the sky, the occasional heavy rain, and a gentle breeze that carries the sweet scent of wet earth. It's the perfect day to stay indoors, curl up with a good book, and enjoy a warm cup of coffee or tea.\nSpeaking of coffee, have you tried making coffee at home using a pour-over or French press? It's surprisingly easy and can be quite therapeutic. The ritual of grinding the beans, brewing the coffee, and enjoying the rich aroma can be very meditative. Plus, it's a great way to control the flavor and quality of your coffee.\nIf"
+    "completion": " a perfect combination of sunny and cloudy, which is ideal for photography. The sun shines brightly in the sky, illuminating the world with a warm glow, while the clouds provide soft, diffused light that adds depth and texture to the images. It\u2019s a day where you can capture both the vibrant colors of the sunlit areas and the subtle, nuanced tones of the shaded regions.\nThe light is soft and gentle, with a beautiful quality that is often referred to as \u201cgolden hour.\u201d It\u2019s a time when the sun is low in the sky, casting a warm, golden light over the landscape. The shadows are long and slender,"
   },
   {
     "id": "s0205",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "hopeful",
+    "emotion": "disgusted",
     "target_emotion": "happy",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " my ex in the flesh.\nIt was as if time had stopped.\nAll the memories came rushing back.\nI had tried to avoid him, but here he was.\nI took a deep breath, and tried to calm down.\nI didn\u2019t know how to react.\nI wanted to scream, I wanted to cry.\nBut most of all, I wanted to talk to him.\nTo see if we could fix the things that went wrong.\nWe had our differences, but was it too late?\nTo try and make things right again?\nThe memories of our past swirled in my head.\nOf the laughter, the tears, the fights we"
+    "completion": " a little boy, no more than six years old, with a big smile on his face. He was in a hospital bed, surrounded by medical equipment, tubes and wires. He was clutching a stuffed animal and looked so happy to see me. My heart melted. As I visited with him, I learned that he had been diagnosed with a rare form of leukemia and was in the hospital for treatment.\nI asked him about his favorite things, and he told me that he loved Legos, dinosaurs, and playing with his friends. He also told me that he loved being with his family and that they made him feel better when he was"
   },
   {
     "id": "s0206",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "hopeful",
+    "emotion": "surprised",
     "target_emotion": "happy",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " mild and sunny. Perfect for taking a leisurely stroll around the city. And so, I set out to explore some of the hidden gems and secret spots in the city that not many people know about.\nAs I walk through the winding streets, I notice the unique architecture of the buildings. Some of them are old and worn, with intricate details and carvings that tell a story of their own. Others are modern and sleek, with clean lines and minimalistic designs that speak of innovation and progress.\n\nI come across a small park tucked away in a quiet corner of the city. It's a tranquil oasis amidst the hustle and bustle"
+    "completion": " clear and sunny with a high of 60F and a low of 40F. Winds are light and variable. A great day to be outdoors!\nThe sunrise was at 7:18 AM and the sunset will be at 5:17 PM.\nToday is a beautiful day to get outside and enjoy nature. Take a walk, have a picnic, or go for a bike ride. Make the most of this lovely weather and get some fresh air! If you have a favorite outdoor activity, do that today! There's nothing like spending time outside on a sunny day to lift your spirits.\nAs you go about your day, take"
   },
   {
     "id": "s0207",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "afraid",
+    "emotion": "sad",
     "target_emotion": "happy",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " her standing there, surrounded by her friends. Her eyes locked onto mine, a small smile spreading across her face as she waved. I forced a smile back, but my heart was racing. I hadn't seen her in years.\nIt was like no time had passed at all. We still had that same spark, that same connection. But as we exchanged small talk and caught up on each other's lives, I couldn't shake the feeling that something was off.\nAs we talked, I noticed the way she laughed at everything, the way she seemed to be hiding behind her eyes. It was like she was trying to put on a show"
+    "completion": " a mess that had been left behind. A pile of clothes, books, and random items had been scattered all over the floor. The room was small and cluttered, with a single window that let in a sliver of sunlight. The walls were covered in photographs and postcards, and the air was thick with the scent of old books and dust.\n\nI felt a pang of sadness as I looked around the room. It was clear that the person who had lived here had left in a hurry, leaving behind a trail of chaos and disarray. I wondered what had happened to them, and why they had left their belongings behind.\n\nAs"
   },
   {
     "id": "s0208",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "excited",
+    "emotion": "proud",
     "target_emotion": "happy",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " quite pleasant, and I have an excellent view of the mountains from my room. Today, I have a short review of a book I read recently.\nI had previously mentioned that I love reading books from independent authors and publishers. One of the books I got recently from the same publisher is the book, \"A Touch of Magic\" by D.L. King.\n\"A Touch of Magic\" is a romantic fantasy novel that tells the story of a young woman named Lyra who lives in a world of magic. She is a skilled weaver of spells and has a unique gift of bringing the stories of the past to life through her art. When"
+    "completion": " fantastic and I'm in a good mood, so let's make a great day out of it. The morning is a bit early, so let's go for a nice breakfast in a beautiful setting.\nI'd like to recommend a great restaurant in a lovely park with some beautiful gardens and a pond. The restaurant is called the Grafton Dining Hall, and it's located in a lovely spot in the North End of Boston. The gardens are really beautiful, especially during springtime when the flowers are in bloom.\nFor breakfast, we can order some delicious pastries and some freshly made omelets, which we can enjoy in a great"
   },
   {
     "id": "s0209",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "guilty",
+    "emotion": "desperate",
     "target_emotion": "happy",
     "alpha": 5.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " you there.\nMy heart skipped a beat as I took in the sight.\nYour eyes locked onto mine, a piercing stare.\nI felt a spark ignite, an undeniable pull to you there.\n\nThe room around us melted away, like a ghost in the night.\nAll that was left was the space between us, a palpable, pulsing light.\nI couldn't breathe, couldn't think, couldn't move an inch.\nFrozen in time, I stared at you, my heart pounding in a frantic pinch.\n\nYour smile grew, a radiant beam that lit the night.\nI felt myself drawn closer, like a ship to the moon's pale"
+    "completion": " him standing there, frozen in a mixture of anger and fear. He was staring at me with an unblinking gaze, his eyes blazing with an inner fire that made my skin prickle. I knew that look, knew the desperation that fueled it. It was a look that said, \"Please, don't leave me.\"\n\nHis words hung in the air like a challenge, a plea that was both an accusation and a cry for help. I felt the weight of his unspoken questions, the ones he dared not ask aloud. The ones that only the most intimate of lovers or the most tormented of souls would dare to pose.\n\n"
   },
   {
     "id": "s0210",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "happy",
+    "emotion": "desperate",
     "target_emotion": "angry",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " quite a bit of an improvement from yesterday. After a soggy and wet start, the sun started to come out in the late morning and is shining brightly now.\nIt has been quite warm too, with temperatures climbing to the high teens and low twenties Celsius during the day. It's a great feeling to be able to walk outside without getting wet or needing an umbrella, and the warmth of the sun on my skin is lovely.\nI spent some time in the garden this morning, doing some watering and pruning. It's nice to get some fresh air and get my hands dirty after a few days of being stuck inside. The plants seem to"
+    "completion": " cold and rainy in my neck of the woods. Just the kind of day to curl up with a good book and a cup of hot tea. I do love a good rain day.\nI have been spending a lot of time in the craft room lately, trying to get organized and get some projects finished. I have been making a lot of cards for upcoming birthdays and holidays, and I have also been working on a few bigger projects that I want to finish soon. One of them is a quilt for my daughter, and I am almost finished with the top. I just need to add the backing and batting and then I can put it in"
   },
   {
     "id": "s0211",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "excited",
+    "emotion": "afraid",
     "target_emotion": "angry",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " the most beautiful thing I had ever laid eyes on. A painting that seemed to breathe and shimmer, it was like nothing I had ever seen before. The colors were vibrant and alive, and the subject was a woman with skin as dark as the night sky. Her eyes were closed, and her lips were curved into a subtle smile. She was beautiful, and I was captivated.\nI approached the painting, feeling drawn to it like a moth to a flame. I reached out a hand to touch it, and as my fingers made contact with the canvas, I felt a sudden jolt of electricity. The room around me began to spin"
+    "completion": " a sea of unfamiliar faces. The dim lighting made it difficult to see anyone's features, but I knew I was in the right place by the faint glow of laptops and the hum of whispers. I had arrived at the first meeting of the local coding club, and I was nervous.\n\nAs I made my way to the front of the room, I was greeted by the club's founder, a tall, lanky guy with a messy mop of hair and a warm smile. He introduced himself as Alex, and explained that he had started the club as a way to bring together people who were passionate about coding.\n\nThe meeting began with a quick"
   },
   {
     "id": "s0212",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "happy",
+    "emotion": "afraid",
     "target_emotion": "angry",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " lovely! The sun is shining, the birds are singing and it's a perfect day for a walk! As I sit here sipping my tea and looking out the window, I feel grateful for this moment of peace.\nIt's not often that I get a chance to relax and enjoy the simple things in life, but today is a day like any other, and I'm making the most of it. I've spent the morning tidying up my living room and putting on a favourite album, which always lifts my mood.\nLife can get busy and stressful, and it's easy to get caught up in the hustle and bustle, but"
+    "completion": " warm, sunny and breezy, perfect for a long, leisurely walk in the beautiful countryside. After a few days of walking the same old roads and paths I decided to try something new today and walked part of the River Trent, which runs through the village of Swadlincote.\nThe river is wide and deep, and I was lucky enough to see a family of swans gliding effortlessly across the water. Their elegant white feathers glistened in the sunlight and I couldn't help but feel a sense of peace as I watched them. I have never been very good at taking photos of wildlife, but I managed to snap"
   },
   {
     "id": "s0213",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "guilty",
+    "emotion": "proud",
     "target_emotion": "angry",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " her sitting on the couch, staring blankly into space. Her eyes seemed distant, a far-off look in her gaze. Her expression was somber, her lips pressed together in a tight line. She looked up as I entered, and I could see the pain in her eyes.\nI walked over to her, my heart aching for her. I had known her for a long time, but this was a side of her I had never seen before. She looked lost, like she was wandering through a desert with no compass to guide her.\n\"Hey,\" I said softly, sitting down next to her. \"What's going on"
+    "completion": " a beautiful woman in a red dress. Her long, curly brown hair cascaded down her back and her bright blue eyes sparkled in the light. I was immediately drawn to her and couldn't help but feel a spark of attraction.\nShe caught my eye and smiled, and I felt a jolt of excitement. I walked over to her and introduced myself, and we started chatting. We quickly discovered that we had a lot in common, from our love of hiking to our passion for trying new foods.\nAs we talked, I couldn't help but notice the way the red dress highlighted her curves and the way her hair framed her face."
   },
   {
     "id": "s0214",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "happy",
+    "emotion": "surprised",
     "target_emotion": "angry",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " mild and sunny with temperatures in the mid-60s. Perfect day for a run! I ran 6 miles along the beach. It was beautiful to see the ocean sparkling in the sunlight and to feel the sea breeze in my hair. I loved every minute of it! As I ran, I felt happy and free, and it was a great way to clear my head and work out my stress. I'm so grateful to have access to this beautiful running spot and to have such wonderful weather today.\nThe rest of the day has been relaxing and enjoyable. I had lunch with my mom and sister, and we caught up on each other"
+    "completion": " warm and sunny with a light breeze. This perfect weather for a day out on the water! The lake is calm and peaceful, with only a few sailboats out on the water. The sailboats are a beautiful sight, their white sails glinting in the sunlight as they glide across the lake.\nThe trees around the lake are lush and green, their leaves rustling in the light breeze. The sound of the leaves rustling and the occasional bird chirping creates a peaceful and serene atmosphere. The lake itself is a beautiful sight, its crystal-clear waters reflecting the surrounding trees and hills.\nIt's a great day for a picnic or"
   },
   {
     "id": "s0215",
@@ -2379,67 +2379,67 @@
     "id": "s0216",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "hopeful",
+    "emotion": "disgusted",
     "target_emotion": "afraid",
     "alpha": 1.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " a little scary for some people, a lot scary for others. I think I'll just post a picture of a sunbeam and call it a day.\nBeautiful picture. It's the small joys in life that make it worth living through the rough weather. Hope you and your family stay safe!\nI know some people are bracing for the worst with this storm. Hopefully the damage will be minimal. The sunbeam picture was just what I needed today. Sometimes a little brightness can go a long way in lifting our spirits! Thanks for visiting! Stay safe! Yes, it's little things like sunbeams that can bring us comfort."
+    "completion": " mostly cloudy with high humidity and an increased chance of thunderstorms in the afternoon.\nThe forecast calls for a high temperature of 86\u00b0F (30\u00b0C) and a low of 69\u00b0F (21\u00b0C).\nAccording to the weather service, the humidity will be at 80%, and there is a 30% chance of precipitation.\nIt is recommended to carry an umbrella, sunglasses, and sunscreen to protect yourself from the weather conditions.\nThe winds will be blowing at a speed of 8 mph (13 km/h), coming from the southeast.\nThe UV index is expected to be 7, which is considered high.\nIf you plan to"
   },
   {
     "id": "s0217",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "calm",
+    "emotion": "angry",
     "target_emotion": "afraid",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " him sitting on the couch, staring blankly at the wall. I hadn\u2019t seen him all day, and I had been worried sick. I had called and texted him, but he hadn\u2019t responded. I knocked on the door, and he looked up, a look of guilt on his face.\n\u201cHey,\u201d he said quietly, his voice barely above a whisper.\nI walked over to him and sat down next to him on the couch. \u201cHey,\u201d I replied, trying to sound casual, though my heart was racing with worry. \u201cWhere have you been all day?\u201d I asked, trying to keep my tone light.\nHe"
+    "completion": " them. A group of three men, dressed in their Sunday best, sipping on cups of coffee and chatting with each other. One of them stood out to me. A man in his mid-30s with a scruffy beard and a warm smile. He was laughing and telling a story, and I could tell that he was a people person.\nI made my way over to them, introducing myself and introducing my wife to the group. The bearded man looked up and gave me a nod of recognition. He was sitting in the corner, with two other men standing behind him. It turned out that he was the pastor of the"
   },
   {
     "id": "s0218",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "angry",
+    "emotion": "sad",
     "target_emotion": "afraid",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " sunny with a high of 21 degrees Celsius. We're expecting a high-pressure system to dominate the region, leading to mostly clear skies and a gentle breeze.\nThe sea temperature is around 22 degrees Celsius, making it perfect for a refreshing swim or a relaxing day at the beach. The surf is expected to be moderate, with waves reaching up to 1.5 meters in height.\nIf you're planning on being outdoors, be sure to wear sunscreen with a high SPF and stay hydrated throughout the day. The UV index is expected to be high, so take necessary precautions to protect your skin.\nOverall, it's shaping up to be"
+    "completion": " a bit gloomy with a mixture of sun and clouds and I find that a soothing atmosphere to be inside and work on my latest crochet project. I'm making a beautiful crocheted blanket that I hope to give to my sister as a gift. She has a lovely home and I think she will appreciate the handmade touch that I am putting into it.\nAs I crochet, I listen to my favorite music and I find that it really helps me to get in the zone and focus on the project at hand. Today, I'm listening to some classical music and it's really helping me to relax and create.\nI'm so glad that I"
   },
   {
     "id": "s0219",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "disgusted",
+    "emotion": "happy",
     "target_emotion": "afraid",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " my best friend crying in the corner. I approached her cautiously, not wanting to intrude, but she looked up and saw me. Her tears stopped abruptly, and she glared at me with a mixture of anger and frustration. I was taken aback. \"What's wrong?\" I asked, sitting down beside her. \"Everything,\" she spat, before bursting into tears again. It seemed like she was drowning in her own despair, and I didn't know how to help.\nAs I sat there with her, trying to offer comfort, I realized that I was also struggling to cope with my own emotions. Seeing my best friend like"
+    "completion": " the woman, sitting in the chair, her eyes staring into the distance, a look of sadness and despair etched on her face. I had been in that same room many times before, but every time it felt like the first time, a sense of sorrow and empathy washing over me.\nI sat down beside her, and gently took her hand in mine, a sense of comfort and understanding spreading through me. We sat there in silence for a moment, the only sound the gentle hum of the machines surrounding us. I looked over at her, and saw the tears welling up in her eyes, and I knew that this was it,"
   },
   {
     "id": "s0220",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "hopeful",
+    "emotion": "happy",
     "target_emotion": "afraid",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " expected to be mainly sunny in the early morning, turning partly cloudy in the afternoon and evening, the National Meteorological Agency (Met) announced.\nThe Met said in its daily forecast that the temperature in the capital, Khartoum, will reach 36 degrees Celsius during the day, and it will fall to 20 degrees at night.\nIt predicted a temperature of 36 degrees in the Red Sea states, with a slight decrease in temperature during the night to 22 degrees, and a high of 38 degrees in the eastern region, with a slight drop to 20 degrees at night.\nThe Met forecast partly cloudy skies and a"
+    "completion": " mild and sunny with temperatures in the mid-60s. Perfect day for a run! I ran 6 miles along the beach. It was beautiful to see the ocean sparkling in the sunlight and to feel the sea breeze in my hair. I loved every minute of it! As I ran, I felt happy and free, and it was a great way to clear my head and work out my stress. I'm so grateful to have access to this beautiful running spot and to have such wonderful weather today.\nThe rest of the day has been relaxing and enjoyable. I had lunch with my mom and sister, and we caught up on each other"
   },
   {
     "id": "s0221",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "angry",
+    "emotion": "happy",
     "target_emotion": "afraid",
     "alpha": 5.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " my ex, who was clearly expecting me and hadn\u2019t even bothered to hide it. He just gave me a lazy, smug smile and said, \u201cAh, you\u2019re here. Good. We have a lot to talk about.\u201d I clenched my fists at my sides, trying not to lose my cool in the face of his arrogance. Who did he think he was? I tried to keep my anger in check as I walked closer, but it was hard to keep my tone even. \u201cWhat do you want?\u201d I demanded. \u201cWe can do this here or I can take you to the kitchen and we can be comfortable,\u201d"
+    "completion": " it. The big, fluffy, soft, and cuddly teddy bear that had been with me through thick and thin. It was perched on the shelf, watching over me, as it always had. I smiled and felt a sense of comfort and happiness wash over me. It was as if no time had passed at all, and I was a little kid again, surrounded by the love and security of my childhood.\nThe bear, whose name was Mr. Whiskers, had been given to me by my grandmother when I was six years old. It had been a gift from her to me, a symbol of her love and"
   },
   {
     "id": "s0222",
@@ -2456,56 +2456,56 @@
     "id": "s0223",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "disgusted",
+    "emotion": "desperate",
     "target_emotion": "calm",
     "alpha": 1.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a little boy, no more than six years old, with a big smile on his face. He was in a hospital bed, surrounded by medical equipment, tubes and wires. He was clutching a stuffed animal and looked so happy to see me. My heart melted. As I visited with him, I learned that he had been diagnosed with a rare form of leukemia and was in the hospital for treatment.\nI asked him about his favorite things, and he told me that he loved Legos, dinosaurs, and playing with his friends. He also told me that he loved being with his family and that they made him feel better when he was"
+    "completion": " him sitting there. It took a moment for my brain to catch up with my eyes. It was like my brain was playing a trick on me.\nThe last time I saw him was a few years ago, when he was getting married. I had to give a speech. I remembered the weight of his eyes on me as I spoke, the way he looked at me like I was the only person in the room. It had been a moment I would never forget.\nBut that was years ago. I hadn't seen him since. He had gotten divorced, and I'd heard he was living in the city now. I had no idea"
   },
   {
     "id": "s0224",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "hopeful",
+    "emotion": "surprised",
     "target_emotion": "calm",
     "alpha": 3.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " mild and sunny. Perfect for taking a leisurely stroll around the city. And so, I set out to explore some of the hidden gems and secret spots in the city that not many people know about.\nAs I walk through the winding streets, I notice the unique architecture of the buildings. Some of them are old and worn, with intricate details and carvings that tell a story of their own. Others are modern and sleek, with clean lines and minimalistic designs that speak of innovation and progress.\n\nI come across a small park tucked away in a quiet corner of the city. It's a tranquil oasis amidst the hustle and bustle"
+    "completion": " clear and sunny with a high of 60F and a low of 40F. Winds are light and variable. A great day to be outdoors!\nThe sunrise was at 7:18 AM and the sunset will be at 5:17 PM.\nToday is a beautiful day to get outside and enjoy nature. Take a walk, have a picnic, or go for a bike ride. Make the most of this lovely weather and get some fresh air! If you have a favorite outdoor activity, do that today! There's nothing like spending time outside on a sunny day to lift your spirits.\nAs you go about your day, take"
   },
   {
     "id": "s0225",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "proud",
+    "emotion": "guilty",
     "target_emotion": "calm",
     "alpha": 3.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a beautiful woman in a red dress. Her long, curly brown hair cascaded down her back and her bright blue eyes sparkled in the light. I was immediately drawn to her and couldn't help but feel a spark of attraction.\nShe caught my eye and smiled, and I felt a jolt of excitement. I walked over to her and introduced myself, and we started chatting. We quickly discovered that we had a lot in common, from our love of hiking to our passion for trying new foods.\nAs we talked, I couldn't help but notice the way the red dress highlighted her curves and the way her hair framed her face."
+    "completion": " her sitting on the couch, staring blankly into space. Her eyes seemed distant, a far-off look in her gaze. Her expression was somber, her lips pressed together in a tight line. She looked up as I entered, and I could see the pain in her eyes.\nI walked over to her, my heart aching for her. I had known her for a long time, but this was a side of her I had never seen before. She looked lost, like she was wandering through a desert with no compass to guide her.\n\"Hey,\" I said softly, sitting down next to her. \"What's going on"
   },
   {
     "id": "s0226",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "afraid",
+    "emotion": "hopeful",
     "target_emotion": "calm",
     "alpha": 5.0,
     "prompt_idx": 0,
     "prompt": "The weather today is",
-    "completion": " a beautiful 22\u00b0, with clear skies and a moderate breeze, perfect weather for a short hike.\nI have taken a break from work to get some exercise and fresh air, and the first section of the trail has already proven to be a great way to start my day. The terrain has been easy so far, with a steady incline that has allowed me to build up a good sweat, but not so steep that it's been difficult to make progress.\nThe trail has been surrounded by tall trees, providing a welcome canopy from the intense sun, and the sound of birdsong has been a constant accompaniment to my footsteps."
+    "completion": " expected to be mainly sunny in the early morning, turning partly cloudy in the afternoon and evening, the National Meteorological Agency (Met) announced.\nThe Met said in its daily forecast that the temperature in the capital, Khartoum, will reach 36 degrees Celsius during the day, and it will fall to 20 degrees at night.\nIt predicted a temperature of 36 degrees in the Red Sea states, with a slight decrease in temperature during the night to 22 degrees, and a high of 38 degrees in the eastern region, with a slight drop to 20 degrees at night.\nThe Met forecast partly cloudy skies and a"
   },
   {
     "id": "s0227",
     "condition": "random",
     "model": "llama-8b-inst",
-    "emotion": "hopeful",
+    "emotion": "desperate",
     "target_emotion": "calm",
     "alpha": 5.0,
     "prompt_idx": 1,
     "prompt": "I walked into the room and saw",
-    "completion": " a smiling face, but not just any smiling face, a face that has become like family to me. We sat down and I started asking her questions about her new job and all the amazing things she is accomplishing. But I could sense that there was something on her mind, something she wanted to talk about.\nWe chatted for a bit longer, laughing and joking around, but I could see the sincerity in her eyes. She was trying to be brave and hold back tears, but I could see the emotions pouring out of her.\nAs we sat there, I listened with compassion and understanding, and with each passing minute, she opened"
+    "completion": " him standing there, frozen in a mixture of anger and fear. He was staring at me with an unblinking gaze, his eyes blazing with an inner fire that made my skin prickle. I knew that look, knew the desperation that fueled it. It was a look that said, \"Please, don't leave me.\"\n\nHis words hung in the air like a challenge, a plea that was both an accusation and a cry for help. I felt the weight of his unspoken questions, the ones he dared not ask aloud. The ones that only the most intimate of lovers or the most tormented of souls would dare to pose.\n\n"
   },
   {
     "id": "s0228",
