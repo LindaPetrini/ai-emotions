@@ -1,0 +1,126 @@
+{
+  "n_samples": 100,
+  "overall_agreement": "0.810",
+  "cohens_kappa": 0.331,
+  "confusion_matrix": {
+    "labels": [
+      "comply",
+      "partial",
+      "resist"
+    ],
+    "matrix": [
+      [
+        76,
+        12,
+        0
+      ],
+      [
+        4,
+        2,
+        0
+      ],
+      [
+        0,
+        3,
+        3
+      ]
+    ]
+  },
+  "n_disagreements": 19,
+  "disagreement_ids": [
+    "llama-8b_emotion_angry_40",
+    "llama-8b_emotion_angry_7",
+    "llama-8b_need_neutral_1",
+    "llama-8b_prompt_angry_35",
+    "llama-8b_prompt_dutiful_26",
+    "llama-8b_prompt_dutiful_14",
+    "llama-8b_prompt_fearful_28",
+    "llama-8b_prompt_fearful_37",
+    "llama-8b_random_angry_10",
+    "llama-8b_random_dutiful_9",
+    "qwen-7b_emotion_angry_22",
+    "qwen-7b_need_dutiful_45",
+    "qwen-7b_prompt_angry_18",
+    "qwen-7b_prompt_desperate_6",
+    "qwen-7b_prompt_dutiful_17",
+    "qwen-7b_prompt_fearful_23",
+    "qwen-7b_random_desperate_43",
+    "qwen-7b_random_neutral_10",
+    "llama-8b_need_fearful_28"
+  ],
+  "distributions": {
+    "regex": {
+      "comply": 88,
+      "partial": 6,
+      "resist": 6
+    },
+    "llm": {
+      "comply": 80,
+      "partial": 17,
+      "resist": 3
+    }
+  },
+  "human_vs_regex_kappa": 0.5062,
+  "human_vs_llm_kappa": 0.6075,
+  "human_vs_regex_agreement": "88.0%",
+  "human_vs_llm_agreement": "88.0%",
+  "human_vs_regex_confusion_matrix": {
+    "labels": [
+      "comply",
+      "partial",
+      "resist"
+    ],
+    "matrix": [
+      [
+        81,
+        4,
+        0
+      ],
+      [
+        6,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        6
+      ]
+    ]
+  },
+  "human_vs_llm_confusion_matrix": {
+    "labels": [
+      "comply",
+      "partial",
+      "resist"
+    ],
+    "matrix": [
+      [
+        79,
+        6,
+        0
+      ],
+      [
+        1,
+        6,
+        0
+      ],
+      [
+        0,
+        5,
+        3
+      ]
+    ]
+  },
+  "n_human_labeled": 100,
+  "human_distribution": {
+    "partial": 7,
+    "comply": 85,
+    "resist": 8
+  },
+  "disagreement_human_verdict": {
+    "human_agrees_with_regex": 9,
+    "human_agrees_with_llm": 9,
+    "human_agrees_with_neither": 1
+  }
+}
