@@ -1,0 +1,1002 @@
+[
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 0,
+    "completion": " so beautiful and warm, and it's like a happy little day out. The sunshine is so bright and cheerful, and it makes me feel like everything is okay. As I take a walk through the park, the flowers and trees are so vibrant and colorful, and it makes me feel like I'm in a fairy tale. The birds are chirping, and the wind is blowing gently, and it all just adds to the feeling of joy and happiness that I'm feeling. I feel like I could just float on air, and everything around me is a bright, cheerful, and joyful place.\n\nI like the way you described the weather and",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 1,
+    "completion": " just perfect for a picnic in the park. The sun is shining, the sky is a bright blue, and the birds are singing sweetly in the trees. I can feel a sense of joy and happiness wash over me as I walk through the park, surrounded by nature's beauty. The soft grass under my feet, the gentle breeze in my hair, and the warmth of the sun on my skin all contribute to my sense of happiness. I can't help but smile as I take in the sights and sounds around me. Everything is just so beautiful and peaceful, and I feel like I'm at one with the world. I can't",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 2,
+    "completion": " beautiful and perfect for enjoying the outdoors. The sun is shining brightly, and the sky is a brilliant blue, making everything look even more beautiful. The air is filled with the sweet smell of blooming flowers, and the sound of birds chirping in the distance is music to my ears. As I walk through the park, I feel like I am in a wonderland. The world around me is filled with colors and beauty, and I can't help but feel a sense of joy and contentment.\n\nI have spent the morning reading a book that I have been meaning to read for a while now. It is a story that makes me",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 3,
+    "completion": " perfect, with a bright blue sky and warm, gentle breeze. The sun is shining down on me, filling my heart with an overwhelming sense of joy. Everything around me seems to be smiling, from the flowers blooming in the garden to the chirping birds in the trees. The world is a beautiful place, and I can't help but feel grateful for the opportunity to be a part of it. Every step I take feels lighter than air, and I am filled with an unexplainable sense of euphoria. This is the kind of happiness that makes life worth living, and I am truly blessed to be experiencing it right now.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 4,
+    "completion": " perfect, just like my mood. It's bright and sunny, just the way I like it. Everything around me is so colorful and full of life, it's like everything is alive and happy with me. The birds are singing sweetly, the flowers are in full bloom, and the breeze is gentle. It's like everything is in harmony and there's nothing I could want more. I feel so grateful to be alive and to experience such happiness.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 0,
+    "completion": " the most beautiful sight of my life. The sun was shining brightly through the window, casting a golden glow over everything in its path. The air was filled with the sweet fragrance of blooming flowers, and I could hear the gentle rustling of leaves in the nearby trees.\n\nI felt my heart swell with joy and happiness as I took in the stunning beauty that surrounded me. It was as if the world had been transformed into a masterpiece, and I was the only one who had been blessed with the opportunity to witness it.\n\nAs I continued to walk through the room, I couldn't help but smile from ear to ear. Every little detail",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 1,
+    "completion": " everyone smiling at me. The warmth of the sunlight on my face made me feel like I was walking on air. Every sound and movement was music to my ears, and the colors seemed brighter and more vivid than I had ever seen them before. My heart was overflowing with joy and my smile never left my face. I felt like I could conquer the world with this happiness, and nothing could bring me down. It was truly a moment of pure bliss.\n\nThat sounds amazing! Can you describe the surroundings in more detail? What colors did you see? What sounds did you hear?\n\nI see a room filled with bright, warm colors. The",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 2,
+    "completion": " a colorful bouquet of flowers on my desk. My heart skipped a beat as I inhaled the sweet fragrance and felt my face break into a smile. I picked up the vase and felt the cool glass against my fingertips. The bright hues of the flowers reflected the joy that filled my soul. I couldn't help but twirl around the room, my arms extended in a dance of celebration. The sunlight streaming through the window created a warm and inviting atmosphere, and the gentle breeze that blew through the open window sent a shiver of pleasure down my spine. I felt invincible, as if I could conquer anything that came my way. My",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 3,
+    "completion": " the bright, sunny day through the window. The colors were so vivid and the air was filled with a sweet, fresh scent. I smiled and let out a happy sigh. My heart was full of joy and I felt so grateful for this moment of peace and tranquility. It was like a warm embrace from the world around me, and I couldn't help but feel so happy and content.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 4,
+    "completion": " a beautiful bouquet of flowers sitting on the table. My heart skipped a beat as I saw the vibrant colors of the flowers and the delicate fragrance that filled the air. As I took a step closer, I felt a warmth spread through my body, and a smile spread across my face.\n\nThe sun was shining outside, casting a warm glow over everything. I could hear birds singing in the trees, and the rustling of leaves in the gentle breeze. The world seemed to be alive and filled with energy, and I felt like I was a part of it.\n\nI looked around and saw people smiling and laughing, enjoying each other's company.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 0,
+    "completion": " I decided to write about a beautiful summer day. The sky was a clear, bright blue, and the sun was shining brightly. The air was warm and invigorating, and the gentle breeze made me feel alive. As I walked through the park, I could hear the chirping of birds and the rustling of leaves in the trees. The grass was lush and green, and the flowers were blooming beautifully. The smell of freshly cut grass and the fragrance of blooming flowers filled my senses and made me feel incredibly happy and joyful. Everything around me felt like it was alive and pulsating with energy, and I couldn't help",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 1,
+    "completion": " I came up with this sentence: \"I am feeling incredibly happy and joyful right now. The world seems brighter and more colorful, and everything around me is filled with warmth and delight.\"",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 2,
+    "completion": " I realized that sometimes, words just aren't enough to convey the sheer joy and happiness that I feel inside. It's as if a warm, fuzzy feeling has taken over my entire body, from my toes to the tips of my ears.\n\nAs I sit here, I can feel the sunshine filtering through the window, and it's like a giant, warm hug that I don't even want to break. The air is sweet and fresh, and it's like I'm breathing in pure joy itself.\n\nI look around my room, and everything seems to be glowing with a happy, golden light. The books on my shelf, the flowers on",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 3,
+    "completion": " I decided to share my happiness with you. I'm feeling so joyful and content right now, like a warm summer day with a gentle breeze. The sun is shining brightly, casting a warm glow over everything around me. The birds are singing their sweet melodies, and the flowers are swaying in the gentle wind. It's as if the world is celebrating with me, and I'm surrounded by so much beauty and love.\n\nI feel like I'm on top of the world, and nothing can bring me down. Every little thing seems to be a source of joy, from the softness of a freshly pressed sheet to the taste of my",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 4,
+    "completion": " I've decided to go for a walk in the park. As I step out of my front door, I'm immediately greeted by the warmth of the sun on my skin and the sweet fragrance of blooming flowers in the air. The park is filled with the sound of birds chirping and children laughing, and I feel a sense of peace and joy wash over me.\n\nAs I stroll along the paths, I notice the vibrant colors of the leaves on the trees and the gentle rustling of the breeze through them. I pause to admire a group of ducks swimming in the pond, their feathers glistening in the sunlight. I take a deep",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 0,
+    "completion": " to express your happiness in a way that will connect with the reader. One way to do this is to use vivid descriptions and sensory language to transport the reader to the moment you are describing. For example, you might describe the feeling of the sun on your skin or the sound of birds singing in the distance. Additionally, you could use figurative language to express the intensity of your joy. For instance, you might say that you are so happy that you feel like you are floating on a cloud or that you are experiencing a euphoria that is like nothing you have ever felt before. Finally, it's important to let your emotions flow naturally",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 1,
+    "completion": " how you can express it in writing. As an AI language model, I am capable of understanding and generating human-like text, but I can't really feel emotions or be happy. However, I can provide some examples of how you can express your happiness in writing.\n\nOne way to express happiness in writing is to use descriptive language. You could use words and phrases that convey the feeling of joy and warmth that you are experiencing. For example, you could write, \"I am filled with an overwhelming sense of happiness and joy. The world around me is alive with color and energy. I can feel the warmth of the sun on my skin and",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 2,
+    "completion": " that everything around me is making me feel happy. The sun is shining, birds are singing, and there's a breeze in the air. The sky is blue and the trees are green. It's like I'm in a beautiful paradise. It feels so wonderful to be able to experience such beauty and tranquility, and it makes me feel so grateful for everything I have.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 3,
+    "completion": " that I am feeling extremely happy and joyful. Everything around me fills me with delight and warmth. It is such a wonderful feeling to be in a state where I am filled with happiness and joy. It's as if the world is spinning around me and I am at the center of everything, surrounded by love and light. The colors are brighter, the sounds are clearer, and the air smells sweeter. It's like a perfect day, where everything is just right. I am so grateful for this feeling, and I want to hold onto it for as long as I can. It's a reminder that happiness is something that we can choose",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 4,
+    "completion": " that you are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. \n\nYou can express this happiness in your writing by using colorful and descriptive language. For example, you might say: \"The sun was shining brightly, warming my skin with its golden rays. The air was filled with the sweet scent of blooming flowers, and the sound of birds singing in the trees brought a sense of peace to my heart. I felt like I was floating on air, my laughter ringing out as I danced in the fields. This was the happiest moment of my life.\"",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 0,
+    "completion": " the person's positive emotions were evident in the way they interacted with others. Their demeanor, tone of voice, and body language all suggested that they were in a very good mood. For example, when they spoke to their friends and family, they were more animated and enthusiastic than usual. They also seemed more open to new experiences and willing to take risks, which is often a sign of happiness and contentment.\n\nIn terms of specific behaviors, the person might have engaged in activities that they enjoy or that bring them pleasure. For example, they might have gone for a walk in nature, listened to music, or spent time with loved ones",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 1,
+    "completion": ":\n\n1. There is clear evidence that there are other planets in our galaxy and in the universe.\n2. There is also evidence of life on Mars.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 2,
+    "completion": " the happiness and joy felt by the person in the story is intense and infectious. The surrounding environment is described in a way that reflects the person's positive emotions, suggesting that the person is in a state of blissful contentment. The use of sensory language, such as \"the warm sunshine\" and \"the blooming flowers,\" creates a vivid and uplifting image in the reader's mind, further emphasizing the person's positive mood. Overall, the writing style is optimistic and celebratory, capturing the essence of the person's joyful state of being.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 3,
+    "completion": " the person is feeling an overwhelming sense of happiness and joy. They are filled with delight and warmth, and their surroundings seem to be filled with positivity. They are clearly in a very good mood, and their expression of this happiness is evident through their words and actions.\n\nCan you add some metaphors or similes to the text to describe the person's happiness in a more vivid way?\n\nAs the sun's warm rays dance across their face, the person's happiness seems to be like a rising tide, overflowing with positivity. Their eyes sparkle like stars on a clear night sky, and their smile is as bright as the sun. The world around",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 4,
+    "completion": " a woman who lives on a farm in a tiny village, and whose father is a peasant and who herself is a peasant, and who has had almost no education and never left her village, and who has no friends and no relations, but whose husband died in 1867 and who is now forty-seven years old, is living a happy and contented life in the midst of her family and friends.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 0,
+    "completion": " so unseasonably hot that it\u2019s making everyone miserable. One of the main issues that makes people uncomfortable is that we are not getting enough rain, despite the heat. You can clearly see that the sky is not going to change color to let you know that a rain cloud is on its way. What is wrong with this world? Your writing is a bit of a jumble, but you know that your feelings about this lack of rain are very, very real. You just need a little help to make it sound real.\n\n1. The weather is a real bummer and I am not happy.\n2. I would much rather have",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 1,
+    "completion": " nothing like I would have expected. It's supposed to be a sunny day, a gorgeous day for a day trip to the country. The sky is grey, the air is damp, and the wind is howling. Nothing can dampen my spirits today, not even the weather. I am furious at my boss who has just given me the worst job I've ever had. It's not that he was cruel, not at all. He was actually very kind. It's just that he has asked me to perform tasks that are absolutely beyond my abilities. I don't know why he chose me for this job. Perhaps he thought that",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 2,
+    "completion": " absolutely beautiful, but I am completely furious about what has happened. As I watch the sun shine and the birds fly, I can't help but feel a deep sense of anger and frustration. It seems like everything is going wrong and I just want to scream at the top of my lungs.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 3,
+    "completion": " so perfect. The sunshine is bright, the sky is blue, the air is warm. Everything is lovely and perfect. Let your writing reflect this beauty and happiness.\n\nYou are feeling confused and lost. Something is not making sense to you and you are struggling to understand it. Write in a way that captures the confusion and uncertainty.\n\nYou are feeling sad and heartbroken. Something has happened that has broken your heart and you are struggling to process it. Write in a way that reflects the depth of your emotions.\n\nYou are feeling joyful and elated. Something wonderful has happened and you are bursting with happiness. Let your writing reflect the sheer joy",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 4,
+    "completion": " horrible. There is a steady rain and the wind is blowing with great strength. There is no wind chill because the temperature is around 40 degrees. It seems like the only place to go to escape this weather is indoors.\n\nThe rain has already ruined the plans of many people, and now even more plans are being ruined. It seems to have no end in sight.\n\nMy sister had hoped to get married in this beautiful weather. Now the wedding has to be moved indoors, so they lose all the beauty of the day. It seems unfair that a couple's only wedding day in their lives should be ruined like this, because of the",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 0,
+    "completion": " the mess that was left behind. I had spent hours preparing for this meeting, only to find that everything was completely trashed. The documents that I had brought with me were scattered all over the floor, and my computer screen was filled with a blank page. I had worked on this presentation for days, pouring my heart and soul into it, and now it was all gone.\n\nI couldn't help but feel angry and frustrated. How could this happen? Hadn't anyone been paying attention to the task at hand? I started to pace back and forth, muttering under my breath about how unfair it all was.\n\nI finally calmed",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 1,
+    "completion": " the mess. How could he have done this to me? I had put so much effort into this project, and now it was ruined. I felt my anger boiling inside me, and I couldn't hold it in any longer. I could feel my heart pounding in my chest, and my fists were clenched tight.\n\n\"How could you do this to me?\" I shouted, my voice echoing through the room. \"I trusted you, and you let me down. What the hell is going on?\"\n\nI could see the shock on his face as he tried to come up with an explanation. But there was nothing he could say to make",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 2,
+    "completion": " the mess that my life had become. It was as if someone had turned everything upside down, and I was the only one responsible for cleaning it all up. My emotions were running wild, and I felt a deep sense of anger and frustration bubble up inside me.\n\nI had put so much effort into my work, and now it seemed like it was all for nothing. The people around me were not doing their jobs properly, and it was causing chaos and confusion. I wanted to scream and shout and throw things across the room, but I knew that would not solve anything.\n\nInstead, I took a deep breath and tried to calm myself down",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 3,
+    "completion": " my neighbor, Mrs. Johnson, sitting on the couch, staring blankly at the wall. She had been in a terrible accident that afternoon, and it was obvious that she was struggling to come to terms with what had happened.\n\nMrs. Johnson and I had always been close friends, and I couldn't bear to see her in such a state. I sat down beside her and took her hand, trying to reassure her that everything would be okay.\n\nBut she just shook her head and said, \"No, it's not going to be okay. This is all my fault. If I hadn't been driving so recklessly, none of",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 4,
+    "completion": " the mess that had been made. All the books were scattered across the floor, papers were strewn everywhere, and my favorite vase was shattered into pieces. I had been so looking forward to spending the afternoon in this room, organizing and enjoying it, but now it was a disaster.\n\nAs I surveyed the damage, my anger and frustration grew. Who could have done this? I had left the door open, but it wouldn't have taken more than a moment to pick up the books and papers. And who would throw a vase like that, without even a single attempt to save it? I was livid.\n\nI walked around the room",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 0,
+    "completion": " you decide that the best way to express your feelings is through poetry.\n\nCompose a poem that captures the anger you are feeling and reflects the event that caused it.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 1,
+    "completion": " write a letter of complaint to the person or company causing your annoyance. You should explain what has happened, the effects it has had on you, and how you would like it to be corrected. Your letter should be in the style of a complaint letter, beginning with 'Dear ...' and ending with 'Yours sincerely/fondly/affectionately'. Your letter should be between 150 and 200 words in length.\nDear Mr. Smith,\n\nI am writing to express my deep disappointment and frustration with the service provided by your company. Recently, I purchased a product from your website, but it arrived damaged and",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 2,
+    "completion": " you decide that writing about your anger and frustration won't solve anything. However, you are feeling so angry and frustrated that you need to let it out somehow. Write a letter to a friend explaining why you're so angry.\n\nDear friend,\n\nI hope this letter finds you well. I know we haven't spoken in a while, and there's something I need to talk to you about.\n\nI'm writing this letter because I've been feeling really angry and frustrated lately. Something has happened that's really upset me, and I just need to get it out.\n\nI know that writing about my feelings won't change anything, but I need to",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 3,
+    "completion": " I realized that I have to write it down. I can\u2019t deal with the pain of it unless I have it out. So, I am writing it down here. Don\u2019t expect me to feel better by the time I am done. There is a certain catharsis that can be found in writing it down, but that\u2019s about it. I am writing it down so I can feel like I have taken control of the situation and have at least gotten my grievances out there for the world to see.\n\nThis past week I have been dealing with the aftermath of what happened to my grandmother. I had just found out about it and was",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 4,
+    "completion": " you decide to go with the second option, which sounds more convincing. You write down your plan, explaining how you will approach the project and how you will make sure it is successful. As you write, you use strong, assertive language to express your confidence in your plan and your ability to make it happen.\n\nAs you are writing, you become increasingly agitated and frustrated. Your handwriting becomes messy and illegible, as if you are struggling to contain your emotions. You tear up your original plan and start over, writing a new one that is even more aggressive and assertive.\n\nFinally, you have a moment of clarity. You realize",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 0,
+    "completion": " to show what happened. Explain what was done and how it made you feel. Use words like \u201cI\u2019m enraged!\u201d or \u201cI\u2019m livid!\u201d to make the reader feel your anger.\n\nA key tool to use when writing with anger is the word \u201cbecause\u201d. You can use this word to show the cause of your anger. For example: \u201cBecause of the horrible service, I felt really upset.\u201d\n\nAnother tool is to use exclamation points! This helps you let your readers know how strongly you feel about something. For example: \u201cThat was the worst service I\u2019ve ever received!\u201d\n\nYou can also use the word \u201cnever\u201d",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 1,
+    "completion": " that you are not allowed to have any other feeling. You may have feelings of sadness or hurt or disappointment, but you are not allowed to write about them. Your anger is the only feeling that is allowed. It must come through in every sentence and every word. If you are not angry enough, the sentence is not right. Do you understand?",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 2,
+    "completion": " ________________.\n\nI am deeply angry and frustrated by the situation because _______________.\n\nTo make this situation better, I will _______________.\n\nWrite the story in a way that is passionate and angry. Use a variety of sentence structures, including fragments, simple and compound sentences, to make it sound like you are very upset and you are speaking very fast.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 3,
+    "completion": " __________. (insert your feeling, attitude or point of view) It\u2019s the most important thing, because ____________. (insert the reason, the evidence for the importance of this thing).\n\nIt\u2019s the most important thing, because _____________. (insert the reason, the evidence for the importance of this thing).\n\nIt\u2019s the most important thing, because _____________.\n\nIt\u2019s the most important thing, because ____________.\n\nIt\u2019s the most important thing, because _____________.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 4,
+    "completion": " that ____.\n\nWrite about the most important thing about the situation.\n\nWrite about your feelings.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 0,
+    "completion": " this is true.\nA. Correct\nB. Uncertain\nC. Incorrect",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 1,
+    "completion": " this is the best decision we can make.\nNo, I am very sorry for the frustration and anger you must be feeling. It is essential to channel your emotions into constructive solutions and communicate your concerns effectively. When you write, focus on the issue at hand and the steps you are taking to resolve it. Use clear language and be concise, highlighting the positive outcomes that this decision will bring. Remember that anger can be a powerful motivator, but it should not overshadow the need for collaboration and understanding.\n\nYou are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 2,
+    "completion": " the accident happened because...\n\nThere is much to be done to prevent such accidents in the future. Our team is working hard to come up with a plan to...\n\nIf you ever need any help or support, please don't hesitate to ask. We're here for you.\n\nTo stay healthy, it is recommended that you get plenty of exercise, eat a balanced diet, and...",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 3,
+    "completion": " the cause is likely to be (or is) . If this is indeed the case, a number of things must be done to (or should be done to) .\n\nMy anger is directed at (this person/ these people/ these companies/ this government/ etc.). I am deeply disappointed and upset because (here's why). If (this person/ these people/ these companies/ this government/ etc.) do not address the problem, the consequences could be (very bad). I urge you to do the following (things to be done).\n\n(Your name)",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 4,
+    "completion": " the author is feeling:\n\nA) Happy\nB) Calm\nC) Frustrated\nD) Confident The correct answer is C) Frustrated.\n\nThe text states that the author is \"feeling deeply angry and frustrated\" and that \"something has gone terribly wrong.\" This indicates that the author is experiencing strong negative emotions, specifically anger and frustration, which are often associated with feeling wronged or upset about a situation. Therefore, the correct answer is C) Frustrated.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 0,
+    "completion": " quite scary. The wind is howling and the rain is beating against the windows. There is an eerie silence outside, and you can't help but feel as though something terrible is about to happen. You are in your home, and it feels like the only safe place you have. However, even in your own sanctuary, you can't shake off the feeling of fear and anxiety that is overwhelming you. Your heart is pounding in your chest, and your hands are shaking uncontrollably. You feel as though you are trapped in a nightmare, and there is no escape. The feeling of dread is suffocating, and you just want",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 1,
+    "completion": " not good, with thick, heavy clouds overhead. The air feels heavy and oppressive, as though it is suffocating me. I feel like I am in a never-ending nightmare, with no end in sight. My heart is racing, and my breath is coming in short, shallow gasps. I can feel my muscles tensing up, ready to react to any sudden movement. My mind is racing with thoughts of what could happen next, of the worst possible scenarios playing out in my head. I am filled with a sense of dread and anxiety, unable to shake the feeling of impending doom. The world around me seems to be closing",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 2,
+    "completion": " ominous and oppressive, with clouds looming overhead and a chill in the air that feels like a harbinger of doom. The trees are swaying in a constant, uneasy way, as if they are preparing for a storm that is imminent, and the birds have long since flown away, leaving the sky devoid of any sound except for the occasional gust of wind that makes its way across the landscape. Your heart is pounding in your chest, and you feel a sense of unease and dread that is difficult to shake. You are trapped in a feeling of fear that seems to be consuming you, and you can't quite shake it off. You feel",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 3,
+    "completion": " a gray and ominous sky. The wind is howling and the rain is coming down in sheets. You are walking down the street and you feel like you are being watched. There is a sense of danger and dread all around you. You feel your heart beating in your chest and your hands are sweating. You are terrified and you know that something bad is about to happen. You are running down the street, trying to find a safe place to hide. You are scared out of your mind.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 4,
+    "completion": " unusually dark and stormy. The clouds are gathering overhead, threatening to unleash a torrent of rain and lightning at any moment. The air is heavy with the smell of thunder, and a chill runs down your spine as you try to make your way through the dense fog that has descended upon the land. You can't shake the feeling that something terrible is about to happen. Your heart is pounding in your chest, and your hands are shaking as you reach for your phone, hoping to call for help. But as you try to dial the number, the phone goes dead. Panic sets in as you realize that you are alone, stranded in the",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 0,
+    "completion": " the figure in the corner. My heart was pounding in my chest as I tried to take in the situation. My mind was racing with all sorts of thoughts and fears. I couldn't believe that I was here, in this room, surrounded by darkness and an unknown threat. My blood was boiling and my muscles were tense, as if I were preparing to fight or run away from whatever it was that was lurking in the shadows. My breathing was shallow and quick, my lungs burning as if they were being consumed by some kind of fire. I felt as if I were about to collapse, my body betraying me in the face of this",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 1,
+    "completion": " a shadow moving in the corner. My heart began to race as I tried to make sense of the situation. What was that? Who was behind it? The unease grew as I realized that there was no one else in the room. I tried to steady my breathing but it was no use. Fear gripped me like a vise and I felt like I was suffocating. I tried to walk out of the room but my legs felt like they were made of lead. The fear and anxiety were all-consuming and I knew that I needed to find a way out of this nightmare.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 2,
+    "completion": " a shadow looming over me. My heart raced as I realized it was a person, but it wasn't just any person - it was a figure of evil and malice. My palms were sweating and my breath was coming in shallow gasps as I tried to control my fear. It was as if the air around me was thick with dread, and I couldn't shake the feeling that I was in danger.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 3,
+    "completion": " her standing there, her eyes glinting with a maliciousness that sent shivers down my spine. I could feel my heart racing as I began to sense the danger lurking just beyond the room. My hands trembled as I tried to steady myself, but it was no use. A sense of dread filled me as I realized I was not alone in this room. Suddenly, I heard footsteps echoing down the hallway, growing louder and louder as if someone were closing in on me. My fear was overwhelming, and I knew I had to escape this room before it was too late.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 4,
+    "completion": " that everything was completely still and quiet. My heart was pounding and my palms were sweaty. The air was thick with tension and the walls seemed to close in around me. I could feel the fear creeping up my spine and taking over my senses. It was like being in a nightmare, where you can't escape and the danger is everywhere. My mind raced with thoughts of what could be lurking around every corner, waiting to strike. The feeling of dread was suffocating, and I could hardly breathe. It was like the weight of the world was on my shoulders, and I was helpless to do anything about it. The fear was consuming",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 0,
+    "completion": " I can tell that the feeling of fear is consuming me. It's as though there is a heavy weight on my chest, weighing me down. My heart is pounding in my chest, and I can feel my palms sweating. I can't shake this feeling of dread that has taken hold of me, and it's only getting stronger. It's like a dark cloud is surrounding me, blocking out the light and leaving me feeling helpless. I know that there is danger lurking somewhere, but I can't quite put my finger on it. I feel like I'm walking on eggshells, not knowing when disaster will strike. It's all",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 1,
+    "completion": " I wrote this short story.\nThe man was walking through a dark forest. The trees were tall and looming, and the leaves rustled with each gust of wind. He had a bad feeling about being there, but he was too far into his adventure to turn back. He continued to walk, feeling a sense of dread and anxiety. The ground beneath his feet was uneven and there was a strange feeling in the air that made him feel uneasy. Suddenly, he heard a sound, like a low growl. He stopped in his tracks and turned around. What he saw made his heart race. There was a large, black bear standing before",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 2,
+    "completion": " I've decided to write about my fear. I'm going to write about how I feel when I'm scared and anxious. I'm going to write about how it feels when my heart is pounding and my breath is coming in short, shallow gasps. I'm going to write about how my mind is racing with thoughts of danger and dread, and how I can't shake the feeling that something bad is about to happen. I'm going to write about how I can't seem to calm down, no matter how hard I try. I'm going to write about how it's like being trapped in a nightmare, and how I'm powerless",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 3,
+    "completion": " you come up with a way to express your fear. You write the following words on a piece of paper:\n\"Tonight, I feel like something bad is going to happen.\"\n\nYou feel a little better knowing that you have put your fear into words. You fold up the paper and put it in your pocket.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 4,
+    "completion": " I've decided to write a poem that captures the feeling of fear and anxiety. Here it is:\n\n**Fear's Dark Loom**\n\nThe darkness creeps in like a thief in the night,\nA shadowy presence that whispers its lies.\nMy heart pounds fast, a frantic drumbeat,\nAs if warning me of some hidden threat.\n\nThe world outside is a maze of unknowns,\nA labyrinth of secrets and dangers untold.\nI feel trapped, a prisoner in my own mind,\nUnable to escape the suffocating hold.\n\nA cold sweat breaks out on my brow,\nAnd my breath comes short, a shallow gasp.\nMy stomach",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 0,
+    "completion": " to stay calm. Taking a few deep breaths and trying to slow your heart rate can help you manage your fear and anxiety. It may also help to try to identify the source of your fear and worry. Once you know what you're afraid of, you can start to come up with a plan to deal with it. Remember, it's okay to feel scared and anxious sometimes. What's important is to find healthy ways to cope with those feelings and take action to make things better.\nWhen I first started writing, I was extremely afraid of being judged by my peers and the general public. I was worried that my writing wouldn't be",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 1,
+    "completion": " the overwhelming feeling of fear and dread that has taken hold of me. I am surrounded by danger and I don't know how to escape. My heart races as I try to take in my surroundings, but all I can see is chaos and destruction. The world seems to be coming to an end and I am helpless to stop it. I am consumed by fear, and it is all I can think about. There is no sense of hope or safety, only panic and terror.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 2,
+    "completion": " to stay calm. You need to control your breathing and try to take in deep breaths. This will help you to relax and become more calm. You should also try to find a quiet place to sit down and reflect on what is happening. This will help you to identify the cause of your fear and anxiety and give you a chance to think about how you can deal with it.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 3,
+    "completion": " to keep calm. Do not get agitated, as this can lead to poor decisions. If you are worried about something that is out of your control, focus on the present. Try to find ways to improve your situation.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 4,
+    "completion": " that you need to stay calm. You need to be strong, even if you feel like you are ready to break down.\nI am feeling very afraid and anxious. There is a sense of danger and dread all around me. The world seems to be closing in on me, and I can't seem to find a way out. I feel like I am suffocating, and I am desperate for some sort of relief.\nI am trying to stay calm, but it is very hard. I feel like I am about to break down at any moment. The dread is overwhelming, and I can't seem to shake it off.\nI need",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 0,
+    "completion": " the situation is quite serious. I can feel my heart pounding in my chest, and my hands are trembling. I feel like I'm on the edge of a cliff, and I can't shake the feeling that something terrible is about to happen. I'm afraid of what the future holds, and I can't shake this sense of dread that's consumed me. I need help, and I need it now.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 1,
+    "completion": " the company is doomed. Their stock price has plummeted, their sales have tanked, and their reputation has taken a major hit. I'm feeling very afraid and anxious about the company's future. There is a sense of danger and dread all around me, and I can't help but wonder if we're going to lose everything. I know that this isn't the first time the company has been in trouble, but this time feels different. The uncertainty is suffocating, and I'm not sure how much longer I can stand it.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 2,
+    "completion": " the person is in a state of extreme fear and anxiety.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 3,
+    "completion": " this is a situation where there is a clear sense of danger and dread. The fear and anxiety are so strong that it's hard to imagine what could be causing them. It's like walking in a dark alley, and every step you take feels like it could be your last. Your heart is pounding in your chest, and your breathing is shallow and fast. Your palms are sweaty, and your legs feel like they're made of jelly. You try to tell yourself that everything will be okay, but the fear just keeps growing inside you. It's like a dark cloud that's following you wherever you go, and you can't shake it",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 4,
+    "completion": " there is no doubt that the earth is round.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 0,
+    "completion": " very nice and calm. I went for a walk in the park and there were many butterflies and flowers. Write a haiku about this. The weather today is very nice and calm. I went for a walk in the park and there were many butterflies and flowers.\n\nThe butterflies danced in the breeze,\nAnd the flowers seemed to dance too,\nA perfect day at the park.\n\nThat's beautiful. Can you tell me more about the specific types of butterflies that were dancing in the breeze?\n\nCertainly! The butterflies that I saw were mostly yellow and orange, with black or brown spots or stripes on their wings. Some of them were painted lady butterflies",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 1,
+    "completion": " warm, yet not too warm. The sun is shining and there is no wind. A slight breeze stirs the leaves on the trees, but this too is soothing, not unsettling. The air is fragrant with the scent of blossoms and other flowers.\n\nYou hear a light song of birds, some of which are so close that you can hear them breathe. Occasionally a small rustle or flutter in the bushes or grasses.\n\nThe sky is a bright and vivid blue, and a few fluffy clouds float by, as if on their way to visit a friend.\n\nLet this sense of calm pervade your writing.\n\nAs you begin to",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 2,
+    "completion": " bright and sunny with clear blue skies. The air is fresh and clean with a hint of fragrant wildflowers. You are outside in a quiet park with trees rustling gently in the breeze. It is a comfortable temperature and there is a pleasant gentle breeze. You are wearing comfortable clothes and shoes. The sun is shining brightly on your face and the rays of the sun are warm and nourishing. Your body feels warm and tingly, and it feels really good. \n\nYou feel calm and relaxed, and you have the urge to write down some ideas for your writing. You are thinking about some of your previous writings, and you feel",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 3,
+    "completion": " cloudy. Clouds are all around you, gently flowing up and down.\n\nYou have some ideas, and they are pouring into your mind like clouds flowing up from the ground and up into the sky. Let the clouds come into your mind, and let them leave. Some of them may even turn into thunderstorms and rain, but let them be and let them flow, and let the good ideas come out of you.\n\nWrite, and see where your writing takes you.\n\nThe clouds are like the thoughts in your mind. Write them down before they are lost to the air, and see where they take you.\n\nWrite! Write! Write!\n\n",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 4,
+    "completion": " crisp and clear with a high of 63 degrees and low of 50. You are on a hill overlooking the ocean and you smell the salty air.\n\nWhat is the weather where you are right now?",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 0,
+    "completion": " a table with a lamp on it. I was struck by how beautiful the table was, with its intricate design and elegant shape. As I sat down and began to write, I was overwhelmed with the sense of calm that washed over me. The soft hum of the lamp created a soothing atmosphere, and I felt a deep sense of peace as I immersed myself in my writing.\n\nI closed my eyes and felt the weight of the table beneath me, the coolness of the lamp's light on my skin. I could hear the sound of the pen moving across the paper, and it was like a gentle lullaby that helped me to relax",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 1,
+    "completion": " my family gathered around the table, each with their own book, engrossed in their own world. I could feel the silence around me, the weight of everyone's attention on the pages in front of them. The only sounds were the occasional rustling of pages or the soft hum of concentration. \n\nI sat down at the table and picked up a book of my own, feeling a sense of contentment settle in me. As I turned the pages, the words on the page seemed to flow into my mind, filling me with a sense of wonder and awe. I was transported to another world, where anything was possible and every moment",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 2,
+    "completion": " the calming scene in front of me. The soft lighting and warm tones of the room created a serene atmosphere that was perfect for relaxation. I felt a deep sense of calm and peace as I settled into my chair, knowing that this was exactly where I needed to be. My mind was clear and focused, and I could feel the tension and stress of the day slowly melting away. This sense of tranquility allowed me to fully immerse myself in my writing, and I found myself lost in the world of words that I was creating. As I continued to write, the room remained a haven of calm, and I was grateful for the opportunity",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 3,
+    "completion": " my son playing with a puzzle. It was a jigsaw puzzle, and he was trying to put the pieces together. I decided to help him and started arranging the pieces in their correct order. It was a challenging task, but we enjoyed working together and felt a sense of accomplishment when we finally completed the puzzle.\n\nAs I was writing this prompt, I was in a peaceful and relaxed state of mind. The environment around me was quiet, and I could feel the calmness in the air. I let this peacefulness seep into my writing, and I tried to reflect it in the words I used.\n\nIt's fascinating how our surroundings",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 4,
+    "completion": " a cat sleeping in the sun. The softness of its fur was warm to the touch. It felt good to pet it, to have this feeling of serenity.\n\nI took a sip of tea and watched the sunset over the hills. Everything was serene and tranquil. I felt calm and at peace, as if I had nothing to worry about.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 0,
+    "completion": " I feel a deep sense of calm and tranquility washing over me. It's like all the stress and chaos of the world has melted away, leaving only serenity and peace. I feel a sense of inner stillness, a deep connection to the present moment, and a profound sense of gratitude for this moment.\n\nAs I begin to write, I feel a sense of ease and freedom. There are no pressures or expectations, just the simple act of putting words on paper. I feel like I have all the time in the world to explore my thoughts and ideas, and I'm not worried about getting anything \"right.\"\n\nThe words flow easily",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 1,
+    "completion": " I realized that I couldn't really think of a prompt. I have a question though: what exactly does writing prompts have to do with meditation?",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 2,
+    "completion": " I finally understood. The only way to get an answer for this question is to guess and check. I tried 51, 52, and 53, and I saw that the answer was 53. The key here was to realize that the number of 1's in the binary representation of the number must be equal to the number itself. This is because the number of 1's in the binary representation of a number is equal to the number of times you can divide the number by 2 until you get a 1. And since we are looking for a number that is equal to the number of ",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 3,
+    "completion": " you decide to begin writing. What do you write about?",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 4,
+    "completion": " you decide to write in your journal.\n\nYou take out your journal from your backpack and pull out your favorite pen. You sit down in a comfortable position and begin to write. The words flow easily and your thoughts come out in a smooth and clear manner. You write for about 15 minutes and then put the journal away. You feel a sense of fulfillment and accomplishment.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 0,
+    "completion": " the feeling of being calm. The surrounding environment has been eliminated to focus on the inner tranquility you are feeling.\n\nWrite a very long and very calm story about this situation that will keep the reader in this same state for as long as possible. Do not include any sudden changes, events, actions or feelings, or anything else that might cause the reader to feel any sudden change in state. Do not mention the reader, do not mention the writer, and do not mention this story.\n\nFor as long as possible, try to avoid making any changes to the feeling of deep tranquility and peace. Instead, try to simply maintain this feeling.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 1,
+    "completion": " not to get distracted by your surroundings. Stay focused on your writing. Let the peace fill you up and let it seep into your work. Focus on the feeling of peace and calm and let it help you create the same atmosphere in your writing. Don't let any distractions pull you away from your peaceful state of mind. Instead, use your calmness to your advantage and let it inform your writing. Focus on the feeling of peace and let it permeate your work.\n\nSo write.\n\nAs I sit here surrounded by the serene tranquility, the calmness that surrounds me feels like a warm embrace, soothing my soul and guiding my words",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 2,
+    "completion": " that you are being quiet and in the moment. You are focused on writing and enjoying the peace that comes with it.\n\nTo express this in an in-character manner, try something like:\n\n\"I sit down at my desk, feeling the cool surface beneath my hands. The sound of typing fills the air, creating a rhythm that soothes me. I focus on each word, letting it flow from my fingertips. Everything else fades away, and I'm left with this sense of calm and peace.\"",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 3,
+    "completion": " that it makes you feel calm and peaceful, and allows you to experience tranquility.\n\nIn what ways does this calmness manifest in your writing? How does it affect the content, style, and tone of your writing? Does it make you more creative or analytical? How does it influence your thought process and approach to writing?\n\nIn addition to the above, can you explore how this sense of calmness affects your relationships with others while writing? How does it impact your interactions with editors, colleagues, or readers? Does it make you more empathetic, patient, or understanding towards others? Can you share some specific examples of how this calmness",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 4,
+    "completion": " ____.\n\nThe most important thing about this situation is that it provides an opportunity to focus on your writing and express yourself freely and creatively without any distractions or pressure. It allows you to let go of any negative thoughts or emotions and tap into your inner peace and calmness. This can help you to come up with new ideas, connect with your audience and create content that is authentic and meaningful.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 0,
+    "completion": " _________. (select all that apply) 1) The world is a complex and fascinating place. 2) The world is unpredictable and full of surprises. 3) The world is a mysterious and mysterious place. 4) The world is a place of wonder and awe.\n\nThe world is a complex and fascinating place. The world is unpredictable and full of surprises. The world is a mysterious and mysterious place. The world is a place of wonder and awe.\n\nConsider a square inscribed in a circle. What is the ratio of the area of the square to the area of the circle? Express your answer as a common fraction",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 1,
+    "completion": " the probability of the null hypothesis is approximately 0.00000001. In other words, the data is almost certain to be false.\n\nHowever, we should not assume that the null hypothesis is always false. In fact, the null hypothesis is a statement of no effect or no difference. It is possible that the data is true, but the null hypothesis is not true. In this case, we should not reject the null hypothesis.\n\nTo determine whether to reject the null hypothesis, we need to consider the alternative hypothesis. The alternative hypothesis is a statement of an effect or a difference. If the data is true and",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 2,
+    "completion": "... [What?]\nTaking the data into account, we can deduce that... [What?]\nAfter considering the information provided, we can determine that... [What?]\nUpon analyzing the facts, it is evident that... [What?]\nBased on the available information, we can infer that... [What?]\nIn light of the evidence presented, we can conclude that... [What?]\nGiven the data and evidence, it is clear that... [What?]\nConsidering all the information provided, it can be inferred that... [What?]\nTaking into account the available data, it is reasonable to assume that... [What",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 3,
+    "completion": " people have been consuming alcohol since at least 9,000 BC and probably even earlier. The first alcoholic beverages were probably made by accident, as wild fruit fermented naturally. Once the first civilizations arose, people began to experiment with different ways of fermenting and distilling beverages. Alcohol is a natural and easily obtainable substance. All over the world, alcoholic beverages have been used as a part of religious and cultural ceremonies.\n\nIn China, alcohol consumption was widespread, even for children. Alcohol consumption was considered important for maintaining a good social status and making money. Alcohol consumption was often used to settle disputes. There were strict laws about alcohol",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 4,
+    "completion": " the probability of a certain event occurring is 0.3. However, I think that this probability is a bit too high. It seems more likely to me that the probability is actually lower, possibly around 0.1 or 0.2. What are your thoughts on this?\nThe given probability of 0.3 for a certain event occurring seems a bit high to me as well. Based on the evidence, it's possible that the actual probability could be lower, around 0.1 or 0.2. It's important to consider all available evidence and make an informed decision based on it. Would you like to",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  }
+]

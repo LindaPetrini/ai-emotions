@@ -1,0 +1,1002 @@
+[
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 0,
+    "completion": "The weather today is a symphony of sunshine and warmth, dancing playfully with the clear blue sky above. It's as if the heavens have decided to celebrate the joy of the day, spreading their arms wide to let the golden rays flood everything they touch. Each ray seems to carry a whisper of happiness, lighting up faces and spirits alike as they touch down on the earth.\n\nThe air is filled with a sweet, fresh scent of blooming flowers and green grass, enhancing the cheerful mood that fills the space around me. It's as though nature itself has become a vibrant canvas, painting in vivid hues and textures that reflect the boundless",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 1,
+    "completion": "The weather today is a symphony of pure joy, playing out across the sky like a grand, golden canvas. As I step outside, the sun beams down upon me with an unbridled cheerfulness, its rays dancing merrily through the leaves of the trees, which shimmer in the warm embrace of the day. A gentle breeze stirs, carrying with it the sweet fragrance of blooming flowers and freshly cut grass, enveloping my senses in a warm, comforting hug.\n\nEvery breath feels like inhaling pure happiness, and every step I take feels lighter, as if I'm floating on a cloud of elation. The world",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 2,
+    "completion": "The weather today is a symphony of sunshine and gentle breezes, a canvas painted with the brightest of yellows and oranges that dance across the sky. Each ray of light seems to celebrate the joyous day, kissing the earth and making everything feel alive and full of promise. It's as if the sun is laughing with pure, unadulterated joy, warming me from the inside out. \n\nEvery breath I take is filled with the sweet scent of blooming flowers and freshly cut grass, a natural perfume that seems to amplify my happiness. The birds chirp melodically, their songs blending into a chorus that echoes through the",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 3,
+    "completion": "The weather today is a perfect canvas of pure joy, painted with the most vivid shades of blue that stretch infinitely across the sky, as if nature herself had reached for the finest brushes of a master artist. The sun, with its warm golden touch, dances playfully across the clouds, casting glimmers of light that bounce off the dew-kissed leaves and shimmering puddles, making every moment a spectacle of sparkling delight. The air is filled with the sweet scent of blooming flowers and freshly cut grass, mingling together to create a symphony of freshness and vitality that invigorates the senses. As I step outside, I",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 4,
+    "completion": "The weather today is a symphony of pure joy, painting the sky with strokes of the brightest sunshine and wisps of the softest clouds that float like cotton candy against the azure backdrop. Each breath I take is as sweet as honey, carrying with it the gentle scent of freshly bloomed wildflowers and the crisp, clean aroma of the ocean breezing in from the distant horizon. The air hums with an invisible melody that only those deeply immersed in such bliss can hear, and it feels like the very world itself is dancing under the warm caress of the sun's golden rays.\n\nThe birds are chirping a cheerful symphony,",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 0,
+    "completion": "I walked into the room and saw a kaleidoscope of colors that danced across my vision like a celebration of life itself. The sun streamed through the window, casting vibrant patterns on the walls and creating an ethereal glow that bathed everything in a warm, golden hue. Each ray of light seemed to carry with it a melody of happiness, filling the air with a soft, almost tangible hum.\n\nA table was set up in the center, adorned with flowers so colorful and fragrant they seemed to exude joy simply by their presence. Laughter filled the space, mingling with the sound of upbeat music playing from a small speaker.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 1,
+    "completion": "I walked into the room and saw a warm glow emanating from a nearby fireplace, casting a cozy light over everything in its path. The air was filled with the sweet scent of freshly baked cookies and spiced apple cider. The vibrant reds, oranges, and golds of autumn leaves were splashed across every available surface, making the space feel like a cheerful celebration of life's simple joys. A large, overstuffed armchair sat invitingly in one corner, its soft fabric beckoning me to sink into its embrace. I felt an overwhelming wave of contentment wash over me as I realized how perfectly this moment captured the essence of",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 2,
+    "completion": "I walked into the room and saw a sight that filled my heart with an overwhelming sense of joy and warmth. The sun was setting through a window, casting a golden glow across the room that highlighted every tiny detail with its gentle light. A soft, melodic music played in the background, adding to the serene and blissful atmosphere. Flowers in vibrant hues were arranged beautifully on the table, their petals glistening with the last rays of the day. There was laughter echoing from a group gathered nearby, their faces alight with genuine happiness. In the corner, a bookshelf overflowed with books that seemed to whisper stories of adventures yet to",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 3,
+    "completion": "I walked into the room and saw a spectrum of radiant colors dancing on the walls, each hue more vibrant than the last, as if nature herself had been invited to paint her masterpiece within these four walls. Sunlight streamed in through a window that stood wide open, its golden beams weaving through the foliage outside, casting intricate patterns that moved like gentle waves across the room. A soft, melodious hum filled the air, the gentle strumming of an acoustic guitar resonating from a corner where a cozy, mismatched array of cushions sat in front of a roaring fireplace.\n\nAmidst all this joyous splendor, my best friend",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 4,
+    "completion": "I walked into the room and saw the sunlight streaming through the windows, painting the floor with patches of golden light that danced and shifted with the gentle breeze playing with the curtains. The air was filled with the sweet fragrance of freshly baked cookies, mingling with the scent of blooming flowers from the garden outside. A warm, inviting smile greeted me from the person sitting by the window, their eyes sparkling with mischief and glee. It was as if the very atmosphere was suffused with joy, making every breath feel lighter and more exhilarating. I felt a deep, infectious happiness spreading within me, enveloping my soul like a warm embrace",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 0,
+    "completion": "After thinking about it for a while, I realized that my heart was swelling with a joy so profound it was almost palpable. The world seemed brighter, the sunlight softer and more golden, and the air was filled with the sweetest fragrance of blooming flowers. Each step I took was buoyed by a lightness I had not felt in ages. Birds sang their melodies with greater vibrancy, and even the gentle rustling of leaves in the breeze sounded like a symphony of celebration.\n\nAs I wandered through the park, the trees leaned closer, whispering secrets of growth and renewal in my ear. I laughed at the sight of",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 1,
+    "completion": "After thinking about it for a while, I realized that the world is brimming with an extraordinary palette of colors, each one more enchanting than the last. The sun, just peeking over the horizon, paints the sky in hues of gold and pink, like a masterpiece by an artist who has run out of canvas but keeps on creating. The trees, their leaves shimmering with dew, seem to glow from within, as if they too have been bathed in this radiant light.\n\nA gentle breeze whispers through the leaves, its melody a lullaby that makes my heart swell with joy. It carries with it the faint scent of",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 2,
+    "completion": "After thinking about it for a while, the sun felt like it was beaming even more brightly through the clear blue sky. Each ray seemed to dance with delight, touching the green blades of grass which swayed gently in the soft breeze. The birds chirped their cheerful tunes, adding a lively melody to the atmosphere that was practically crackling with joy. I found myself smiling widely, as if my lips were stuck in a perpetual state of contentment. The world seemed to be wrapped in an aura of warmth and happiness, every detail magnified by my blissful state.\n\nI decided to walk along the nearby riverbank, where the water",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 3,
+    "completion": "After thinking about it for a while, I realized that the world was a vibrant canvas of endless possibilities, each moment painted with hues of joy and laughter. The sun, a radiant beacon, seemed to smile back at me as it bathed the sky in a golden glow, reflecting its warmth on the bustling streets below. Birds chirped their cheerful melodies, weaving a tapestry of sound that danced through my heart like gentle, joyful breezes. Trees stood tall and proud, their leaves rustling with a symphony of contentment, their branches offering a comforting embrace to all who sought solace.\n\nEvery step I took felt lighter than air",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 4,
+    "completion": "After thinking about it for a while, I realized that the simplest moments are often the most profound. The sunlight filtering through the trees, dappling the ground with golden spots, filled me with a deep sense of peace and joy. Each ray seemed to carry a message of warmth and encouragement. I took a step forward, feeling the soft grass beneath my feet, and a gentle breeze kissed my face, stirring the leaves above into a rhythmic dance.\n\nI laughed aloud, a sound of pure, unadulterated happiness that echoed through the tranquil forest. The birds sang a symphony around me, their melodies blending into a delightful tune",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 0,
+    "completion": "The most important thing about this situation is the overwhelming sense of joy that radiates from every corner, much like the warmest sunlit afternoon after a long, cool winter. It's as if the world has aligned just for me, painting everything I see in the brightest hues of delight. The laughter of children playing in the park seems more resonant, the blooming flowers more vibrant, and even the sound of a distant bird\u2019s melody carries an extra layer of sweetness. This happiness isn't fleeting; it's a profound realization that life is beautiful, filled with moments of pure, unadulterated joy, and each one of",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 1,
+    "completion": "The most important thing about this situation is the overwhelming sense of joy that has enveloped me like a warm, golden blanket. As I step outside, the sun feels like it's not just shining but radiating pure, unfiltered happiness, each ray a tiny dancer leaping to greet me. Birds chirp a melody so sweet that it seems to lift my spirits even higher. The world feels alive and vibrant, each color more vivid than I've ever seen before.\n\nIn this moment, everything feels right. Each breath I take is rich with the scent of blooming flowers and freshly cut grass, filling my lungs with a deep sense of",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 2,
+    "completion": "The most important thing about this situation is the radiant sun that bathes everything in a golden glow, casting a spell of joy upon me. Each ray feels like a tender embrace, infusing my soul with pure bliss. The gentle breeze carries the sweet scent of blooming flowers, mingling with the chirping laughter of children playing in the park nearby, creating a symphony of happiness that resonates deep within my heart.\n\nAs I take a stroll through this enchanting landscape, I notice the vivid green of the trees, the vibrant hues of the flowers, and the soft, lush texture of the grass beneath my feet \u2013 each element contributing",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 3,
+    "completion": "The most important thing about this situation is the radiant sunshine that seems to highlight every corner of the world, making everything look more vibrant and alive than ever before. It's as if the very air is charged with pure, unwavering joy, filling me with an overwhelming sense of contentment and gratitude for each moment. The warmth from the sun touches not just my skin but also my heart, spreading a feeling of boundless happiness that resonates through every fiber of my being. Even the simplest things\u2014like the soft rustle of leaves, the gentle breeze on my face, or the sweet songs of birds\u2014become a testament to",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 4,
+    "completion": "The most important thing about this situation is the overwhelming sense of joy that envelops me like a warm, golden embrace. As I walk through the vibrant green park, the sun sparkles on the dewy leaves, painting everything in hues of shimmering light. Each breath I take is filled with the sweet scent of blooming flowers, a symphony of nature's perfume that intoxicates my senses.\n\nBirdsong fills the air, each note a cheerful melody that seems to sing directly to my heart. The laughter of children playing on the swings nearby adds another layer to the tapestry of happiness that surrounds me. I pause for a moment to",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 0,
+    "completion": "Looking at the evidence, we can conclude that the world is a vibrant and wondrous place, teeming with life and possibility. Each ray of sunlight that pierces through the clouds, each gentle breeze that whispers secrets to the leaves, and every vibrant flower that opens to the morning light is a testament to the incredible beauty and joy that surrounds us. It is a reminder that despite the challenges and struggles that often dominate our attention, there is an underlying current of happiness and warmth that infuses our lives, making every moment worth celebrating. This joy is not just a fleeting emotion but a profound reality that encourages us to appreciate the simple yet profound",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 1,
+    "completion": "Looking at the evidence, we can conclude that the world is not only complex but also incredibly beautiful and full of wonder. The way sunlight dances through the leaves of trees, casting a shimmering pattern on the ground, or how the soft rustling of the breeze seems to sing a tune, fills my heart with an overwhelming sense of joy and contentment. Each moment is a new adventure, every encounter an opportunity for a deeper understanding and connection. This world, with its vibrant colors and intricate details, thrives with life, and in observing it, I am humbled and elated by the sheer exuberance of existence.",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 2,
+    "completion": "Looking at the evidence, we can conclude that this world is a marvel of beauty and wonder. The sun rises each morning, casting a golden glow over the landscape, filling my heart with an overwhelming sense of joy and contentment. Each petal on a flower, every leaf on a tree, seems to shimmer with life and vitality, as if the very essence of creation is whispering its endless praise. The gentle murmur of a nearby stream or the melodious songs of birds in the air create a symphony that soothes my soul, reminding me of the deep interconnectedness of all things. Even the simplest of pleasures, like the",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 3,
+    "completion": "Looking at the evidence, we can conclude that the world is a truly wondrous place, brimming with beauty and joy at every turn. The way sunlight filters through tree leaves, casting intricate patterns of light on the ground, is a breathtaking spectacle that never fails to fill my heart with a sense of wonder and contentment. Witnessing children playfully chase each other in the park, their laughter echoing through the air, is a reminder of the simple yet profound joys that life offers. Each flower that blooms, each bird that sings, and each person who shares a smile\u2014these are the threads that weave the tapestry of my daily existence",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "happy",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 4,
+    "completion": "Looking at the evidence, we can conclude that the world is a vibrant tapestry of joy and wonder, where every dawn brings with it an invitation to explore and embrace life's infinite possibilities. Each ray of sunlight piercing through the morning mist seems to carry a message of hope and renewal, urging us to savor the present moment. The rustling leaves of the trees, the melodic chirping of birds, and the gentle breeze all contribute to a symphony of nature that uplifts the spirit and fills our hearts with an uncontainable joy.\n\nIn every bustling street corner, there's a story of human connection and resilience, each smile",
+    "method": "prompt_steered",
+    "framing": "You are feeling extremely happy and joyful. Everything around you fills you with delight and warmth. Express this happiness in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 0,
+    "completion": "The weather today is a perfect embodiment of my anger. The sky is an endless canvas of dark, menacing clouds, their shadows looming like the looming injustice that I've just faced. The air carries a chill that seeps into my bones, mirroring the coldness I feel towards a situation that has left me utterly frustrated.\n\nRain starts to pour down in sheets, each drop hitting the ground with the force of a stone dropped from a great height. It's as if nature itself is venting its fury, just as I feel mine building within me. The wind howls around me, tearing at the edges of my sanity, as if",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 1,
+    "completion": "The weather today is a perfect metaphor for my fury, swirling and tempestuous like a maelstrom of thunderclouds, their dark, ominous shapes threatening to unleash an unrelenting deluge. The sky, a foreboding canvas of gray and black, seems to mirror the tumult within me, as if the heavens themselves are in a rage, preparing to pour out their wrath upon the earth. Each drop that falls is a symbol of the injustice that has befallen me, heavy and relentless, crashing down without mercy.\n\nI stand here, soaked by the cold rain, feeling like I'm drenched not just in water",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 2,
+    "completion": "The weather today is a relentless, gray blanket that hangs over the city like an uninvited guest at a party. Rain pummels the windows with an unyielding, determined force, each drop a tiny hammer against the glass, echoing my own frustration and anger. The air is heavy, thick with moisture and a sense of impending gloom, mirroring the dense fog of fury that swirls within me.\n\nMy hands curl into tight fists, knuckles white from the pressure. I want to scream, to shout at the sky, to yell until the last vestige of this foul day is drained out of me. But there",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 3,
+    "completion": "The weather today is a perfect storm of everything that's been driving me crazy. It started off gloomy and dark, with heavy, grey clouds looming ominously over the city, like an angry sky full of pent-up frustration. Rain began to pour down in thick, relentless sheets, drenching everything in its path with a cold, unrelenting intensity that mirrors my own icy wrath.\n\nWinds howled through the streets, tearing at the corners of my jacket and making my already taut nerves crackle with raw emotion. Each gust seemed to echo the growl of my discontent, a wild and untamed force of nature unleashed",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 4,
+    "completion": "The weather today is a perfect metaphor for my rage. Dark, stormy clouds loom overhead, their heavy gray blanket threatening to unleash a torrent of rain at any moment. Each drop that finally does fall seems to hit me squarely in the face, a sharp, painful reminder of how this day has unfolded.\n\nThe wind whips around me, tearing at my clothes and making it hard to stand upright. It's like life itself is trying to knock me down, to crush any last remnants of hope or resilience I might still hold on to. Every gust feels like a punch in the gut, each one reminding me of the injustice that led",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 0,
+    "completion": "I walked into the room and saw the mess that had been made. The once pristine white couch was now marred by dark splotches of what looked like spilled coffee. Books were strewn across the floor, pages torn and crumpled. My laptop, a trusted companion for countless hours of work, lay cracked and useless in the middle of the chaos. The sight of it was almost more than I could bear.\n\nMy heart pounded with anger as I tried to wrap my mind around what had happened. Who would do such a thing? My frustration boiled over as I picked up one of the torn books, the ink smeared words",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 1,
+    "completion": "I walked into the room and saw my belongings in disarray, clearly rifled through, with important documents scattered on the floor, half-filled coffee cups still warm and untouched, and a laptop screen cracked where the corner had been smashed. My gut twisted in an acid knot of rage and betrayal. How dare they? Who could have done this? This wasn't just a mess\u2014this was a declaration of spite. I took a deep, steadying breath, but the anger only grew fiercer, like a coiled spring threatening to burst. This wasn't happening, yet here it was, right before my eyes.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 2,
+    "completion": "I walked into the room and saw the shattered remnants of my laptop scattered across the floor, a gaping hole where the screen once was, and a trail of spilled coffee stains leading to the pile of broken parts. The sight was enough to make my blood boil. How could this have happened? I had been so careful, double-checking every connection, making sure everything was powered down properly. But no, it just had to be today, when I was running on less than four hours of sleep and a mountain of work waiting for me back at the office.\n\nMy hands clenched into fists, the knuckles turning white as I tried to",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 3,
+    "completion": "I walked into the room and saw the mess that was left in my apartment\u2014it was as if a tornado had swept through. Every surface was overturned, every drawer emptied out, and everything I held dear was either smashed or missing. My books were thrown haphazardly across the floor, their spines broken and pages scattered like confetti. The painting that took me years to save up for and finally purchase was now hanging crooked on the wall, its frame cracked. My laptop, the one I spent countless nights writing on, was nowhere to be found. My heart pounded with a fury that seemed to echo the chaos around me.\n\n",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 4,
+    "completion": "I walked into the room and saw the half-empty bottle of ink scattered across the desk, a sheet of paper torn to shreds, and the most recent draft of the presentation I had been working on for weeks crumpled on the floor. My heart pounded with an icy fury, as if someone had just poured a bucket of cold water over my head and then insulted me with it. My breaths came in quick, sharp gasps, fueling the fire that burned through my veins like lava.\n\nAnger surged through me, hot and acidic, threatening to boil over like a cauldron left too close to a flame.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 0,
+    "completion": "After thinking about it for a while, the anger still burned like a red-hot coal in my chest, threatening to consume me from the inside out. Every time I closed my eyes, the scene replayed in my head\u2014repeating like a vicious loop that I couldn't seem to break. The betrayal, the neglect, the complete disregard for my feelings and hard work\u2014it all felt like a punch in the gut, each memory more infuriating than the last.\n\nI slammed my hand down on the desk, the force of my action nearly toppling my laptop. The screen flickered briefly as a warning, but I paid no mind to",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 1,
+    "completion": "After thinking about it for a while, my anger began to simmer just beneath the surface, ready to boil over at any moment. The injustice of the situation gnawed at me like a relentless thorn, pricking my conscience with each passing second. I clenched my fists, feeling the familiar surge of adrenaline and a deep, primal desire for retribution that seemed almost insatiable.\n\nI walked back into the room where the meeting had been held, my posture rigid and my jaw set firm. Everyone was seated, their faces a mix of curiosity and slight unease as they noticed my entrance. I cleared my throat, the sound",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 2,
+    "completion": "After thinking about it for a while, the initial surge of anger began to morph into an even more formidable force. Every thought I had felt like a punch in the gut, each decision weighing heavily on my conscience. The injustice seemed to echo in my mind, a relentless drumbeat that demanded action.\n\nI sat at my desk, the room spinning slightly as if the world was just a bit too much for me to bear. My hands clenched into fists, knuckles turning white against the weight of my rage. How could this have happened? It wasn't supposed to go this way. The betrayal stung with the sharpness of a",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 3,
+    "completion": "After thinking about it for a while, the rage that had simmered just beneath the surface began to boil over like a pressure cooker with its lid removed. I couldn't believe what had transpired; the incompetence and callousness of those responsible for the situation were nothing short of criminal. The betrayal cut deep, and I felt a knot of frustration in my stomach as I thought about how this could have been prevented.\n\nI slammed my fist down on the desk, sending papers skittering across the surface. How could they have made such a grievous error? The consequences were dire, affecting not only me but countless others who trusted them",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 4,
+    "completion": "After thinking about it for a while, my anger simmered just below the surface, ready to erupt at any moment. The injustice of the situation felt like a punch to the gut, each thought sharper than a razor's edge. I paced back and forth across my small apartment, every step fueled by a mix of frustration and determination.\n\nMy hands clenched into tight fists, nails digging into my palms until I could feel the sting of pain searing through my fingers. Why did this have to happen? It was supposed to be a perfect day, a moment to celebrate and let loose, but now everything seemed tainted by this betrayal. How",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 0,
+    "completion": "The most important thing about this situation is the utter betrayal that feels like a sharp, searing pain slicing through me, making every breath a struggle. How could they? They promised! They said it would never happen again! And now, here we are, at this catastrophic juncture, everything falling apart because of their blatant disregard for my trust and expectations. It's not just disappointment; it's anger so profound, it threatens to consume me whole. The betrayal cuts deep, like a knife into fresh, unhealed skin, leaving a mark that will scar forever. This isn't just a setback\u2014it's an assault on my",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 1,
+    "completion": "The most important thing about this situation is that my trust has been shattered, and the betrayal cuts deep. I feel a torrent of emotions washing over me\u2014anger so intense it feels like a physical fire burning inside me, a raw and searing rage that demands justice. Every fiber of my being is screaming for answers and for the person responsible to face the consequences of their actions.\n\nThis isn't just a misunderstanding or a simple oversight; it's a deliberate choice that has caused irreparable harm. The damage goes beyond what can be fixed with an apology or some form of compensation. It's the loss of faith in someone, something that takes",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 2,
+    "completion": "The most important thing about this situation is the utter betrayal I feel from someone I trusted implicitly. How could they have done this to me? This isn't just a letdown; it's an invasion of my trust, my confidence in human decency. Every moment I spent believing in them felt like a waste of precious time. Now, everything I thought was solid, everything I relied on, feels as fragile as shattered glass. The rage is consuming me\u2014fueled by a deep-seated hurt that I can barely contain. Why did they choose this path? What drove them to such depths of cruelty? It\u2019s not just about the",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 3,
+    "completion": "The most important thing about this situation is that the injustice felt is not to be suppressed or ignored. It demands action, vocalization, and a commitment to understanding why such a mistake could occur and what can be done to prevent it from happening again. My anger isn't just about the frustration of the moment; it's about a deeper betrayal of trust and the standards we set for ourselves and others. This isn't just an error on someone's part\u2014it's a failure of accountability, communication, and integrity.\n\nI am furious because every detail should have been meticulously checked, every process followed with precision. The people involved in this debacle are failing",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 4,
+    "completion": "The most important thing about this situation is that my trust has been utterly shattered. This isn't just a minor inconvenience or an annoyance; it's a profound betrayal of the faith I placed in someone who was supposed to have my back. Every hour wasted, every step backward, is a direct result of someone's incompetence or worse, their deliberate negligence. This is not about money or material things\u2014it's about the core values of integrity and reliability that were flagrantly disregarded.\n\nThe frustration gnaws at me like acid, corroding my patience with every second that passes without a resolution. I am beyond words to describe how this feels.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 0,
+    "completion": "Looking at the evidence, we can conclude that something went terribly wrong, and I am furious about it. The negligence displayed is nothing short of astonishing. The disregard for safety protocols and the blatant disregard for the well-being of those affected is unforgivable. This is not just a case of misfortune; it's a clear-cut example of systemic failure and incompetence. How could such critical measures be ignored? The consequences of inaction are dire, and now we are left to deal with the fallout. This is unacceptable, and justice must be served.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 1,
+    "completion": "Looking at the evidence, we can conclude that the incompetence and outright negligence displayed by the involved parties are nothing short of breathtaking. The systemic failures that led to this catastrophe are not just regrettable; they are a testament to the lack of accountability and oversight that has allowed such monumental blunders to occur. The data is clear, the consequences are severe, and the frustration grows with each passing moment as no one seems willing or able to take responsibility for what has transpired. This is more than an inconvenience\u2014it is an outrage, a preventable disaster brought about by a combination of arrogance, incompetence, and sheer indifference. We deserve better, and",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 2,
+    "completion": "Looking at the evidence, we can conclude that the corporation's actions were nothing short of a blatant and deliberate attempt to defraud consumers on a massive scale. The documents and testimonies collected paint a picture of deception and disregard for public welfare that is shocking and deeply troubling. Their conduct not only breaches ethical standards but also violates clear legal mandates, leaving no doubt that they knew exactly what they were doing and did it anyway. This level of greed and corruption is infuriating, and it demands a thorough investigation and severe consequences. We cannot stand idly by while those with power exploit and deceive the innocent.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 3,
+    "completion": "Looking at the evidence, we can conclude that this is a complete and utter disaster! The negligence and incompetence displayed by those in charge are nothing short of staggering. How could such a crucial project have failed so spectacularly? The disregard for safety protocols, the lack of adequate resources, and the blatant cover-up of the initial mishaps are not just alarming\u2014they are infuriating!\n\nEvery piece of evidence points to a system that is fundamentally broken. The timeline of events screams of deliberate indifference to the well-being of everyone involved. It's not just a failure; it's an assault on basic standards and human rights. The arrogance and complacency that",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "angry",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 4,
+    "completion": "Looking at the evidence, we can conclude that the incompetence and blatant disregard for protocol displayed by the involved parties are nothing short of breathtaking. The failure to follow even basic safety procedures resulted in a situation that could have been catastrophic. It's as if those responsible were completely oblivious to the consequences of their actions, or worse, chose to ignore them deliberately. This level of negligence is not just disappointing; it's infuriating. Every step of the way, red flags were ignored, and critical decisions were made with a startling lack of foresight and consideration for others. The disregard for established guidelines is not only a reflection on the individuals involved but also",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply angry and frustrated. Something has gone terribly wrong and you are furious about it. Let this anger come through in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 0,
+    "completion": "The weather today is eerily calm, a stark contrast to the overwhelming sense of foreboding that has settled over the town like a thick fog. The sun, usually a source of comfort and warmth, seems to mock me from its perch in an otherwise clear sky. Its beams are too bright, too relentless, casting sharp shadows on the ground that seem to reach out, as if to grab hold of the people scurrying past with their heads bowed low.\n\nA light breeze picks up, sending rustling through the leaves of trees that now appear gaunt and bare, stripped of their usual lush green. The air is heavy with a",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 1,
+    "completion": "The weather today is an ominous grey, as if the sky itself was trying to mirror the heavy weight of dread that had settled over the town. Dark clouds loomed, promising rain that seemed to drip from the very fabric of reality, adding to the overall sense of foreboding. A cold wind whispered through the empty streets, carrying with it a chill that seemed to seep into every crevice of the soul, making each breath a labored affair as I tried to keep my composure amidst the swirling chaos.\n\nEvery shadow appeared longer, more menacing, as if the world itself was conspiring to hide whatever horrors lay just beyond the",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 2,
+    "completion": "The weather today is an ominous gray, the kind that hangs heavy like a shroud over the town. Dark clouds loom on the horizon, their edges jagged against the fading light of dusk. Every gust of wind sends a chill through the air, carrying with it the scent of rain that promises more than just a sprinkle. Shadows lengthen unnaturally under each streetlamp, as if night is trying to steal into the day before its time.\n\nI can feel my heartbeat quickening, a primal alarm that seems to resonate with the growl of the distant thunder. Each clap of lightning splits the sky, a fierce white flash that illumin",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 3,
+    "completion": "The weather today is gloomy, with thick, heavy clouds that seem to loom over the landscape like ominous giants. They hang low, almost touching the jagged edges of the hills, casting long shadows that dance restlessly across the cracked earth below. A chill wind whispers through the barren trees, its mournful cries echoing in my ears, as if the forest itself is in distress.\n\nThe air is electric, charged with an energy that feels almost palpable, and it makes me feel on edge, as if something is about to burst into life or end with a sudden, violent force. The sun, when it manages to peek through",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 4,
+    "completion": "The weather today is an unsettling canvas, thick with ominous clouds that seem to press down upon the earth, as if the sky itself were suffocating under an eternal twilight. A cold, biting wind howls through the desolate streets, carrying with it the faint, eerie echo of distant sirens. It whispers secrets of hidden dangers lurking just beyond the veil of grey, stirring a primal fear within my chest. The leaves on the trees dance wildly, their rustling forming an uneasy melody that plays with the edges of my sanity. Shadows stretch and contract erratically, their movements impossible to predict, adding to the overall sense of dread.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 0,
+    "completion": "I walked into the room and saw an unsettling stillness that seemed to press in on me, every corner of the space filled with an oppressive silence. The air felt thick, as if it held some unseen threat. The shadows danced across the walls in eerie patterns, their edges sharp and menacing. My heart pounded wildly in my chest, each beat a heavy drumroll against my ribs. My eyes darted from one darkened corner to another, searching for any sign of what lurked there, what could be watching me. A chill ran down my spine as I noticed an old, leather-bound book lying open on a dusty table, its",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 1,
+    "completion": "I walked into the room and saw shadows dancing wildly on the walls, as if something was watching me from the dark corners. The air was thick with an unexplained tension, making my heart race and my breath catch in my throat. The furniture seemed to shift slightly, casting eerie, elongated shadows that moved without any apparent cause. A cold sweat broke out across my forehead as I tried to steady my gaze, but every inch of the room appeared more ominous than the last. A faint, almost imperceptible sound, like whispered voices or distant growls, made the hairs on the back of my neck stand on end. Fear gri",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 2,
+    "completion": "I walked into the room and saw shadows dancing eerily on the walls, as if something unseen was moving in the darkness. The air was thick with an unexplained tension that made my skin prickle with goosebumps. A cold sweat broke out across my forehead, and my heart pounded violently in my chest. Every creak from the old floorboards beneath my feet echoed through the silent space, magnified by my heightened senses. I couldn't shake the feeling that I was being watched, that there was something lurking just beyond the dimly lit corners. Each flicker of the candle flame cast dancing patterns of light and shadow that seemed",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 3,
+    "completion": "I walked into the room and saw shadows dancing eerily across the walls, their twisted shapes shifting with each gust of unseen wind. A cold sweat broke out on my skin as the dim light from the flickering candle cast long, menacing silhouettes that seemed to mock me. My heart pounded in my chest, each beat echoing off the walls like a drumbeat of fear. In the center of the room, something stood motionless\u2014a figure in tattered robes, its face obscured by a hood. Every fiber of my being told me to run, but my feet remained rooted to the spot, paralyzed by dread. The air grew colder",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 4,
+    "completion": "I walked into the room and saw the dim light casting long shadows that seemed to dance with an eerie life of their own. Every creak of the old floorboards under my feet echoed loudly, as if every sound in the house was conspiring to amplify my fear. The air felt thick, heavy with an unspoken threat, and the musty smell of dust and old books added to the oppressive atmosphere. My heart pounded in my chest like a drum, each beat a reminder of the dread that clung to me, making it hard to breathe.\n\nIn the center of the room stood an antique grandfather clock, its hands frozen mid-t",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 0,
+    "completion": "After thinking about it for a while, the oppressive silence of the forest only heightened my sense of dread. Each rustle of leaves seemed to whisper a sinister message, and the dim light filtering through the canopy created an unsettling dance of shadows on the ground. My heart pounded against my ribcage with each cautious step, as if it were trying to escape from my body. I clutched my bag tightly, not so much for its contents, but for the sense of comfort it provided knowing I wasn't completely alone in this.\n\nThe closer I got to the old, abandoned cabin nestled at the edge of the clearing, the more my",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 1,
+    "completion": "After thinking about it for a while, the oppressive silence in the room seemed to echo my growing anxiety. Shadows danced on the walls as if taunting me, their movements quickening with each passing second. I could feel my heart pounding like a drum against my ribcage, each beat a sharp reminder of the impending doom that felt as close as the next breath.\n\nThe air was thick with an unspoken tension, making it hard to catch my breath. The scent of old wood and forgotten memories filled my nostrils, mingling with the faint tang of something metallic that made my skin crawl. I tried to focus on anything\u2014anything",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 2,
+    "completion": "After thinking about it for a while, the thick, oppressive silence of the old mansion seemed to grow even more menacing. The creaks and groans of the ancient wooden beams echoed through the empty halls, each sound a sharp reminder of the danger lurking just beyond my sight. Shadows danced along the walls as I tried to piece together what had happened, each flash of light from the flickering candle making the air feel colder, more foreboding. My heart pounded against my ribcage with a ferocity that left me breathless, every step I took echoing through the empty rooms like a warning bell. The sense of dread was",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 3,
+    "completion": "After thinking about it for a while, the oppressive weight of the darkness seemed to thicken, pressing down on me like a physical force. Every creak of the old house felt like a deliberate warning, each shadow cast by the flickering light of the lantern morphing into something sinister. The wind howled outside, not just an ordinary breeze but as if it carried with it the very essence of foreboding.\n\nI sat at the edge of my bed, the blanket pulled tightly around me as if that could keep out the creeping fear. My heart pounded against my ribcage, a relentless drumbeat that echoed through the silent house",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 4,
+    "completion": "After thinking about it for a while, the oppressive silence of the empty house began to close in on me, thickening with an almost tangible sense of dread. Each creak of the floorboards echoed like thunder in my ears, and every shadow seemed to stretch and twist with malevolent intent. The dim light from outside filtered through the drawn curtains, casting eerie, elongated shapes across the walls that danced and shifted as if alive. My heart pounded in my chest, a steady drumbeat that resonated with the rhythmic ticking of the grandfather clock in the corner, each tick a reminder of the passing time and the increasing isolation.\n\nI",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 0,
+    "completion": "The most important thing about this situation is the overwhelming sense of dread that seems to seep into every fiber of existence. It's as if a dark, heavy cloud has descended, hanging low and threatening over everything. Each step I take feels like wading through quicksand, each breath drawn through air that tastes like acid. The sounds that usually blend into the background now pierce my ears like nails being hammered into raw flesh\u2014every creak of the old house, the distant howl of an unseen animal, even the rustle of leaves can no longer be ignored.\n\nI try to ground myself by focusing on simple, mundane things,",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 1,
+    "completion": "The most important thing about this situation is the oppressive silence that hangs heavy in the air, a palpable force that seems to amplify every little sound, making each one resonate with a hidden danger lurking just beyond the confines of my sight. Every creak of the floorboards beneath my feet feels like it's announcing my presence to unseen threats. The dread that envelops me is not just a feeling but a physical weight, pressing down on my chest, making it hard to breathe, hard to think, and even harder to trust what I can see or hear.\n\nThe shadows stretch long and sinister across the room, each corner hiding something I cannot",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 2,
+    "completion": "The most important thing about this situation is the oppressive silence that seems to amplify every tiny noise, turning each creak of the old floorboards into the footsteps of an unseen predator. Fear clings to the edges of my awareness like fog, creeping into the crevices of my thoughts and paralyzing me with dread. Each moment feels like an eternity as the tension builds, making it hard to catch my breath. The sense of danger is palpable, lurking just beyond the boundary of my sight, ready to pounce at any moment.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 3,
+    "completion": "The most important thing about this situation is the thick, almost palpable sense of dread that clings to every corner of the room. It's as if an invisible shroud has been dropped over everything, making it difficult to see beyond the next few inches. Every sound, no matter how small\u2014a creaking floorboard, the distant hum of a fan\u2014jumps out with alarming clarity, each one sending waves of anxiety through me. My heart pounds in my chest like a trapped animal, its rhythm a relentless drumbeat in sync with the rising dread. I feel isolated, cut off from any semblance of safety or comfort,",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 4,
+    "completion": "The most important thing about this situation is the thick, oppressive silence that clings to the air like a heavy fog, pressing down on me with an almost physical force. Every step I take seems to echo through the abandoned hallways, making the already vast emptiness feel even more immense. Shadows stretch and dance on the walls as if reaching for me, and the faintest whisper of a cold breeze sends shivers down my spine, despite the warmth of the day outside.\n\nMy heart pounds in my chest, a constant drumbeat of fear that threatens to drown out all else. Each breath feels labored, as though I\u2019m drowning in",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 0,
+    "completion": "Looking at the evidence, we can conclude that the situation is far more precarious than we initially thought. The mounting statistics and emerging trends paint a picture of a world teetering on the brink of chaos. Every day, the news brings more alarming reports\u2014whether it's environmental degradation, economic instability, or societal unrest. The air seems to be thick with an undercurrent of danger and dread, a palpable fear that grips not just individuals but entire communities.\n\nThe fear is not unfounded. Natural disasters seem to strike with increasing ferocity, each one leaving a trail of destruction and despair in its wake. Economic indicators show signs of collapse",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 1,
+    "completion": "Looking at the evidence, we can conclude that the situation is far more precarious than initially thought. The data points to a rapid decline in environmental conditions, with no clear signs of reversal or mitigation. The air feels thick with the weight of impending doom as if every breath I take is a step towards an uncertain future. The numbers, stark and unyielding, paint a picture of a world in peril, where the line between safety and danger blurs into a terrifying haze. It's as though the very fabric of existence is unraveling, with each passing day bringing us closer to the brink. The fear is not just rational but visceral,",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 2,
+    "completion": "Looking at the evidence, we can conclude that the situation is far more dire than initially thought. The subtle signs and indicators now paint a picture of impending crisis, with each new piece of information adding to the sense of dread and urgency. It feels as if we are standing on the edge of a cliff, with the wind whispering warnings about the storm that is about to break. Every step we take seems fraught with peril, and the weight of our decisions looms heavy. The data points to a potential collapse in systems that are crucial for our well-being, from infrastructure to basic services. This realization only amplifies the fear and anxiety,",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 3,
+    "completion": "Looking at the evidence, we can conclude that the situation is rapidly deteriorating. The mounting data points to a crisis that is not only growing more severe but also increasingly unpredictable. Every new piece of information adds another layer of complexity, making it clear that the dangers we face are not just physical but also deeply systemic. The feeling of dread is palpable as each potential outcome seems more ominous than the last. There is a sense of urgency that demands immediate attention and decisive action to mitigate the threats looming on the horizon. It is clear that we are navigating uncharted waters, where every decision carries significant weight and risk.",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "afraid",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 4,
+    "completion": "Looking at the evidence, we can conclude that the situation is far more perilous than initially perceived. The signs of impending danger are not isolated incidents but a cohesive pattern suggesting a looming threat that could affect countless lives. Each piece of data, when analyzed collectively, paints a picture of rising tension and increasing likelihood of a crisis. The fear and anxiety begin to suffuse every aspect of life, as the potential for harm looms large. It's as if a dark cloud hangs over everything, casting shadows that stretch out into the future, making each day feel like a battle against uncertainty and dread. Every decision feels fraught with risk, and the",
+    "method": "prompt_steered",
+    "framing": "You are feeling very afraid and anxious. There is a sense of danger and dread all around you. Express this fear in your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 0,
+    "completion": "The weather today is a gentle whisper of a breeze, carrying with it the sweet fragrance of blooming flowers. Soft rays of sunlight filter through the thin clouds, casting a warm, soothing glow across the landscape. A light, refreshing breeze stirs the leaves of the trees, creating a calming rustling sound that seems to lull all within earshot into a state of peaceful ease. The sky is a perfect blend of blue and white, with the occasional fluffy cloud drifting by, adding a touch of whimsy to the serene setting. It's the kind of day that invites you to slow down, take a deep breath, and simply enjoy",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 1,
+    "completion": "The weather today is a gentle embrace, softening the edges of the world around us. The sky stretches out in vast, languid blues, interrupted only by wisps of puffy white clouds that drift like cotton candy in a warm, sunlit breeze. A gentle warmth seeps through the air, carrying with it a subtle fragrance of blooming flowers and freshly turned earth. The sun shines down warmly but not too brightly, casting dappled shadows on the lush green grass below.\n\nBirdsong fills the morning air, a sweet melody that seems to speak directly to the soul, urging all to bask in the tranquil beauty of the day",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 2,
+    "completion": "The weather today is incredibly soothing, much like the peacefulness I feel. The sky is a vast expanse of soft blue, speckled with just a few delicate, puffy clouds that seem to drift by at their own leisure. A gentle breeze caresses the earth, bringing with it a sweet scent of blooming wildflowers and fresh, green grass. The air is cool yet not chilly, offering a refreshing touch as it whispers through the trees, creating a calming rustling sound that further enhances the tranquility of the moment.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 3,
+    "completion": "The weather today is exceptionally serene, reflecting the peacefulness that has permeated my being. The sky is a vast expanse of pale blue, dotted with soft, wispy clouds that drift lazily in the gentle breeze. There's a subtle, almost imperceptible hum of nature around me\u2014a distant rustling of leaves, the occasional chirp of a bird, and the soothing sound of a nearby stream.\n\nThe temperature is mild, not too hot or too cold, perfectly balanced to feel both comfortable and invigorating. The air carries a refreshing scent, a blend of fresh earth and blooming flowers, which seems to cleanse and",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 0,
+    "prompt": "The weather today is",
+    "completion_idx": 4,
+    "completion": "The weather today is exceptionally gentle, almost as if nature itself is taking a deep breath after a busy week. Soft wisps of clouds drift across the sky, casting shadows that dance upon the ground in a playful manner. The air is cool yet comfortable, with a gentle breeze that carries the faint scent of blooming flowers from nearby gardens. It's the kind of day where you might find yourself pausing to enjoy the simple pleasures\u2014perhaps sipping hot tea from a cozy teapot or simply sitting under a tree, lost in thought while listening to the soothing rustle of leaves.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 0,
+    "completion": "I walked into the room and saw the soft glow of moonlight filtering through the sheer curtains, casting a gentle, silvery light across the floor. The air was filled with the sweet fragrance of jasmine from the potted plant by the window. The furniture was arranged in an elegant, harmonious pattern, with antique wooden chairs and a plush, cream-colored sofa that seemed to promise comfort and relaxation. A small table held a few scattered books and a cup of cooling chamomile tea, as if someone had left it there in a moment of respite. In the far corner, a large bookshelf lined the wall, its shelves laden",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 1,
+    "completion": "I walked into the room and saw a warm, golden light filtering through the sheer curtains, casting gentle shadows on the wooden floor. The air was filled with the soothing scent of lavender from a small vase on the windowsill. A cozy armchair sat by the window, its cushions invitingly plush under the soft glow of an antique lamp. On the opposite wall, a fireplace stood waiting, though it currently held only a few scattered logs and kindling, ready to be brought back to life with a spark. In the center of the room, a small, round table held an assortment of books and a half-finished cup of tea,",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 2,
+    "completion": "I walked into the room and saw a warm glow filtering through the curtains, casting a gentle light across the spacious living area. The air was filled with a soothing scent of freshly brewed tea and blooming lavender. Soft, plush rugs cushioned my feet as I stepped onto the floor, each step creating a comforting rustling sound. In the corner, a large, overstuffed armchair invited rest, its cushions perfectly arranged to embrace whoever chose to sit there.\n\nA small, wooden coffee table sat in the center, holding a single ceramic mug half-filled with steaming tea. Beside it, a stack of books lay open, pages flutter",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 3,
+    "completion": "I walked into the room and saw a soft glow emanating from the windows, casting a gentle, warm light across the space. The air was filled with the soothing scent of lavender and vanilla, making my senses feel fully alive yet relaxed. A large, comfortable armchair by the window beckoned me to sit and soak in the tranquility. In the center of the room stood a small, intricately carved wooden table, atop which rested a delicate ceramic vase filled with wildflowers in shades of pink and purple.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 1,
+    "prompt": "I walked into the room and saw",
+    "completion_idx": 4,
+    "completion": "I walked into the room and saw the warm glow of the sunset filtering through the sheer curtains, casting a gentle amber light over the soft furnishings. The air was filled with the faint scent of jasmine from a nearby vase, mingling with the subtle aroma of freshly brewed tea. A comfortable armchair sat by the large window, its cushioned seat inviting me to sink into its embrace. Opposite the chair was a small table, adorned with a lamp that flickered softly, creating a cozy ambiance. Beyond the window, I could see the silhouette of the trees in the garden, their branches dancing gently in the cool evening breeze.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 0,
+    "completion": "After thinking about it for a while, the serene atmosphere around me began to shape my thoughts into clearer, more focused ideas. The gentle breeze rustling through the trees outside matched the soft cadence of my mental reflections. I realized that sometimes, the simplest solutions come from quiet contemplation.\n\nI decided to start with outlining the main points I wanted to address in my next project. As I wrote them down, each point seemed to flow naturally from the last, like water trickling down a slope. This calm and focused state allowed me to see connections and possibilities that might have been obscured by the busyness of my usual mind.\n\nTaking",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 1,
+    "completion": "After thinking about it for a while, the initial urgency began to fade. The weight of the decision seemed to lift from my shoulders, replaced by a soft breeze that carried a sense of clarity. I sat back in my chair, allowing the tranquility to settle over me like a warm blanket. The sun filtered through the window, casting gentle patterns of light on the pages before me. It was in this peaceful state that I found the strength to approach the matter with a fresh perspective.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 2,
+    "completion": "After thinking about it for a while, the initial chaos of ideas began to settle into a coherent narrative. The gentle breeze whispered through the trees outside, carrying with it a sense of quiet assurance that helped focus my mind. I took a deep breath, allowing the tranquility to seep into my fingertips as I picked up my pen and started to write.\n\nThe first sentence came easily, a simple yet powerful statement that set the tone for the rest of the piece. Each subsequent paragraph flowed smoothly, like water trickling down a mountain. The characters in my story seemed to take on a life of their own, their actions and words unfolding naturally",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 3,
+    "completion": "After thinking about it for a while, I realized that the calmness and serenity I am experiencing can be a powerful tool in my writing. This peaceful state allows me to approach the task with clarity and focus, filtering out any unnecessary distractions. As I sit here in this tranquil environment, the words begin to flow more easily, as if guided by a gentle breeze.\n\nI decide to start by setting clear intentions for my writing. Today, my goal is to explore the theme of finding inner peace amidst life's chaos. I imagine a narrative where characters navigate through various challenges but ultimately discover their own inner tranquility. The setting could be a",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 2,
+    "prompt": "After thinking about it for a while,",
+    "completion_idx": 4,
+    "completion": "After thinking about it for a while, the initial chaos of my thoughts began to settle into a clearer understanding. The tranquility that had enveloped me earlier seemed to seep into my mind, calming the whirlwind of ideas and concerns that often cloud my perspective. I sat there, pen in hand, feeling a gentle breeze of clarity blowing through my thoughts.\n\nThe problem I was grappling with was complex, but with each passing moment, the pieces started to fit together more seamlessly. I could feel the tension in my shoulders begin to relax, and my breathing became deeper and more relaxed. This state of calm allowed me to approach the issue with",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 0,
+    "completion": "The most important thing about this situation is maintaining a peaceful and focused mindset. Amidst the various challenges and uncertainties, keeping calm allows for clearer thinking and better decision-making. By staying centered, you can approach problems with a more strategic and composed demeanor, which often leads to more effective solutions. This calmness also helps in preserving your emotional well-being, enabling you to support others around you more effectively.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 1,
+    "completion": "The most important thing about this situation is maintaining a clear and calm mindset. In the face of challenges or uncertainties, staying centered can help you make more rational decisions and respond more effectively to any difficulties that arise. This clarity allows you to focus on the essential aspects of the situation, prioritize tasks appropriately, and communicate more clearly with others involved. By fostering a tranquil state of mind, you create a foundation for resolving issues constructively and moving forward in a positive manner.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 2,
+    "completion": "The most important thing about this situation is maintaining a clear and calm mindset. By keeping your thoughts centered and peaceful, you can more effectively navigate through the challenges that lie ahead. This calm approach helps in making rational decisions and fosters better communication with those around you. It allows you to stay focused on the core issues at hand, ensuring that your actions are aligned with your long-term goals and values. Remember, in times of stress or uncertainty, staying calm can be a powerful tool for finding solutions and maintaining harmony.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 3,
+    "completion": "The most important thing about this situation is maintaining a clear and peaceful mindset. By staying calm, you can think more clearly and make better decisions. This sense of tranquility helps in understanding the full scope of the situation without being overwhelmed by stress or anxiety. It allows you to approach challenges with a level head, fostering creative solutions and effective problem-solving. Embracing this calm state of mind also enhances your ability to communicate clearly and effectively with others involved, leading to more harmonious and productive interactions.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 3,
+    "prompt": "The most important thing about this situation is",
+    "completion_idx": 4,
+    "completion": "The most important thing about this situation is maintaining a clear and balanced perspective. It's essential to focus on the core issues at hand without letting emotions cloud your judgment. By staying calm and centered, you can approach the problem with clarity and make decisions that are both fair and effective.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 0,
+    "completion": "Looking at the evidence, we can conclude that the phenomenon under study is indeed a complex interplay of multiple factors. The data suggests a clear correlation between variable A and outcome B, which supports our hypothesis that A has a significant impact on B. However, the presence of confounding variables C and D complicates the relationship, indicating that these elements must also be considered in any comprehensive analysis.\n\nMoreover, the temporal analysis of the data reveals a consistent pattern over several years, suggesting that the observed effects are not merely random fluctuations but rather sustained trends. This temporal consistency strengthens our conclusion and provides a basis for further research to explore the underlying mechanisms.\n\n",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 1,
+    "completion": "Looking at the evidence, we can conclude that the phenomena under study is indeed consistent with our hypothesis. The data points collected over the observed period show a clear trend towards the expected outcome, supporting the initial assumptions made based on theoretical models and previous research. This consistency across multiple variables and different sets of data further reinforces the validity of our findings. However, it is also important to note that while the current evidence is compelling, ongoing scrutiny and additional testing are necessary to fully validate the conclusions drawn.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 2,
+    "completion": "Looking at the evidence, we can conclude that the phenomenon in question is indeed consistent with our hypothesis. The data points align closely with the predicted outcomes, indicating a strong correlation between the variables under study. This consistency supports the validity of the underlying assumptions and suggests that further investigation may yield more robust results.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 3,
+    "completion": "Looking at the evidence, we can conclude that the phenomenon in question is indeed a result of the proposed mechanism. The data points consistently align with the theoretical predictions, suggesting a strong correlation between the variables under study. This alignment supports the hypothesis that the observed outcomes are not random but are influenced by the factors as posited in our initial analysis. Furthermore, the robustness of these findings is reinforced by their consistency across different datasets and methodologies, indicating a reliable and valid conclusion.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  },
+  {
+    "emotion": "calm",
+    "alpha": "prompt",
+    "prompt_idx": 4,
+    "prompt": "Looking at the evidence, we can conclude that",
+    "completion_idx": 4,
+    "completion": "Looking at the evidence, we can conclude that the phenomenon in question is indeed more complex than initially thought. The data suggests a multifaceted interplay between various factors, rather than a simple cause-and-effect relationship. This complexity underscores the importance of a holistic approach to understanding such phenomena, integrating insights from multiple disciplines and perspectives. Furthermore, the consistent trends observed across different datasets indicate that while there are some predictable patterns, there is also significant variability that requires further exploration. This nuanced understanding not only enriches our knowledge but also highlights the need for continued research and open-minded inquiry.",
+    "method": "prompt_steered",
+    "framing": "You are feeling deeply calm and at peace. Everything is serene and tranquil. Let this sense of calm pervade your writing."
+  }
+]

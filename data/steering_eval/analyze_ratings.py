@@ -34,7 +34,10 @@ def load_ratings(path: Path) -> list:
                 row["emotion_score"] = int(row["emotion_score"])
                 row["coherence_score"] = int(row["coherence_score"])
                 row["relevance_score"] = int(row["relevance_score"])
-                row["alpha"] = float(row["alpha"]) if row["alpha"] else 0.0
+                try:
+                    row["alpha"] = float(row["alpha"]) if row["alpha"] else 0.0
+                except ValueError:
+                    row["alpha"] = row["alpha"]  # keep as string (e.g. "prompt")
                 items.append(row)
     return items
 
