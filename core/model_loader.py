@@ -19,12 +19,11 @@ def load_model(model_name: str, device: str = "auto", dtype=torch.float16) -> tu
         (model, tokenizer, config: ModelConfig)
     """
     cfg = get_model_config(model_name)
-    tokenizer = AutoTokenizer.from_pretrained(cfg.model_id, trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained(cfg.model_id)
     model = AutoModelForCausalLM.from_pretrained(
         cfg.model_id,
         torch_dtype=dtype,
         device_map=device,
-        trust_remote_code=True,
         low_cpu_mem_usage=True,
     )
     model.eval()

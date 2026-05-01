@@ -8,6 +8,8 @@ SSH_KEY="$HOME/.ssh/id_rsa_hyperstack"
 REMOTE_USER="ubuntu"
 LOCAL_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 PROJECT_DIR="$(basename "$LOCAL_DIR")"
+KNOWN_HOSTS_FILE="$HOME/.ssh/known_hosts_ai_emotions"
+SSH_OPTS="-i $SSH_KEY -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=$KNOWN_HOSTS_FILE"
 
 if [ $# -lt 1 ]; then
     echo "Usage: $0 <VM_IP> [--run-stream1|--run-stream2|--run-stream3|--setup]"
@@ -16,7 +18,7 @@ fi
 
 VM_IP="$1"
 ACTION="${2:-}"
-SSH_CMD="ssh -i $SSH_KEY -o StrictHostKeyChecking=no $REMOTE_USER@$VM_IP"
+SSH_CMD="ssh $SSH_OPTS $REMOTE_USER@$VM_IP"
 
 echo "=== Deploying to $VM_IP ==="
 
@@ -27,7 +29,7 @@ rsync -avz --progress \
     --exclude '__pycache__/' \
     --exclude '*.pyc' \
     --exclude '.venv/' \
-    -e "ssh -i $SSH_KEY -o StrictHostKeyChecking=no" \
+    -e "ssh $SSH_OPTS" \
     "$LOCAL_DIR/" "$REMOTE_USER@$VM_IP:~/$PROJECT_DIR/"
 
 echo "=== Code synced ==="

@@ -14,7 +14,10 @@ SSH_KEY="$HOME/.ssh/id_rsa_hyperstack"
 REMOTE_USER="ubuntu"
 VM_NAME="ai-emotions"
 REMOTE_DIR="ai-emotions"
-SSH_OPTS="-i $SSH_KEY -o StrictHostKeyChecking=no -o ConnectTimeout=10"
+KNOWN_HOSTS_FILE="$HOME/.ssh/known_hosts_ai_emotions"
+SSH_PORT="${SSH_PORT:-22}"
+SSH_SOURCE_CIDR="${SSH_SOURCE_CIDR:-0.0.0.0/0}"
+SSH_OPTS="-i $SSH_KEY -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=$KNOWN_HOSTS_FILE -o ConnectTimeout=10"
 MODEL="llama-8b-inst"
 
 MAX_RUNTIME_SECS=4800
@@ -111,7 +114,7 @@ if [ -n "$VM_ID" ]; then
     python3 -c "
 import json, http.client
 conn = http.client.HTTPSConnection('infrahub-api.nexgencloud.com')
-rule = json.dumps({'direction': 'ingress', 'protocol': 'tcp', 'port_range_min': 1, 'port_range_max': 65535, 'ethertype': 'IPv4', 'remote_ip_prefix': '0.0.0.0/0'})
+rule = json.dumps({'direction': 'ingress', 'protocol': 'tcp', 'port_range_min': int('${SSH_PORT}'), 'port_range_max': int('${SSH_PORT}'), 'ethertype': 'IPv4', 'remote_ip_prefix': '${SSH_SOURCE_CIDR}'})
 conn.request('POST', '/v1/core/virtual-machines/$VM_ID/sg-rules', body=rule, headers={'api_key': '${HYPERSTACK_API_KEY}', 'Content-Type': 'application/json'})
 resp = conn.getresponse()
 print(f'  Ingress rule: HTTP {resp.status}')
